@@ -1,0 +1,14 @@
+{
+    "navbar": {},
+    "homePage": {
+        "banner": {
+            "title": "Buscamos que el habitar,",
+            "subtitle": "sea una cálida experiencia.",
+            "image": {
+                "imgSrc": "/assets/img/homePage/banner/test.jpg",
+                "imgAlt": "banner image"
+            }
+        }
+    },
+    "footer": {}
+}
