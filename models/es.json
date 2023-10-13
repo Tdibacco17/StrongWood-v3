@@ -10,5 +10,37 @@
             }
         }
     },
+    "projectsPage": {
+        "title": "Trabajos",
+        "projectsSelector": {
+            "all": {
+                "selectorTitle": "Todos",
+                "selectorFilter": "all"
+            },
+            "kitchen": {
+                "selectorTitle": "Cocinas",
+                "selectorFilter": "kitchen"
+            },
+            "bathroom": {
+                "selectorTitle": "Baño",
+                "selectorFilter": "bathroom"
+            },
+            "closet": {
+                "selectorTitle": "Placares",
+                "selectorFilter": "closet"
+            },
+            "bedroom": {
+                "selectorTitle": "Dormitorio",
+                "selectorFilter": "bedroom"
+            },
+            "products": {
+                "selectorTitle": "Productos",
+                "selectorFilter": "products"
+            }
+        }
+    },
+    "contactPage": {
+        "title": "Hablemos sobre tu proyecto:"
+    },
     "footer": {}
 }

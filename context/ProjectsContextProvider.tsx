@@ -6,34 +6,32 @@ export const ProjectsContext = createContext<ProjectsDataContextInterface | {}>(
 
 export const ProjectsProvider = ({ children }: { children: ReactNode }) => {
     const [projectsData, setProjectsData] = useState<ProjectDataInterface>({});
-    const [currentFilter, setCurrentFilter] = useState<SelectedFilterInterface>("all");
+    const [originProjectsData, setOriginProjectsData] = useState<ProjectDataInterface>({});
 
     const handleProjectDataChange = (projectData: ProjectDataInterface) => {
         setProjectsData(projectData);
+        setOriginProjectsData(projectData);
     };
 
     const handleFilteredProjects = (filter: SelectedFilterInterface) => {
         const parsedObject: ProjectDataInterface = {};
-        console.log("[FILTERING]", Object.keys(projectsData));
-
-        const filteredKeys = Object.keys(projectsData).filter(
+        const filteredKeys = Object.keys(originProjectsData).filter(
             (projectKey: string) => {
-                return projectsData[projectKey].categories.includes(filter);
+                return originProjectsData[projectKey].categories.includes(filter);
             }
         );
-        console.log("[FILTERING]", filteredKeys);
-
-        filteredKeys.forEach((filteredKey: string) => {
-            parsedObject[filteredKey] = projectsData[filteredKey];
+        filteredKeys.forEach((projectKey: string) => {
+            parsedObject[projectKey] = originProjectsData[projectKey];
         });
+        setProjectsData(parsedObject);
     };
-    console.log("[PROYECTS]: ", projectsData)
+
     return (
         <ProjectsContext.Provider
             value={{
                 projectsData,
                 handleProjectDataChange,
-                handleFilteredProjects
+                handleFilteredProjects,
             }}
         >
             {children}

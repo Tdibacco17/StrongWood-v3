@@ -6,7 +6,7 @@ export interface ProjectsDataContextInterface {
     projectsData?: ProjectDataInterface;
     handleProjectDataChange?: Function;
     projectData?: ProjectInterface;
-    handleFilteredProjects?: Function;
+    handleFilteredProjects: (filter: SelectedFilterInterface) => void;
 }
 export interface ProjectDataInterface {
     [id: string]: ProjectInterface;
@@ -26,3 +26,8 @@ export interface ProjectInterface {
     categories: SelectedFilterInterface[];
 }
 export type SelectedFilterInterface = "all" | "kitchen" | "bathroom" | "closet" | "bedroom" | "products";
+
+export interface ProjectSelectorInterface {
+    selectorTitle: string;
+    selectorFilter: string;
+};
