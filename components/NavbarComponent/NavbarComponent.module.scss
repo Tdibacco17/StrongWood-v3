@@ -1,0 +1,33 @@
+.container-section-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    background-color: var(--primary-white);
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+
+    .wrapper-navbar {
+        min-width: var(--max-width);
+        width: var(--max-width);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .fill-space {
+            width: 2rem;
+
+            @media (max-width:768px) {
+                display: none;
+            }
+        }
+
+        .navbar-title {
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 300;
+        }
+    }
+}

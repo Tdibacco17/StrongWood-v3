@@ -20,7 +20,7 @@
         min-height: 23rem;
         user-select: none;
         overflow: hidden;
-        background-color: var(--primary-gray);
+        background-color: var(--secondary-white);
 
         @media (max-width:1200px) {
             height: 21rem;
@@ -48,7 +48,7 @@
         gap: 0.5rem;
 
         .subtitle-description {
-            color: var(--primary-hover)
+            color: var(--primary-gray)
         }
     }
 }

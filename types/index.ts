@@ -2,11 +2,19 @@ export interface ImgDataInterface {
     imgSrc: string,
     imgAlt: string,
 }
+export interface IconInterface {
+    iconSlug: string,
+    viewBox: string,
+    color: string,
+    size: string,
+    path: string[]
+    href?: string,
+    stroke?: string
+}
 export interface ProjectsDataContextInterface {
     // projectsData?: ProjectDataInterface;
     handleProjectDataChange?: Function;
     projectData?: ProjectInterface;
-    handleFilteredProjects: (filter: SelectedFilterInterface) => void;
 }
 export interface ProjectDataInterface {
     [id: string]: ProjectInterface;
@@ -24,6 +32,7 @@ export interface ProjectInterface {
         longSectionImage: ImgDataInterface;
     };
     categories: SelectedFilterInterface[];
+    urlSlug: SelectedFilterInterface
 }
 export type SelectedFilterInterface = "all" | "kitchen" | "bathroom" | "closet" | "bedroom" | "products";
 export interface ProjectSelectorInterface {

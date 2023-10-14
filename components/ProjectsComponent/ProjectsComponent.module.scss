@@ -1,7 +1,9 @@
 .container-projects-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2.75rem;
+    column-gap: 2.75rem;
+    row-gap: 3.75rem;
+    min-width: var(--max-width);
     width: var(--max-width);
 
     @media (max-width:768px) {

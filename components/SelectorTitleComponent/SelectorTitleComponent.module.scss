@@ -1,5 +1,6 @@
 .container-section-selector-titles {
     width: var(--max-width);
+    min-width: var(--max-width);
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -16,14 +17,14 @@
 
         .title-item {
             cursor: pointer;
-            color: var(--primary-hover);
+            color: var(--primary-gray);
             height: 1.25rem;
-            transition: var(--transition-ease-in-out);
+            transition: all var(--transition-ease-in-out);
 
             &:hover {
                 color: var(--primary-black);
                 border-bottom: 1px solid var(--primary-black);
-                transition: var(--transition-ease-in-out);
+                transition: all var(--transition-ease-in-out);
             }
         }
     }

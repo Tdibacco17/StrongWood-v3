@@ -12,6 +12,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "cocina-nordica",
         },
         categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
     },
     "cocina-new-york": {
         projectSlug: "cocina-new-york",
@@ -22,6 +23,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "cocina-new-york",
         },
         categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
     },
     "cocina-premium": {
         projectSlug: "cocina-premium",
@@ -32,6 +34,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "cocina-premium",
         },
         categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
     },
     "cocina-nova": {
         projectSlug: "cocina-nova",
@@ -42,6 +45,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "cocina-nova",
         },
         categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
     },
     "cocina-deluxe": {
         projectSlug: "cocina-deluxe",
@@ -52,6 +56,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "cocina-deluxe",
         },
         categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
     },
     "vanitory-new-york": {
         projectSlug: "vanitory-new-york",
@@ -62,6 +67,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "vanitory-new-york",
         },
         categories: ["all", "bathroom"],
+        urlSlug: "bathroom"
     },
     "vanitory-escandinavo": {
         projectSlug: "vanitory-escandinavo",
@@ -72,6 +78,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "vanitory-escandinavo",
         },
         categories: ["all", "bathroom"],
+        urlSlug: "bathroom"
     },
     "vanitory-nordico": {
         projectSlug: "vanitory-nordico",
@@ -82,6 +89,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "vanitory-nordico",
         },
         categories: ["all", "bathroom"],
+        urlSlug: "bathroom"
     },
     "vestidor-deluxe": {
         projectSlug: "vestidor-deluxe",
@@ -92,6 +100,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "vestidor-deluxe",
         },
         categories: ["all", "closet"],
+        urlSlug: "closet"
     },
     "vestidor-fusion": {
         projectSlug: "vestidor-fusion",
@@ -102,6 +111,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "vestidor-fusion",
         },
         categories: ["all", "closet"],
+        urlSlug: "closet"
     },
     "placar-urbanwood": {
         projectSlug: "placar-urbanwood",
@@ -112,6 +122,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "placar-urbanwood",
         },
         categories: ["all", "closet"],
+        urlSlug: "closet"
     },
     "cama-individual": {
         projectSlug: "cama-individual",
@@ -122,6 +133,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "cama-individual",
         },
         categories: ["all", "bedroom"],
+        urlSlug: "bedroom"
     },
     "cama-matrimonial": {
         projectSlug: "cama-matrimonial",
@@ -132,6 +144,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "cama-matrimonial",
         },
         categories: ["all", "bedroom"],
+        urlSlug: "bedroom"
     },
     "mesa-de-luz": {
         projectSlug: "mesa-de-luz",
@@ -142,6 +155,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "mesa-de-luz",
         },
         categories: ["all", "bedroom"],
+        urlSlug: "bedroom"
     },
     "comoda": {
         projectSlug: "comoda",
@@ -152,6 +166,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "comoda",
         },
         categories: ["all", "bedroom"],
+        urlSlug: "bedroom"
     },
     "escritorio": {
         projectSlug: "escritorio",
@@ -162,6 +177,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "escritorio",
         },
         categories: ["all", "bedroom"],
+        urlSlug: "bedroom"
     },
     "mesa-de-luz-roma": {
         projectSlug: "mesa-de-luz-roma",
@@ -172,6 +188,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "mesa-de-luz-roma",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "mesa-cracovia": {
         projectSlug: "mesa-cracovia",
@@ -182,6 +199,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "mesa-cracovia",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "mesa-ratona-edimburgo": {
         projectSlug: "mesa-ratona-edimburgo",
@@ -192,6 +210,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "mesa-ratona-edimburgo",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "maceta-sintra": {
         projectSlug: "maceta-sintra",
@@ -202,6 +221,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "maceta-sintra",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "maceta-avinon": {
         projectSlug: "maceta-avinon",
@@ -212,6 +232,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "maceta-avinon",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "estanteria-siena": {
         projectSlug: "estanteria-siena",
@@ -222,6 +243,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "estanteria-siena",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "estanteria-avila": {
         projectSlug: "estanteria-avila",
@@ -232,6 +254,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "estanteria-avila",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "estanteria-bath": {
         projectSlug: "estanteria-bath",
@@ -242,6 +265,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "estanteria-bath",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "estanteria-bergen": {
         projectSlug: "estanteria-bergen",
@@ -252,6 +276,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "estanteria-bergen",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "llavero-corfu": {
         projectSlug: "llavero-corfu",
@@ -262,6 +287,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "llavero-corfu",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "leniero": {
         projectSlug: "leniero",
@@ -272,6 +298,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "leniero",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "rack-tv-cordoba": {
         projectSlug: "rack-tv-cordoba",
@@ -282,6 +309,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "rack-tv-cordoba",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "toallero-matera": {
         projectSlug: "toallero-matera",
@@ -292,6 +320,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "toallero-matera",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "toallero-cuenca": {
         projectSlug: "toallero-cuenca",
@@ -302,6 +331,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "toallero-cuenca",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "bodega-segovia": {
         projectSlug: "bodega-segovia",
@@ -312,6 +342,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "bodega-segovia",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "porta-vinos": {
         projectSlug: "porta-vinos",
@@ -322,6 +353,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "porta-vinos",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "escritorio-brujas": {
         projectSlug: "escritorio-brujas",
@@ -332,6 +364,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "escritorio-brujas",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "perchero-oporto": {
         projectSlug: "perchero-oporto",
@@ -342,6 +375,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "perchero-oporto",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "recibidor-salamanca": {
         projectSlug: "recibidor-salamanca",
@@ -352,6 +386,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "recibidor-salamanca",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "tabla-asado": {
         projectSlug: "tabla-asado",
@@ -362,6 +397,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "tabla-asado",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
     "soporte-auricular": {
         projectSlug: "soporte-auricular",
@@ -372,5 +408,6 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "soporte-auricular",
         },
         categories: ["all", "products"],
+        urlSlug: "products"
     },
 }

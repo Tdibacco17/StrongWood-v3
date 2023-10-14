@@ -1,0 +1,40 @@
+.container-icon-svg {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem;
+
+    &.medium {
+        height: 2.75rem;
+        width: 2.75rem;
+    }
+
+    &.small {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    &:hover {
+        .icon-path {
+            transition: all var(--transition-ease-in-out);
+
+            &.color-secondary {
+                fill: var(--primary-black);
+            }
+        }
+    }
+
+    .icon-path {
+        cursor: pointer;
+        transition: all var(--transition-ease-in-out);
+
+        &.color-primary {
+            fill: var(--primary-black);
+        }
+
+        &.color-secondary {
+            fill: var(--secondary-gray);
+        }
+    }
+}

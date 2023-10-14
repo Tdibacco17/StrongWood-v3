@@ -1,9 +1,8 @@
 :root {
   --max-width: 1300px;
   --calc-rem: calc(14px + (20.56 - 14) * ((100vw - 280px) / (3840 - 280)));
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: 'Source Code Pro', 'Fira Mono', ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
   --font-regular: 400;
   --font-bold: 700;
   --font-46: 2.875rem;
@@ -12,8 +11,10 @@
   --font-14: 0.875rem;
   --font-12: 0.75rem;
   --primary-white: #f7f4ed;
-  --primary-gray: #f4f4f4;
-  --primary-hover: #666;
+  --secondary-white: #f4f4f4;
+  --tertiary-white: #eee;
+  --primary-gray: #666;
+  --secondary-gray: #888;
   --primary-black: #000000;
   --transition-ease-in-out: 100ms ease-in-out;
 }
@@ -48,6 +49,11 @@
   margin: 0;
 }
 
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 html,
 body {
   max-width: 100vw;
@@ -59,7 +65,8 @@ body {
   color: var(--primary-black);
   background-color: var(--primary-white);
   font-size: var(--calc-rem);
-  font-family: var(--font-mono);
+  font-family: var(--font-Montserrat), var(--font-mono);
+  padding-bottom: 12rem;
 }
 
 a {

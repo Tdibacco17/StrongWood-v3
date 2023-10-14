@@ -1,7 +1,10 @@
 import { ProjectDataInterface, SelectedFilterInterface } from "@/types";
 import { projectsCategories } from "@/models/projects";
+import { projectsData } from "@/models/projects";
 
-export function filterProjectsData(originProjectsData: ProjectDataInterface, slug: string): ProjectDataInterface {
+export function filterProjectsData( slug: SelectedFilterInterface): ProjectDataInterface {
+    const originProjectsData = { ...projectsData };
+
     const selectedFilter: SelectedFilterInterface = slug && projectsCategories.includes(slug)
         ? slug as SelectedFilterInterface
         : "all";

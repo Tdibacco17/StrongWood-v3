@@ -1,10 +1,11 @@
 import styles from "./ProjectsCardComponent.module.scss"
 import { ProjectInterface } from "@/types";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProjectsCardComponent({ projectData }: { projectData: ProjectInterface }) {
     return (
-        <div className={styles["container-project-card"]}>
+        <Link aria-label={`Ir al proyecto ${projectData.title}`} href={`/projects/${projectData.urlSlug}/${projectData.projectSlug}`} className={styles["container-project-card"]}>
             <div className={`${styles["container-outer-image"]}`}>
                 <Image
                     src={projectData.image.imgSrc}
@@ -17,6 +18,6 @@ export default function ProjectsCardComponent({ projectData }: { projectData: Pr
                 <p className={styles["title-description"]}>{projectData.title}</p>
                 <p className={styles["subtitle-description"]}>{projectData.subtitle}</p>
             </div>
-        </div>
+        </Link>
     )
 }

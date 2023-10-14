@@ -1,0 +1,26 @@
+.container-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.right {
+        justify-content: flex-end;
+
+        @media (max-width:768px) {
+            justify-content: center;
+        }
+    }
+
+    .text {
+        color: var(--secondary-gray);
+        transition: all var(--transition-ease-in-out);
+        cursor: pointer;
+        height: 1.25rem;
+
+        &:hover {
+            color: var(--primary-black);
+            transition: all var(--transition-ease-in-out);
+            border-bottom: 1px solid var(--primary-black);
+        }
+    }
+}
