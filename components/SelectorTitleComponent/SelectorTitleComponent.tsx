@@ -12,7 +12,7 @@ export default function SelectorTitleComponent() {
                     Object.values(data.projectsPage.projectsSelector).map((filterData: ProjectSelectorInterface) => {
                         return (
                             <Link
-                                href={`/${filterData.selectorFilter}`}
+                            href={filterData.selectorFilter === "all" ? `/projects` : `/projects/${filterData.selectorFilter}`}
                                 key={filterData.selectorFilter}
                                 className={styles['title-item']}>
                                 {filterData.selectorTitle}
