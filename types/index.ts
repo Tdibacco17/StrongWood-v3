@@ -8,6 +8,7 @@ export interface ProjectsDataContextInterface {
     projectData?: ProjectInterface;
     handleFilteredProjects: (filter: SelectedFilterInterface) => void;
 }
+
 export interface ProjectDataInterface {
     [id: string]: ProjectInterface;
 }

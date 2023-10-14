@@ -1,5 +1,7 @@
 import { ProjectDataInterface } from "@/types";
 
+export const projectsCategories = ["all", "kitchen", "bathroom", "closet", "bedroom", "products"]
+
 export const projectsData: ProjectDataInterface = {
     "cocina-nordica": {
         projectSlug: "cocina-nordica",

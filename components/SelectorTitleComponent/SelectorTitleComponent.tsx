@@ -1,27 +1,26 @@
-import { useContext } from "react";
 import styles from "./SelectorTitleComponent.module.scss"
 import data from "@/models/es.json"
-import { ProjectsContext } from "@/context/ProjectsContextProvider";
-import { ProjectSelectorInterface, ProjectsDataContextInterface, SelectedFilterInterface } from "@/types";
+import { ProjectSelectorInterface} from "@/types";
+import Link from "next/link";
 
 export default function SelectorTitleComponent() {
-    const { handleFilteredProjects } = useContext(ProjectsContext) as ProjectsDataContextInterface;
     return (
         <div className={styles['container-section-selector-titles']}>
             <p className={styles['header-title']}>{data.projectsPage.title}</p>
-            <ul className={styles['selector-titles']}>
+            <div className={styles['selector-titles']}>
                 {
                     Object.values(data.projectsPage.projectsSelector).map((filterData: ProjectSelectorInterface) => {
                         return (
-                            <li key={filterData.selectorFilter}
-                                className={styles['title-item']}
-                                onClick={() => handleFilteredProjects(filterData.selectorFilter as SelectedFilterInterface)}>
+                            <Link
+                                href={`/${filterData.selectorFilter}`}
+                                key={filterData.selectorFilter}
+                                className={styles['title-item']}>
                                 {filterData.selectorTitle}
-                            </li>
+                            </Link>
                         )
                     })
                 }
-            </ul>
+            </div>
         </div>
     )
 }
