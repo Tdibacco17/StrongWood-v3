@@ -9,13 +9,9 @@ export default function ProjectsLayout({
     children: React.ReactNode
 }) {
     return (
-        <>
-            <NavbarComponent />
-            <section id="top" className={styles['container-section-projects']}>
-                <SelectorTitleComponent />
-                {children}
-            </section>
-            <FooterComponent />
-        </>
+        <section className={styles['container-section-projects']}>
+            <SelectorTitleComponent />
+            {children}
+        </section>
     )
 }

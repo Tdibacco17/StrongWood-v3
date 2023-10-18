@@ -4,7 +4,7 @@ import styles from "./page.module.scss"
 export default function HomePage() {
   return (
     <section className={styles["container-section-home"]}>
-      <PortraitImgComponent imageData={data.homePage.banner.image} />
+      <PortraitImgComponent imageData={data.homePage.banner.image} navigateData={data.homePage.navigateData}/>
     </section>
   )
 }

@@ -4,7 +4,7 @@ import { Montserrat } from 'next/font/google'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['300', '500'],
+  weight: ['300','500','700'],
   style: 'normal',
   preload: true,
   variable: '--font-Montserrat',
@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'Strongwood',
+  title: 'StrongWood®',
   description: 'Strongwood',
   colorScheme: 'light',
   themeColor: 'light',
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
-        <main>
+        <main id="top">
           {children}
         </main>
       </body>

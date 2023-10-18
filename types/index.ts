@@ -39,3 +39,8 @@ export interface ProjectSelectorInterface {
     selectorTitle: string;
     selectorFilter: string;
 };
+
+export interface NavigateInterface {
+    title: string,
+    href: string
+}

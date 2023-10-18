@@ -6,8 +6,8 @@
     padding: 0.25rem;
 
     &.medium {
-        height: 2.75rem;
-        width: 2.75rem;
+        height: 2.25rem;
+        width: 2.25rem;
     }
 
     &.small {
@@ -17,7 +17,7 @@
 
     &:hover {
         .icon-path {
-            transition: all var(--transition-ease-in-out);
+            transition: all var(--transition);
 
             &.color-secondary {
                 fill: var(--primary-black);
@@ -27,7 +27,7 @@
 
     .icon-path {
         cursor: pointer;
-        transition: all var(--transition-ease-in-out);
+        transition: all var(--transition);
 
         &.color-primary {
             fill: var(--primary-black);

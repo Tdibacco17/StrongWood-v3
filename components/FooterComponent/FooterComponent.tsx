@@ -16,16 +16,7 @@ export default function FooterComponent() {
                             })
                         }
                     </div>
-                    <BtnTopComponent
-                        scrollTo={false}
-                        title={data.footer.politic}
-                        position={"center"}
-                    />
-                    <BtnTopComponent
-                        scrollTo={true}
-                        title={data.footer.scrollTo}
-                        position={"right"}
-                    />
+                    <BtnTopComponent title={data.footer.scrollTo} />
                 </div>
                 <div className={styles["secondary-footer"]}>
                     <small className={styles["text-company"]}>{data.footer.company}</small>

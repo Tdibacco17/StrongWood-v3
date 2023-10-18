@@ -47,8 +47,14 @@
         flex-direction: column;
         gap: 0.5rem;
 
+        .title-description {
+            color: var(--primary-black);
+            font-size: var(--font-16);
+        }
+
         .subtitle-description {
-            color: var(--primary-gray)
+            color: var(--primary-gray);
+            font-size: var(--font-16);
         }
     }
 }

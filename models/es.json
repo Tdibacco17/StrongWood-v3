@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "title": "Strongwood",
+        "title": "StrongWood",
         "burgermenu": {
             "iconSlug": "burgermenu",
             "viewBox": "0 0 24 21",
@@ -20,7 +20,25 @@
                 "imgSrc": "/assets/img/homePage/banner/test.jpg",
                 "imgAlt": "banner image"
             }
-        }
+        },
+        "navigateData":[
+            {
+                "title" :"Proyectos",
+                "href" : "/projects"
+            },
+            {
+                "title" :"Contacto",
+                "href" : "/contact"
+            },
+            {
+                "title" :"Nosotros",
+                "href" : "/about"
+            },
+            {
+                "title" :"Preguntas frecuentes",
+                "href" : "/faq"
+            }
+        ]
     },
     "projectsPage": {
         "title": "Proyectos",

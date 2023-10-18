@@ -7,24 +7,26 @@
 
     .header-title {
         text-transform: uppercase;
+        font-size: var(--font-16);
     }
 
     .selector-titles {
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
-        gap: 0.5rem;
+        gap: 1rem;
 
         .title-item {
             cursor: pointer;
             color: var(--primary-gray);
             height: 1.25rem;
-            transition: all var(--transition-ease-in-out);
+            transition: var(--transition);
+            font-size: var(--font-16);
 
             &:hover {
                 color: var(--primary-black);
                 border-bottom: 1px solid var(--primary-black);
-                transition: all var(--transition-ease-in-out);
+                transition: var(--transition);
             }
         }
     }

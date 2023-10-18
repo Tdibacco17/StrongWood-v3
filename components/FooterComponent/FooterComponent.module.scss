@@ -16,19 +16,10 @@
         border-top: 1px solid var(--secondary-gray);
 
         .primary-footer {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            display: flex;
+            justify-content: space-between;
             width: 100%;
-            padding: 3rem 0;
-
-            @media (max-width:768px) {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 2rem;
-                padding: 2rem 0;
-            }
+            padding: 2.25rem 0;
 
             .container-networks-icon {
                 display: flex;
@@ -47,13 +38,13 @@
             align-items: center;
             justify-content: center;
             width: 100%;
-            padding: 1.5rem 0;
+            padding: 1.25rem 0;
             border-top: 1px solid var(--secondary-gray);
-
             text-align: center;
 
             .text-company {
                 color: var(--secondary-gray);
+                font-size: var(--font-12);
             }
         }
     }
