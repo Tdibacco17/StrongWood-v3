@@ -2,7 +2,12 @@
     position: relative;
     top: 0;
     left: 0;
-    
+    --calc-mobileImg-height: calc(100vh - 12.5rem);
+
+    @media (max-width:400px) {
+        --calc-mobileImg-height: calc(100vh - 14rem);
+    }
+
     .container-outer-image {
         position: relative;
         top: 0;
@@ -14,6 +19,10 @@
 
         * {
             pointer-events: none;
+        }
+
+        @media (max-width:768px) {
+            height: var(--calc-mobileImg-height);
         }
 
         .container-inner-image {
@@ -33,6 +42,10 @@
         justify-content: center;
         align-items: flex-end;
         background: rgb(0, 0, 0, 0.4);
+
+        @media (max-width:768px) {
+            height: var(--calc-mobileImg-height);
+        }
 
         .wrapper-overlay {
             width: var(--max-width);

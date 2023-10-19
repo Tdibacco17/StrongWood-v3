@@ -11,18 +11,19 @@ export default function ProjectDetailComponent() {
     ) as ProjectsDataContextInterface
 
     return (
-        <section className={styles["container-section-detail"]}>
-            {projectData &&
+        <div className={styles["container-section-detail"]}>
+            {projectData && <>
                 <PortraitImageComponent
                     imageData={projectData.details.firstPortraitImg}
                     projectTitle={projectData.title}
                     projectSubtitle={projectData.subtitle}
                 />
+                {
+                    projectData.details?.twoImages &&
+                    <TwoImagesComponent imagesData={projectData?.details?.twoImages} />
+                }
+            </>
             }
-            {
-                projectData && projectData.details?.twoImages &&
-                <TwoImagesComponent imagesData={projectData?.details?.twoImages} />
-            }
-        </section>
+        </div>
     )
 }

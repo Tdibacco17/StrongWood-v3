@@ -35,6 +35,7 @@ export interface ProjectInterface {
     categories: SelectedFilterInterface[];
     urlSlug: SelectedFilterInterface
 }
+
 export type SelectedFilterInterface = "all" | "kitchen" | "bathroom" | "closet" | "bedroom" | "products";
 export interface ProjectSelectorInterface {
     selectorTitle: string;

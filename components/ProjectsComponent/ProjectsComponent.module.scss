@@ -5,6 +5,7 @@
     row-gap: 3.75rem;
     min-width: var(--max-width);
     width: var(--max-width);
+    padding-bottom: 2rem;
 
     @media (max-width:768px) {
         grid-template-columns: repeat(1, 1fr);

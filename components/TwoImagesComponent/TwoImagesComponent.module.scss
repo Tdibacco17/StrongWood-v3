@@ -1,24 +1,77 @@
 .container-section-twoImages {
+    --twoImages-maxWidth: 100vh;
+    --twoImages-width: 36.5rem;
+    --first-image-height: 60vh;
+    --second-image-height: 80vh;
+
+    @media (max-width:1400px) {
+        --twoImages-maxWidth: 90vh;
+        --twoImages-width: 31rem;
+        --first-image-height: 50vh;
+        --second-image-height: 70vh;
+    }
+
+    @media (max-width:1200px) {
+        --twoImages-maxWidth: 80vh;
+        --twoImages-width: 25.5rem;
+        --first-image-height: 40vh;
+        --second-image-height: 60vh;
+    }
+
+    @media (max-width:992px) {
+        --twoImages-maxWidth: 60vh;
+        --twoImages-width: 20rem;
+        --first-image-height: 30vh;
+        --second-image-height: 50vh;
+    }
+
+    @media (max-width:768px) {
+        --twoImages-maxWidth: 100vh;
+        --twoImages-width: 90vw;
+        //agregar gap espaciador con calculo => son 8rem de momento, por lo tanto son 4 ya q es la mitad de cada card
+        --first-image-height: calc(50vh - 4rem);
+        --second-image-height: calc(50vh - 4rem);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     width: var(--max-width);
     display: flex;
     justify-content: space-between;
+    height: var(--twoImages-maxWidth);
 
-    .container-outer-image {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 30vw;
-        height: 50vh;
-        user-select: none;
-        overflow: hidden;
+    .container-column {
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
 
-        * {
-            pointer-events: none;
+        &.second {
+            align-items: flex-end;
         }
 
-        .container-inner-image {
-            object-fit: cover;
-            object-position: center;
+        .container-outer-image {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: var(--twoImages-width);
+            height: var(--first-image-height);
+            user-select: none;
+            overflow: hidden;
+            padding-bottom: 15rem;
+
+            * {
+                pointer-events: none;
+            }
+
+            &.second {
+                height: var(--second-image-height);
+            }
+
+            .container-inner-image {
+                object-fit: cover;
+                object-position: center;
+            }
         }
     }
 }

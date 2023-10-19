@@ -12,14 +12,16 @@ export default function TwoImagesComponent({
             {
                 imagesData.map((imageData: ImgDataInterface, index: number) => {
                     return (
-                        <div key={index} className={styles["container-outer-image"]}>
-                            <Image
-                                src={imageData.imgSrc}
-                                alt={imageData.imgAlt}
-                                fill
-                                className={styles["container-inner-image"]}
-                                priority
-                            />
+                        <div key={index} className={`${styles["container-column"]} ${index === 1 && styles["second"]}`}>
+                            <div className={`${styles["container-outer-image"]} ${index === 1 && styles["second"]}`}>
+                                <Image
+                                    src={imageData.imgSrc}
+                                    alt={imageData.imgAlt}
+                                    fill
+                                    className={styles["container-inner-image"]}
+                                    priority
+                                />
+                            </div>
                         </div>
                     )
                 })
