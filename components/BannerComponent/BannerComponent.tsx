@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import styles from "./PortraitImgComponent.module.scss"
+import styles from "./BannerComponent.module.scss"
 import { ImgDataInterface, NavigateInterface } from '@/types'
 import Link from 'next/link'
 
-export default function PortraitImgComponent({
+export default function BannerComponent({
     imageData,
     navigateData
 }: {
@@ -11,7 +11,7 @@ export default function PortraitImgComponent({
     navigateData?: NavigateInterface[]
 }) {
     return (
-        <div className={styles["container-section-portraitImg"]}>
+        <div className={styles["container-section-banner"]}>
             <div className={styles["container-outer-image"]}>
                 <Image
                     src={imageData.imgSrc}

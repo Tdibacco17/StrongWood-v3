@@ -1,10 +1,10 @@
-import PortraitImgComponent from "@/components/PortraitImgComponent/PortraitImgComponent";
+import BannerComponent from "@/components/BannerComponent/BannerComponent";
 import data from "@/models/es.json"
 
 export default function AboutMePage() {
     return (
         <section>
-            <PortraitImgComponent imageData={data.homePage.banner.image} />
+            <BannerComponent imageData={data.homePage.banner.image} />
         </section>
     )
 }

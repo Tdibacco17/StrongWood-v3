@@ -1,0 +1,24 @@
+.container-section-twoImages {
+    width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+
+    .container-outer-image {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 30vw;
+        height: 50vh;
+        user-select: none;
+        overflow: hidden;
+
+        * {
+            pointer-events: none;
+        }
+
+        .container-inner-image {
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

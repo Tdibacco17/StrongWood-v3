@@ -24,12 +24,13 @@ export interface ProjectInterface {
     title: string;
     subtitle: string;
     image: ImgDataInterface;
-    details?: {
+    details: {
         firstPortraitImg: ImgDataInterface;
-        firstTwoSmallImg: ImgDataInterface;
-        secondPortraitImg: ImgDataInterface;
-        secondTwoSmallImg: ImgDataInterface;
-        longSectionImage: ImgDataInterface;
+        // firstTwoSmallImg?: ImgDataInterface;
+        // secondPortraitImg?: ImgDataInterface;
+        // secondTwoSmallImg?: ImgDataInterface;
+        // longSectionImage?: ImgDataInterface;
+        twoImages?: ImgDataInterface[];
     };
     categories: SelectedFilterInterface[];
     urlSlug: SelectedFilterInterface
@@ -39,7 +40,6 @@ export interface ProjectSelectorInterface {
     selectorTitle: string;
     selectorFilter: string;
 };
-
 export interface NavigateInterface {
     title: string,
     href: string
