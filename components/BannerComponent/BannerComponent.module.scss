@@ -38,7 +38,7 @@
         .title-header {
             color: var(--primary-white);
             font-size: var(--font-30);
-            font-weight: var(--font-bold);
+            font-weight: var(--font-regular);
         }
     }
 
@@ -52,12 +52,12 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1rem;
 
         .title-item {
             cursor: pointer;
             color: var(--primary-white);
-            height: 1.5rem;
+            height: 1.15rem;
             font-size: var(--font-16);
 
             &:hover {

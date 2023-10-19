@@ -6,8 +6,9 @@
     .text {
         color: var(--secondary-gray);
         cursor: pointer;
-        height: 1.25rem;
+        height: 1rem;
         transition: var(--transition);
+        font-size: var(--font-14);
 
         &:hover {
             color: var(--secondary-black);

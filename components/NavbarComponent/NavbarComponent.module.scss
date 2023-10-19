@@ -18,14 +18,14 @@
 
         .fill-space {
             width: 2rem;
-
+            
             @media (max-width:768px) {
                 display: none;
             }
         }
 
         .navbar-title {
-            text-align: center;
+            font-weight: var(--font-regular);
             font-size: var(--font-18);
         }
     }
