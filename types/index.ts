@@ -25,9 +25,9 @@ export interface ProjectInterface {
     subtitle: string;
     image: ImgDataInterface;
     details: {
-        firstPortraitImg: ImgDataInterface;
+        firstPortraitImg?: PortraitImgInterface;
+        // secondPortraitImg?: PortraitImgInterface;
         // firstTwoSmallImg?: ImgDataInterface;
-        // secondPortraitImg?: ImgDataInterface;
         // secondTwoSmallImg?: ImgDataInterface;
         // longSectionImage?: ImgDataInterface;
         twoImages?: ImgDataInterface[];
@@ -44,4 +44,7 @@ export interface ProjectSelectorInterface {
 export interface NavigateInterface {
     title: string,
     href: string
+}
+export interface PortraitImgInterface extends ImgDataInterface {
+    direction: "row" | "column"
 }

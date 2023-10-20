@@ -15,6 +15,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
             twoImages: [
                 {
@@ -42,6 +43,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "kitchen"],
@@ -59,6 +61,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "kitchen"],
@@ -76,6 +79,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "kitchen"],
@@ -93,6 +97,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "kitchen"],
@@ -110,6 +115,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "bathroom"],
@@ -127,6 +133,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "bathroom"],
@@ -144,6 +151,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "bathroom"],
@@ -161,6 +169,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "closet"],
@@ -178,6 +187,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "closet"],
@@ -195,6 +205,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "closet"],
@@ -212,6 +223,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "bedroom"],
@@ -229,6 +241,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "bedroom"],
@@ -246,6 +259,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "bedroom"],
@@ -263,6 +277,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "bedroom"],
@@ -280,6 +295,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "bedroom"],
@@ -297,7 +313,18 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
+            twoImages: [
+                {
+                    imgSrc: "/assets/img/homePage/banner/test.jpg",
+                    imgAlt: "cocina-nordica",
+                },
+                {
+                    imgSrc: "/assets/img/homePage/banner/test.jpg",
+                    imgAlt: "cocina-nordica",
+                }
+            ],
         },
         categories: ["all", "products"],
         urlSlug: "products"
@@ -314,6 +341,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -331,6 +359,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -348,6 +377,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -365,6 +395,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -382,6 +413,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -399,6 +431,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -416,6 +449,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -433,6 +467,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -450,6 +485,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -467,6 +503,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -484,6 +521,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -501,6 +539,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -518,6 +557,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -535,6 +575,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -552,6 +593,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -569,6 +611,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -586,6 +629,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -603,6 +647,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -620,6 +665,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],
@@ -637,6 +683,7 @@ export const projectsData: ProjectDataInterface = {
             firstPortraitImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
+                direction: "row"
             },
         },
         categories: ["all", "products"],

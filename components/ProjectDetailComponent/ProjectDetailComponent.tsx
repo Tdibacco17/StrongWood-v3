@@ -2,7 +2,7 @@ import { useContext } from "react"
 import styles from "./ProjectDetailComponent.module.scss"
 import { ProductDetailContext } from "@/context/ProjectsContextProvider"
 import { ProjectsDataContextInterface } from "@/types"
-import PortraitImageComponent from "../PortraitImageComponent/PortraitImageComponent"
+import PortraitImgComponent from "../PortraitImgComponent/PortraitImgComponent"
 import TwoImagesComponent from "../TwoImagesComponent/TwoImagesComponent"
 
 export default function ProjectDetailComponent() {
@@ -13,11 +13,14 @@ export default function ProjectDetailComponent() {
     return (
         <div className={styles["container-section-detail"]}>
             {projectData && <>
-                <PortraitImageComponent
-                    imageData={projectData.details.firstPortraitImg}
-                    projectTitle={projectData.title}
-                    projectSubtitle={projectData.subtitle}
-                />
+                {
+                    projectData.details.firstPortraitImg &&
+                    <PortraitImgComponent
+                        imageData={projectData.details.firstPortraitImg}
+                        projectTitle={projectData.title}
+                        projectSubtitle={projectData.subtitle}
+                    />
+                }
                 {
                     projectData.details?.twoImages &&
                     <TwoImagesComponent imagesData={projectData?.details?.twoImages} />
