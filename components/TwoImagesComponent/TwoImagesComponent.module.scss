@@ -1,28 +1,28 @@
 .container-section-twoImages {
-    --twoImages-maxHeight: 100vh;
+    --twoImages-maxHeight: 40rem;
     --twoImages-width: 36.5rem;
-    --first-image-height: 60vh;
-    --second-image-height: 80vh;
+    --first-image-height: 30rem;
+    --second-image-height: 40rem;
 
     @media (max-width:1400px) {
-        --twoImages-maxHeight: 90vh;
+        --twoImages-maxHeight: 35rem;
         --twoImages-width: 31rem;
-        --first-image-height: 50vh;
-        --second-image-height: 70vh;
+        --first-image-height: 27.5rem;
+        --second-image-height: 35rem;
     }
 
     @media (max-width:1200px) {
-        --twoImages-maxHeight: 80vh;
+        --twoImages-maxHeight: 30rem;
         --twoImages-width: 25.5rem;
-        --first-image-height: 40vh;
-        --second-image-height: 60vh;
+        --first-image-height: 25rem;
+        --second-image-height: 30rem;
     }
 
     @media (max-width:992px) {
-        --twoImages-maxHeight: 60vh;
+        --twoImages-maxHeight: 25rem;
         --twoImages-width: 20rem;
-        --first-image-height: 30vh;
-        --second-image-height: 50vh;
+        --first-image-height: 20rem;
+        --second-image-height: 25rem;
     }
 
     @media (max-width:768px) {
@@ -44,7 +44,7 @@
     .container-column {
         height: 100%;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
 
         &.second {
             align-items: flex-end;
