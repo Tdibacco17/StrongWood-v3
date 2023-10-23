@@ -18,25 +18,26 @@
             "subtitle": "sea una cálida experiencia.",
             "image": {
                 "imgSrc": "/assets/img/homePage/banner/test.jpg",
-                "imgAlt": "banner image"
+                "imgAlt": "banner image",
+                "position": "center"
             }
         },
-        "navigateData":[
+        "navigateData": [
             {
-                "title" :"Proyectos",
-                "href" : "/projects"
+                "title": "Proyectos",
+                "href": "/projects"
             },
             {
-                "title" :"Contacto",
-                "href" : "/contact"
+                "title": "Contacto",
+                "href": "/contact"
             },
             {
-                "title" :"Nosotros",
-                "href" : "/about"
+                "title": "Nosotros",
+                "href": "/about"
             },
             {
-                "title" :"Preguntas frecuentes",
-                "href" : "/faq"
+                "title": "Preguntas frecuentes",
+                "href": "/faq"
             }
         ]
     },

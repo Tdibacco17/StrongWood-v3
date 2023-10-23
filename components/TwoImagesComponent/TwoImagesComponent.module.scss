@@ -1,45 +1,45 @@
 .container-section-twoImages {
-    --twoImages-maxWidth: 100vh;
+    --twoImages-maxHeight: 100vh;
     --twoImages-width: 36.5rem;
     --first-image-height: 60vh;
     --second-image-height: 80vh;
 
     @media (max-width:1400px) {
-        --twoImages-maxWidth: 90vh;
+        --twoImages-maxHeight: 90vh;
         --twoImages-width: 31rem;
         --first-image-height: 50vh;
         --second-image-height: 70vh;
     }
 
     @media (max-width:1200px) {
-        --twoImages-maxWidth: 80vh;
+        --twoImages-maxHeight: 80vh;
         --twoImages-width: 25.5rem;
         --first-image-height: 40vh;
         --second-image-height: 60vh;
     }
 
     @media (max-width:992px) {
-        --twoImages-maxWidth: 60vh;
+        --twoImages-maxHeight: 60vh;
         --twoImages-width: 20rem;
         --first-image-height: 30vh;
         --second-image-height: 50vh;
     }
 
     @media (max-width:768px) {
-        --twoImages-maxWidth: 100vh;
+        --twoImages-maxHeight: revert;
         --twoImages-width: 90vw;
-        //agregar gap espaciador con calculo => son 8rem de momento, por lo tanto son 4 ya q es la mitad de cada card
-        --first-image-height: calc(50vh - 4rem);
-        --second-image-height: calc(50vh - 4rem);
+        --first-image-height: 60vh;
+        --second-image-height: 60vh;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        gap: 8rem;
     }
 
     width: var(--max-width);
     display: flex;
     justify-content: space-between;
-    height: var(--twoImages-maxWidth);
+    height: var(--twoImages-maxHeight);
 
     .container-column {
         height: 100%;
@@ -59,6 +59,7 @@
             user-select: none;
             overflow: hidden;
             padding-bottom: 15rem;
+            background-color: var(--secondary-white);
 
             * {
                 pointer-events: none;

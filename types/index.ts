@@ -1,6 +1,7 @@
 export interface ImgDataInterface {
     imgSrc: string,
     imgAlt: string,
+    position: string
 }
 export interface IconInterface {
     iconSlug: string,
@@ -25,8 +26,8 @@ export interface ProjectInterface {
     subtitle: string;
     image: ImgDataInterface;
     details: {
-        firstPortraitImg?: PortraitImgInterface;
-        // secondPortraitImg?: PortraitImgInterface;
+        firstPortraitImg?: ImgDataInterface;
+        secondPortraitImg?: ImgDataInterface;
         // firstTwoSmallImg?: ImgDataInterface;
         // secondTwoSmallImg?: ImgDataInterface;
         // longSectionImage?: ImgDataInterface;
@@ -44,7 +45,4 @@ export interface ProjectSelectorInterface {
 export interface NavigateInterface {
     title: string,
     href: string
-}
-export interface PortraitImgInterface extends ImgDataInterface {
-    direction: "row" | "column"
 }

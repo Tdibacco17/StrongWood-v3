@@ -38,7 +38,75 @@
 
         .container-inner-image {
             object-fit: cover;
-            object-position: center;
+            object-position: 0% 0%;
+
+            &.mesa-de-luz-roma {
+                object-position: 30% 0%;
+            }
+
+            &.mesa-ratona-edimburgo {
+                object-position: 50% 60%;
+            }
+
+            &.maceta-sintra {
+                object-position: 0% 65%;
+            }
+
+            &.maceta-avinon {
+                object-position: 30% 100%;
+            }
+
+            &.estanteria-avila {
+                object-position: 0% 65%;
+            }
+
+            &.estanteria-bath {
+                object-position: 70% 40%;
+            }
+
+            &.llavero-corfu {
+                object-position: 15% 70%;
+            }
+
+            &.leniero {
+                object-position: 0% 85%;
+            }
+
+            &.rack-tv-cordoba {
+                object-position: 10% 100%;
+            }
+
+            &.toallero-matera {
+                object-position: 50% 80%;
+            }
+
+            &.toallero-cuenca {
+                object-position: 0% 0%;
+            }
+
+            &.bodega-segovia {
+                object-position: 0% 70%;
+            }
+
+            &.porta-vinos {
+                object-position: 50% 50%;
+            }
+
+            &.perchero-oporto {
+                object-position: 60% 50%;
+            }
+
+            &.recibidor-salamanca {
+                object-position: 40% 50%;
+            }
+
+            &.tabla-asado {
+                object-position: 80% 50%;
+            }
+
+            &.soporte-auricular {
+                object-position: 50% 50%;
+            }
         }
     }
 

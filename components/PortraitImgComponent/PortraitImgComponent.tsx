@@ -1,13 +1,13 @@
 import Image from "next/image"
 import styles from "./PortraitImgComponent.module.scss"
-import { PortraitImgInterface } from "@/types"
+import { ImgDataInterface } from "@/types"
 
 export default function PortraitImgComponent({
     imageData,
     projectTitle,
     projectSubtitle
 }: {
-    imageData: PortraitImgInterface,
+    imageData: ImgDataInterface,
     projectTitle?: string,
     projectSubtitle?: string
 }) {

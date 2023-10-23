@@ -5,13 +5,15 @@ import Link from "next/link";
 
 export default function ProjectsCardComponent({ projectData }: { projectData: ProjectInterface }) {
     return (
-        <Link aria-label={`Ir al proyecto ${projectData.title}`} href={`/projects/${projectData.urlSlug}/${projectData.projectSlug}`} className={styles["container-project-card"]}>
+        <Link aria-label={`Ir al proyecto ${projectData.title}`}
+            href={`/projects/${projectData.urlSlug}/${projectData.projectSlug}`}
+            className={`${styles["container-project-card"]}`}>
             <div className={`${styles["container-outer-image"]}`}>
                 <Image
                     src={projectData.image.imgSrc}
                     alt={projectData.image.imgAlt}
                     fill
-                    className={styles["container-inner-image"]}
+                    className={`${styles["container-inner-image"]} ${styles[`${projectData.image.position}`]}`}
                 />
             </div>
             <div className={styles["container-description-card"]}>
