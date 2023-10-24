@@ -8,38 +8,42 @@
 
     &.long-first {
         width: 100vw;
-        height: 25rem;
+        // height: 30rem;
+        height: calc(100vh - 12.5rem);
+        // @media (max-width:1400px) {
+        //     height: 25rem;
+        // }
 
-        @media (max-width:1400px) {
-            height: 20rem;
-        }
+        // @media (max-width:1200px) {
+        //     height: 23rem;
+        // }
 
-        @media (max-width:1200px) {
-            height: 18rem;
-        }
+        // @media (max-width:992px) {
+        //     height: 21rem;
+        // }
 
-        @media (max-width:992px) {
-            height: 16rem;
-        }
-
-        @media (max-width:768px) {
-            height: 60vh;
+        // @media (max-width:768px) {
+        //     height: 60vh;
+        // }
+        @media (max-width:399px) {
+            height: calc(100vh - 14.25rem);
         }
     }
 
     &.long-reduce {
         width: var(--max-width);
+        height: 30rem;
 
         @media (max-width:1400px) {
-            height: 22.5rem;
+            height: 27.5rem;
         }
 
         @media (max-width:1200px) {
-            height: 20rem;
+            height: 25rem;
         }
 
         @media (max-width:992px) {
-            height: 17.5rem;
+            height: 22.5rem;
         }
 
         @media (max-width:768px) {

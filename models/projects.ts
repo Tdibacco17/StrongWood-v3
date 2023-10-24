@@ -8,28 +8,33 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Nordica",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "cocina-nordica",
-            objPosition: "center center"
+            imgSrc: "/assets/img/kitchen/nordica/Strong-208.webp",
+            imgAlt: "Serie Nordica",
+            objPosition: "50% 55%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/kitchen/nordica/Strong-208.webp",
+                imgAlt: "Serie Nordica",
+                objPosition: "50% 80%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/homePage/banner/test.jpg",
-                    imgAlt: "cocina-nordica",
-                    objPosition: "center center"
+                    imgSrc: "/assets/img/kitchen/nordica/Strong-225.webp",
+                    imgAlt: "Serie Nordica",
+                    objPosition: "40% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/homePage/banner/test.jpg",
-                    imgAlt: "cocina-nordica",
-                    objPosition: "center center"
+                    imgSrc: "/assets/img/kitchen/nordica/Strong-234.webp",
+                    imgAlt: "Serie Nordica",
+                    objPosition: "60% 0%"
                 }
             ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/kitchen/nordica/Strong-239.webp",
+                imgAlt: "Serie Nordica",
+                objPosition: "50% 55%"
+            }
         },
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
@@ -39,16 +44,33 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie New York",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "cocina-new-york",
-            objPosition: "center center"
+            imgSrc: "/assets/img/kitchen/newYork/Strong-142.webp",
+            imgAlt: "Serie New York",
+            objPosition: "50% 25%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/kitchen/newYork/Strong-142.webp",
+                imgAlt: "Serie New York",
+                objPosition: "20% 40%"
             },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/kitchen/newYork/Strong-149.webp",
+                    imgAlt: "Serie New York",
+                    objPosition: "55% 50%",
+                },
+                {
+                    imgSrc: "/assets/img/kitchen/newYork/Strong-140.webp",
+                    imgAlt: "Serie New York",
+                    objPosition: "25% 35%",
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/kitchen/newYork/Strong-146.webp",
+                imgAlt: "Serie New York",
+                objPosition: "30% 40%",
+            }
         },
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
@@ -58,16 +80,33 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Premium",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "cocina-premium",
-            objPosition: "center center"
+            imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
+            imgAlt: "Serie Premium",
+            objPosition: "50% 50%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
+                imgAlt: "Serie Premium",
+                objPosition: "50% 55%"
             },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/kitchen/premium/Strong-272.webp",
+                    imgAlt: "Serie Premium",
+                    objPosition: "50% 0%",
+                },
+                {
+                    imgSrc: "/assets/img/kitchen/premium/Strong-275.webp",
+                    imgAlt: "Serie Premium",
+                    objPosition: "25% 35%",
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/kitchen/premium/Strong-284.webp",
+                imgAlt: "Serie Premium",
+                objPosition: "30% 40%",
+            }
         },
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
@@ -77,15 +116,15 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Nova",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "cocina-nova",
-            objPosition: "center center"
+            imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
+            imgAlt: "Serie Nova",
+            objPosition: "0% 50%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
+                imgAlt: "Serie Nova",
+                objPosition: "50% 50%"
             },
         },
         categories: ["all", "kitchen"],
@@ -96,15 +135,15 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Deluxe",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "cocina-deluxe",
-            objPosition: "center center"
+            imgSrc: "/assets/img/kitchen/deluxe/Strong-cocina-000.webp",
+            imgAlt: "Serie Deluxe",
+            objPosition: "80% 50%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/kitchen/deluxe/Strong-cocina-000.webp",
+                imgAlt: "Serie Deluxe",
+                objPosition: "50% 70%"
             },
         },
         categories: ["all", "kitchen"],

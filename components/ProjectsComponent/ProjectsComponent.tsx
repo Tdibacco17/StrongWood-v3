@@ -5,14 +5,12 @@ import { ProjectDataInterface, ProjectInterface } from "@/types";
 export default function ProjectsComponent({ projectsData }: { projectsData: ProjectDataInterface }) {
 
     return (
-        <>
-            <div className={styles["container-projects-cards"]}>
-                {
-                    projectsData && Object.values(projectsData).map((projectData: ProjectInterface) => {
-                        return <ProjectsCardComponent key={projectData.projectSlug} projectData={projectData} />
-                    })
-                }
-            </div>
-        </>
+        <section className={styles["container-projects-cards"]}>
+            {
+                projectsData && Object.values(projectsData).map((projectData: ProjectInterface) => {
+                    return <ProjectsCardComponent key={projectData.projectSlug} projectData={projectData} />
+                })
+            }
+        </section>
     )
 }
