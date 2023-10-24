@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function SelectorTitleComponent() {
     return (
-        <section className={styles['container-section-selector-titles']}>
+        <div className={styles['container-section-selector-titles']}>
             <p className={styles['header-title']}>{data.projectsPage.title}</p>
             <div className={styles['selector-titles']}>
                 {
@@ -22,6 +22,6 @@ export default function SelectorTitleComponent() {
                     })
                 }
             </div>
-        </section>
+        </div>
     )
 }

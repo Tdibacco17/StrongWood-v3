@@ -6,10 +6,8 @@ export default function KitchenDetailLayout({
     children: React.ReactNode
 }) {
     return (
-        <>
-            <ProjectsProvider>
-                {children}
-            </ProjectsProvider>
-        </>
+        <ProjectsProvider>
+            {children}
+        </ProjectsProvider>
     )
 }

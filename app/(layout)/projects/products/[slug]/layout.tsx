@@ -6,10 +6,8 @@ export default function ProductDetailLayout({
     children: React.ReactNode
 }) {
     return (
-        <>
-            <ProjectsProvider>
-                {children}
-            </ProjectsProvider>
-        </>
+        <ProjectsProvider>
+            {children}
+        </ProjectsProvider>
     )
 }

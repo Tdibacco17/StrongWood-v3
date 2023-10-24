@@ -6,10 +6,8 @@ export default function BedroomDetailLayout({
     children: React.ReactNode
 }) {
     return (
-        <>
-            <ProjectsProvider>
-                {children}
-            </ProjectsProvider>
-        </>
+        <ProjectsProvider>
+            {children}
+        </ProjectsProvider>
     )
 }

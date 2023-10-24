@@ -9,7 +9,7 @@
     &.long-first {
         width: 100vw;
         // height: 30rem;
-        height: calc(100vh - 12.5rem);
+        height: calc(100vh - 5rem);
         // @media (max-width:1400px) {
         //     height: 25rem;
         // }
@@ -25,9 +25,6 @@
         // @media (max-width:768px) {
         //     height: 60vh;
         // }
-        @media (max-width:399px) {
-            height: calc(100vh - 14.25rem);
-        }
     }
 
     &.long-reduce {

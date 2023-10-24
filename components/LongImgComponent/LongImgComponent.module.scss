@@ -2,6 +2,8 @@
     position: relative;
     top: 0;
     left: 0;
+    // padding-top: 5rem;
+    --full-height-img: calc(100vh - 5rem);
 
     .container-outer-image {
         position: relative;
@@ -9,7 +11,7 @@
         left: 0;
         width: 100vw;
         // height: 30rem;
-        height: calc(100vh - 12.5rem);
+        height: var(--full-height-img);
         user-select: none;
         overflow: hidden;
 
@@ -69,7 +71,7 @@
         left: 0;
         width: 100vw;
         // height: 30rem;
-        height: calc(100vh - 12.5rem);
+        height: var(--full-height-img);
         padding: 2rem;
         display: flex;
         justify-content: center;
@@ -91,9 +93,6 @@
         // @media (max-width:768px) {
         //     height: 60vh;
         // }
-        @media (max-width:399px) {
-            height: calc(100vh - 14.25rem);
-        }
 
         .wrapper-overlay {
             width: var(--max-width);

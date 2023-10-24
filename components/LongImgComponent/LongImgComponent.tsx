@@ -34,6 +34,7 @@ export default function LongImgComponent({
                     style={{ objectPosition: imageData.objPosition, opacity: imageLoaded ? "1" : "0" }}
                     onLoadingComplete={() => { setImageLoaded(true) }}
                     priority
+                    sizes="100vw"
                 />
             </div>
             {imageLoaded && !reduce &&
