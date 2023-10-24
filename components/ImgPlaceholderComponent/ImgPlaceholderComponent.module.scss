@@ -6,7 +6,7 @@
     color: var(--primary-gray);
     font-size: var(--font-14);
 
-    &.firstPortrait {
+    &.long {
         width: 100vw;
         height: 25rem;
 
@@ -27,7 +27,7 @@
         }
     }
 
-    &.secondPortrait {
+    &.long-reduce {
         width: var(--max-width);
 
         @media (max-width:1400px) {
@@ -80,12 +80,12 @@
         --second-image-height: 60vh;
     }
 
-    &.firstTwoSmall {
+    &.twoSmall-first {
         width: var(--twoImages-width);
         height: var(--first-image-height);
     }
 
-    &.secondTwoSmall {
+    &.twoSmall-second {
         width: var(--twoImages-width);
         height: var(--second-image-height);
     }
@@ -108,7 +108,7 @@
             display: flex;
             align-items: center;
 
-            .firstTwoSmall {
+            .twoSmall-first {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -121,7 +121,7 @@
         .second-column {
             align-items: flex-end;
 
-            .secondTwoSmall {
+            .twoSmall-second {
                 display: flex;
                 justify-content: center;
                 align-items: center;

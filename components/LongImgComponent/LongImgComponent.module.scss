@@ -1,0 +1,126 @@
+.container-section-longImg {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    .container-outer-placeholder {
+        width: 100vw;
+        height: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width:1400px) {
+            height: 20rem;
+        }
+
+        @media (max-width:1200px) {
+            height: 18rem;
+        }
+
+        @media (max-width:992px) {
+            height: 16rem;
+        }
+
+        @media (max-width:768px) {
+            height: 60vh;
+        }
+    }
+
+    .container-outer-image {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 25rem;
+        user-select: none;
+        overflow: hidden;
+
+        @media (max-width:1400px) {
+            height: 20rem;
+        }
+
+        @media (max-width:1200px) {
+            height: 18rem;
+        }
+
+        @media (max-width:992px) {
+            height: 16rem;
+        }
+
+        @media (max-width:768px) {
+            height: 60vh;
+        }
+
+        * {
+            pointer-events: none;
+        }
+
+        &.reduce {
+            width: var(--max-width);
+
+            @media (max-width:1400px) {
+                height: 22.5rem;
+            }
+
+            @media (max-width:1200px) {
+                height: 20rem;
+            }
+
+            @media (max-width:992px) {
+                height: 17.5rem;
+            }
+
+            @media (max-width:768px) {
+                height: 60vh;
+            }
+        }
+
+        .container-inner-image {
+            object-fit: cover;
+        }
+    }
+
+    .container-overlay-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 25rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background: rgb(0, 0, 0, 0.4);
+
+        @media (max-width:1400px) {
+            height: 20rem;
+        }
+
+        @media (max-width:1200px) {
+            height: 18rem;
+        }
+
+        @media (max-width:992px) {
+            height: 16rem;
+        }
+
+        @media (max-width:768px) {
+            height: 60vh;
+        }
+
+        .wrapper-overlay {
+            width: var(--max-width);
+
+            .title-title {
+                color: var(--primary-white);
+                font-size: var(--font-30);
+            }
+
+            .title-subtitle {
+                color: var(--primary-white);
+                font-size: var(--font-16);
+            }
+        }
+    }
+}

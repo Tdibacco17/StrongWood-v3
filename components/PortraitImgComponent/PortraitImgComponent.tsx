@@ -1,48 +1,43 @@
-import Image from "next/image"
+import Image from 'next/image'
 import styles from "./PortraitImgComponent.module.scss"
-import { ImgDataInterface } from "@/types"
-import { useState } from "react";
-import ImgPlaceholderComponent from "../ImgPlaceholderComponent/ImgPlaceholderComponent";
+import { ImgDataInterface, NavigateInterface } from '@/types'
+import Link from 'next/link'
 
 export default function PortraitImgComponent({
     imageData,
-    projectTitle,
-    projectSubtitle,
-    reduce
+    navigateData
 }: {
     imageData: ImgDataInterface,
-    projectTitle?: string,
-    projectSubtitle?: string,
-    reduce: boolean
+    navigateData?: NavigateInterface[]
 }) {
-    const [imageLoaded, setImageLoaded] = useState(false);
-
     return (
         <div className={styles["container-section-portraitImg"]}>
-            {
-                !imageLoaded && !reduce && <ImgPlaceholderComponent sectionImg="firstPortrait" />
-            }
-            {
-                !imageLoaded && reduce && <ImgPlaceholderComponent sectionImg="secondPortrait" />
-            }
-            <div className={`${imageLoaded && styles["container-outer-image"]} ${reduce && styles["reduce"]}`}>
+            <div className={styles["container-outer-image"]}>
                 <Image
                     src={imageData.imgSrc}
                     alt={imageData.imgAlt}
                     fill
-                    className={`${styles["container-inner-image"]}`}
-                    style={{ objectPosition: imageData.objPosition, opacity: imageLoaded ? "1" : "0" }}
-                    onLoadingComplete={() => { setImageLoaded(true) }}
+                    className={styles["container-inner-image"]}
                     priority
                 />
             </div>
-            {imageLoaded && !reduce &&
-                <div className={`${styles["container-overlay-image"]}`}>
-                    <div className={styles["wrapper-overlay"]}>
-                        <p className={styles["title-title"]}>{projectTitle}</p>
-                        <p className={styles["title-subtitle"]}>{projectSubtitle}</p>
-                    </div>
+            <div className={styles["container-overlay-image"]}>
+                <h1 className={styles["title-header"]}>StrongWood</h1>
+            </div>
+            {navigateData && navigateData.length > 0 &&
+                < div className={styles["container-titles"]}>
+                    {
+                        navigateData.map((item: NavigateInterface) => {
+                            return <Link
+                                aria-label={`Ir a proyecto ${item.title}`}
+                                href={`${item.href}`}
+                                key={item.href}
+                                className={styles["title-item"]}>
+                                {item.title}
+                            </Link>
+                        })
+                    }
                 </div>}
-        </div>
+        </div >
     )
 }

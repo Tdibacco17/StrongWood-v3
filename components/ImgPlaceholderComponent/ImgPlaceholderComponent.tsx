@@ -10,10 +10,10 @@ export default function ImgPlaceholderComponent({
         return (
             <div className={`${styles["container-placeholder"]} ${styles["container-twoSmall-placeholder"]}`}>
                 <div className={styles["first-column"]}>
-                    <small className={styles["firstTwoSmall"]}>Cargando...</small>
+                    <small className={styles["twoSmall-first"]}>Cargando...</small>
                 </div>
                 <div className={styles["second-column"]}>
-                    <small className={styles["secondTwoSmall"]}>Cargando...</small>
+                    <small className={styles["twoSmall-second"]}>Cargando...</small>
                 </div>
             </div>
         )

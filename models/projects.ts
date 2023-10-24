@@ -13,7 +13,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -44,7 +44,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -63,7 +63,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -82,7 +82,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -101,7 +101,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -120,7 +120,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -139,7 +139,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -158,7 +158,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -177,7 +177,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -196,7 +196,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -215,7 +215,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -234,7 +234,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -253,7 +253,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -272,7 +272,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -291,7 +291,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -310,7 +310,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "center center"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
                 imgAlt: "cocina-nordica",
                 objPosition: "center center"
@@ -329,7 +329,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "0% 65%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/estanteriaAvila/Strong_Wood_IG-80.webp",
                 imgAlt: "Estanteria Avila",
                 objPosition: "20% 65%"
@@ -346,7 +346,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "60% 100%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/estanteriaAvila/Strong_Wood_IG-81.webp",
                 imgAlt: "Estanteria Avila",
                 objPosition: "70% 100%"
@@ -365,7 +365,7 @@ export const projectsData: ProjectDataInterface = {
     //         objPosition: "center center"
     //     },
     //     details: {
-    //         firstPortraitImg: {
+    //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
     //             objPosition: "center center"
@@ -384,7 +384,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "50% 50%",
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/mesaRatonaEdimburgo/Strong-Wood-Set-17.webp",
                 imgAlt: "Mesa ratona Edimburgo",
                 objPosition: "50% 56%",
@@ -401,7 +401,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "0% 35%",
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/mesaRatonaEdimburgo/Strong_Wood_IG-82.webp",
                 imgAlt: "Mesa ratona Edimburgo",
                 objPosition: "0% 45%",
@@ -420,7 +420,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "0% 65%",
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/macetaSintra/Strong_Wood_IG-43.webp",
                 imgAlt: "Maceta Sintra",
                 objPosition: "7% 65%",
@@ -437,7 +437,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "40% 0%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/macetaSintra/Strong_Wood_IG-41.webp",
                 imgAlt: "Maceta Sintra",
                 objPosition: "50% 15%"
@@ -456,7 +456,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "30% 100%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-47.webp",
                 imgAlt: "Maceta Aviñon",
                 objPosition: "35% 45%"
@@ -473,7 +473,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "0% 100%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-45.webp",
                 imgAlt: "Maceta Aviñon",
                 objPosition: "30% 73%"
@@ -492,7 +492,7 @@ export const projectsData: ProjectDataInterface = {
     //         objPosition: "center center"
     //     },
     //     details: {
-    //         firstPortraitImg: {
+    //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
     //             objPosition: "center center"
@@ -511,7 +511,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "50% 100%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-2.webp",
                 imgAlt: "Porta Vinos",
                 objPosition: "50% 100%"
@@ -528,7 +528,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "50% 0%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-7.webp",
                 imgAlt: "Porta Vinos",
                 objPosition: "30% 100%"
@@ -547,7 +547,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "70% 40%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-73.webp",
                 imgAlt: "Estanteria Bath",
                 objPosition: "65% 60%"
@@ -564,7 +564,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "60% 60%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-72.webp",
                 imgAlt: "Estanteria Bath",
                 objPosition: "50% 50%"
@@ -583,7 +583,7 @@ export const projectsData: ProjectDataInterface = {
     //         objPosition: "center center"
     //     },
     //     details: {
-    //         firstPortraitImg: {
+    //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "Estanteria Bath",
     //             objPosition: "center center"
@@ -602,7 +602,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "15% 70%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/llaveroCorfu/Strong_Wood_IG-20.webp",
                 imgAlt: "Llavero Corfu",
                 objPosition: "25% 80%"
@@ -619,7 +619,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "40% 35%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/llaveroCorfu/Strong_Wood_IG-21.webp",
                 imgAlt: "Llavero Corfu",
                 objPosition: "15% 55%"
@@ -638,7 +638,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "0% 85%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/leniero/Strong_Wood_IG-49.webp",
                 imgAlt: "Leñero",
                 objPosition: "25% 87%"
@@ -669,7 +669,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "10% 100%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/rackTvCordoba/Strong_Wood_IG-66.webp",
                 imgAlt: "Rack TV Cordoba",
                 objPosition: "15% 55%"
@@ -686,7 +686,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "35% 0%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/rackTvCordoba/Strong_Wood_IG-64.webp",
                 imgAlt: "Rack TV Cordoba",
                 objPosition: "50% 55%"
@@ -705,7 +705,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "50% 80%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/toalleroMatera/Strong_Wood_IG-39.webp",
                 imgAlt: "Toallero Matera",
                 objPosition: "50% 30%"
@@ -722,7 +722,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "35% 20%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/toalleroMatera/Strong_Wood_IG-37.webp",
                 imgAlt: "Toallero Matera",
                 objPosition: "25% 20%"
@@ -741,7 +741,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "0% 0%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/toalleroCuenca/Strong_Wood_IG-12.webp",
                 imgAlt: "Toallero Cuenca",
                 objPosition: "17% 50%"
@@ -758,7 +758,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "15% 0%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/toalleroCuenca/Strong_Wood_IG-8.webp",
                 imgAlt: "Toallero Cuenca",
                 objPosition: "15% 30%"
@@ -777,7 +777,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "0% 70%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/bodegaSegovia/Strong_Wood_IG-57.webp",
                 imgAlt: "Bodega Segovia",
                 objPosition: "15% 40%"
@@ -794,7 +794,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "30% 70%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/bodegaSegovia/Strong_Wood_IG-58.webp",
                 imgAlt: "Bodega Segovia",
                 objPosition: "15% 47%"
@@ -813,7 +813,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "30% 0%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/mesaDeLuzRoma/Strong_Wood_IG-30.webp",
                 imgAlt: "Mesa de luz Roma",
                 objPosition: "30% 20%"
@@ -830,7 +830,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "50% 10%",
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/mesaDeLuzRoma/Strong_Wood_IG-33.webp",
                 imgAlt: "Mesa de luz Roma",
                 objPosition: "50% 50%",
@@ -849,7 +849,7 @@ export const projectsData: ProjectDataInterface = {
     //         objPosition: "center center"
     //     },
     //     details: {
-    //         firstPortraitImg: {
+    //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
     //             objPosition: "center center"
@@ -868,7 +868,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "60% 50%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/percheroOporto/Strong_Wood_IG-26.webp",
                 imgAlt: "Perchero Oporto",
                 objPosition: "45% 25%"
@@ -899,7 +899,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "40% 50%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/recibidorSalamanca/Strong_Wood_IG-52.webp",
                 imgAlt: "Recibidor Salamanca",
                 objPosition: "40% 45%"
@@ -916,7 +916,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "25% 0%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/recibidorSalamanca/Strong_Wood_IG-53.webp",
                 imgAlt: "Recibidor Salamanca",
                 objPosition: "35% 87%"
@@ -935,7 +935,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "80% 50%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/tablaAsado/Strongwood_Tabla_parri-4.webp",
                 imgAlt: "Tabla Asado",
                 objPosition: "80% 85%"
@@ -952,7 +952,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "40% 0%"
                 }
             ],
-            secondPortraitImg: {
+            secondLongImg: {
                 imgSrc: "/assets/img/products/tablaAsado/Strongwood_Tabla_parri-7.webp",
                 imgAlt: "Tabla Asado",
                 objPosition: "50% 80%"
@@ -971,7 +971,7 @@ export const projectsData: ProjectDataInterface = {
             objPosition: "50% 50%"
         },
         details: {
-            firstPortraitImg: {
+            firstLongImg: {
                 imgSrc: "/assets/img/products/soporteAuricular/soporteAuricular2.webp",
                 imgAlt: "Soporte Auricular",
                 objPosition: "50% 60%"

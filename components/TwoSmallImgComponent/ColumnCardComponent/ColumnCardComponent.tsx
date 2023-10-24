@@ -11,7 +11,7 @@ export default function ColumnCardComponent({ imageData, index }: { imageData: I
         <>
             {
                 !imageLoaded &&
-                <ImgPlaceholderComponent sectionImg={index === 1 ? "secondTwoSmall" : "firstTwoSmall"} />
+                <ImgPlaceholderComponent sectionImg={index === 1 ? "twoSmall-second" : "twoSmall-first"} />
             }
             <div className={`${imageLoaded && styles["container-outer-image"]} ${index === 1 && styles["second"]}`}>
                 <Image
