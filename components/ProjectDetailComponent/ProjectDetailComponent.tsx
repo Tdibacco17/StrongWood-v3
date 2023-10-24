@@ -16,7 +16,7 @@ export default function ProjectDetailComponent() {
             {
                 !projectData ?
                     <>
-                        <ImgPlaceholderComponent sectionImg="long" />
+                        <ImgPlaceholderComponent sectionImg="long-first" />
                         <ImgPlaceholderComponent sectionImg="twoSmall" />
                         <ImgPlaceholderComponent sectionImg="long-reduce" />
                     </>
@@ -37,10 +37,10 @@ export default function ProjectDetailComponent() {
                                 imagesData={projectData.details.twoSmallImg} />
                         }
                         {
-                            projectData.details.secondLongImg &&
+                            projectData.details.reduceLongImg &&
                             <LongImgComponent
                                 reduce={true}
-                                imageData={projectData.details.secondLongImg}
+                                imageData={projectData.details.reduceLongImg}
                             />
                         }
                     </>

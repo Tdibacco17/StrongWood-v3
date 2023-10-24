@@ -346,7 +346,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "60% 100%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/estanteriaAvila/Strong_Wood_IG-81.webp",
                 imgAlt: "Estanteria Avila",
                 objPosition: "70% 100%"
@@ -401,7 +401,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "0% 35%",
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/mesaRatonaEdimburgo/Strong_Wood_IG-82.webp",
                 imgAlt: "Mesa ratona Edimburgo",
                 objPosition: "0% 45%",
@@ -437,7 +437,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "40% 0%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/macetaSintra/Strong_Wood_IG-41.webp",
                 imgAlt: "Maceta Sintra",
                 objPosition: "50% 15%"
@@ -473,7 +473,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "0% 100%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-45.webp",
                 imgAlt: "Maceta Aviñon",
                 objPosition: "30% 73%"
@@ -528,7 +528,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "50% 0%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-7.webp",
                 imgAlt: "Porta Vinos",
                 objPosition: "30% 100%"
@@ -564,7 +564,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "60% 60%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-72.webp",
                 imgAlt: "Estanteria Bath",
                 objPosition: "50% 50%"
@@ -619,7 +619,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "40% 35%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/llaveroCorfu/Strong_Wood_IG-21.webp",
                 imgAlt: "Llavero Corfu",
                 objPosition: "15% 55%"
@@ -686,7 +686,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "35% 0%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/rackTvCordoba/Strong_Wood_IG-64.webp",
                 imgAlt: "Rack TV Cordoba",
                 objPosition: "50% 55%"
@@ -722,7 +722,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "35% 20%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/toalleroMatera/Strong_Wood_IG-37.webp",
                 imgAlt: "Toallero Matera",
                 objPosition: "25% 20%"
@@ -758,7 +758,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "15% 0%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/toalleroCuenca/Strong_Wood_IG-8.webp",
                 imgAlt: "Toallero Cuenca",
                 objPosition: "15% 30%"
@@ -794,7 +794,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "30% 70%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/bodegaSegovia/Strong_Wood_IG-58.webp",
                 imgAlt: "Bodega Segovia",
                 objPosition: "15% 47%"
@@ -830,7 +830,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "50% 10%",
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/mesaDeLuzRoma/Strong_Wood_IG-33.webp",
                 imgAlt: "Mesa de luz Roma",
                 objPosition: "50% 50%",
@@ -916,7 +916,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "25% 0%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/recibidorSalamanca/Strong_Wood_IG-53.webp",
                 imgAlt: "Recibidor Salamanca",
                 objPosition: "35% 87%"
@@ -952,7 +952,7 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "40% 0%"
                 }
             ],
-            secondLongImg: {
+            reduceLongImg: {
                 imgSrc: "/assets/img/products/tablaAsado/Strongwood_Tabla_parri-7.webp",
                 imgAlt: "Tabla Asado",
                 objPosition: "50% 80%"

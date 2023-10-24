@@ -20,7 +20,7 @@ export default function LongImgComponent({
     return (
         <div className={styles["container-section-longImg"]}>
             {
-                !imageLoaded && !reduce && <ImgPlaceholderComponent sectionImg="long" />
+                !imageLoaded && !reduce && <ImgPlaceholderComponent sectionImg="long-first" />
             }
             {
                 !imageLoaded && reduce && <ImgPlaceholderComponent sectionImg="long-reduce" />

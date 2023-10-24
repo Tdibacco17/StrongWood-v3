@@ -27,7 +27,7 @@ export interface ProjectInterface {
     image: ImgDataInterface;
     details: {
         firstLongImg?: ImgDataInterface;
-        secondLongImg?: ImgDataInterface;
+        reduceLongImg?: ImgDataInterface;
         twoSmallImg?: ImgDataInterface[];
         // secondTwoSmallImg?: ImgDataInterface[];
         // longSection?: ImgDataInterface;
@@ -37,7 +37,7 @@ export interface ProjectInterface {
 }
 
 export type SelectedFilterInterface = "all" | "kitchen" | "bathroom" | "closet" | "bedroom" | "products";
-export type ImgPlacheholderInterface = "long" | "long-reduce" | "twoSmall" | "twoSmall-first" | "twoSmall-second";
+export type ImgPlacheholderInterface = "long-first" | "long-reduce" | "twoSmall" | "twoSmall-first" | "twoSmall-second";
 export interface ProjectSelectorInterface {
     selectorTitle: string;
     selectorFilter: string;
