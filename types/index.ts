@@ -1,7 +1,7 @@
 export interface ImgDataInterface {
     imgSrc: string,
     imgAlt: string,
-    position: string
+    objPosition: string
 }
 export interface IconInterface {
     iconSlug: string,
@@ -28,16 +28,16 @@ export interface ProjectInterface {
     details: {
         firstPortraitImg?: ImgDataInterface;
         secondPortraitImg?: ImgDataInterface;
-        // firstTwoSmallImg?: ImgDataInterface;
-        // secondTwoSmallImg?: ImgDataInterface;
-        // longSectionImage?: ImgDataInterface;
-        twoImages?: ImgDataInterface[];
+        twoSmallImg?: ImgDataInterface[];
+        // secondTwoSmallImg?: ImgDataInterface[];
+        // longSection?: ImgDataInterface;
     };
     categories: SelectedFilterInterface[];
     urlSlug: SelectedFilterInterface
 }
 
 export type SelectedFilterInterface = "all" | "kitchen" | "bathroom" | "closet" | "bedroom" | "products";
+export type ImgPlacheholderInterface = "firstPortrait" | "secondPortrait" | "twoSmall" | "firstTwoSmall" | "secondTwoSmall";
 export interface ProjectSelectorInterface {
     selectorTitle: string;
     selectorFilter: string;

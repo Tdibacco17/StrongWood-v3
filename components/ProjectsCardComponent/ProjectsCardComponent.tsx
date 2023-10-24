@@ -13,7 +13,8 @@ export default function ProjectsCardComponent({ projectData }: { projectData: Pr
                     src={projectData.image.imgSrc}
                     alt={projectData.image.imgAlt}
                     fill
-                    className={`${styles["container-inner-image"]} ${styles[`${projectData.image.position}`]}`}
+                    className={`${styles["container-inner-image"]}`}
+                    style={{ objectPosition: projectData.image.objPosition }}
                 />
             </div>
             <div className={styles["container-description-card"]}>

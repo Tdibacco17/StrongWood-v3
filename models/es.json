@@ -19,7 +19,7 @@
             "image": {
                 "imgSrc": "/assets/img/homePage/banner/test.jpg",
                 "imgAlt": "banner image",
-                "position": "center"
+                "objPosition": "center"
             }
         },
         "navigateData": [

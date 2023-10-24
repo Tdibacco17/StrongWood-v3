@@ -1,0 +1,134 @@
+.container-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary-white);
+    color: var(--primary-gray);
+    font-size: var(--font-14);
+
+    &.firstPortrait {
+        width: 100vw;
+        height: 25rem;
+
+        @media (max-width:1400px) {
+            height: 20rem;
+        }
+
+        @media (max-width:1200px) {
+            height: 18rem;
+        }
+
+        @media (max-width:992px) {
+            height: 16rem;
+        }
+
+        @media (max-width:768px) {
+            height: 60vh;
+        }
+    }
+
+    &.secondPortrait {
+        width: var(--max-width);
+
+        @media (max-width:1400px) {
+            height: 22.5rem;
+        }
+
+        @media (max-width:1200px) {
+            height: 20rem;
+        }
+
+        @media (max-width:992px) {
+            height: 17.5rem;
+        }
+
+        @media (max-width:768px) {
+            height: 60vh;
+        }
+    }
+
+    --twoImages-maxHeight: 40rem;
+    --twoImages-width: 36.5rem;
+    --first-image-height: 27.5rem;
+    --second-image-height: 40rem;
+
+    @media (max-width:1400px) {
+        --twoImages-width: 31rem;
+        --twoImages-maxHeight: 35rem;
+        --first-image-height: 25rem;
+        --second-image-height: 35rem;
+    }
+
+    @media (max-width:1200px) {
+        --twoImages-width: 25.5rem;
+        --twoImages-maxHeight: 30rem;
+        --first-image-height: 22.5rem;
+        --second-image-height: 30rem;
+    }
+
+    @media (max-width:992px) {
+        --twoImages-width: 20rem;
+        --twoImages-maxHeight: 25rem;
+        --first-image-height: 17.5rem;
+        --second-image-height: 25rem;
+    }
+
+    @media (max-width:768px) {
+        --twoImages-maxHeight: revert;
+        --twoImages-width: 90vw;
+        --first-image-height: 60vh;
+        --second-image-height: 60vh;
+    }
+
+    &.firstTwoSmall {
+        width: var(--twoImages-width);
+        height: var(--first-image-height);
+    }
+
+    &.secondTwoSmall {
+        width: var(--twoImages-width);
+        height: var(--second-image-height);
+    }
+
+    &.container-twoSmall-placeholder {
+        width: var(--max-width);
+        display: flex;
+        justify-content: space-between;
+        height: var(--twoImages-maxHeight);
+
+        @media (max-width:768px) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8rem;
+        }
+
+        .first-column {
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            .firstTwoSmall {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: var(--secondary-white);
+                width: var(--twoImages-width);
+                height: var(--first-image-height);
+            }
+        }
+
+        .second-column {
+            align-items: flex-end;
+
+            .secondTwoSmall {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: var(--secondary-white);
+                width: var(--twoImages-width);
+                height: var(--second-image-height);
+            }
+        }
+    }
+}
