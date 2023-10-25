@@ -13,6 +13,9 @@
         user-select: none;
         overflow: hidden;
         background-color: var(--secondary-white);
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
 
         @media (max-width:1400px) {
             height: 19.5rem;
@@ -42,6 +45,11 @@
         * {
             pointer-events: none;
         }
+
+        // .loader-placeholder {
+        //     color: var(--primary-gray);
+        //     font-size: var(--font-14);
+        // }
 
         .container-inner-image {
             object-fit: cover;

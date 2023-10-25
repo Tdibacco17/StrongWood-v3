@@ -60,6 +60,10 @@
                 "selectorTitle": "Placares",
                 "selectorFilter": "closet"
             },
+            "local": {
+                "selectorTitle": "Locales",
+                "selectorFilter": "local"
+            },
             "bedroom": {
                 "selectorTitle": "Dormitorio",
                 "selectorFilter": "bedroom"

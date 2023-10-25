@@ -1,39 +1,39 @@
 import { ProjectDataInterface } from "@/types";
 
-export const projectsCategories = ["all", "kitchen", "bathroom", "closet", "bedroom", "products"]
+export const projectsCategories = ["all", "kitchen", "bathroom", "closet", "local", "bedroom", "products"]
 
 export const projectsData: ProjectDataInterface = {
-    "cocina-nordica": {
-        projectSlug: "cocina-nordica",
-        title: "Serie Nordica",
+    "cocina-premium": {
+        projectSlug: "cocina-premium",
+        title: "Serie Premium",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/kitchen/nordica/Strong-208.webp",
-            imgAlt: "Serie Nordica",
-            objPosition: "50% 55%"
+            imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
+            imgAlt: "Serie Premium",
+            objPosition: "50% 50%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/kitchen/nordica/Strong-208.webp",
-                imgAlt: "Serie Nordica",
-                objPosition: "50% 80%"
+                imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
+                imgAlt: "Serie Premium",
+                objPosition: "50% 55%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/kitchen/nordica/Strong-225.webp",
-                    imgAlt: "Serie Nordica",
-                    objPosition: "40% 0%"
+                    imgSrc: "/assets/img/kitchen/premium/Strong-272.webp",
+                    imgAlt: "Serie Premium",
+                    objPosition: "50% 0%",
                 },
                 {
-                    imgSrc: "/assets/img/kitchen/nordica/Strong-234.webp",
-                    imgAlt: "Serie Nordica",
-                    objPosition: "60% 0%"
+                    imgSrc: "/assets/img/kitchen/premium/Strong-275.webp",
+                    imgAlt: "Serie Premium",
+                    objPosition: "25% 35%",
                 }
             ],
             reduceLongImg: {
-                imgSrc: "/assets/img/kitchen/nordica/Strong-239.webp",
-                imgAlt: "Serie Nordica",
-                objPosition: "50% 55%"
+                imgSrc: "/assets/img/kitchen/premium/Strong-284.webp",
+                imgAlt: "Serie Premium",
+                objPosition: "30% 40%",
             }
         },
         categories: ["all", "kitchen"],
@@ -75,37 +75,37 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
     },
-    "cocina-premium": {
-        projectSlug: "cocina-premium",
-        title: "Serie Premium",
+    "cocina-nordica": {
+        projectSlug: "cocina-nordica",
+        title: "Serie Nordica",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
-            imgAlt: "Serie Premium",
-            objPosition: "50% 50%"
+            imgSrc: "/assets/img/kitchen/nordica/Strong-208.webp",
+            imgAlt: "Serie Nordica",
+            objPosition: "50% 55%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
-                imgAlt: "Serie Premium",
-                objPosition: "50% 55%"
+                imgSrc: "/assets/img/kitchen/nordica/Strong-208.webp",
+                imgAlt: "Serie Nordica",
+                objPosition: "50% 80%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/kitchen/premium/Strong-272.webp",
-                    imgAlt: "Serie Premium",
-                    objPosition: "50% 0%",
+                    imgSrc: "/assets/img/kitchen/nordica/Strong-225.webp",
+                    imgAlt: "Serie Nordica",
+                    objPosition: "40% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/kitchen/premium/Strong-275.webp",
-                    imgAlt: "Serie Premium",
-                    objPosition: "25% 35%",
+                    imgSrc: "/assets/img/kitchen/nordica/Strong-234.webp",
+                    imgAlt: "Serie Nordica",
+                    objPosition: "60% 0%"
                 }
             ],
             reduceLongImg: {
-                imgSrc: "/assets/img/kitchen/premium/Strong-284.webp",
-                imgAlt: "Serie Premium",
-                objPosition: "30% 40%",
+                imgSrc: "/assets/img/kitchen/nordica/Strong-239.webp",
+                imgAlt: "Serie Nordica",
+                objPosition: "50% 55%"
             }
         },
         categories: ["all", "kitchen"],
@@ -148,6 +148,109 @@ export const projectsData: ProjectDataInterface = {
         },
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
+    },
+    "vajillero-london": {
+        projectSlug: "vajillero-london",
+        title: "Serie London",
+        subtitle: "Vajillero",
+        image: {
+            imgSrc: "/assets/img/kitchen/london/Strong-136.webp",
+            imgAlt: "Serie London",
+            objPosition: "50% 100%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/kitchen/london/Strong-136.webp",
+                imgAlt: "Serie London",
+                objPosition: "50% 100%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/kitchen/london/Strong-133.webp",
+                    imgAlt: "Serie London",
+                    objPosition: "100% 0%",
+                },
+                {
+                    imgSrc: "/assets/img/kitchen/london/Strong-134.webp",
+                    imgAlt: "Serie London",
+                    objPosition: "50% 50%",
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/kitchen/london/Strong-139.webp",
+                imgAlt: "Serie London",
+                objPosition: "50% 35%",
+            }
+        },
+        categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
+    },
+    "local-farina-mostrador": {
+        projectSlug: "local-farina-mostrador",
+        title: "Mostrador",
+        subtitle: "Farina & Pane",
+        image: {
+            imgSrc: "/assets/img/local/Strong-176.webp",
+            imgAlt: "Mostrador",
+            objPosition: "45% 50%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/local/Strong-176.webp",
+                imgAlt: "Mostrador",
+                objPosition: "50% 50%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/local/Strong-170.webp",
+                    imgAlt: "Mostrador",
+                    objPosition: "30% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/local/Strong-175.webp",
+                    imgAlt: "Mostrador",
+                    objPosition: "60% 50%"
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/local/Strong-174.webp",
+                imgAlt: "Mostrador",
+                objPosition: "60% 65%",
+            }
+        },
+        categories: ["all", "local"],
+        urlSlug: "products"
+    },
+    "vanitory-nordico": {
+        projectSlug: "vanitory-nordico",
+        title: "Serie Nordico",
+        subtitle: "Vanitory",
+        image: {
+            imgSrc: "/assets/img/bathroom/nordico/Strong-241.webp",
+            imgAlt: "Serie Nordico",
+            objPosition: "50% 50%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/bathroom/nordico/Strong-241.webp",
+                imgAlt: "Serie Nordico",
+                objPosition: "50% 60%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/bathroom/nordico/Strong-117.webp",
+                    imgAlt: "Serie Nordico",
+                    objPosition: "50% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/bathroom/nordico/Strong-242.webp",
+                    imgAlt: "Serie Nordico",
+                    objPosition: "80% 100%"
+                }
+            ],
+        },
+        categories: ["all", "bathroom"],
+        urlSlug: "bathroom"
     },
     "vanitory-new-york": {
         projectSlug: "vanitory-new-york",
@@ -216,56 +319,6 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "bathroom"],
         urlSlug: "bathroom"
     },
-    "vanitory-nordico": {
-        projectSlug: "vanitory-nordico",
-        title: "Serie Nordico",
-        subtitle: "Vanitory",
-        image: {
-            imgSrc: "/assets/img/bathroom/nordico/Strong-241.webp",
-            imgAlt: "Serie Nordico",
-            objPosition: "50% 50%"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/bathroom/nordico/Strong-241.webp",
-                imgAlt: "Serie Nordico",
-                objPosition: "50% 60%"
-            },
-            twoSmallImg: [
-                {
-                    imgSrc: "/assets/img/bathroom/nordico/Strong-243.webp",
-                    imgAlt: "Serie Nordico",
-                    objPosition: "50% 0%"
-                },
-                {
-                    imgSrc: "/assets/img/bathroom/nordico/Strong-242.webp",
-                    imgAlt: "Serie Nordico",
-                    objPosition: "80% 100%"
-                }
-            ],
-        },
-        categories: ["all", "bathroom"],
-        urlSlug: "bathroom"
-    },
-    "vestidor-deluxe": {
-        projectSlug: "vestidor-deluxe",
-        title: "Serie Deluxe",
-        subtitle: "Vestidor",
-        image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "vestidor-deluxe",
-            objPosition: "center center"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "vestidor-deluxe",
-                objPosition: "center center"
-            },
-        },
-        categories: ["all", "closet"],
-        urlSlug: "closet"
-    },
     "vestidor-nordico": {
         projectSlug: "vestidor-nordico",
         title: "Serie Nordico",
@@ -297,25 +350,6 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "closet"],
         urlSlug: "closet"
     },
-    "vestidor-fusion": {
-        projectSlug: "vestidor-fusion",
-        title: "Serie Fusión",
-        subtitle: "Vestidor",
-        image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "vestidor-fusion",
-            objPosition: "center center"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
-            },
-        },
-        categories: ["all", "closet"],
-        urlSlug: "closet"
-    },
     "placar-urbanwood": {
         projectSlug: "placar-urbanwood",
         title: "Serie Urbanwood",
@@ -343,6 +377,44 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "30% 50%"
                 }
             ],
+        },
+        categories: ["all", "closet"],
+        urlSlug: "closet"
+    },
+    "vestidor-deluxe": {
+        projectSlug: "vestidor-deluxe",
+        title: "Serie Deluxe",
+        subtitle: "Vestidor",
+        image: {
+            imgSrc: "/assets/img/homePage/banner/test.jpg",
+            imgAlt: "vestidor-deluxe",
+            objPosition: "center center"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/homePage/banner/test.jpg",
+                imgAlt: "vestidor-deluxe",
+                objPosition: "center center"
+            },
+        },
+        categories: ["all", "closet"],
+        urlSlug: "closet"
+    },
+    "vestidor-fusion": {
+        projectSlug: "vestidor-fusion",
+        title: "Serie Fusión",
+        subtitle: "Vestidor",
+        image: {
+            imgSrc: "/assets/img/homePage/banner/test.jpg",
+            imgAlt: "vestidor-fusion",
+            objPosition: "center center"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/homePage/banner/test.jpg",
+                imgAlt: "cocina-nordica",
+                objPosition: "center center"
+            },
         },
         categories: ["all", "closet"],
         urlSlug: "closet"
@@ -478,6 +550,114 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "products"],
         urlSlug: "products"
     },
+    "maceta-avinon": {
+        projectSlug: "maceta-avinon",
+        title: "Maceta Aviñon",
+        subtitle: "Productos",
+        image: {
+            imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-47.webp",
+            imgAlt: "Maceta Aviñon",
+            objPosition: "30% 100%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-47.webp",
+                imgAlt: "Maceta Aviñon",
+                objPosition: "35% 45%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-48.webp",
+                    imgAlt: "Maceta Aviñon",
+                    objPosition: "30% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-46.webp",
+                    imgAlt: "Maceta Aviñon",
+                    objPosition: "0% 100%"
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-45.webp",
+                imgAlt: "Maceta Aviñon",
+                objPosition: "30% 73%"
+            },
+        },
+        categories: ["all", "products"],
+        urlSlug: "products"
+    },
+    "porta-vinos": {
+        projectSlug: "porta-vinos",
+        title: "Porta Vinos",
+        subtitle: "Productos",
+        image: {
+            imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-2.webp",
+            imgAlt: "Porta Vinos",
+            objPosition: "50% 100%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-2.webp",
+                imgAlt: "Porta Vinos",
+                objPosition: "50% 100%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-6.webp",
+                    imgAlt: "Porta Vinos",
+                    objPosition: "40% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-1.webp",
+                    imgAlt: "Porta Vinos",
+                    objPosition: "50% 0%"
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-7.webp",
+                imgAlt: "Porta Vinos",
+                objPosition: "30% 100%"
+            }
+        },
+        categories: ["all", "products"],
+        urlSlug: "products"
+    },
+    "estanteria-bath": {
+        projectSlug: "estanteria-bath",
+        title: "Estanteria Bath",
+        subtitle: "Productos",
+        image: {
+            imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-73.webp",
+            imgAlt: "Estanteria Bath",
+            objPosition: "70% 40%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-73.webp",
+                imgAlt: "Estanteria Bath",
+                objPosition: "65% 60%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-74.webp",
+                    imgAlt: "Estanteria Bath",
+                    objPosition: "70% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-71.webp",
+                    imgAlt: "Estanteria Bath",
+                    objPosition: "60% 60%"
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-72.webp",
+                imgAlt: "Estanteria Bath",
+                objPosition: "50% 50%"
+            }
+        },
+        categories: ["all", "products"],
+        urlSlug: "products"
+    },
     "mesa-cracovia": {
         projectSlug: "mesa-cracovia",
         title: "Mesa Cracovia",
@@ -581,42 +761,6 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "products"],
         urlSlug: "products"
     },
-    "maceta-avinon": {
-        projectSlug: "maceta-avinon",
-        title: "Maceta Aviñon",
-        subtitle: "Productos",
-        image: {
-            imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-47.webp",
-            imgAlt: "Maceta Aviñon",
-            objPosition: "30% 100%"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-47.webp",
-                imgAlt: "Maceta Aviñon",
-                objPosition: "35% 45%"
-            },
-            twoSmallImg: [
-                {
-                    imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-48.webp",
-                    imgAlt: "Maceta Aviñon",
-                    objPosition: "30% 0%"
-                },
-                {
-                    imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-46.webp",
-                    imgAlt: "Maceta Aviñon",
-                    objPosition: "0% 100%"
-                }
-            ],
-            reduceLongImg: {
-                imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-45.webp",
-                imgAlt: "Maceta Aviñon",
-                objPosition: "30% 73%"
-            },
-        },
-        categories: ["all", "products"],
-        urlSlug: "products"
-    },
     "estanteria-siena": {
         projectSlug: "estanteria-siena",
         title: "Estanteria Siena",
@@ -649,78 +793,6 @@ export const projectsData: ProjectDataInterface = {
                 imgAlt: "Estanteria Siena",
                 objPosition: "45% 10%"
             },
-        },
-        categories: ["all", "products"],
-        urlSlug: "products"
-    },
-    "porta-vinos": {
-        projectSlug: "porta-vinos",
-        title: "Porta Vinos",
-        subtitle: "Productos",
-        image: {
-            imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-2.webp",
-            imgAlt: "Porta Vinos",
-            objPosition: "50% 100%"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-2.webp",
-                imgAlt: "Porta Vinos",
-                objPosition: "50% 100%"
-            },
-            twoSmallImg: [
-                {
-                    imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-6.webp",
-                    imgAlt: "Porta Vinos",
-                    objPosition: "40% 0%"
-                },
-                {
-                    imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-1.webp",
-                    imgAlt: "Porta Vinos",
-                    objPosition: "50% 0%"
-                }
-            ],
-            reduceLongImg: {
-                imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-7.webp",
-                imgAlt: "Porta Vinos",
-                objPosition: "30% 100%"
-            }
-        },
-        categories: ["all", "products"],
-        urlSlug: "products"
-    },
-    "estanteria-bath": {
-        projectSlug: "estanteria-bath",
-        title: "Estanteria Bath",
-        subtitle: "Productos",
-        image: {
-            imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-73.webp",
-            imgAlt: "Estanteria Bath",
-            objPosition: "70% 40%"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-73.webp",
-                imgAlt: "Estanteria Bath",
-                objPosition: "65% 60%"
-            },
-            twoSmallImg: [
-                {
-                    imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-74.webp",
-                    imgAlt: "Estanteria Bath",
-                    objPosition: "70% 0%"
-                },
-                {
-                    imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-71.webp",
-                    imgAlt: "Estanteria Bath",
-                    objPosition: "60% 60%"
-                }
-            ],
-            reduceLongImg: {
-                imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-72.webp",
-                imgAlt: "Estanteria Bath",
-                objPosition: "50% 50%"
-            }
         },
         categories: ["all", "products"],
         urlSlug: "products"

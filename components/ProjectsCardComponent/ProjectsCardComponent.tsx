@@ -16,6 +16,7 @@ export default function ProjectsCardComponent({ projectData }: { projectData: Pr
                     className={`${styles["container-inner-image"]}`}
                     style={{ objectPosition: projectData.image.objPosition }}
                 />
+                {/* <small className={styles["loader-placeholder"]}>Cargando...</small> */}
             </div>
             <div className={styles["container-description-card"]}>
                 <p className={styles["title-description"]}>{projectData.title}</p>
