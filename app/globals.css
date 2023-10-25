@@ -17,7 +17,7 @@
   --secondary-gray: #888;
   --primary-black: #000000;
   --transition: 100ms ease-in-out;
-  --bg-overlay: rgb(0, 0, 0, 0.4);
+  --bg-overlay: rgba(0, 0, 0, 0.4)
 }
 
 @media (max-width:1400px) {

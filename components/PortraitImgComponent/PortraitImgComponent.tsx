@@ -25,7 +25,7 @@ export default function PortraitImgComponent({
                 <h1 className={styles["title-header"]}>StrongWood</h1>
             </div>
             {navigateData && navigateData.length > 0 &&
-                < div className={styles["container-titles"]}>
+                <nav className={styles["container-titles"]}>
                     {
                         navigateData.map((item: NavigateInterface) => {
                             return <Link
@@ -37,7 +37,7 @@ export default function PortraitImgComponent({
                             </Link>
                         })
                     }
-                </div>}
+                </nav>}
         </div >
     )
 }

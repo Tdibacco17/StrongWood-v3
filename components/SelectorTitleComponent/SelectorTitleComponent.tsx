@@ -7,7 +7,7 @@ export default function SelectorTitleComponent() {
     return (
         <div className={styles['container-section-selector-titles']}>
             <p className={styles['header-title']}>{data.projectsPage.title}</p>
-            <div className={styles['selector-titles']}>
+            <nav className={styles['selector-titles']}>
                 {
                     Object.values(data.projectsPage.projectsSelector).map((filterData: ProjectSelectorInterface) => {
                         return (
@@ -21,7 +21,7 @@ export default function SelectorTitleComponent() {
                         )
                     })
                 }
-            </div>
+            </nav>
         </div>
     )
 }

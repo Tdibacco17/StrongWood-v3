@@ -152,18 +152,35 @@ export const projectsData: ProjectDataInterface = {
     "vanitory-new-york": {
         projectSlug: "vanitory-new-york",
         title: "Serie New York",
-        subtitle: "Baño",
+        subtitle: "Vanitory",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "vanitory-new-york",
-            objPosition: "center center"
+            imgSrc: "/assets/img/bathroom/newYork/Strong-300.webp",
+            imgAlt: "Serie New York",
+            objPosition: "45% 50%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/bathroom/newYork/Strong-300.webp",
+                imgAlt: "Serie New York",
+                objPosition: "45% 0%"
             },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/bathroom/newYork/Strong-302.webp",
+                    imgAlt: "Serie New York",
+                    objPosition: "20% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/bathroom/newYork/Strong-299.webp",
+                    imgAlt: "Serie New York",
+                    objPosition: "50% 0%"
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/bathroom/newYork/Strong-298.webp",
+                imgAlt: "Serie New York",
+                objPosition: "50% 50%"
+            }
         },
         categories: ["all", "bathroom"],
         urlSlug: "bathroom"
@@ -171,18 +188,30 @@ export const projectsData: ProjectDataInterface = {
     "vanitory-escandinavo": {
         projectSlug: "vanitory-escandinavo",
         title: "Serie Escandinavo",
-        subtitle: "Baño",
+        subtitle: "Vanitory",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "vanitory-escandinavo",
-            objPosition: "center center"
+            imgSrc: "/assets/img/bathroom/escandinavo/Strong-127.webp",
+            imgAlt: "Serie Escandinavo",
+            objPosition: "50% 15%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/bathroom/escandinavo/Strong-127.webp",
+                imgAlt: "Serie Escandinavo",
+                objPosition: "50% 35%"
             },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/bathroom/escandinavo/Strong-129.webp",
+                    imgAlt: "Serie Escandinavo",
+                    objPosition: "50% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/bathroom/escandinavo/Strong-125.webp",
+                    imgAlt: "Serie Escandinavo",
+                    objPosition: "50% 50%"
+                }
+            ],
         },
         categories: ["all", "bathroom"],
         urlSlug: "bathroom"
@@ -190,18 +219,30 @@ export const projectsData: ProjectDataInterface = {
     "vanitory-nordico": {
         projectSlug: "vanitory-nordico",
         title: "Serie Nordico",
-        subtitle: "Baño",
+        subtitle: "Vanitory",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "vanitory-nordico",
-            objPosition: "center center"
+            imgSrc: "/assets/img/bathroom/nordico/Strong-241.webp",
+            imgAlt: "Serie Nordico",
+            objPosition: "50% 50%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/bathroom/nordico/Strong-241.webp",
+                imgAlt: "Serie Nordico",
+                objPosition: "50% 60%"
             },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/bathroom/nordico/Strong-243.webp",
+                    imgAlt: "Serie Nordico",
+                    objPosition: "50% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/bathroom/nordico/Strong-242.webp",
+                    imgAlt: "Serie Nordico",
+                    objPosition: "80% 100%"
+                }
+            ],
         },
         categories: ["all", "bathroom"],
         urlSlug: "bathroom"
@@ -218,9 +259,40 @@ export const projectsData: ProjectDataInterface = {
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
+                imgAlt: "vestidor-deluxe",
                 objPosition: "center center"
             },
+        },
+        categories: ["all", "closet"],
+        urlSlug: "closet"
+    },
+    "vestidor-nordico": {
+        projectSlug: "vestidor-nordico",
+        title: "Serie Nordico",
+        subtitle: "Vestidor",
+        image: {
+            imgSrc: "/assets/img/closet/nordico/Strong-291.webp",
+            imgAlt: "Serie Nordico",
+            objPosition: "0% 50%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/closet/nordico/Strong-291.webp",
+                imgAlt: "Serie Nordico",
+                objPosition: "40% 50%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/closet/nordico/Strong-296.webp",
+                    imgAlt: "Serie Nordico",
+                    objPosition: "50% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/closet/nordico/Strong-293.webp",
+                    imgAlt: "Serie Nordico",
+                    objPosition: "100% 100%"
+                }
+            ],
         },
         categories: ["all", "closet"],
         urlSlug: "closet"
@@ -249,16 +321,28 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Urbanwood",
         subtitle: "Placar",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "placar-urbanwood",
-            objPosition: "center center"
+            imgSrc: "/assets/img/closet/urbanwood/Strong-153.webp",
+            imgAlt: "Serie Urbanwood",
+            objPosition: "0% 40%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/closet/urbanwood/Strong-153.webp",
+                imgAlt: "Serie Urbanwood",
+                objPosition: "50% 90%"
             },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/closet/urbanwood/Strong-urbanwood.webp",
+                    imgAlt: "Serie Urbanwood",
+                    objPosition: "40% 100%"
+                },
+                {
+                    imgSrc: "/assets/img/closet/urbanwood/Strong-152.webp",
+                    imgAlt: "Serie Urbanwood",
+                    objPosition: "30% 50%"
+                }
+            ],
         },
         categories: ["all", "closet"],
         urlSlug: "closet"
@@ -394,25 +478,37 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "products"],
         urlSlug: "products"
     },
-    // "mesa-cracovia": {
-    //     projectSlug: "mesa-cracovia",
-    //     title: "Mesa Cracovia",
-    //     subtitle: "Productos",
-    //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
-    //         imgAlt: "mesa-cracovia",
-    //         objPosition: "center center"
-    //     },
-    //     details: {
-    //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
-    //             imgAlt: "cocina-nordica",
-    //             objPosition: "center center"
-    //         },
-    //     },
-    //     categories: ["all", "products"],
-    //     urlSlug: "products"
-    // },
+    "mesa-cracovia": {
+        projectSlug: "mesa-cracovia",
+        title: "Mesa Cracovia",
+        subtitle: "Productos",
+        image: {
+            imgSrc: "/assets/img/products/mesaCracovia/Strong_Wood_IG-102.webp",
+            imgAlt: "Mesa Cracovia",
+            objPosition: "50% 50%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/products/mesaCracovia/Strong_Wood_IG-102.webp",
+                imgAlt: "Mesa Cracovia",
+                objPosition: "50% 40%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/products/mesaCracovia/Strong_Wood_IG-101.webp",
+                    imgAlt: "Mesa Cracovia",
+                    objPosition: "0% 50%",
+                },
+                {
+                    imgSrc: "/assets/img/products/mesaCracovia/Strong_Wood_IG-103.webp",
+                    imgAlt: "Mesa Cracovia",
+                    objPosition: "50% 0%",
+                }
+            ]
+        },
+        categories: ["all", "products"],
+        urlSlug: "products"
+    },
     "mesa-ratona-edimburgo": {
         projectSlug: "mesa-ratona-edimburgo",
         title: "Mesa ratona Edimburgo",
@@ -521,25 +617,42 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "products"],
         urlSlug: "products"
     },
-    // "estanteria-siena": {
-    //     projectSlug: "estanteria-siena",
-    //     title: "Estanteria Siena",
-    //     subtitle: "Productos",
-    //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
-    //         imgAlt: "estanteria-siena",
-    //         objPosition: "center center"
-    //     },
-    //     details: {
-    //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
-    //             imgAlt: "cocina-nordica",
-    //             objPosition: "center center"
-    //         },
-    //     },
-    //     categories: ["all", "products"],
-    //     urlSlug: "products"
-    // },
+    "estanteria-siena": {
+        projectSlug: "estanteria-siena",
+        title: "Estanteria Siena",
+        subtitle: "Productos",
+        image: {
+            imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-97.webp",
+            imgAlt: "Estanteria Siena",
+            objPosition: "50% 50%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-97.webp",
+                imgAlt: "Estanteria Siena",
+                objPosition: "45% 20%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-98.webp",
+                    imgAlt: "Estanteria Siena",
+                    objPosition: "40% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-95.webp",
+                    imgAlt: "Estanteria Siena",
+                    objPosition: "50% 45%"
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-99.webp",
+                imgAlt: "Estanteria Siena",
+                objPosition: "45% 10%"
+            },
+        },
+        categories: ["all", "products"],
+        urlSlug: "products"
+    },
     "porta-vinos": {
         projectSlug: "porta-vinos",
         title: "Porta Vinos",
@@ -878,25 +991,42 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "products"],
         urlSlug: "products"
     },
-    // "escritorio-brujas": {
-    //     projectSlug: "escritorio-brujas",
-    //     title: "Escritorio Brujas",
-    //     subtitle: "Productos",
-    //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
-    //         imgAlt: "escritorio-brujas",
-    //         objPosition: "center center"
-    //     },
-    //     details: {
-    //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
-    //             imgAlt: "cocina-nordica",
-    //             objPosition: "center center"
-    //         },
-    //     },
-    //     categories: ["all", "products"],
-    //     urlSlug: "products"
-    // },
+    "escritorio-brujas": {
+        projectSlug: "escritorio-brujas",
+        title: "Escritorio Brujas",
+        subtitle: "Productos",
+        image: {
+            imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-90.webp",
+            imgAlt: "Escritorio Brujas",
+            objPosition: "50% 20%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-90.webp",
+                imgAlt: "Escritorio Brujas",
+                objPosition: "50% 0%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-92.webp",
+                    imgAlt: "Escritorio Brujas",
+                    objPosition: "50% 0%",
+                },
+                {
+                    imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-91.webp",
+                    imgAlt: "Escritorio Brujas",
+                    objPosition: "30% 0%",
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-94.webp",
+                imgAlt: "Escritorio Brujas",
+                objPosition: "20% 20%",
+            }
+        },
+        categories: ["all", "products"],
+        urlSlug: "products"
+    },
     "perchero-oporto": {
         projectSlug: "perchero-oporto",
         title: "Perchero Oporto",
@@ -1005,28 +1135,28 @@ export const projectsData: ProjectDataInterface = {
         title: "Soporte Auricular",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/soporteAuricular/soporteAuricular2.webp",
+            imgSrc: "/assets/img/products/soporteAuricular/Strong_Wood_IG-93.webp",
             imgAlt: "Soporte Auricular",
-            objPosition: "50% 50%"
+            objPosition: "90% 0%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/soporteAuricular/soporteAuricular2.webp",
+                imgSrc: "/assets/img/products/soporteAuricular/Strong_Wood_IG-93.webp",
                 imgAlt: "Soporte Auricular",
-                objPosition: "50% 60%"
+                objPosition: "80% 0%"
             },
             twoSmallImg: [
                 {
                     imgSrc: "/assets/img/products/soporteAuricular/soporteAuricular3.webp",
                     imgAlt: "Soporte Auricular",
-                    objPosition: "15% 0%"
+                    objPosition: "30% 75%"
                 },
                 {
                     imgSrc: "/assets/img/products/soporteAuricular/soporteAuricular1.webp",
                     imgAlt: "Soporte Auricular",
                     objPosition: "60% 0%"
                 }
-            ],
+            ]
         },
         categories: ["all", "products"],
         urlSlug: "products"
