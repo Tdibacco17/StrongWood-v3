@@ -6,12 +6,12 @@
     color: var(--primary-gray);
     font-size: var(--font-14);
 
-    &.long-first {
+    &.portrait {
         width: 100vw;
-        height: calc(100vh - 5rem);
+        height: 100vh;
     }
 
-    &.long-reduce {
+    &.portrait-reduce {
         width: var(--max-width);
         height: 30rem;
 
@@ -63,16 +63,6 @@
         --twoImages-width: 90vw;
         --first-image-height: 60vh;
         --second-image-height: 60vh;
-    }
-
-    &.twoSmall-first {
-        width: var(--twoImages-width);
-        height: var(--first-image-height);
-    }
-
-    &.twoSmall-second {
-        width: var(--twoImages-width);
-        height: var(--second-image-height);
     }
 
     &.container-twoSmall-placeholder {

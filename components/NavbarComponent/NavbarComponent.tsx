@@ -8,9 +8,7 @@ export default function NavbarComponent() {
         <section className={styles["container-section-navbar"]}>
             <div className={styles["wrapper-navbar"]}>
                 <div className={styles["fill-space"]} />
-                <Link
-                    // aria-label={`Ir a la página de inicio`}
-                    href={"/"} className={styles["navbar-title"]}>
+                <Link href={"/"} className={styles["navbar-title"]}>
                     {data.navbar.title}
                 </Link>
                 <IconComponent iconData={data.navbar.burgermenu} isAnchor={false} />

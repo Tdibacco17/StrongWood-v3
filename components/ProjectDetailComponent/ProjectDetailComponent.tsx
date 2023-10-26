@@ -2,10 +2,10 @@ import { useContext } from "react"
 import styles from "./ProjectDetailComponent.module.scss"
 import { ProductDetailContext } from "@/context/ProjectsContextProvider"
 import { ProjectsDataContextInterface, SelectedFilterInterface } from "@/types"
-import LongImgComponent from "../LongImgComponent/LongImgComponent"
 import TwoSmallImgComponent from "../TwoSmallImgComponent/TwoSmallImgComponent"
 import ImgPlaceholderComponent from "../ImgPlaceholderComponent/ImgPlaceholderComponent"
 import Link from "next/link"
+import PortraitImgComponent from "../PortraitImgComponent/PortraitImgComponent"
 
 export default function ProjectDetailComponent({ projectSlug }: { projectSlug: SelectedFilterInterface }) {
     const { projectData } = useContext(
@@ -17,20 +17,19 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
             {
                 !projectData ?
                     <>
-                        <ImgPlaceholderComponent sectionImg="long-first" />
+                        <ImgPlaceholderComponent sectionImg="portrait" />
                         <ImgPlaceholderComponent sectionImg="twoSmall" />
-                        <ImgPlaceholderComponent sectionImg="long-reduce" />
+                        <ImgPlaceholderComponent sectionImg="portrait-reduce" />
                     </>
                     :
                     <>
                         {
                             projectData.details.firstLongImg &&
-                            <LongImgComponent
+                            <PortraitImgComponent
                                 imageData={projectData.details.firstLongImg}
-                                projectTitle={projectData.title}
-                                projectSubtitle={projectData.subtitle}
                                 reduce={false}
-                            />
+                                projectData={projectData}
+                            /> 
                         }
                         {
                             projectData.details.twoSmallImg &&
@@ -39,9 +38,10 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                         }
                         {
                             projectData.details.reduceLongImg &&
-                            <LongImgComponent
+                            <PortraitImgComponent
                                 reduce={true}
                                 imageData={projectData.details.reduceLongImg}
+                                projectData={projectData}
                             />
                         }
                     </>

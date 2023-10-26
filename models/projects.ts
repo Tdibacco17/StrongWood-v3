@@ -3,15 +3,17 @@ import { ProjectDataInterface } from "@/types";
 export const projectsCategories = ["all", "kitchen", "bathroom", "closet", "local", "bedroom", "diningroom", "products"]
 
 export const projectsData: ProjectDataInterface = {
-    "cocina-nova": {
-        projectSlug: "cocina-nova",
-        title: "Serie Nova",
-        subtitle: "Cocina",
+    "casa-san-blas": {
+        projectSlug: "casa-san-blas",
+        title: "Casa San Blas",
+        subtitle: "Refacción cocina",
         image: {
             imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
             imgAlt: "Serie Nova",
             objPosition: "0% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
@@ -42,12 +44,14 @@ export const projectsData: ProjectDataInterface = {
     "cocina-new-york": {
         projectSlug: "cocina-new-york",
         title: "Serie New York",
-        subtitle: "Cocina",
+        subtitle: "Amueblamiento hogar",
         image: {
             imgSrc: "/assets/img/kitchen/newYork/Strong-142.webp",
             imgAlt: "Serie New York",
             objPosition: "50% 25%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/kitchen/newYork/Strong-142.webp",
@@ -84,6 +88,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Serie Premium",
             objPosition: "50% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
@@ -120,6 +126,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Serie Nordica",
             objPosition: "50% 55%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/kitchen/nordica/Strong-208.webp",
@@ -156,6 +164,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Serie Deluxe",
             objPosition: "80% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/kitchen/deluxe/Strong-cocina-000.webp",
@@ -175,6 +185,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Vajillero",
             objPosition: "50% 100%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-136.webp",
@@ -211,6 +223,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Recibidor",
             objPosition: "80% 40%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-247.webp",
@@ -247,6 +261,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Rack TV",
             objPosition: "30% 80%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-265.webp",
@@ -283,6 +299,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Mostrador",
             objPosition: "45% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/local/farinaMostrador/Strong-176.webp",
@@ -319,6 +337,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Estanteria",
             objPosition: "0% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/local/farinaEstanteria/Strong-162.webp",
@@ -355,6 +375,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Isla",
             objPosition: "30% 0%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/local/farinaIsla/Strong-183.webp",
@@ -391,6 +413,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Alacena colgante",
             objPosition: "40% 70%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-182.webp",
@@ -427,6 +451,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Recepción",
             objPosition: "50% 80%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/local/gorilaRecepcion/Strong-gorila1.webp",
@@ -458,6 +484,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Cajonera & escritorio",
             objPosition: "50% 80%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/local/timoEscritorio/Strong-timo3.webp",
@@ -489,6 +517,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Serie Nordico",
             objPosition: "50% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/bathroom/nordico/Strong-241.webp",
@@ -520,6 +550,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Serie New York",
             objPosition: "45% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/bathroom/newYork/Strong-300.webp",
@@ -556,6 +588,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Serie Escandinavo",
             objPosition: "50% 15%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/bathroom/escandinavo/Strong-127.webp",
@@ -587,6 +621,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Serie Deluxe",
             objPosition: "50% 90%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/closet/deluxe/Strong_7184.webp",
@@ -595,7 +631,7 @@ export const projectsData: ProjectDataInterface = {
             },
             twoSmallImg: [
                 {
-                    imgSrc:"/assets/img/closet/deluxe/Strong_7186.webp",
+                    imgSrc: "/assets/img/closet/deluxe/Strong_7186.webp",
                     imgAlt: "Serie Deluxe",
                     objPosition: "40% 90%"
                 },
@@ -618,6 +654,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Serie Nordico",
             objPosition: "0% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/closet/nordico/Strong-291.webp",
@@ -649,6 +687,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Serie Urbanwood",
             objPosition: "0% 40%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/closet/urbanwood/Strong-153.webp",
@@ -680,7 +720,9 @@ export const projectsData: ProjectDataInterface = {
     //         imgAlt: "vestidor-fusion",
     //         objPosition: "center center"
     //     },
-    //     details: {
+    // year: "2022",
+    // location: "Buenos Aires, Argentina",     
+    // details: {
     //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
@@ -699,6 +741,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Escritorio",
             objPosition: "15% 100%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/bedroom/escritorio/Strong-120.webp",
@@ -730,7 +774,9 @@ export const projectsData: ProjectDataInterface = {
     //         imgAlt: "cama-individual",
     //         objPosition: "center center"
     //     },
-    //     details: {
+    // year: "2022",
+    // location: "Buenos Aires, Argentina",     
+    // details: {
     //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
@@ -749,7 +795,9 @@ export const projectsData: ProjectDataInterface = {
     //         imgAlt: "cama-matrimonial",
     //         objPosition: "center center"
     //     },
-    //     details: {
+    // year: "2022",
+    // location: "Buenos Aires, Argentina",     
+    // details: {
     //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
@@ -768,7 +816,9 @@ export const projectsData: ProjectDataInterface = {
     //         imgAlt: "mesa-de-luz",
     //         objPosition: "center center"
     //     },
-    //     details: {
+    // year: "2022",
+    // location: "Buenos Aires, Argentina",     
+    // details: {
     //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
@@ -787,7 +837,9 @@ export const projectsData: ProjectDataInterface = {
     //         imgAlt: "comoda",
     //         objPosition: "center center"
     //     },
-    //     details: {
+    // year: "2022",
+    // location: "Buenos Aires, Argentina",     
+    // details: {
     //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
@@ -806,6 +858,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Estanteria Avila",
             objPosition: "0% 65%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/estanteriaAvila/Strong_Wood_IG-80.webp",
@@ -842,6 +896,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Maceta Aviñon",
             objPosition: "30% 100%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-47.webp",
@@ -878,6 +934,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Porta Vinos",
             objPosition: "50% 100%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-2.webp",
@@ -914,6 +972,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Estanteria Bath",
             objPosition: "70% 40%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-73.webp",
@@ -950,6 +1010,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Mesa Cracovia",
             objPosition: "50% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/mesaCracovia/Strong_Wood_IG-102.webp",
@@ -981,6 +1043,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Mesa ratona Edimburgo",
             objPosition: "50% 50%",
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/mesaRatonaEdimburgo/Strong-Wood-Set-17.webp",
@@ -1017,6 +1081,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Maceta Sintra",
             objPosition: "0% 65%",
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/macetaSintra/Strong_Wood_IG-43.webp",
@@ -1053,6 +1119,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Estanteria Siena",
             objPosition: "50% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-97.webp",
@@ -1089,7 +1157,9 @@ export const projectsData: ProjectDataInterface = {
     //         imgAlt: "estanteria-bergen",
     //         objPosition: "center center"
     //     },
-    //     details: {
+    // year: "2022",
+    // location: "Buenos Aires, Argentina",     
+    // details: {
     //         firstLongImg: {
     //             imgSrc: "/assets/img/homePage/banner/test.jpg",
     //             imgAlt: "Estanteria Bath",
@@ -1108,6 +1178,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Llavero Corfu",
             objPosition: "15% 70%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/llaveroCorfu/Strong_Wood_IG-20.webp",
@@ -1144,6 +1216,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Leñero",
             objPosition: "0% 85%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/leniero/Strong_Wood_IG-49.webp",
@@ -1175,6 +1249,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Rack TV Cordoba",
             objPosition: "10% 100%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/rackTvCordoba/Strong_Wood_IG-66.webp",
@@ -1211,6 +1287,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Toallero Matera",
             objPosition: "50% 80%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/toalleroMatera/Strong_Wood_IG-39.webp",
@@ -1247,6 +1325,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Toallero Cuenca",
             objPosition: "0% 0%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/toalleroCuenca/Strong_Wood_IG-12.webp",
@@ -1283,6 +1363,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Bodega Segovia",
             objPosition: "0% 70%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/bodegaSegovia/Strong_Wood_IG-57.webp",
@@ -1319,6 +1401,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Mesa de luz Roma",
             objPosition: "30% 0%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/mesaDeLuzRoma/Strong_Wood_IG-30.webp",
@@ -1355,6 +1439,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Escritorio Brujas",
             objPosition: "50% 20%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-90.webp",
@@ -1391,6 +1477,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Perchero Oporto",
             objPosition: "60% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/percheroOporto/Strong_Wood_IG-26.webp",
@@ -1422,6 +1510,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Recibidor Salamanca",
             objPosition: "40% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/recibidorSalamanca/Strong_Wood_IG-52.webp",
@@ -1458,6 +1548,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Tabla Asado",
             objPosition: "80% 50%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/tablaAsado/Strongwood_Tabla_parri-4.webp",
@@ -1494,6 +1586,8 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Soporte Auricular",
             objPosition: "90% 0%"
         },
+        year: "2022",
+        location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
                 imgSrc: "/assets/img/products/soporteAuricular/Strong_Wood_IG-93.webp",

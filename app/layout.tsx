@@ -2,6 +2,7 @@ import { myFont } from '@/models/localFont'
 import './globals.css'
 import type { Metadata } from 'next'
 import Head from 'next/head'
+import FooterComponent from '@/components/FooterComponent/FooterComponent'
 
 export const metadata: Metadata = {
   applicationName: 'StrongWood®',
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className={myFont.className}>
         <main id="top">
           {children}
+          <FooterComponent />
         </main>
       </body>
     </html>

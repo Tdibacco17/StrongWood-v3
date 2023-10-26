@@ -13,7 +13,6 @@ export interface IconInterface {
     stroke?: string
 }
 export interface ProjectsDataContextInterface {
-    // projectsData?: ProjectDataInterface;
     handleProjectDataChange?: Function;
     projectData?: ProjectInterface;
 }
@@ -25,6 +24,8 @@ export interface ProjectInterface {
     title: string;
     subtitle: string;
     image: ImgDataInterface;
+    year: string,
+    location:string,
     details: {
         firstLongImg?: ImgDataInterface;
         reduceLongImg?: ImgDataInterface;
@@ -35,9 +36,8 @@ export interface ProjectInterface {
     categories: SelectedFilterInterface[];
     urlSlug: SelectedFilterInterface
 }
-
 export type SelectedFilterInterface = "all" | "kitchen" | "bathroom" | "closet" | "bedroom" | "local" | "diningroom" |"products";
-export type ImgPlacheholderInterface = "long-first" | "long-reduce" | "twoSmall" | "twoSmall-first" | "twoSmall-second";
+export type ImgPlacheholderInterface = "portrait" | "portrait-reduce" | "twoSmall"
 export interface ProjectSelectorInterface {
     selectorTitle: string;
     selectorFilter: string;
