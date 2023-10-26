@@ -16,5 +16,5 @@ export default function ProjectDetailContainer({ params, projectSlug }: { params
                 handleProjectDataChange(projectsData[params.slug]);
         }
     }, [params.slug]);
-    return <ProjectDetailComponent />
+    return <ProjectDetailComponent projectSlug={projectSlug} />
 }

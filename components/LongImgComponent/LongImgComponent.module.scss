@@ -54,17 +54,16 @@
         justify-content: center;
         align-items: flex-end;
         background: var(--bg-overlay);
+        color: var(--primary-white);
 
         .wrapper-overlay {
             width: var(--max-width);
 
             .title-title {
-                color: var(--primary-white);
                 font-size: var(--font-30);
             }
 
             .title-subtitle {
-                color: var(--primary-white);
                 font-size: var(--font-16);
             }
         }

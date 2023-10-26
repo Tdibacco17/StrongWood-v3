@@ -22,6 +22,7 @@ export default function ColumnCardComponent({ imageData, index }: { imageData: I
                     style={{ objectPosition: imageData.objPosition, opacity: imageLoaded ? "1" : "0" }}
                     className={`${styles["container-inner-image"]}`}
                     onLoadingComplete={() => { setImageLoaded(true) }}
+                    sizes="(max-width: 992px) 20rem, (max-width: 768px) 90vw, 100vw"
                 />
             </div>
         </>

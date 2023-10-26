@@ -3,11 +3,28 @@
     flex-direction: column;
     align-items: center;
     gap: 12rem;
-    padding-bottom: 12rem;
     padding-top: 5rem;
+
+    .container-title-back {
+        width: var(--max-width);
+
+        .title-back {
+            cursor: pointer;
+            color: var(--primary-gray);
+            height: 1rem;
+            transition: var(--transition);
+            font-size: var(--font-14);
+            text-align: left;
+
+            &:hover {
+                color: var(--primary-black);
+                border-bottom: 1px solid var(--primary-black);
+                transition: var(--transition);
+            }
+        }
+    }
 
     @media (max-width:1200px) {
         gap: 8rem;
-        padding-bottom: 8rem;
     }
 }

@@ -1,22 +1,13 @@
-.container-section-projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 3rem;
-    width: 100%;
+.container-projects-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.75rem;
+    row-gap: 3.75rem;
+    min-width: var(--max-width);
+    width: var(--max-width);
+    padding-bottom: 5rem;
 
-    .container-projects-cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2.75rem;
-        row-gap: 3.75rem;
-        min-width: var(--max-width);
-        width: var(--max-width);
-        padding-bottom: 5rem;
-
-        @media (max-width:768px) {
-            grid-template-columns: repeat(1, 1fr);
-        }
+    @media (max-width:768px) {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
