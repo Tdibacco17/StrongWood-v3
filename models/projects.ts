@@ -3,37 +3,37 @@ import { ProjectDataInterface } from "@/types";
 export const projectsCategories = ["all", "kitchen", "bathroom", "closet", "local", "bedroom", "diningroom", "products"]
 
 export const projectsData: ProjectDataInterface = {
-    "cocina-premium": {
-        projectSlug: "cocina-premium",
-        title: "Serie Premium",
+    "cocina-nova": {
+        projectSlug: "cocina-nova",
+        title: "Serie Nova",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
-            imgAlt: "Serie Premium",
-            objPosition: "50% 50%"
+            imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
+            imgAlt: "Serie Nova",
+            objPosition: "0% 50%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
-                imgAlt: "Serie Premium",
-                objPosition: "50% 55%"
+                imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
+                imgAlt: "Serie Nova",
+                objPosition: "50% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/kitchen/premium/Strong-272.webp",
-                    imgAlt: "Serie Premium",
-                    objPosition: "50% 0%",
+                    imgSrc: "/assets/img/kitchen/nova/STRONG-28.webp",
+                    imgAlt: "Serie Nova",
+                    objPosition: "35% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/kitchen/premium/Strong-275.webp",
-                    imgAlt: "Serie Premium",
-                    objPosition: "25% 35%",
+                    imgSrc: "/assets/img/kitchen/nova/STRONG-11.webp",
+                    imgAlt: "Serie Nova",
+                    objPosition: "50% 0%"
                 }
             ],
             reduceLongImg: {
-                imgSrc: "/assets/img/kitchen/premium/Strong-284.webp",
-                imgAlt: "Serie Premium",
-                objPosition: "30% 40%",
+                imgSrc: "/assets/img/kitchen/nova/STRONG-16.webp",
+                imgAlt: "Serie Nova",
+                objPosition: "40% 60%"
             }
         },
         categories: ["all", "kitchen"],
@@ -75,6 +75,42 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
     },
+    "cocina-premium": {
+        projectSlug: "cocina-premium",
+        title: "Serie Premium",
+        subtitle: "Cocina",
+        image: {
+            imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
+            imgAlt: "Serie Premium",
+            objPosition: "50% 50%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
+                imgAlt: "Serie Premium",
+                objPosition: "50% 55%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/kitchen/premium/Strong-272.webp",
+                    imgAlt: "Serie Premium",
+                    objPosition: "50% 0%",
+                },
+                {
+                    imgSrc: "/assets/img/kitchen/premium/Strong-275.webp",
+                    imgAlt: "Serie Premium",
+                    objPosition: "25% 35%",
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/kitchen/premium/Strong-284.webp",
+                imgAlt: "Serie Premium",
+                objPosition: "30% 40%",
+            }
+        },
+        categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
+    },
     "cocina-nordica": {
         projectSlug: "cocina-nordica",
         title: "Serie Nordica",
@@ -107,25 +143,6 @@ export const projectsData: ProjectDataInterface = {
                 imgAlt: "Serie Nordica",
                 objPosition: "50% 55%"
             }
-        },
-        categories: ["all", "kitchen"],
-        urlSlug: "kitchen"
-    },
-    "cocina-nova": {
-        projectSlug: "cocina-nova",
-        title: "Serie Nova",
-        subtitle: "Cocina",
-        image: {
-            imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
-            imgAlt: "Serie Nova",
-            objPosition: "0% 50%"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
-                imgAlt: "Serie Nova",
-                objPosition: "50% 50%"
-            },
         },
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
@@ -401,6 +418,68 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "local"],
         urlSlug: "local"
     },
+    "gorila-recepcion": {
+        projectSlug: "gorila-recepcion",
+        title: "Recepción",
+        subtitle: "Gorilla Fitness",
+        image: {
+            imgSrc: "/assets/img/local/gorilaRecepcion/Strong-gorila1.webp",
+            imgAlt: "Recepción",
+            objPosition: "50% 80%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/local/gorilaRecepcion/Strong-gorila1.webp",
+                imgAlt: "Recepción",
+                objPosition: "40% 60%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/local/gorilaRecepcion/Strong-gorila2.webp",
+                    imgAlt: "Recepción",
+                    objPosition: "50% 25%"
+                },
+                {
+                    imgSrc: "/assets/img/local/gorilaRecepcion/Strong-gorila3.webp",
+                    imgAlt: "Recepción",
+                    objPosition: "50% 85%"
+                }
+            ],
+        },
+        categories: ["all", "local"],
+        urlSlug: "local"
+    },
+    "timo-cajonera-escritorio": {
+        projectSlug: "timo-cajonera-escritorio",
+        title: "Cajonera & escritorio",
+        subtitle: "Timo Online",
+        image: {
+            imgSrc: "/assets/img/local/timoEscritorio/Strong-timo3.webp",
+            imgAlt: "Cajonera & escritorio",
+            objPosition: "50% 80%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/local/timoEscritorio/Strong-timo3.webp",
+                imgAlt: "Cajonera & escritorio",
+                objPosition: "40% 80%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/local/timoEscritorio/Strong-timo1.webp",
+                    imgAlt: "Cajonera & escritorio",
+                    objPosition: "50% 80%"
+                },
+                {
+                    imgSrc: "/assets/img/local/timoEscritorio/Strong-timo2.webp",
+                    imgAlt: "Cajonera & escritorio",
+                    objPosition: "50% 80%"
+                }
+            ],
+        },
+        categories: ["all", "local"],
+        urlSlug: "local"
+    },
     "vanitory-nordico": {
         projectSlug: "vanitory-nordico",
         title: "Serie Nordico",
@@ -499,6 +578,37 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "bathroom"],
         urlSlug: "bathroom"
     },
+    "vestidor-deluxe": {
+        projectSlug: "vestidor-deluxe",
+        title: "Serie Deluxe",
+        subtitle: "Vestidor",
+        image: {
+            imgSrc: "/assets/img/closet/deluxe/Strong_7184.webp",
+            imgAlt: "Serie Deluxe",
+            objPosition: "50% 90%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/closet/deluxe/Strong_7184.webp",
+                imgAlt: "Serie Deluxe",
+                objPosition: "50% 100%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc:"/assets/img/closet/deluxe/Strong_7186.webp",
+                    imgAlt: "Serie Deluxe",
+                    objPosition: "40% 90%"
+                },
+                {
+                    imgSrc: "/assets/img/closet/deluxe/Strong_7185.webp",
+                    imgAlt: "Serie Deluxe",
+                    objPosition: "50% 95%"
+                }
+            ],
+        },
+        categories: ["all", "closet"],
+        urlSlug: "closet"
+    },
     "vestidor-nordico": {
         projectSlug: "vestidor-nordico",
         title: "Serie Nordico",
@@ -561,25 +671,6 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "closet"],
         urlSlug: "closet"
     },
-    // "vestidor-deluxe": {
-    //     projectSlug: "vestidor-deluxe",
-    //     title: "Serie Deluxe",
-    //     subtitle: "Vestidor",
-    //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
-    //         imgAlt: "vestidor-deluxe",
-    //         objPosition: "center center"
-    //     },
-    //     details: {
-    //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
-    //             imgAlt: "vestidor-deluxe",
-    //             objPosition: "center center"
-    //         },
-    //     },
-    //     categories: ["all", "closet"],
-    //     urlSlug: "closet"
-    // },
     // "vestidor-fusion": {
     //     projectSlug: "vestidor-fusion",
     //     title: "Serie Fusión",
