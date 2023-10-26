@@ -68,6 +68,10 @@
                 "selectorTitle": "Dormitorio",
                 "selectorFilter": "bedroom"
             },
+            "diningroom":{
+                "selectorTitle": "Comedor",
+                "selectorFilter": "diningroom" 
+            },
             "products": {
                 "selectorTitle": "Productos",
                 "selectorFilter": "products"

@@ -36,7 +36,7 @@ export interface ProjectInterface {
     urlSlug: SelectedFilterInterface
 }
 
-export type SelectedFilterInterface = "all" | "kitchen" | "bathroom" | "closet" | "bedroom" | "local" | "products";
+export type SelectedFilterInterface = "all" | "kitchen" | "bathroom" | "closet" | "bedroom" | "local" | "diningroom" |"products";
 export type ImgPlacheholderInterface = "long-first" | "long-reduce" | "twoSmall" | "twoSmall-first" | "twoSmall-second";
 export interface ProjectSelectorInterface {
     selectorTitle: string;

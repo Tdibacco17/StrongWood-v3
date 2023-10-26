@@ -1,6 +1,6 @@
 import { ProjectDataInterface } from "@/types";
 
-export const projectsCategories = ["all", "kitchen", "bathroom", "closet", "local", "bedroom", "products"]
+export const projectsCategories = ["all", "kitchen", "bathroom", "closet", "local", "bedroom", "diningroom", "products"]
 
 export const projectsData: ProjectDataInterface = {
     "cocina-premium": {
@@ -151,75 +151,255 @@ export const projectsData: ProjectDataInterface = {
     },
     "vajillero-london": {
         projectSlug: "vajillero-london",
-        title: "Serie London",
-        subtitle: "Vajillero",
+        title: "Vajillero",
+        subtitle: "Serie London",
         image: {
-            imgSrc: "/assets/img/kitchen/london/Strong-136.webp",
-            imgAlt: "Serie London",
+            imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-136.webp",
+            imgAlt: "Vajillero",
             objPosition: "50% 100%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/kitchen/london/Strong-136.webp",
-                imgAlt: "Serie London",
+                imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-136.webp",
+                imgAlt: "Vajillero",
                 objPosition: "50% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/kitchen/london/Strong-133.webp",
-                    imgAlt: "Serie London",
+                    imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-133.webp",
+                    imgAlt: "Vajillero",
                     objPosition: "100% 0%",
                 },
                 {
-                    imgSrc: "/assets/img/kitchen/london/Strong-134.webp",
-                    imgAlt: "Serie London",
+                    imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-134.webp",
+                    imgAlt: "Vajillero",
                     objPosition: "50% 50%",
                 }
             ],
             reduceLongImg: {
-                imgSrc: "/assets/img/kitchen/london/Strong-139.webp",
-                imgAlt: "Serie London",
+                imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-139.webp",
+                imgAlt: "Vajillero",
                 objPosition: "50% 35%",
             }
         },
-        categories: ["all", "kitchen"],
-        urlSlug: "kitchen"
+        categories: ["all", "diningroom"],
+        urlSlug: "diningroom"
     },
-    "local-farina-mostrador": {
-        projectSlug: "local-farina-mostrador",
+    "recibidor-london": {
+        projectSlug: "recibidor-london",
+        title: "Recibidor",
+        subtitle: "Serie London",
+        image: {
+            imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-247.webp",
+            imgAlt: "Recibidor",
+            objPosition: "80% 40%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-247.webp",
+                imgAlt: "Recibidor",
+                objPosition: "55% 100%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-252.webp",
+                    imgAlt: "Recibidor",
+                    objPosition: "80% 0%",
+                },
+                {
+                    imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-246.webp",
+                    imgAlt: "Recibidor",
+                    objPosition: "45% 50%",
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-250.webp",
+                imgAlt: "Recibidor",
+                objPosition: "0% 50%",
+            }
+        },
+        categories: ["all", "diningroom"],
+        urlSlug: "diningroom"
+    },
+    "rack-tv-london": {
+        projectSlug: "rack-tv-london",
+        title: "Rack TV",
+        subtitle: "Serie London",
+        image: {
+            imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-265.webp",
+            imgAlt: "Rack TV",
+            objPosition: "30% 80%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-265.webp",
+                imgAlt: "Rack TV",
+                objPosition: "30% 50%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-259.webp",
+                    imgAlt: "Rack TV",
+                    objPosition: "0% 50%",
+                },
+                {
+                    imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-258.webp",
+                    imgAlt: "Rack TV",
+                    objPosition: "0% 50%",
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-255.webp",
+                imgAlt: "Rack TV",
+                objPosition: "40% 100%",
+            }
+        },
+        categories: ["all", "diningroom"],
+        urlSlug: "diningroom"
+    },
+    "farina-mostrador": {
+        projectSlug: "farina-mostrador",
         title: "Mostrador",
         subtitle: "Farina & Pane",
         image: {
-            imgSrc: "/assets/img/local/Strong-176.webp",
+            imgSrc: "/assets/img/local/farinaMostrador/Strong-176.webp",
             imgAlt: "Mostrador",
             objPosition: "45% 50%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/local/Strong-176.webp",
+                imgSrc: "/assets/img/local/farinaMostrador/Strong-176.webp",
                 imgAlt: "Mostrador",
                 objPosition: "50% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/local/Strong-170.webp",
+                    imgSrc: "/assets/img/local/farinaMostrador/Strong-170.webp",
                     imgAlt: "Mostrador",
                     objPosition: "30% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/local/Strong-175.webp",
+                    imgSrc: "/assets/img/local/farinaMostrador/Strong-175.webp",
                     imgAlt: "Mostrador",
                     objPosition: "60% 50%"
                 }
             ],
             reduceLongImg: {
-                imgSrc: "/assets/img/local/Strong-174.webp",
+                imgSrc: "/assets/img/local/farinaMostrador/Strong-174.webp",
                 imgAlt: "Mostrador",
                 objPosition: "60% 65%",
             }
         },
         categories: ["all", "local"],
-        urlSlug: "products"
+        urlSlug: "local"
+    },
+    "farina-estanteria": {
+        projectSlug: "farina-estanteria",
+        title: "Estanteria",
+        subtitle: "Farina & Pane",
+        image: {
+            imgSrc: "/assets/img/local/farinaEstanteria/Strong-162.webp",
+            imgAlt: "Estanteria",
+            objPosition: "0% 50%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/local/farinaEstanteria/Strong-162.webp",
+                imgAlt: "Estanteria",
+                objPosition: "25% 100%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/local/farinaEstanteria/Strong-165.webp",
+                    imgAlt: "Estanteria",
+                    objPosition: "15% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/local/farinaEstanteria/Strong-157.webp",
+                    imgAlt: "Estanteria",
+                    objPosition: "50% 0%"
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/local/farinaEstanteria/Strong-167.webp",
+                imgAlt: "Estanteria",
+                objPosition: "50% 60%",
+            }
+        },
+        categories: ["all", "local"],
+        urlSlug: "local"
+    },
+    "farina-isla": {
+        projectSlug: "farina-isla",
+        title: "Isla",
+        subtitle: "Farina & Pane",
+        image: {
+            imgSrc: "/assets/img/local/farinaIsla/Strong-183.webp",
+            imgAlt: "Isla",
+            objPosition: "30% 0%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/local/farinaIsla/Strong-183.webp",
+                imgAlt: "Isla",
+                objPosition: "30% 0%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/local/farinaIsla/Strong-185.webp",
+                    imgAlt: "Isla",
+                    objPosition: "35% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/local/farinaIsla/Strong-178.webp",
+                    imgAlt: "Isla",
+                    objPosition: "65% 100%"
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/local/farinaIsla/Strong-203.webp",
+                imgAlt: "Isla",
+                objPosition: "30% 0%",
+            }
+        },
+        categories: ["all", "local"],
+        urlSlug: "local"
+    },
+    "farina-alacena-colgante": {
+        projectSlug: "farina-alacena-colgante",
+        title: "Alacena colgante",
+        subtitle: "Farina & Pane",
+        image: {
+            imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-182.webp",
+            imgAlt: "Alacena colgante",
+            objPosition: "40% 70%"
+        },
+        details: {
+            firstLongImg: {
+                imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-182.webp",
+                imgAlt: "Alacena colgante",
+                objPosition: "30% 100%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-178.webp",
+                    imgAlt: "Alacena colgante",
+                    objPosition: "40% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-187.webp",
+                    imgAlt: "Alacena colgante",
+                    objPosition: "50% 0%"
+                }
+            ],
+            reduceLongImg: {
+                imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-181.webp",
+                imgAlt: "Alacena colgante",
+                objPosition: "70% 100%",
+            }
+        },
+        categories: ["all", "local"],
+        urlSlug: "local"
     },
     "vanitory-nordico": {
         projectSlug: "vanitory-nordico",
@@ -381,139 +561,151 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "closet"],
         urlSlug: "closet"
     },
-    "vestidor-deluxe": {
-        projectSlug: "vestidor-deluxe",
-        title: "Serie Deluxe",
-        subtitle: "Vestidor",
-        image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "vestidor-deluxe",
-            objPosition: "center center"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "vestidor-deluxe",
-                objPosition: "center center"
-            },
-        },
-        categories: ["all", "closet"],
-        urlSlug: "closet"
-    },
-    "vestidor-fusion": {
-        projectSlug: "vestidor-fusion",
-        title: "Serie Fusión",
-        subtitle: "Vestidor",
-        image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "vestidor-fusion",
-            objPosition: "center center"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
-            },
-        },
-        categories: ["all", "closet"],
-        urlSlug: "closet"
-    },
-    "cama-individual": {
-        projectSlug: "cama-individual",
-        title: "Cama Individual",
-        subtitle: "Cama",
-        image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "cama-individual",
-            objPosition: "center center"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
-            },
-        },
-        categories: ["all", "bedroom"],
-        urlSlug: "bedroom"
-    },
-    "cama-matrimonial": {
-        projectSlug: "cama-matrimonial",
-        title: "Cama Matrimonial",
-        subtitle: "Cama",
-        image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "cama-matrimonial",
-            objPosition: "center center"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
-            },
-        },
-        categories: ["all", "bedroom"],
-        urlSlug: "bedroom"
-    },
-    "mesa-de-luz": {
-        projectSlug: "mesa-de-luz",
-        title: "Mesa de Luz",
-        subtitle: "Mesa de Luz",
-        image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "mesa-de-luz",
-            objPosition: "center center"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
-            },
-        },
-        categories: ["all", "bedroom"],
-        urlSlug: "bedroom"
-    },
-    "comoda": {
-        projectSlug: "comoda",
-        title: "Comoda",
-        subtitle: "Comoda",
-        image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "comoda",
-            objPosition: "center center"
-        },
-        details: {
-            firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
-            },
-        },
-        categories: ["all", "bedroom"],
-        urlSlug: "bedroom"
-    },
+    // "vestidor-deluxe": {
+    //     projectSlug: "vestidor-deluxe",
+    //     title: "Serie Deluxe",
+    //     subtitle: "Vestidor",
+    //     image: {
+    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgAlt: "vestidor-deluxe",
+    //         objPosition: "center center"
+    //     },
+    //     details: {
+    //         firstLongImg: {
+    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgAlt: "vestidor-deluxe",
+    //             objPosition: "center center"
+    //         },
+    //     },
+    //     categories: ["all", "closet"],
+    //     urlSlug: "closet"
+    // },
+    // "vestidor-fusion": {
+    //     projectSlug: "vestidor-fusion",
+    //     title: "Serie Fusión",
+    //     subtitle: "Vestidor",
+    //     image: {
+    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgAlt: "vestidor-fusion",
+    //         objPosition: "center center"
+    //     },
+    //     details: {
+    //         firstLongImg: {
+    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgAlt: "cocina-nordica",
+    //             objPosition: "center center"
+    //         },
+    //     },
+    //     categories: ["all", "closet"],
+    //     urlSlug: "closet"
+    // },
     "escritorio": {
         projectSlug: "escritorio",
         title: "Escritorio",
         subtitle: "Escritorio",
         image: {
-            imgSrc: "/assets/img/homePage/banner/test.jpg",
-            imgAlt: "escritorio",
-            objPosition: "center center"
+            imgSrc: "/assets/img/bedroom/escritorio/Strong-120.webp",
+            imgAlt: "Escritorio",
+            objPosition: "15% 100%"
         },
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/homePage/banner/test.jpg",
-                imgAlt: "cocina-nordica",
-                objPosition: "center center"
+                imgSrc: "/assets/img/bedroom/escritorio/Strong-120.webp",
+                imgAlt: "Escritorio",
+                objPosition: "15% 100%"
             },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/bedroom/escritorio/Strong-123.webp",
+                    imgAlt: "Escritorio",
+                    objPosition: "50% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/bedroom/escritorio/Strong-119.webp",
+                    imgAlt: "Escritorio",
+                    objPosition: "40% 50%"
+                }
+            ],
         },
-        categories: ["all", "bedroom"],
+        categories: ["all", "bedroom", "diningroom"],
         urlSlug: "bedroom"
     },
+    // "cama-individual": {
+    //     projectSlug: "cama-individual",
+    //     title: "Cama Individual",
+    //     subtitle: "Cama",
+    //     image: {
+    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgAlt: "cama-individual",
+    //         objPosition: "center center"
+    //     },
+    //     details: {
+    //         firstLongImg: {
+    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgAlt: "cocina-nordica",
+    //             objPosition: "center center"
+    //         },
+    //     },
+    //     categories: ["all", "bedroom"],
+    //     urlSlug: "bedroom"
+    // },
+    // "cama-matrimonial": {
+    //     projectSlug: "cama-matrimonial",
+    //     title: "Cama Matrimonial",
+    //     subtitle: "Cama",
+    //     image: {
+    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgAlt: "cama-matrimonial",
+    //         objPosition: "center center"
+    //     },
+    //     details: {
+    //         firstLongImg: {
+    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgAlt: "cocina-nordica",
+    //             objPosition: "center center"
+    //         },
+    //     },
+    //     categories: ["all", "bedroom"],
+    //     urlSlug: "bedroom"
+    // },
+    // "mesa-de-luz": {
+    //     projectSlug: "mesa-de-luz",
+    //     title: "Mesa de Luz",
+    //     subtitle: "Mesa de Luz",
+    //     image: {
+    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgAlt: "mesa-de-luz",
+    //         objPosition: "center center"
+    //     },
+    //     details: {
+    //         firstLongImg: {
+    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgAlt: "cocina-nordica",
+    //             objPosition: "center center"
+    //         },
+    //     },
+    //     categories: ["all", "bedroom"],
+    //     urlSlug: "bedroom"
+    // },
+    // "comoda": {
+    //     projectSlug: "comoda",
+    //     title: "Comoda",
+    //     subtitle: "Comoda",
+    //     image: {
+    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgAlt: "comoda",
+    //         objPosition: "center center"
+    //     },
+    //     details: {
+    //         firstLongImg: {
+    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgAlt: "cocina-nordica",
+    //             objPosition: "center center"
+    //         },
+    //     },
+    //     categories: ["all", "bedroom"],
+    //     urlSlug: "bedroom"
+    // },
     "estanteria-avila": {
         projectSlug: "estanteria-avila",
         title: "Estanteria Avila",

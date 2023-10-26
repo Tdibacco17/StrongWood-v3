@@ -18,6 +18,7 @@ export default function ColumnCardComponent({ imageData, index }: { imageData: I
                     src={imageData.imgSrc}
                     alt={imageData.imgAlt}
                     fill
+                    priority
                     style={{ objectPosition: imageData.objPosition, opacity: imageLoaded ? "1" : "0" }}
                     className={`${styles["container-inner-image"]}`}
                     onLoadingComplete={() => { setImageLoaded(true) }}
