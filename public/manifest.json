@@ -13,5 +13,9 @@
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#000000",
-    "background_color": "#ffffff"
+    "background_color": "#ffffff",
+    "author": {
+        "name": "Tomás Di Bacco",
+        "url": "https://www.linkedin.com/in/tomas-di-bacco/"
+    }
 }
