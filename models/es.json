@@ -14,8 +14,6 @@
     },
     "homePage": {
         "portrait": {
-            "title": "Buscamos que el habitar,",
-            "subtitle": "sea una cálida experiencia.",
             "image": {
                 "imgSrc": "/assets/img/homePage/banner/test.jpg",
                 "imgAlt": "banner image",
@@ -30,14 +28,6 @@
             {
                 "title": "Contacto",
                 "href": "/contact"
-            },
-            {
-                "title": "Nosotros",
-                "href": "/about"
-            },
-            {
-                "title": "Preguntas frecuentes",
-                "href": "/faq"
             }
         ]
     },
@@ -83,7 +73,6 @@
     },
     "footer": {
         "company": "© 2023 StrongWood - Todos los derechos reservados",
-        "politic": "Politica y privacidad",
         "scrollTo": "Ir arriba",
         "networks": {
             "instagram": {

@@ -45,7 +45,7 @@ export type SelectedFilterInterface =
     | "local"
     | "diningroom"
     | "products";
-    
+
 export type ImgPlacheholderInterface = "portrait" | "rectangle" | "twoSmall"
 
 export interface ProjectSelectorInterface {

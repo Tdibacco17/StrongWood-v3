@@ -8,7 +8,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Casa San Blas",
         subtitle: "Refacción cocina",
         image: {
-            imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
+            imgSrc: "/assets/img/projectsPage/kitchen/nova/Strong-cocina-003.webp",
             imgAlt: "Serie Nova",
             objPosition: "0% 50%"
         },
@@ -16,24 +16,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/kitchen/nova/Strong-cocina-003.webp",
+                imgSrc: "/assets/img/projectsPage/kitchen/nova/Strong-cocina-003.webp",
                 imgAlt: "Serie Nova",
                 objPosition: "50% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/kitchen/nova/STRONG-28.webp",
+                    imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-28.webp",
                     imgAlt: "Serie Nova",
                     objPosition: "35% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/kitchen/nova/STRONG-11.webp",
+                    imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-11.webp",
                     imgAlt: "Serie Nova",
                     objPosition: "50% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/kitchen/nova/STRONG-16.webp",
+                imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-16.webp",
                 imgAlt: "Serie Nova",
                 objPosition: "40% 60%"
             }
@@ -46,7 +46,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie New York",
         subtitle: "Amueblamiento hogar",
         image: {
-            imgSrc: "/assets/img/kitchen/newYork/Strong-142.webp",
+            imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-142.webp",
             imgAlt: "Serie New York",
             objPosition: "50% 25%"
         },
@@ -54,24 +54,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/kitchen/newYork/Strong-142.webp",
+                imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-142.webp",
                 imgAlt: "Serie New York",
                 objPosition: "20% 40%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/kitchen/newYork/Strong-149.webp",
+                    imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-149.webp",
                     imgAlt: "Serie New York",
                     objPosition: "55% 50%",
                 },
                 {
-                    imgSrc: "/assets/img/kitchen/newYork/Strong-140.webp",
+                    imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-140.webp",
                     imgAlt: "Serie New York",
                     objPosition: "25% 35%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/kitchen/newYork/Strong-146.webp",
+                imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-146.webp",
                 imgAlt: "Serie New York",
                 objPosition: "30% 40%",
             }
@@ -84,7 +84,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Premium",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
+            imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-266.webp",
             imgAlt: "Serie Premium",
             objPosition: "50% 50%"
         },
@@ -92,24 +92,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/kitchen/premium/Strong-266.webp",
+                imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-266.webp",
                 imgAlt: "Serie Premium",
                 objPosition: "50% 55%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/kitchen/premium/Strong-272.webp",
+                    imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-272.webp",
                     imgAlt: "Serie Premium",
                     objPosition: "50% 0%",
                 },
                 {
-                    imgSrc: "/assets/img/kitchen/premium/Strong-275.webp",
+                    imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-275.webp",
                     imgAlt: "Serie Premium",
                     objPosition: "25% 35%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/kitchen/premium/Strong-284.webp",
+                imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-284.webp",
                 imgAlt: "Serie Premium",
                 objPosition: "30% 40%",
             }
@@ -122,7 +122,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Nordica",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/kitchen/nordica/Strong-208.webp",
+            imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-208.webp",
             imgAlt: "Serie Nordica",
             objPosition: "50% 55%"
         },
@@ -130,24 +130,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/kitchen/nordica/Strong-208.webp",
+                imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-208.webp",
                 imgAlt: "Serie Nordica",
                 objPosition: "50% 80%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/kitchen/nordica/Strong-225.webp",
+                    imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-225.webp",
                     imgAlt: "Serie Nordica",
                     objPosition: "40% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/kitchen/nordica/Strong-234.webp",
+                    imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-234.webp",
                     imgAlt: "Serie Nordica",
                     objPosition: "60% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/kitchen/nordica/Strong-239.webp",
+                imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-239.webp",
                 imgAlt: "Serie Nordica",
                 objPosition: "50% 55%"
             }
@@ -160,7 +160,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Deluxe",
         subtitle: "Cocina",
         image: {
-            imgSrc: "/assets/img/kitchen/deluxe/Strong-cocina-000.webp",
+            imgSrc: "/assets/img/projectsPage/kitchen/deluxe/Strong-cocina-000.webp",
             imgAlt: "Serie Deluxe",
             objPosition: "80% 50%"
         },
@@ -168,7 +168,7 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/kitchen/deluxe/Strong-cocina-000.webp",
+                imgSrc: "/assets/img/projectsPage/kitchen/deluxe/Strong-cocina-000.webp",
                 imgAlt: "Serie Deluxe",
                 objPosition: "50% 70%"
             },
@@ -181,7 +181,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Vajillero",
         subtitle: "Serie London",
         image: {
-            imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-136.webp",
+            imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-136.webp",
             imgAlt: "Vajillero",
             objPosition: "50% 100%"
         },
@@ -189,24 +189,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-136.webp",
+                imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-136.webp",
                 imgAlt: "Vajillero",
                 objPosition: "50% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-133.webp",
+                    imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-133.webp",
                     imgAlt: "Vajillero",
                     objPosition: "100% 0%",
                 },
                 {
-                    imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-134.webp",
+                    imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-134.webp",
                     imgAlt: "Vajillero",
                     objPosition: "50% 50%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/diningroom/vajilleroLondon/Strong-139.webp",
+                imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-139.webp",
                 imgAlt: "Vajillero",
                 objPosition: "50% 35%",
             }
@@ -219,7 +219,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Recibidor",
         subtitle: "Serie London",
         image: {
-            imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-247.webp",
+            imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-247.webp",
             imgAlt: "Recibidor",
             objPosition: "80% 40%"
         },
@@ -227,24 +227,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-247.webp",
+                imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-247.webp",
                 imgAlt: "Recibidor",
                 objPosition: "55% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-252.webp",
+                    imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-252.webp",
                     imgAlt: "Recibidor",
                     objPosition: "80% 0%",
                 },
                 {
-                    imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-246.webp",
+                    imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-246.webp",
                     imgAlt: "Recibidor",
                     objPosition: "45% 50%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/diningroom/recibidorLondon/Strong-250.webp",
+                imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-250.webp",
                 imgAlt: "Recibidor",
                 objPosition: "0% 50%",
             }
@@ -257,7 +257,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Rack TV",
         subtitle: "Serie London",
         image: {
-            imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-265.webp",
+            imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-265.webp",
             imgAlt: "Rack TV",
             objPosition: "30% 80%"
         },
@@ -265,24 +265,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-265.webp",
+                imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-265.webp",
                 imgAlt: "Rack TV",
                 objPosition: "30% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-259.webp",
+                    imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-259.webp",
                     imgAlt: "Rack TV",
                     objPosition: "0% 50%",
                 },
                 {
-                    imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-258.webp",
+                    imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-258.webp",
                     imgAlt: "Rack TV",
                     objPosition: "0% 50%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/diningroom/rackTvLondon/Strong-255.webp",
+                imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-255.webp",
                 imgAlt: "Rack TV",
                 objPosition: "40% 100%",
             }
@@ -295,7 +295,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Mostrador",
         subtitle: "Farina & Pane",
         image: {
-            imgSrc: "/assets/img/local/farinaMostrador/Strong-176.webp",
+            imgSrc: "/assets/img/projectsPage/local/farinaMostrador/Strong-176.webp",
             imgAlt: "Mostrador",
             objPosition: "45% 50%"
         },
@@ -303,24 +303,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/local/farinaMostrador/Strong-176.webp",
+                imgSrc: "/assets/img/projectsPage/local/farinaMostrador/Strong-176.webp",
                 imgAlt: "Mostrador",
                 objPosition: "50% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/local/farinaMostrador/Strong-170.webp",
+                    imgSrc: "/assets/img/projectsPage/local/farinaMostrador/Strong-170.webp",
                     imgAlt: "Mostrador",
                     objPosition: "30% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/local/farinaMostrador/Strong-175.webp",
+                    imgSrc: "/assets/img/projectsPage/local/farinaMostrador/Strong-175.webp",
                     imgAlt: "Mostrador",
                     objPosition: "60% 50%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/local/farinaMostrador/Strong-174.webp",
+                imgSrc: "/assets/img/projectsPage/local/farinaMostrador/Strong-174.webp",
                 imgAlt: "Mostrador",
                 objPosition: "60% 65%",
             }
@@ -333,7 +333,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Estanteria",
         subtitle: "Farina & Pane",
         image: {
-            imgSrc: "/assets/img/local/farinaEstanteria/Strong-162.webp",
+            imgSrc: "/assets/img/projectsPage/local/farinaEstanteria/Strong-162.webp",
             imgAlt: "Estanteria",
             objPosition: "0% 50%"
         },
@@ -341,24 +341,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/local/farinaEstanteria/Strong-162.webp",
+                imgSrc: "/assets/img/projectsPage/local/farinaEstanteria/Strong-162.webp",
                 imgAlt: "Estanteria",
                 objPosition: "25% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/local/farinaEstanteria/Strong-165.webp",
+                    imgSrc: "/assets/img/projectsPage/local/farinaEstanteria/Strong-165.webp",
                     imgAlt: "Estanteria",
                     objPosition: "15% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/local/farinaEstanteria/Strong-157.webp",
+                    imgSrc: "/assets/img/projectsPage/local/farinaEstanteria/Strong-157.webp",
                     imgAlt: "Estanteria",
                     objPosition: "50% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/local/farinaEstanteria/Strong-167.webp",
+                imgSrc: "/assets/img/projectsPage/local/farinaEstanteria/Strong-167.webp",
                 imgAlt: "Estanteria",
                 objPosition: "50% 60%",
             }
@@ -371,7 +371,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Isla",
         subtitle: "Farina & Pane",
         image: {
-            imgSrc: "/assets/img/local/farinaIsla/Strong-183.webp",
+            imgSrc: "/assets/img/projectsPage/local/farinaIsla/Strong-183.webp",
             imgAlt: "Isla",
             objPosition: "30% 0%"
         },
@@ -379,24 +379,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/local/farinaIsla/Strong-183.webp",
+                imgSrc: "/assets/img/projectsPage/local/farinaIsla/Strong-183.webp",
                 imgAlt: "Isla",
                 objPosition: "30% 0%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/local/farinaIsla/Strong-185.webp",
+                    imgSrc: "/assets/img/projectsPage/local/farinaIsla/Strong-185.webp",
                     imgAlt: "Isla",
                     objPosition: "35% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/local/farinaIsla/Strong-178.webp",
+                    imgSrc: "/assets/img/projectsPage/local/farinaIsla/Strong-178.webp",
                     imgAlt: "Isla",
                     objPosition: "65% 100%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/local/farinaIsla/Strong-203.webp",
+                imgSrc: "/assets/img/projectsPage/local/farinaIsla/Strong-203.webp",
                 imgAlt: "Isla",
                 objPosition: "30% 0%",
             }
@@ -409,7 +409,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Alacena colgante",
         subtitle: "Farina & Pane",
         image: {
-            imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-182.webp",
+            imgSrc: "/assets/img/projectsPage/local/farinaAlacenaColgante/Strong-182.webp",
             imgAlt: "Alacena colgante",
             objPosition: "40% 70%"
         },
@@ -417,24 +417,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-182.webp",
+                imgSrc: "/assets/img/projectsPage/local/farinaAlacenaColgante/Strong-182.webp",
                 imgAlt: "Alacena colgante",
                 objPosition: "30% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-178.webp",
+                    imgSrc: "/assets/img/projectsPage/local/farinaAlacenaColgante/Strong-178.webp",
                     imgAlt: "Alacena colgante",
                     objPosition: "40% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-187.webp",
+                    imgSrc: "/assets/img/projectsPage/local/farinaAlacenaColgante/Strong-187.webp",
                     imgAlt: "Alacena colgante",
                     objPosition: "50% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/local/farinaAlacenaColgante/Strong-181.webp",
+                imgSrc: "/assets/img/projectsPage/local/farinaAlacenaColgante/Strong-181.webp",
                 imgAlt: "Alacena colgante",
                 objPosition: "70% 100%",
             }
@@ -447,7 +447,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Recepción",
         subtitle: "Gorilla Fitness",
         image: {
-            imgSrc: "/assets/img/local/gorilaRecepcion/Strong-gorila1.webp",
+            imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila1.webp",
             imgAlt: "Recepción",
             objPosition: "50% 80%"
         },
@@ -455,18 +455,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/local/gorilaRecepcion/Strong-gorila1.webp",
+                imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila1.webp",
                 imgAlt: "Recepción",
                 objPosition: "40% 60%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/local/gorilaRecepcion/Strong-gorila2.webp",
+                    imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila2.webp",
                     imgAlt: "Recepción",
                     objPosition: "50% 25%"
                 },
                 {
-                    imgSrc: "/assets/img/local/gorilaRecepcion/Strong-gorila3.webp",
+                    imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila3.webp",
                     imgAlt: "Recepción",
                     objPosition: "50% 85%"
                 }
@@ -480,7 +480,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Cajonera & escritorio",
         subtitle: "Timo Online",
         image: {
-            imgSrc: "/assets/img/local/timoEscritorio/Strong-timo3.webp",
+            imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
             imgAlt: "Cajonera & escritorio",
             objPosition: "50% 80%"
         },
@@ -488,18 +488,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/local/timoEscritorio/Strong-timo3.webp",
+                imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
                 imgAlt: "Cajonera & escritorio",
                 objPosition: "40% 80%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/local/timoEscritorio/Strong-timo1.webp",
+                    imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo1.webp",
                     imgAlt: "Cajonera & escritorio",
                     objPosition: "50% 80%"
                 },
                 {
-                    imgSrc: "/assets/img/local/timoEscritorio/Strong-timo2.webp",
+                    imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo2.webp",
                     imgAlt: "Cajonera & escritorio",
                     objPosition: "50% 80%"
                 }
@@ -513,7 +513,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Nordico",
         subtitle: "Vanitory",
         image: {
-            imgSrc: "/assets/img/bathroom/nordico/Strong-241.webp",
+            imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-241.webp",
             imgAlt: "Serie Nordico",
             objPosition: "50% 50%"
         },
@@ -521,18 +521,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/bathroom/nordico/Strong-241.webp",
+                imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-241.webp",
                 imgAlt: "Serie Nordico",
                 objPosition: "50% 60%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/bathroom/nordico/Strong-117.webp",
+                    imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-117.webp",
                     imgAlt: "Serie Nordico",
                     objPosition: "50% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/bathroom/nordico/Strong-242.webp",
+                    imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-242.webp",
                     imgAlt: "Serie Nordico",
                     objPosition: "80% 100%"
                 }
@@ -546,7 +546,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie New York",
         subtitle: "Vanitory",
         image: {
-            imgSrc: "/assets/img/bathroom/newYork/Strong-300.webp",
+            imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-300.webp",
             imgAlt: "Serie New York",
             objPosition: "45% 50%"
         },
@@ -554,24 +554,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/bathroom/newYork/Strong-300.webp",
+                imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-300.webp",
                 imgAlt: "Serie New York",
                 objPosition: "45% 0%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/bathroom/newYork/Strong-302.webp",
+                    imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-302.webp",
                     imgAlt: "Serie New York",
                     objPosition: "20% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/bathroom/newYork/Strong-299.webp",
+                    imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-299.webp",
                     imgAlt: "Serie New York",
                     objPosition: "50% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/bathroom/newYork/Strong-298.webp",
+                imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-298.webp",
                 imgAlt: "Serie New York",
                 objPosition: "50% 50%"
             }
@@ -584,7 +584,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Escandinavo",
         subtitle: "Vanitory",
         image: {
-            imgSrc: "/assets/img/bathroom/escandinavo/Strong-127.webp",
+            imgSrc: "/assets/img/projectsPage/bathroom/escandinavo/Strong-127.webp",
             imgAlt: "Serie Escandinavo",
             objPosition: "50% 15%"
         },
@@ -592,18 +592,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/bathroom/escandinavo/Strong-127.webp",
+                imgSrc: "/assets/img/projectsPage/bathroom/escandinavo/Strong-127.webp",
                 imgAlt: "Serie Escandinavo",
                 objPosition: "50% 35%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/bathroom/escandinavo/Strong-129.webp",
+                    imgSrc: "/assets/img/projectsPage/bathroom/escandinavo/Strong-129.webp",
                     imgAlt: "Serie Escandinavo",
                     objPosition: "50% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/bathroom/escandinavo/Strong-125.webp",
+                    imgSrc: "/assets/img/projectsPage/bathroom/escandinavo/Strong-125.webp",
                     imgAlt: "Serie Escandinavo",
                     objPosition: "50% 50%"
                 }
@@ -617,7 +617,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Deluxe",
         subtitle: "Vestidor",
         image: {
-            imgSrc: "/assets/img/closet/deluxe/Strong_7184.webp",
+            imgSrc: "/assets/img/projectsPage/closet/deluxe/Strong_7184.webp",
             imgAlt: "Serie Deluxe",
             objPosition: "50% 90%"
         },
@@ -625,18 +625,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/closet/deluxe/Strong_7184.webp",
+                imgSrc: "/assets/img/projectsPage/closet/deluxe/Strong_7184.webp",
                 imgAlt: "Serie Deluxe",
                 objPosition: "50% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/closet/deluxe/Strong_7186.webp",
+                    imgSrc: "/assets/img/projectsPage/closet/deluxe/Strong_7186.webp",
                     imgAlt: "Serie Deluxe",
                     objPosition: "40% 90%"
                 },
                 {
-                    imgSrc: "/assets/img/closet/deluxe/Strong_7185.webp",
+                    imgSrc: "/assets/img/projectsPage/closet/deluxe/Strong_7185.webp",
                     imgAlt: "Serie Deluxe",
                     objPosition: "50% 95%"
                 }
@@ -650,7 +650,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Nordico",
         subtitle: "Vestidor",
         image: {
-            imgSrc: "/assets/img/closet/nordico/Strong-291.webp",
+            imgSrc: "/assets/img/projectsPage/closet/nordico/Strong-291.webp",
             imgAlt: "Serie Nordico",
             objPosition: "0% 50%"
         },
@@ -658,18 +658,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/closet/nordico/Strong-291.webp",
+                imgSrc: "/assets/img/projectsPage/closet/nordico/Strong-291.webp",
                 imgAlt: "Serie Nordico",
                 objPosition: "40% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/closet/nordico/Strong-296.webp",
+                    imgSrc: "/assets/img/projectsPage/closet/nordico/Strong-296.webp",
                     imgAlt: "Serie Nordico",
                     objPosition: "50% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/closet/nordico/Strong-293.webp",
+                    imgSrc: "/assets/img/projectsPage/closet/nordico/Strong-293.webp",
                     imgAlt: "Serie Nordico",
                     objPosition: "100% 100%"
                 }
@@ -683,7 +683,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Serie Urbanwood",
         subtitle: "Placar",
         image: {
-            imgSrc: "/assets/img/closet/urbanwood/Strong-153.webp",
+            imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-153.webp",
             imgAlt: "Serie Urbanwood",
             objPosition: "0% 40%"
         },
@@ -691,18 +691,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/closet/urbanwood/Strong-153.webp",
+                imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-153.webp",
                 imgAlt: "Serie Urbanwood",
                 objPosition: "50% 90%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/closet/urbanwood/Strong-urbanwood.webp",
+                    imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-urbanwood.webp",
                     imgAlt: "Serie Urbanwood",
                     objPosition: "40% 100%"
                 },
                 {
-                    imgSrc: "/assets/img/closet/urbanwood/Strong-152.webp",
+                    imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-152.webp",
                     imgAlt: "Serie Urbanwood",
                     objPosition: "30% 50%"
                 }
@@ -716,7 +716,7 @@ export const projectsData: ProjectDataInterface = {
     //     title: "Serie Fusión",
     //     subtitle: "Vestidor",
     //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //         imgAlt: "vestidor-fusion",
     //         objPosition: "center center"
     //     },
@@ -724,7 +724,7 @@ export const projectsData: ProjectDataInterface = {
     // location: "Buenos Aires, Argentina",     
     // details: {
     //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
     //             objPosition: "center center"
     //         },
@@ -737,7 +737,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Escritorio",
         subtitle: "Escritorio",
         image: {
-            imgSrc: "/assets/img/bedroom/escritorio/Strong-120.webp",
+            imgSrc: "/assets/img/projectsPage/bedroom/escritorio/Strong-120.webp",
             imgAlt: "Escritorio",
             objPosition: "15% 100%"
         },
@@ -745,18 +745,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/bedroom/escritorio/Strong-120.webp",
+                imgSrc: "/assets/img/projectsPage/bedroom/escritorio/Strong-120.webp",
                 imgAlt: "Escritorio",
                 objPosition: "15% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/bedroom/escritorio/Strong-123.webp",
+                    imgSrc: "/assets/img/projectsPage/bedroom/escritorio/Strong-123.webp",
                     imgAlt: "Escritorio",
                     objPosition: "50% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/bedroom/escritorio/Strong-119.webp",
+                    imgSrc: "/assets/img/projectsPage/bedroom/escritorio/Strong-119.webp",
                     imgAlt: "Escritorio",
                     objPosition: "40% 50%"
                 }
@@ -770,7 +770,7 @@ export const projectsData: ProjectDataInterface = {
     //     title: "Cama Individual",
     //     subtitle: "Cama",
     //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //         imgAlt: "cama-individual",
     //         objPosition: "center center"
     //     },
@@ -778,7 +778,7 @@ export const projectsData: ProjectDataInterface = {
     // location: "Buenos Aires, Argentina",     
     // details: {
     //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
     //             objPosition: "center center"
     //         },
@@ -791,7 +791,7 @@ export const projectsData: ProjectDataInterface = {
     //     title: "Cama Matrimonial",
     //     subtitle: "Cama",
     //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //         imgAlt: "cama-matrimonial",
     //         objPosition: "center center"
     //     },
@@ -799,7 +799,7 @@ export const projectsData: ProjectDataInterface = {
     // location: "Buenos Aires, Argentina",     
     // details: {
     //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
     //             objPosition: "center center"
     //         },
@@ -812,7 +812,7 @@ export const projectsData: ProjectDataInterface = {
     //     title: "Mesa de Luz",
     //     subtitle: "Mesa de Luz",
     //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //         imgAlt: "mesa-de-luz",
     //         objPosition: "center center"
     //     },
@@ -820,7 +820,7 @@ export const projectsData: ProjectDataInterface = {
     // location: "Buenos Aires, Argentina",     
     // details: {
     //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
     //             objPosition: "center center"
     //         },
@@ -833,7 +833,7 @@ export const projectsData: ProjectDataInterface = {
     //     title: "Comoda",
     //     subtitle: "Comoda",
     //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //         imgAlt: "comoda",
     //         objPosition: "center center"
     //     },
@@ -841,7 +841,7 @@ export const projectsData: ProjectDataInterface = {
     // location: "Buenos Aires, Argentina",     
     // details: {
     //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //             imgAlt: "cocina-nordica",
     //             objPosition: "center center"
     //         },
@@ -854,7 +854,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Estanteria Avila",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/estanteriaAvila/Strong_Wood_IG-80.webp",
+            imgSrc: "/assets/img/projectsPage/products/estanteriaAvila/Strong_Wood_IG-80.webp",
             imgAlt: "Estanteria Avila",
             objPosition: "0% 65%"
         },
@@ -862,24 +862,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/estanteriaAvila/Strong_Wood_IG-80.webp",
+                imgSrc: "/assets/img/projectsPage/products/estanteriaAvila/Strong_Wood_IG-80.webp",
                 imgAlt: "Estanteria Avila",
                 objPosition: "20% 65%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/estanteriaAvila/Strong_Wood_IG-77.webp",
+                    imgSrc: "/assets/img/projectsPage/products/estanteriaAvila/Strong_Wood_IG-77.webp",
                     imgAlt: "Estanteria Avila",
                     objPosition: "0% 50%"
                 },
                 {
-                    imgSrc: "/assets/img/products/estanteriaAvila/Strong_Wood_IG-78.webp",
+                    imgSrc: "/assets/img/projectsPage/products/estanteriaAvila/Strong_Wood_IG-78.webp",
                     imgAlt: "Estanteria Avila",
                     objPosition: "60% 100%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/estanteriaAvila/Strong_Wood_IG-81.webp",
+                imgSrc: "/assets/img/projectsPage/products/estanteriaAvila/Strong_Wood_IG-81.webp",
                 imgAlt: "Estanteria Avila",
                 objPosition: "70% 100%"
             }
@@ -892,7 +892,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Maceta Aviñon",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-47.webp",
+            imgSrc: "/assets/img/projectsPage/products/macetaAvinon/Strong_Wood_IG-47.webp",
             imgAlt: "Maceta Aviñon",
             objPosition: "30% 100%"
         },
@@ -900,24 +900,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-47.webp",
+                imgSrc: "/assets/img/projectsPage/products/macetaAvinon/Strong_Wood_IG-47.webp",
                 imgAlt: "Maceta Aviñon",
                 objPosition: "35% 45%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-48.webp",
+                    imgSrc: "/assets/img/projectsPage/products/macetaAvinon/Strong_Wood_IG-48.webp",
                     imgAlt: "Maceta Aviñon",
                     objPosition: "30% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-46.webp",
+                    imgSrc: "/assets/img/projectsPage/products/macetaAvinon/Strong_Wood_IG-46.webp",
                     imgAlt: "Maceta Aviñon",
                     objPosition: "0% 100%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/macetaAvinon/Strong_Wood_IG-45.webp",
+                imgSrc: "/assets/img/projectsPage/products/macetaAvinon/Strong_Wood_IG-45.webp",
                 imgAlt: "Maceta Aviñon",
                 objPosition: "30% 73%"
             },
@@ -930,7 +930,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Porta Vinos",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-2.webp",
+            imgSrc: "/assets/img/projectsPage/products/portaVinos/Strong_Wood_IG-2.webp",
             imgAlt: "Porta Vinos",
             objPosition: "50% 100%"
         },
@@ -938,24 +938,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-2.webp",
+                imgSrc: "/assets/img/projectsPage/products/portaVinos/Strong_Wood_IG-2.webp",
                 imgAlt: "Porta Vinos",
                 objPosition: "50% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-6.webp",
+                    imgSrc: "/assets/img/projectsPage/products/portaVinos/Strong_Wood_IG-6.webp",
                     imgAlt: "Porta Vinos",
                     objPosition: "40% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-1.webp",
+                    imgSrc: "/assets/img/projectsPage/products/portaVinos/Strong_Wood_IG-1.webp",
                     imgAlt: "Porta Vinos",
                     objPosition: "50% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/portaVinos/Strong_Wood_IG-7.webp",
+                imgSrc: "/assets/img/projectsPage/products/portaVinos/Strong_Wood_IG-7.webp",
                 imgAlt: "Porta Vinos",
                 objPosition: "30% 100%"
             }
@@ -968,7 +968,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Estanteria Bath",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-73.webp",
+            imgSrc: "/assets/img/projectsPage/products/estanteriaBath/Strong_Wood_IG-73.webp",
             imgAlt: "Estanteria Bath",
             objPosition: "70% 40%"
         },
@@ -976,24 +976,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-73.webp",
+                imgSrc: "/assets/img/projectsPage/products/estanteriaBath/Strong_Wood_IG-73.webp",
                 imgAlt: "Estanteria Bath",
                 objPosition: "65% 60%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-74.webp",
+                    imgSrc: "/assets/img/projectsPage/products/estanteriaBath/Strong_Wood_IG-74.webp",
                     imgAlt: "Estanteria Bath",
                     objPosition: "70% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-71.webp",
+                    imgSrc: "/assets/img/projectsPage/products/estanteriaBath/Strong_Wood_IG-71.webp",
                     imgAlt: "Estanteria Bath",
                     objPosition: "60% 60%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/estanteriaBath/Strong_Wood_IG-72.webp",
+                imgSrc: "/assets/img/projectsPage/products/estanteriaBath/Strong_Wood_IG-72.webp",
                 imgAlt: "Estanteria Bath",
                 objPosition: "50% 50%"
             }
@@ -1006,7 +1006,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Mesa Cracovia",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/mesaCracovia/Strong_Wood_IG-102.webp",
+            imgSrc: "/assets/img/projectsPage/products/mesaCracovia/Strong_Wood_IG-102.webp",
             imgAlt: "Mesa Cracovia",
             objPosition: "50% 50%"
         },
@@ -1014,18 +1014,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/mesaCracovia/Strong_Wood_IG-102.webp",
+                imgSrc: "/assets/img/projectsPage/products/mesaCracovia/Strong_Wood_IG-102.webp",
                 imgAlt: "Mesa Cracovia",
                 objPosition: "50% 40%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/mesaCracovia/Strong_Wood_IG-101.webp",
+                    imgSrc: "/assets/img/projectsPage/products/mesaCracovia/Strong_Wood_IG-101.webp",
                     imgAlt: "Mesa Cracovia",
                     objPosition: "0% 50%",
                 },
                 {
-                    imgSrc: "/assets/img/products/mesaCracovia/Strong_Wood_IG-103.webp",
+                    imgSrc: "/assets/img/projectsPage/products/mesaCracovia/Strong_Wood_IG-103.webp",
                     imgAlt: "Mesa Cracovia",
                     objPosition: "50% 0%",
                 }
@@ -1039,7 +1039,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Mesa ratona Edimburgo",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/mesaRatonaEdimburgo/Strong-Wood-Set-17.webp",
+            imgSrc: "/assets/img/projectsPage/products/mesaRatonaEdimburgo/Strong-Wood-Set-17.webp",
             imgAlt: "Mesa ratona Edimburgo",
             objPosition: "50% 50%",
         },
@@ -1047,24 +1047,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/mesaRatonaEdimburgo/Strong-Wood-Set-17.webp",
+                imgSrc: "/assets/img/projectsPage/products/mesaRatonaEdimburgo/Strong-Wood-Set-17.webp",
                 imgAlt: "Mesa ratona Edimburgo",
                 objPosition: "50% 56%",
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/mesaRatonaEdimburgo/mesaRatonaEdimburgo2.webp",
+                    imgSrc: "/assets/img/projectsPage/products/mesaRatonaEdimburgo/mesaRatonaEdimburgo2.webp",
                     imgAlt: "Mesa ratona Edimburgo",
                     objPosition: "90% 50%",
                 },
                 {
-                    imgSrc: "/assets/img/products/mesaRatonaEdimburgo/mesaRatonaEdimburgo4.webp",
+                    imgSrc: "/assets/img/projectsPage/products/mesaRatonaEdimburgo/mesaRatonaEdimburgo4.webp",
                     imgAlt: "Mesa ratona Edimburgo",
                     objPosition: "0% 35%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/mesaRatonaEdimburgo/Strong_Wood_IG-82.webp",
+                imgSrc: "/assets/img/projectsPage/products/mesaRatonaEdimburgo/Strong_Wood_IG-82.webp",
                 imgAlt: "Mesa ratona Edimburgo",
                 objPosition: "0% 45%",
             }
@@ -1077,7 +1077,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Maceta Sintra",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/macetaSintra/Strong_Wood_IG-43.webp",
+            imgSrc: "/assets/img/projectsPage/products/macetaSintra/Strong_Wood_IG-43.webp",
             imgAlt: "Maceta Sintra",
             objPosition: "0% 65%",
         },
@@ -1085,24 +1085,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/macetaSintra/Strong_Wood_IG-43.webp",
+                imgSrc: "/assets/img/projectsPage/products/macetaSintra/Strong_Wood_IG-43.webp",
                 imgAlt: "Maceta Sintra",
                 objPosition: "7% 65%",
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/macetaSintra/Strong_Wood_IG-40.webp",
+                    imgSrc: "/assets/img/projectsPage/products/macetaSintra/Strong_Wood_IG-40.webp",
                     imgAlt: "Maceta Sintra",
                     objPosition: "25% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/macetaSintra/Strong_Wood_IG-42.webp",
+                    imgSrc: "/assets/img/projectsPage/products/macetaSintra/Strong_Wood_IG-42.webp",
                     imgAlt: "Maceta Sintra",
                     objPosition: "40% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/macetaSintra/Strong_Wood_IG-41.webp",
+                imgSrc: "/assets/img/projectsPage/products/macetaSintra/Strong_Wood_IG-41.webp",
                 imgAlt: "Maceta Sintra",
                 objPosition: "50% 15%"
             }
@@ -1115,7 +1115,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Estanteria Siena",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-97.webp",
+            imgSrc: "/assets/img/projectsPage/products/estanteriaSiena/Strong_Wood_IG-97.webp",
             imgAlt: "Estanteria Siena",
             objPosition: "50% 50%"
         },
@@ -1123,24 +1123,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-97.webp",
+                imgSrc: "/assets/img/projectsPage/products/estanteriaSiena/Strong_Wood_IG-97.webp",
                 imgAlt: "Estanteria Siena",
                 objPosition: "45% 20%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-98.webp",
+                    imgSrc: "/assets/img/projectsPage/products/estanteriaSiena/Strong_Wood_IG-98.webp",
                     imgAlt: "Estanteria Siena",
                     objPosition: "40% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-95.webp",
+                    imgSrc: "/assets/img/projectsPage/products/estanteriaSiena/Strong_Wood_IG-95.webp",
                     imgAlt: "Estanteria Siena",
                     objPosition: "50% 45%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/estanteriaSiena/Strong_Wood_IG-99.webp",
+                imgSrc: "/assets/img/projectsPage/products/estanteriaSiena/Strong_Wood_IG-99.webp",
                 imgAlt: "Estanteria Siena",
                 objPosition: "45% 10%"
             },
@@ -1153,7 +1153,7 @@ export const projectsData: ProjectDataInterface = {
     //     title: "Estanteria Bergen",
     //     subtitle: "Productos",
     //     image: {
-    //         imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //         imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //         imgAlt: "estanteria-bergen",
     //         objPosition: "center center"
     //     },
@@ -1161,7 +1161,7 @@ export const projectsData: ProjectDataInterface = {
     // location: "Buenos Aires, Argentina",     
     // details: {
     //         firstLongImg: {
-    //             imgSrc: "/assets/img/homePage/banner/test.jpg",
+    //             imgSrc: "/assets/img/projectsPage/homePage/banner/test.jpg",
     //             imgAlt: "Estanteria Bath",
     //             objPosition: "center center"
     //         },
@@ -1174,7 +1174,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Llavero Corfu",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/llaveroCorfu/Strong_Wood_IG-20.webp",
+            imgSrc: "/assets/img/projectsPage/products/llaveroCorfu/Strong_Wood_IG-20.webp",
             imgAlt: "Llavero Corfu",
             objPosition: "15% 70%"
         },
@@ -1182,24 +1182,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/llaveroCorfu/Strong_Wood_IG-20.webp",
+                imgSrc: "/assets/img/projectsPage/products/llaveroCorfu/Strong_Wood_IG-20.webp",
                 imgAlt: "Llavero Corfu",
                 objPosition: "25% 80%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/llaveroCorfu/Strong_Wood_IG-22.webp",
+                    imgSrc: "/assets/img/projectsPage/products/llaveroCorfu/Strong_Wood_IG-22.webp",
                     imgAlt: "Llavero Corfu",
                     objPosition: "100% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/llaveroCorfu/Strong_Wood_IG-23.webp",
+                    imgSrc: "/assets/img/projectsPage/products/llaveroCorfu/Strong_Wood_IG-23.webp",
                     imgAlt: "Llavero Corfu",
                     objPosition: "40% 35%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/llaveroCorfu/Strong_Wood_IG-21.webp",
+                imgSrc: "/assets/img/projectsPage/products/llaveroCorfu/Strong_Wood_IG-21.webp",
                 imgAlt: "Llavero Corfu",
                 objPosition: "15% 55%"
             }
@@ -1212,7 +1212,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Leñero",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/leniero/Strong_Wood_IG-49.webp",
+            imgSrc: "/assets/img/projectsPage/products/leniero/Strong_Wood_IG-49.webp",
             imgAlt: "Leñero",
             objPosition: "0% 85%"
         },
@@ -1220,18 +1220,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/leniero/Strong_Wood_IG-49.webp",
+                imgSrc: "/assets/img/projectsPage/products/leniero/Strong_Wood_IG-49.webp",
                 imgAlt: "Leñero",
                 objPosition: "25% 87%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/leniero/Strong_Wood_IG-50.webp",
+                    imgSrc: "/assets/img/projectsPage/products/leniero/Strong_Wood_IG-50.webp",
                     imgAlt: "Leñero",
                     objPosition: "10% 100%"
                 },
                 {
-                    imgSrc: "/assets/img/products/leniero/Strong_Wood_IG-51.webp",
+                    imgSrc: "/assets/img/projectsPage/products/leniero/Strong_Wood_IG-51.webp",
                     imgAlt: "Leñero",
                     objPosition: "25% 100%"
                 }
@@ -1245,7 +1245,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Rack TV Cordoba",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/rackTvCordoba/Strong_Wood_IG-66.webp",
+            imgSrc: "/assets/img/projectsPage/products/rackTvCordoba/Strong_Wood_IG-66.webp",
             imgAlt: "Rack TV Cordoba",
             objPosition: "10% 100%"
         },
@@ -1253,24 +1253,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/rackTvCordoba/Strong_Wood_IG-66.webp",
+                imgSrc: "/assets/img/projectsPage/products/rackTvCordoba/Strong_Wood_IG-66.webp",
                 imgAlt: "Rack TV Cordoba",
                 objPosition: "15% 55%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/rackTvCordoba/Strong_Wood_IG-69.webp",
+                    imgSrc: "/assets/img/projectsPage/products/rackTvCordoba/Strong_Wood_IG-69.webp",
                     imgAlt: "Rack TV Cordoba",
                     objPosition: "0% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/rackTvCordoba/Strong_Wood_IG-67.webp",
+                    imgSrc: "/assets/img/projectsPage/products/rackTvCordoba/Strong_Wood_IG-67.webp",
                     imgAlt: "Rack TV Cordoba",
                     objPosition: "35% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/rackTvCordoba/Strong_Wood_IG-64.webp",
+                imgSrc: "/assets/img/projectsPage/products/rackTvCordoba/Strong_Wood_IG-64.webp",
                 imgAlt: "Rack TV Cordoba",
                 objPosition: "50% 55%"
             }
@@ -1283,7 +1283,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Toallero Matera",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/toalleroMatera/Strong_Wood_IG-39.webp",
+            imgSrc: "/assets/img/projectsPage/products/toalleroMatera/Strong_Wood_IG-39.webp",
             imgAlt: "Toallero Matera",
             objPosition: "50% 80%"
         },
@@ -1291,24 +1291,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/toalleroMatera/Strong_Wood_IG-39.webp",
+                imgSrc: "/assets/img/projectsPage/products/toalleroMatera/Strong_Wood_IG-39.webp",
                 imgAlt: "Toallero Matera",
                 objPosition: "50% 30%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/toalleroMatera/Strong_Wood_IG-38.webp",
+                    imgSrc: "/assets/img/projectsPage/products/toalleroMatera/Strong_Wood_IG-38.webp",
                     imgAlt: "Toallero Matera",
                     objPosition: "25% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/toalleroMatera/Strong_Wood_IG-35.webp",
+                    imgSrc: "/assets/img/projectsPage/products/toalleroMatera/Strong_Wood_IG-35.webp",
                     imgAlt: "Toallero Matera",
                     objPosition: "35% 20%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/toalleroMatera/Strong_Wood_IG-37.webp",
+                imgSrc: "/assets/img/projectsPage/products/toalleroMatera/Strong_Wood_IG-37.webp",
                 imgAlt: "Toallero Matera",
                 objPosition: "25% 20%"
             }
@@ -1321,7 +1321,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Toallero Cuenca",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/toalleroCuenca/Strong_Wood_IG-12.webp",
+            imgSrc: "/assets/img/projectsPage/products/toalleroCuenca/Strong_Wood_IG-12.webp",
             imgAlt: "Toallero Cuenca",
             objPosition: "0% 0%"
         },
@@ -1329,24 +1329,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/toalleroCuenca/Strong_Wood_IG-12.webp",
+                imgSrc: "/assets/img/projectsPage/products/toalleroCuenca/Strong_Wood_IG-12.webp",
                 imgAlt: "Toallero Cuenca",
                 objPosition: "17% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/toalleroCuenca/Strong_Wood_IG-10.webp",
+                    imgSrc: "/assets/img/projectsPage/products/toalleroCuenca/Strong_Wood_IG-10.webp",
                     imgAlt: "Toallero Cuenca",
                     objPosition: "50% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/toalleroCuenca/Strong_Wood_IG-14.webp",
+                    imgSrc: "/assets/img/projectsPage/products/toalleroCuenca/Strong_Wood_IG-14.webp",
                     imgAlt: "Toallero Cuenca",
                     objPosition: "15% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/toalleroCuenca/Strong_Wood_IG-8.webp",
+                imgSrc: "/assets/img/projectsPage/products/toalleroCuenca/Strong_Wood_IG-8.webp",
                 imgAlt: "Toallero Cuenca",
                 objPosition: "15% 30%"
             }
@@ -1359,7 +1359,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Bodega Segovia",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/bodegaSegovia/Strong_Wood_IG-57.webp",
+            imgSrc: "/assets/img/projectsPage/products/bodegaSegovia/Strong_Wood_IG-57.webp",
             imgAlt: "Bodega Segovia",
             objPosition: "0% 70%"
         },
@@ -1367,24 +1367,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/bodegaSegovia/Strong_Wood_IG-57.webp",
+                imgSrc: "/assets/img/projectsPage/products/bodegaSegovia/Strong_Wood_IG-57.webp",
                 imgAlt: "Bodega Segovia",
                 objPosition: "15% 40%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/bodegaSegovia/Strong_Wood_IG-59.webp",
+                    imgSrc: "/assets/img/projectsPage/products/bodegaSegovia/Strong_Wood_IG-59.webp",
                     imgAlt: "Bodega Segovia",
                     objPosition: "45% 80%"
                 },
                 {
-                    imgSrc: "/assets/img/products/bodegaSegovia/Strong_Wood_IG-61.webp",
+                    imgSrc: "/assets/img/projectsPage/products/bodegaSegovia/Strong_Wood_IG-61.webp",
                     imgAlt: "Bodega Segovia",
                     objPosition: "30% 70%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/bodegaSegovia/Strong_Wood_IG-58.webp",
+                imgSrc: "/assets/img/projectsPage/products/bodegaSegovia/Strong_Wood_IG-58.webp",
                 imgAlt: "Bodega Segovia",
                 objPosition: "15% 47%"
             }
@@ -1397,7 +1397,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Mesa de luz Roma",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/mesaDeLuzRoma/Strong_Wood_IG-30.webp",
+            imgSrc: "/assets/img/projectsPage/products/mesaDeLuzRoma/Strong_Wood_IG-30.webp",
             imgAlt: "Mesa de luz Roma",
             objPosition: "30% 0%"
         },
@@ -1405,24 +1405,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/mesaDeLuzRoma/Strong_Wood_IG-30.webp",
+                imgSrc: "/assets/img/projectsPage/products/mesaDeLuzRoma/Strong_Wood_IG-30.webp",
                 imgAlt: "Mesa de luz Roma",
                 objPosition: "30% 20%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/mesaDeLuzRoma/Strong_Wood_IG-32.webp",
+                    imgSrc: "/assets/img/projectsPage/products/mesaDeLuzRoma/Strong_Wood_IG-32.webp",
                     imgAlt: "Mesa de luz Roma",
                     objPosition: "50% 50%",
                 },
                 {
-                    imgSrc: "/assets/img/products/mesaDeLuzRoma/Strong_Wood_IG-28.webp",
+                    imgSrc: "/assets/img/projectsPage/products/mesaDeLuzRoma/Strong_Wood_IG-28.webp",
                     imgAlt: "Mesa de luz Roma",
                     objPosition: "50% 10%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/mesaDeLuzRoma/Strong_Wood_IG-33.webp",
+                imgSrc: "/assets/img/projectsPage/products/mesaDeLuzRoma/Strong_Wood_IG-33.webp",
                 imgAlt: "Mesa de luz Roma",
                 objPosition: "50% 50%",
             }
@@ -1435,7 +1435,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Escritorio Brujas",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-90.webp",
+            imgSrc: "/assets/img/projectsPage/products/escritorioBrujas/Strong_Wood_IG-90.webp",
             imgAlt: "Escritorio Brujas",
             objPosition: "50% 20%"
         },
@@ -1443,24 +1443,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-90.webp",
+                imgSrc: "/assets/img/projectsPage/products/escritorioBrujas/Strong_Wood_IG-90.webp",
                 imgAlt: "Escritorio Brujas",
                 objPosition: "50% 0%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-92.webp",
+                    imgSrc: "/assets/img/projectsPage/products/escritorioBrujas/Strong_Wood_IG-92.webp",
                     imgAlt: "Escritorio Brujas",
                     objPosition: "50% 0%",
                 },
                 {
-                    imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-91.webp",
+                    imgSrc: "/assets/img/projectsPage/products/escritorioBrujas/Strong_Wood_IG-91.webp",
                     imgAlt: "Escritorio Brujas",
                     objPosition: "30% 0%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/escritorioBrujas/Strong_Wood_IG-94.webp",
+                imgSrc: "/assets/img/projectsPage/products/escritorioBrujas/Strong_Wood_IG-94.webp",
                 imgAlt: "Escritorio Brujas",
                 objPosition: "20% 20%",
             }
@@ -1473,7 +1473,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Perchero Oporto",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/percheroOporto/Strong_Wood_IG-26.webp",
+            imgSrc: "/assets/img/projectsPage/products/percheroOporto/Strong_Wood_IG-26.webp",
             imgAlt: "Perchero Oporto",
             objPosition: "60% 50%"
         },
@@ -1481,18 +1481,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/percheroOporto/Strong_Wood_IG-26.webp",
+                imgSrc: "/assets/img/projectsPage/products/percheroOporto/Strong_Wood_IG-26.webp",
                 imgAlt: "Perchero Oporto",
                 objPosition: "45% 25%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/percheroOporto/Strong_Wood_IG-24.webp",
+                    imgSrc: "/assets/img/projectsPage/products/percheroOporto/Strong_Wood_IG-24.webp",
                     imgAlt: "Perchero Oporto",
                     objPosition: "55% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/percheroOporto/Strong_Wood_IG-25.webp",
+                    imgSrc: "/assets/img/projectsPage/products/percheroOporto/Strong_Wood_IG-25.webp",
                     imgAlt: "Perchero Oporto",
                     objPosition: "25% 0%"
                 }
@@ -1506,7 +1506,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Recibidor Salamanca",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/recibidorSalamanca/Strong_Wood_IG-52.webp",
+            imgSrc: "/assets/img/projectsPage/products/recibidorSalamanca/Strong_Wood_IG-52.webp",
             imgAlt: "Recibidor Salamanca",
             objPosition: "40% 50%"
         },
@@ -1514,24 +1514,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/recibidorSalamanca/Strong_Wood_IG-52.webp",
+                imgSrc: "/assets/img/projectsPage/products/recibidorSalamanca/Strong_Wood_IG-52.webp",
                 imgAlt: "Recibidor Salamanca",
                 objPosition: "40% 45%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/recibidorSalamanca/Strong_Wood_IG-55.webp",
+                    imgSrc: "/assets/img/projectsPage/products/recibidorSalamanca/Strong_Wood_IG-55.webp",
                     imgAlt: "Recibidor Salamanca",
                     objPosition: "25% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/recibidorSalamanca/Strong_Wood_IG-56.webp",
+                    imgSrc: "/assets/img/projectsPage/products/recibidorSalamanca/Strong_Wood_IG-56.webp",
                     imgAlt: "Recibidor Salamanca",
                     objPosition: "25% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/recibidorSalamanca/Strong_Wood_IG-53.webp",
+                imgSrc: "/assets/img/projectsPage/products/recibidorSalamanca/Strong_Wood_IG-53.webp",
                 imgAlt: "Recibidor Salamanca",
                 objPosition: "35% 87%"
             }
@@ -1544,7 +1544,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Tabla Asado",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/tablaAsado/Strongwood_Tabla_parri-4.webp",
+            imgSrc: "/assets/img/projectsPage/products/tablaAsado/Strongwood_Tabla_parri-4.webp",
             imgAlt: "Tabla Asado",
             objPosition: "80% 50%"
         },
@@ -1552,24 +1552,24 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/tablaAsado/Strongwood_Tabla_parri-4.webp",
+                imgSrc: "/assets/img/projectsPage/products/tablaAsado/Strongwood_Tabla_parri-4.webp",
                 imgAlt: "Tabla Asado",
                 objPosition: "80% 85%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/tablaAsado/Strongwood_Tabla_parri-10.webp",
+                    imgSrc: "/assets/img/projectsPage/products/tablaAsado/Strongwood_Tabla_parri-10.webp",
                     imgAlt: "Tabla Asado",
                     objPosition: "60% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/products/tablaAsado/Strongwood_Tabla_parri-3.webp",
+                    imgSrc: "/assets/img/projectsPage/products/tablaAsado/Strongwood_Tabla_parri-3.webp",
                     imgAlt: "Tabla Asado",
                     objPosition: "40% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/products/tablaAsado/Strongwood_Tabla_parri-7.webp",
+                imgSrc: "/assets/img/projectsPage/products/tablaAsado/Strongwood_Tabla_parri-7.webp",
                 imgAlt: "Tabla Asado",
                 objPosition: "50% 80%"
             }
@@ -1582,7 +1582,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Soporte Auricular",
         subtitle: "Productos",
         image: {
-            imgSrc: "/assets/img/products/soporteAuricular/Strong_Wood_IG-93.webp",
+            imgSrc: "/assets/img/projectsPage/products/soporteAuricular/Strong_Wood_IG-93.webp",
             imgAlt: "Soporte Auricular",
             objPosition: "90% 0%"
         },
@@ -1590,18 +1590,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             firstLongImg: {
-                imgSrc: "/assets/img/products/soporteAuricular/Strong_Wood_IG-93.webp",
+                imgSrc: "/assets/img/projectsPage/products/soporteAuricular/Strong_Wood_IG-93.webp",
                 imgAlt: "Soporte Auricular",
                 objPosition: "80% 0%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/products/soporteAuricular/soporteAuricular3.webp",
+                    imgSrc: "/assets/img/projectsPage/products/soporteAuricular/soporteAuricular3.webp",
                     imgAlt: "Soporte Auricular",
                     objPosition: "30% 75%"
                 },
                 {
-                    imgSrc: "/assets/img/products/soporteAuricular/soporteAuricular1.webp",
+                    imgSrc: "/assets/img/projectsPage/products/soporteAuricular/soporteAuricular1.webp",
                     imgAlt: "Soporte Auricular",
                     objPosition: "60% 0%"
                 }

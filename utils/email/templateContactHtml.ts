@@ -5,7 +5,7 @@ export const templateContactHtml = (messageData: any) => {
     
     <head>
         <meta charset="UTF-8">
-        <title>NUEVO PEDIDO</title>
+        <title>CONTACTO</title>
         <style>
             body {
                 margin: 0;

@@ -5,7 +5,9 @@ import PortraitImgComponent from "@/components/PortraitImgComponent/PortraitImgC
 export default function HomePage() {
   return (
     <section className={styles["container-section-home"]}>
-      <PortraitImgComponent imageData={data.homePage.portrait.image} projectData={undefined} />
+      <PortraitImgComponent
+        imageData={data.homePage.portrait.image}
+        projectData={undefined} />
     </section>
   )
 }
