@@ -1,6 +1,6 @@
-import { ProjectDataInterface, SelectedFilterInterface } from "@/types";
 import { projectsCategories } from "@/models/projects";
 import { projectsData } from "@/models/projects";
+import { ProjectDataInterface, SelectedFilterInterface } from "@/types/ProjectsTypes";
 
 export function filterProjectsData( slug: SelectedFilterInterface): ProjectDataInterface {
     const originProjectsData = { ...projectsData };

@@ -1,8 +1,8 @@
-import { IconInterface } from "@/types"
 import styles from "./FooterComponent.module.scss"
 import data from "@/models/es.json"
 import IconComponent from "../IconComponent/IconComponent"
 import BtnTopComponent from "./BtnScrollComponent/BtnScrollComponent"
+import { IconInterface } from "@/types/ProjectsTypes"
 
 export default function FooterComponent() {
     return (

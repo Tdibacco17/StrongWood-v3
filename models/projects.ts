@@ -1,6 +1,6 @@
-import { ProjectDataInterface } from "@/types";
+import { ProjectDataInterface } from "@/types/ProjectsTypes"
 
-export const projectsCategories = ["all", "kitchen", "bathroom", "closet", "local", "bedroom", "diningroom", "products"]
+export const projectsCategories: string[] = ["all", "kitchen", "bathroom", "closet", "local", "bedroom", "diningroom", "products"]
 
 export const projectsData: ProjectDataInterface = {
     "casa-san-blas": {

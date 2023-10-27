@@ -1,6 +1,6 @@
 import Image from "next/image"
 import styles from "./TwoSmallImgComponent.module.scss"
-import { ImgDataInterface } from "@/types"
+import { ImgDataInterface } from "@/types/ProjectsTypes"
 
 export default function TwoSmallImgComponent({
     imagesData,

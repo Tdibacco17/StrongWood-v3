@@ -1,7 +1,6 @@
+import { ProjectDataInterface, ProjectInterface } from "@/types/ProjectsTypes";
 import ProjectsCardComponent from "../ProjectsCardComponent/ProjectsCardComponent"
-import SelectorTitleComponent from "../SelectorTitleComponent/SelectorTitleComponent";
 import styles from "./ProjectsComponent.module.scss"
-import { ProjectDataInterface, ProjectInterface } from "@/types";
 
 export default function ProjectsComponent({ projectsData }: { projectsData: ProjectDataInterface }) {
 

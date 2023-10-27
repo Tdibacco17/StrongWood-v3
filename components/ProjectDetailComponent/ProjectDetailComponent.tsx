@@ -1,12 +1,12 @@
 import { useContext } from "react"
 import styles from "./ProjectDetailComponent.module.scss"
 import { ProductDetailContext } from "@/context/ProjectsContextProvider"
-import { ProjectsDataContextInterface, SelectedFilterInterface } from "@/types"
 import TwoSmallImgComponent from "../TwoSmallImgComponent/TwoSmallImgComponent"
 import ImgPlaceholderComponent from "../ImgPlaceholderComponent/ImgPlaceholderComponent"
 import Link from "next/link"
 import PortraitImgComponent from "../PortraitImgComponent/PortraitImgComponent"
 import RectangleImgComponent from "../RectangleImgComponent/RectangleImgComponent"
+import { ProjectsDataContextInterface, SelectedFilterInterface } from "@/types/ProjectsTypes"
 
 export default function ProjectDetailComponent({ projectSlug }: { projectSlug: SelectedFilterInterface }) {
     const { projectData } = useContext(

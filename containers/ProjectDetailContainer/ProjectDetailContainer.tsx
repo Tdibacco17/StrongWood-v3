@@ -1,9 +1,9 @@
 'use client'
 import { ProductDetailContext } from "@/context/ProjectsContextProvider";
-import { ProjectsDataContextInterface, SelectedFilterInterface } from "@/types";
 import { useContext, useEffect } from "react";
 import { projectsData } from "@/models/projects";
 import ProjectDetailComponent from "@/components/ProjectDetailComponent/ProjectDetailComponent";
+import { ProjectsDataContextInterface, SelectedFilterInterface } from "@/types/ProjectsTypes";
 
 export default function ProjectDetailContainer({ params, projectSlug }: { params: { slug: string }, projectSlug: SelectedFilterInterface }) {
     const { handleProjectDataChange } = useContext(

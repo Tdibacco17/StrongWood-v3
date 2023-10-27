@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import styles from "./PortraitImgComponent.module.scss"
-import { ImgDataInterface, ProjectInterface } from '@/types'
 import Link from 'next/link'
+import data from "@/models/es.json"
+import { ImgDataInterface, ProjectInterface } from '@/types/ProjectsTypes'
 
 export default function PortraitImgComponent({
     imageData,
@@ -37,7 +38,7 @@ export default function PortraitImgComponent({
                         </div>
                     </div>
                 </div>}
-            <Link href={"/"} className={styles["title-header"]}>StrongWood</Link>
+            <Link href={"/"} className={styles["title-header"]}>{data.navbar.title}</Link>
         </div>
     )
 }

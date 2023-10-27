@@ -1,5 +1,5 @@
+import { ProjectInterface } from "@/types/ProjectsTypes";
 import styles from "./ProjectsCardComponent.module.scss"
-import { ProjectInterface } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 

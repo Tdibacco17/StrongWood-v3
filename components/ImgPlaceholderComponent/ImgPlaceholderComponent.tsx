@@ -1,4 +1,4 @@
-import { ImgPlacheholderInterface } from "@/types"
+import { ImgPlacheholderInterface } from "@/types/ProjectsTypes"
 import styles from "./ImgPlaceholderComponent.module.scss"
 
 export default function ImgPlaceholderComponent({

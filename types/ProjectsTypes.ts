@@ -25,7 +25,7 @@ export interface ProjectInterface {
     subtitle: string;
     image: ImgDataInterface;
     year: string,
-    location:string,
+    location: string,
     details: {
         firstLongImg?: ImgDataInterface;
         rectangleImg?: ImgDataInterface;
@@ -36,14 +36,19 @@ export interface ProjectInterface {
     categories: SelectedFilterInterface[];
     urlSlug: SelectedFilterInterface
 }
-export type SelectedFilterInterface = "all" | "kitchen" | "bathroom" | "closet" | "bedroom" | "local" | "diningroom" |"products";
+export type SelectedFilterInterface =
+    "all"
+    | "kitchen"
+    | "bathroom"
+    | "closet"
+    | "bedroom"
+    | "local"
+    | "diningroom"
+    | "products";
+    
 export type ImgPlacheholderInterface = "portrait" | "rectangle" | "twoSmall"
 
 export interface ProjectSelectorInterface {
     selectorTitle: string;
     selectorFilter: string;
 };
-export interface NavigateInterface {
-    title: string,
-    href: string
-}

@@ -1,6 +1,6 @@
 import styles from "./SelectorTitleComponent.module.scss"
 import data from "@/models/es.json"
-import { ProjectSelectorInterface } from "@/types";
+import { ProjectSelectorInterface } from "@/types/ProjectsTypes";
 import Link from "next/link";
 
 export default function SelectorTitleComponent() {
