@@ -75,7 +75,7 @@
             height: var(--first-image-height);
             user-select: none;
             overflow: hidden;
-            background-color: var(--secondary-white);
+            background: var(--bg-overlay);
 
             * {
                 pointer-events: none;

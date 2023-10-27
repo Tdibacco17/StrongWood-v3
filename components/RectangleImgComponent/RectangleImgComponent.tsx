@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from "./RectangleImgComponent.module.scss"
-import { ImgDataInterface } from '@/types/ProjectsTypes'
+import { ImgDataInterface } from '@/types'
 
 export default function RectangleImgComponent({
     imageData,

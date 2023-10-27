@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--secondary-white);
+    background: var(--bg-overlay);
     color: var(--primary-gray);
     font-size: var(--font-14);
 
@@ -87,7 +87,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background: var(--secondary-white);
+                background: var(--bg-overlay);
                 width: var(--twoImages-width);
                 height: var(--first-image-height);
             }
@@ -100,7 +100,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background: var(--secondary-white);
+                background: var(--bg-overlay);
                 width: var(--twoImages-width);
                 height: var(--second-image-height);
             }

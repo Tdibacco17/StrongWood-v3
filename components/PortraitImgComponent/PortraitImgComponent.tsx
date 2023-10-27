@@ -2,7 +2,8 @@ import Image from 'next/image'
 import styles from "./PortraitImgComponent.module.scss"
 import Link from 'next/link'
 import data from "@/models/es.json"
-import { ImgDataInterface, ProjectInterface } from '@/types/ProjectsTypes'
+import { ProjectInterface } from '@/types/ProjectsTypes'
+import { ImgDataInterface } from '@/types'
 
 export default function PortraitImgComponent({
     imageData,

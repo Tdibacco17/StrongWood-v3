@@ -1,4 +1,4 @@
-import { IconInterface } from '@/types/ProjectsTypes'
+import { IconInterface } from '@/types'
 import styles from './IconComponent.module.scss'
 import Link from 'next/link'
 

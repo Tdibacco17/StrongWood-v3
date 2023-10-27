@@ -12,7 +12,7 @@
         min-height: 22rem;
         user-select: none;
         overflow: hidden;
-        background-color: var(--secondary-white);
+        background: var(--bg-overlay);
 
         @media (max-width:1400px) {
             height: 19.5rem;

@@ -65,7 +65,7 @@ body {
 }
 
 body {
-  color: var(--primary-black);
+  color: var(--primary-gray);
   background-color: var(--primary-white);
   font-size: var(--calc-rem);
   font-family: var(--font-mono);
