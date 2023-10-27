@@ -6,6 +6,7 @@ import TwoSmallImgComponent from "../TwoSmallImgComponent/TwoSmallImgComponent"
 import ImgPlaceholderComponent from "../ImgPlaceholderComponent/ImgPlaceholderComponent"
 import Link from "next/link"
 import PortraitImgComponent from "../PortraitImgComponent/PortraitImgComponent"
+import RectangleImgComponent from "../RectangleImgComponent/RectangleImgComponent"
 
 export default function ProjectDetailComponent({ projectSlug }: { projectSlug: SelectedFilterInterface }) {
     const { projectData } = useContext(
@@ -19,7 +20,7 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                     <>
                         <ImgPlaceholderComponent sectionImg="portrait" />
                         <ImgPlaceholderComponent sectionImg="twoSmall" />
-                        <ImgPlaceholderComponent sectionImg="portrait-reduce" />
+                        <ImgPlaceholderComponent sectionImg="rectangle" />
                     </>
                     :
                     <>
@@ -27,7 +28,6 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                             projectData.details.firstLongImg &&
                             <PortraitImgComponent
                                 imageData={projectData.details.firstLongImg}
-                                reduce={false}
                                 projectData={projectData}
                             /> 
                         }
@@ -37,11 +37,9 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                                 imagesData={projectData.details.twoSmallImg} />
                         }
                         {
-                            projectData.details.reduceLongImg &&
-                            <PortraitImgComponent
-                                reduce={true}
-                                imageData={projectData.details.reduceLongImg}
-                                projectData={projectData}
+                            projectData.details.rectangleImg &&
+                            <RectangleImgComponent
+                                imageData={projectData.details.rectangleImg}
                             />
                         }
                     </>

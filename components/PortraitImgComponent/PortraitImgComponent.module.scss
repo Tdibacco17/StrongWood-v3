@@ -16,27 +16,6 @@
             pointer-events: none;
         }
 
-        &.reduce {
-            width: var(--max-width);
-            height: 30rem;
-
-            @media (max-width:1400px) {
-                height: 27.5rem;
-            }
-
-            @media (max-width:1200px) {
-                height: 25rem;
-            }
-
-            @media (max-width:992px) {
-                height: 22.5rem;
-            }
-
-            @media (max-width:768px) {
-                height: 60vh;
-            }
-        }
-
         .container-inner-image {
             object-fit: cover;
         }
