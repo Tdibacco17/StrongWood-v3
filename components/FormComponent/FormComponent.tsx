@@ -15,13 +15,13 @@ export default function FormComponent({
         <form className={styles["container-form"]}>
             <p className={styles["form-title"]}>{data.contactPage.subtitle}</p>
             <div className={styles["inputs-container"]}>
-                <FieldToCompleteComponent fieldProps={data.contactPage.formFields.name} inputRef={nameRef} />
-                <FieldToCompleteComponent fieldProps={data.contactPage.formFields.phone} inputRef={phoneRef} />
-                <FieldToCompleteComponent fieldProps={data.contactPage.formFields.email} inputRef={emailRef} />
-                <FieldToCompleteComponent fieldProps={data.contactPage.formFields.direction} inputRef={directionRef} />
-                <FieldToCompleteComponent fieldProps={data.contactPage.formFields.location} inputRef={locationRef} />
+                <FieldToCompleteComponent fieldProps={data.customFurniture.formFields.name} inputRef={nameRef} />
+                <FieldToCompleteComponent fieldProps={data.customFurniture.formFields.phone} inputRef={phoneRef} />
+                <FieldToCompleteComponent fieldProps={data.customFurniture.formFields.email} inputRef={emailRef} />
+                <FieldToCompleteComponent fieldProps={data.customFurniture.formFields.direction} inputRef={directionRef} />
+                <FieldToCompleteComponent fieldProps={data.customFurniture.formFields.location} inputRef={locationRef} />
             </div>
-            <FieldToCompleteComponent fieldProps={data.contactPage.formFields.note} noteRef={noteRef} />
+            <FieldToCompleteComponent fieldProps={data.customFurniture.formFields.note} noteRef={noteRef} />
         </form>
     )
 }

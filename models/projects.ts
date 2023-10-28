@@ -3,6 +3,21 @@ import { ProjectDataInterface } from "@/types/ProjectsTypes"
 export const projectsCategories: string[] = ["all", "kitchen", "bathroom", "closet", "local", "bedroom", "diningroom", "products"]
 
 export const projectsData: ProjectDataInterface = {
+    homeData: {
+        projectSlug: "home-data",
+        title: "",
+        subtitle: "",
+        image: {
+            "imgSrc": "/assets/img/homePage/banner/test.jpg",
+            "imgAlt": "banner image",
+            "objPosition": "50% 50%"
+        },
+        details: {},
+        year: "",
+        location: "",
+        categories: ["all"],
+        urlSlug: "all"
+    },
     "casa-san-blas": {
         projectSlug: "casa-san-blas",
         title: "Casa San Blas",

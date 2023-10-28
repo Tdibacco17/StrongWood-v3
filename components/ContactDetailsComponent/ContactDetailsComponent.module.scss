@@ -1,0 +1,83 @@
+.container-contact-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 100vw;
+    color: var(--primary-white);
+
+    .wrapper-contact-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        word-break: break-all;
+        gap: 3.5rem;
+        width: var(--max-width);
+
+        @media (max-height:575px) {
+            justify-content: flex-end;
+            padding-bottom: 2rem;
+            gap: 1.5rem;
+        }
+
+        .header-title {
+            font-size: var(--font-30);
+
+            @media (max-height:575px) {
+                font-size: var(--font-24);
+            }
+            @media (max-width:768px) {
+                font-size: var(--font-24);
+            }
+        }
+
+        .link-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .title {
+                font-size: var(--font-14);
+
+                @media (max-height:575px) {
+                    font-size: var(--font-12);
+                }
+                @media (max-width:768px) {
+                    font-size: var(--font-12);
+                }
+            }
+
+            .wrapper-address {
+                display: flex;
+                align-items: center;
+                gap: 0.25rem;
+
+                .address {
+                    cursor: pointer;
+                    height: 1rem;
+                    transition: var(--transition);
+                    font-size: var(--font-18);
+
+                    @media (max-height:575px) {
+                        font-size: var(--font-16);
+                    }
+
+                    @media (max-width:768px) {
+                        font-size: var(--font-16);
+                    }
+                }
+            }
+
+            &:hover {
+                .wrapper-address .address {
+                    border-bottom: 1px solid var(--primary-white);
+                    transition: var(--transition);
+                }
+            }
+        }
+    }
+}

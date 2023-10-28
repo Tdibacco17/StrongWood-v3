@@ -1,24 +1,47 @@
 .container-section-navbar {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    background-color: transparent;
     z-index: 1;
-    background-color: var(--primary-white);
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 5rem;
+    padding: 0 2rem;
+
+    @media (max-width:768px) {
+        padding: 0;
+        height: 4rem;
+    }
+
+    &.secondary {
+        position: fixed;
+        background-color: var(--primary-white);
+    }
 
     .wrapper-navbar {
-        min-width: var(--max-width);
-        width: var(--max-width);
+        width: 100vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
+        @media (max-width:768px) {
+            width: 94vw;
+        }
+
+        &.secondary {
+            min-width: var(--max-width);
+            width: var(--max-width);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
         .fill-space {
             width: 2rem;
-            
+
             @media (max-width:768px) {
                 display: none;
             }
@@ -26,7 +49,19 @@
 
         .navbar-title {
             font-weight: var(--font-regular);
-            font-size: var(--font-18);
+            color: var(--primary-white);
+            font-size: var(--font-30);
+            user-select: none;
+
+            @media (max-width:768px) {
+                font-size: var(--font-24);
+            }
+
+            &.secondary {
+                font-weight: var(--font-regular);
+                font-size: var(--font-18);
+                color: var(--primary-gray);
+            }
         }
     }
 }

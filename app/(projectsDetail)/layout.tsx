@@ -1,3 +1,5 @@
+import FooterComponent from "@/components/FooterComponent/FooterComponent"
+import NavbarComponent from "@/components/NavbarComponent/NavbarComponent"
 import { ProjectsProvider } from "@/context/ProjectsContextProvider"
 
 export default function ProjectsDetailLayout({
@@ -6,8 +8,12 @@ export default function ProjectsDetailLayout({
     children: React.ReactNode
 }) {
     return (
-        <ProjectsProvider>
-            {children}
-        </ProjectsProvider>
+        <>
+            <NavbarComponent navType="primary" />
+            <ProjectsProvider>
+                {children}
+            </ProjectsProvider>
+            <FooterComponent />
+        </>
     )
 }

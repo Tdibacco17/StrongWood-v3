@@ -1,16 +1,17 @@
 import Image from 'next/image'
 import styles from "./PortraitImgComponent.module.scss"
-import Link from 'next/link'
-import data from "@/models/es.json"
 import { ProjectInterface } from '@/types/ProjectsTypes'
 import { ImgDataInterface } from '@/types'
+import NavbarComponent from '../NavbarComponent/NavbarComponent'
 
 export default function PortraitImgComponent({
     imageData,
-    projectData
+    projectData,
+    isPrimaryNav
 }: {
     imageData: ImgDataInterface,
-    projectData: ProjectInterface | undefined
+    projectData: ProjectInterface | undefined,
+    isPrimaryNav: boolean
 }) {
     return (
         <div className={styles["container-section-portraitImg"]}>
@@ -22,7 +23,7 @@ export default function PortraitImgComponent({
                     className={styles["container-inner-image"]}
                     priority
                     style={{ objectPosition: imageData.objPosition }}
-                    sizes="(max-width: 768px) 90vw, (max-width: 992px) 50vw, 100vw"
+                    sizes="(max-width: 768px) 94vw, (max-width: 992px) 50vw, 100vw"
                 />
             </div>
             <div className={styles["container-overlay-image"]} />
@@ -39,7 +40,7 @@ export default function PortraitImgComponent({
                         </div>
                     </div>
                 </div>}
-            <Link href={"/"} className={styles["title-header"]}>{data.navbar.title}</Link>
+            {isPrimaryNav && <NavbarComponent navType='primary' />}
         </div>
     )
 }

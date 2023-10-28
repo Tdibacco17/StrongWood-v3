@@ -17,7 +17,7 @@ export default function RectangleImgComponent({
                     className={styles["container-inner-image"]}
                     priority
                     style={{ objectPosition: imageData.objPosition }}
-                    sizes="(max-width: 992px) 700px, (max-width: 768px) 90vw, 100vw"
+                    sizes="(max-width: 992px) 700px, (max-width: 768px) 94vw, 100vw"
                 />
             </div>
         </div>

@@ -21,7 +21,7 @@ export default function TwoSmallImgComponent({
                                     priority
                                     style={{ objectPosition: imageData.objPosition }}
                                     className={`${styles["container-inner-image"]}`}
-                                    sizes="(max-width: 992px) 20rem, (max-width: 768px) 90vw, 100vw"
+                                    sizes="(max-width: 992px) 20rem, (max-width: 768px) 94vw, 100vw"
                                 />
                             </div>
                         </div>

@@ -16,7 +16,7 @@ export default function ProjectsCardComponent({ projectData }: { projectData: Pr
                     fill
                     className={`${styles["container-inner-image"]}`}
                     style={{ objectPosition: projectData.image.objPosition }}
-                    sizes="(max-width: 992px) 50vw, (max-width: 768px) 90vw, 100vw"
+                    sizes="(max-width: 992px) 50vw, (max-width: 768px) 94vw, 100vw"
                 />
             </div>
             <div className={styles["container-description-card"]}>

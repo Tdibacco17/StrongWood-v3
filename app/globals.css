@@ -19,7 +19,8 @@
   --primary-gray: #4F4F4F;
   --primary-black: #000000;
   --transition: 100ms ease-in-out;
-  --bg-overlay: rgba(0, 0, 0, 0.4)
+  --bg-overlay: rgba(0, 0, 0, 0.4);
+  --bg-overlay-nav: rgba(0, 0, 0, 0.3)
 }
 
 @media (max-width:1400px) {
@@ -42,7 +43,7 @@
 
 @media (max-width:768px) {
   :root {
-    --max-width: 90vw;
+    --max-width: 94vw;
   }
 }
 

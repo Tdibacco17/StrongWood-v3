@@ -29,7 +29,8 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                             <PortraitImgComponent
                                 imageData={projectData.details.firstLongImg}
                                 projectData={projectData}
-                            /> 
+                                isPrimaryNav={false}
+                            />
                         }
                         {
                             projectData.details.twoSmallImg &&
