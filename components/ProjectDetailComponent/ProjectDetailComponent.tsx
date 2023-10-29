@@ -25,9 +25,9 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                     :
                     <>
                         {
-                            projectData.details.firstLongImg &&
+                            projectData.details.portraitImg &&
                             <PortraitImgComponent
-                                imageData={projectData.details.firstLongImg}
+                                imageData={projectData.details.portraitImg}
                                 projectData={projectData}
                                 isPrimaryNav={false}
                             />
@@ -35,6 +35,7 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                         {
                             projectData.details.twoSmallImg &&
                             <TwoSmallImgComponent
+                                isReverse={false}
                                 imagesData={projectData.details.twoSmallImg} />
                         }
                         {

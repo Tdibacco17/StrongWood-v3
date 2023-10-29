@@ -4,11 +4,13 @@ import { ImgDataInterface } from "@/types"
 
 export default function TwoSmallImgComponent({
     imagesData,
+    isReverse
 }: {
     imagesData: ImgDataInterface[],
+    isReverse: boolean
 }) {
     return (
-        <div className={`${styles["container-section-twoImages"]}`}>
+        <div className={`${styles["container-section-twoImages"]} ${isReverse && styles["reverse"]}`}>
             {
                 imagesData.map((imageData: ImgDataInterface, index: number) => {
                     return (

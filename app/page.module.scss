@@ -1,3 +1,12 @@
 .container-section-home {
-    padding-bottom: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12rem;
+    width: 100vw;
+    padding-bottom: 2rem;
+    
+    @media (max-width:1200px) {
+        gap: 8rem;
+    }
 }

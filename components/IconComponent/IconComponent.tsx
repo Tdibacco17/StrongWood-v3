@@ -19,7 +19,7 @@ export const WhatsappIconComponent = ({ fill, size, hover, link }: IconProps) =>
 
     if (link && link.length > 0) {
         return (
-            <Link href={link} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+            <Link target="_blank" aria-label={`Ir a la página de Whatsapp`} href={link} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
                 {WppIcon}
             </Link>
         )
@@ -58,7 +58,7 @@ export const InstagramIconComponent = ({ fill, size, hover, link }: IconProps) =
 
     if (link && link.length > 0) {
         return (
-            <Link href={link} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+            <Link target="_blank" aria-label={`Ir a la página de Instagram`} href={link} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
                 {IgIcon}
             </Link>
         )
@@ -86,7 +86,7 @@ export const EmailIconComponent = ({ fill, size, hover, link }: IconProps) => {
     </svg>
     if (link && link.length > 0) {
         return (
-            <Link href={link} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+            <Link target="_blank" aria-label={`Ir a la página de Email`} href={link} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
                 {EmailIcon}
             </Link>
         )

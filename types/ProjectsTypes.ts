@@ -15,9 +15,10 @@ export interface ProjectInterface {
     year: string,
     location: string,
     details: {
-        firstLongImg?: ImgDataInterface;
+        portraitImg?: ImgDataInterface;
         rectangleImg?: ImgDataInterface;
         twoSmallImg?: ImgDataInterface[];
+        secondTwoSmallImg?: ImgDataInterface[];
         // secondTwoSmallImg?: ImgDataInterface[];
         // longSection?: ImgDataInterface;
     };

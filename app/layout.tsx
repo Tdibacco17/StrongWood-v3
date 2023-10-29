@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'StrongWood®',
   description: 'El balance perfecto entre hierro y madera.',
   colorScheme: 'light',
-  themeColor: 'light',
+  themeColor: '#f7f4ed',
   authors: {
     name: 'Tomás Di Bacco',
     url: 'https://www.linkedin.com/in/tomas-di-bacco/'
