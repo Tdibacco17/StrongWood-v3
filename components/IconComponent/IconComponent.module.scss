@@ -1,57 +1,8 @@
 .container-icon-svg {
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.25rem;
-
-    &.medium {
-        height: 2rem;
-        width: 2rem;
-    }
-
-    &.small {
-        height: 1.75rem;
-        width: 1.75rem;
-    }
-
-    &:hover {
-        .icon-path {
-            transition: all var(--transition);
-
-            &.color-secondary {
-                fill: var(--primary-black);
-            }
-        }
-    }
-
-    .icon-path {
-        cursor: pointer;
-        transition: all var(--transition);
-
-        &.color-primary {
-            fill: var(--primary-black);
-        }
-
-        &.color-secondary {
-            fill: var(--primary-gray);
-        }
-
-        &.color-tertiary {
-            fill: var(--primary-gray);
-        }
-
-        &.color-white {
-            fill: var(--primary-white);
-        }
-    }
-}
-
-.container-icon-svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.3rem;
     cursor: pointer;
 
     &.medium {
