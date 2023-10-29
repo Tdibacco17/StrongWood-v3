@@ -2,7 +2,7 @@ import { ContactItemDetaisInterface } from "@/types/ContactTypes"
 import styles from "./ContactDetailsComponent.module.scss"
 import data from "@/models/es.json"
 import Link from "next/link"
-import IconComponent from "../IconComponent/IconComponent"
+import  { InstagramIconComponent } from "../IconComponent/IconComponent"
 
 export default function ContactDetailsComponent() {
     return (
@@ -15,8 +15,7 @@ export default function ContactDetailsComponent() {
                             <Link href={item.href} key={index} className={styles["link-item"]}>
                                 <p className={styles["title"]}>{item.title}</p>
                                 <div className={styles["wrapper-address"]}>
-                                    {item.icon &&
-                                        <IconComponent isAnchor={false} iconData={item.icon} />}
+                                    {item.icon && <InstagramIconComponent fill="white" size="small" hover={false}/>}
                                     <p className={styles["address"]}>{item.address}</p>
                                 </div>
                             </Link>

@@ -12,3 +12,10 @@ export interface IconInterface {
     href?: string,
     stroke?: string
 }
+
+export interface IconProps {
+    fill: string,
+    size: "small" | "medium",
+    hover: boolean,
+    link?: string
+}

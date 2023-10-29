@@ -1,5 +1,5 @@
 import Link from "next/link"
-import IconComponent from "../IconComponent/IconComponent"
+import { BurgerMenuIconComponent } from "../IconComponent/IconComponent"
 import styles from "./NavbarComponent.module.scss"
 import data from "@/models/es.json"
 
@@ -13,13 +13,9 @@ export default function NavbarComponent({ navType }: { navType: NavInterface }) 
                 <Link href={"/"} className={`${styles["navbar-title"]} ${styles[`${navType}`]}`}>
                     {data.navbar.title}
                 </Link>
-                <IconComponent
-                    iconData={
-                        navType === "secondary" ?
-                            data.navbar.burgermenu.secondary
-                            : data.navbar.burgermenu.primary
-                    }
-                    isAnchor={false} />
+                {navType === "secondary" ?
+                    <BurgerMenuIconComponent fill="#4F4F4F" size="medium" hover={true} />
+                    : <BurgerMenuIconComponent fill="white" size="medium" hover={false} />}
             </div>
         </section>
     )

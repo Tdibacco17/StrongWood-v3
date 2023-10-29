@@ -1,5 +1,3 @@
-import { IconInterface } from ".";
-
 export interface ContactProps {
     nameRef: React.RefObject<HTMLInputElement>,
     phoneRef: React.RefObject<HTMLInputElement>,
@@ -28,5 +26,5 @@ export interface ContactItemDetaisInterface {
     title: string,
     address: string,
     href: string,
-    icon?: IconInterface
+    icon?: boolean
 }

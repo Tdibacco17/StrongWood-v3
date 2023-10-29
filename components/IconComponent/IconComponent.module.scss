@@ -40,8 +40,36 @@
         &.color-tertiary {
             fill: var(--primary-gray);
         }
+
         &.color-white {
             fill: var(--primary-white);
+        }
+    }
+}
+
+.container-icon-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    cursor: pointer;
+
+    &.medium {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    &.small {
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+
+    &.hover {
+        &:hover {
+            .icon-svg {
+                fill: var(--primary-black);
+                transition: all var(--transition);
+            }
         }
     }
 }

@@ -1,8 +1,7 @@
 import styles from "./FooterComponent.module.scss"
 import data from "@/models/es.json"
-import IconComponent from "../IconComponent/IconComponent"
+import { EmailIconComponent, InstagramIconComponent, WhatsappIconComponent } from "../IconComponent/IconComponent"
 import BtnTopComponent from "./BtnScrollComponent/BtnScrollComponent"
-import { IconInterface } from "@/types"
 
 export default function FooterComponent() {
     return (
@@ -10,11 +9,9 @@ export default function FooterComponent() {
             <div className={styles["wrapper-footer"]}>
                 <div className={styles["primary-footer"]}>
                     <div className={styles["container-networks-icon"]}>
-                        {
-                            Object.values(data.footer.networks).map((iconData: IconInterface) => {
-                                return <IconComponent key={iconData.iconSlug} iconData={iconData} isAnchor={true} />
-                            })
-                        }
+                        <InstagramIconComponent fill="#4F4F4F" size="small" hover={true} link="https://www.instagram.com/strongwood_ar" />
+                        <WhatsappIconComponent fill="#4F4F4F" size="small" hover={true} link="https://web.whatsapp.com/send?phone=5491171196506" />
+                        <EmailIconComponent fill="#4F4F4F" size="small" hover={true} link="mailto:strongwoodventas@gmail.com" />
                     </div>
                     <BtnTopComponent title={data.footer.scrollTo} />
                 </div>
