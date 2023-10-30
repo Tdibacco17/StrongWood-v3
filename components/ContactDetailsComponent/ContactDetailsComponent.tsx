@@ -2,7 +2,7 @@ import { ContactItemDetaisInterface } from "@/types/ContactTypes"
 import styles from "./ContactDetailsComponent.module.scss"
 import data from "@/models/es.json"
 import Link from "next/link"
-import  { InstagramIconComponent } from "../IconComponent/IconComponent"
+import { InstagramIconComponent } from "../IconComponent/IconComponent"
 
 export default function ContactDetailsComponent() {
     return (
@@ -12,10 +12,10 @@ export default function ContactDetailsComponent() {
                 {
                     Object.values(data.contactPage.contactDetails).map((item: ContactItemDetaisInterface, index: number) => {
                         return (
-                            <Link href={item.href} key={index} className={styles["link-item"]}>
+                            <Link rel="noopener noreferrer" target="_blank" href={item.href} key={index} className={styles["link-item"]}>
                                 <p className={styles["title"]}>{item.title}</p>
                                 <div className={styles["wrapper-address"]}>
-                                    {item.icon && <InstagramIconComponent fill="white" size="small" hover={false}/>}
+                                    {item.icon && <InstagramIconComponent fill="white" size="small" hover={false} />}
                                     <p className={styles["address"]}>{item.address}</p>
                                 </div>
                             </Link>

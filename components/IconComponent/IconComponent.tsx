@@ -1,7 +1,24 @@
-import {  IconProps } from '@/types'
+import { IconProps } from '@/types'
 import styles from './IconComponent.module.scss'
 import Link from 'next/link'
 
+const LinkComponent = ({ children, link, size, hover }: { children: React.ReactNode, link: string, size: "mini" | "small" | "medium", hover: boolean }) => {
+    return (
+        <Link
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-label={`Ir a la página de Whatsapp`}
+            href={link}
+            className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+            {children}
+        </Link>
+    )
+}
+const IconComponent = ({ children, size, hover }: { children: React.ReactNode, size: "mini" | "small" | "medium", hover: boolean }) => {
+    return <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+        {children}
+    </div>
+}
 export const WhatsappIconComponent = ({ fill, size, hover, link }: IconProps) => {
     const WppIcon = <svg
         width={"2rem"}
@@ -19,15 +36,15 @@ export const WhatsappIconComponent = ({ fill, size, hover, link }: IconProps) =>
 
     if (link && link.length > 0) {
         return (
-            <Link target="_blank" aria-label={`Ir a la página de Whatsapp`} href={link} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+            <LinkComponent link={link} size={size} hover={hover}>
                 {WppIcon}
-            </Link>
+            </LinkComponent>
         )
     }
     return (
-        <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+        <IconComponent size={size} hover={hover}>
             {WppIcon}
-        </div>
+        </IconComponent>
     )
 }
 
@@ -58,15 +75,15 @@ export const InstagramIconComponent = ({ fill, size, hover, link }: IconProps) =
 
     if (link && link.length > 0) {
         return (
-            <Link target="_blank" aria-label={`Ir a la página de Instagram`} href={link} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+            <LinkComponent link={link} size={size} hover={hover}>
                 {IgIcon}
-            </Link>
+            </LinkComponent>
         )
     }
     return (
-        <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+        <IconComponent size={size} hover={hover}>
             {IgIcon}
-        </div>
+        </IconComponent>
     )
 }
 
@@ -86,21 +103,21 @@ export const EmailIconComponent = ({ fill, size, hover, link }: IconProps) => {
     </svg>
     if (link && link.length > 0) {
         return (
-            <Link target="_blank" aria-label={`Ir a la página de Email`} href={link} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+            <LinkComponent link={link} size={size} hover={hover}>
                 {EmailIcon}
-            </Link>
+            </LinkComponent>
         )
     }
     return (
-        <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+        <IconComponent size={size} hover={hover}>
             {EmailIcon}
-        </div>
+        </IconComponent>
     )
 }
 
 export const BurgerMenuIconComponent = ({ fill, size, hover }: IconProps) => {
     return (
-        <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+        <IconComponent size={size} hover={hover}>
             <svg
                 width={"2rem"}
                 height={"2rem"}
@@ -114,13 +131,13 @@ export const BurgerMenuIconComponent = ({ fill, size, hover }: IconProps) => {
                     className={styles['icon-svg']}
                 />
             </svg>
-        </div>
+        </IconComponent>
     )
 }
 
 export const CloseIconComponent = ({ fill, size, hover }: IconProps) => {
     return (
-        <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+        <IconComponent size={size} hover={hover}>
             <svg
                 width={"2rem"}
                 height={"2rem"}
@@ -133,6 +150,6 @@ export const CloseIconComponent = ({ fill, size, hover }: IconProps) => {
                     className={styles['icon-svg']}
                 />
             </svg>
-        </div>
+        </IconComponent>
     )
 }

@@ -15,7 +15,7 @@ export interface IconInterface {
 
 export interface IconProps {
     fill: string,
-    size: "small" | "medium",
+    size: "mini" | "small" | "medium",
     hover: boolean,
     link?: string
 }

@@ -30,6 +30,7 @@
             @media (max-height:575px) {
                 font-size: var(--font-24);
             }
+
             @media (max-width:768px) {
                 font-size: var(--font-24);
             }
@@ -46,6 +47,7 @@
                 @media (max-height:575px) {
                     font-size: var(--font-12);
                 }
+
                 @media (max-width:768px) {
                     font-size: var(--font-12);
                 }
@@ -55,10 +57,11 @@
                 display: flex;
                 align-items: center;
                 gap: 0.25rem;
+                height: 1.75rem;
 
                 .address {
                     cursor: pointer;
-                    height: 1rem;
+                    height: 1.3rem;
                     transition: var(--transition);
                     font-size: var(--font-18);
 
