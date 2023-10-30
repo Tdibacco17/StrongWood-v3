@@ -25,14 +25,19 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "50% 50%"
                 }
             ],
-            secondTwoSmallImg:[
+            rectangleImg: {
+                imgSrc: "/assets/img/homePage/logoStrong.webp",
+                imgAlt: "Serie Nova",
+                objPosition: "50% 50%"
+            },
+            secondTwoSmallImg: [
                 {
-                    imgSrc: "/assets/img/homePage/Strong-96.webp",
+                    imgSrc: "/assets/img/homePage/Strong-108.webp",
                     imgAlt: "Home Image",
                     objPosition: "50% 50%"
                 },
                 {
-                    imgSrc: "/assets/img/homePage/Strong-23.webp",
+                    imgSrc: "/assets/img/homePage/Strong-58.webp",
                     imgAlt: "Home Image",
                     objPosition: "50% 50%"
                 }

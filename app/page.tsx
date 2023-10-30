@@ -3,6 +3,7 @@ import styles from "./page.module.scss"
 import PortraitImgComponent from "@/components/PortraitImgComponent/PortraitImgComponent"
 import { projectsData } from "@/models/projects"
 import TwoSmallImgComponent from "@/components/TwoSmallImgComponent/TwoSmallImgComponent";
+import RectangleImgComponent from "@/components/RectangleImgComponent/RectangleImgComponent";
 
 export default function HomePage() {
   const { homeData } = projectsData;
@@ -13,6 +14,7 @@ export default function HomePage() {
         projectData={undefined}
         isPrimaryNav={true} />
       {homeData.details.twoSmallImg && <TwoSmallImgComponent isReverse={false} imagesData={homeData.details.twoSmallImg} />}
+      {homeData.details.rectangleImg && <RectangleImgComponent imageData={homeData.details.rectangleImg} />}
       {homeData.details.secondTwoSmallImg && <TwoSmallImgComponent isReverse={true} imagesData={homeData.details.secondTwoSmallImg} />}
       <FooterComponent />
     </section>
