@@ -17,5 +17,8 @@ export interface IconProps {
     fill: string,
     size: "mini" | "small" | "medium",
     hover: boolean,
-    link?: string
+    link?: string,
+    isButton?: () => void
 }
+
+export type NavInterface = "primary" | "secondary"

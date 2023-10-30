@@ -14,11 +14,7 @@ const LinkComponent = ({ children, link, size, hover }: { children: React.ReactN
         </Link>
     )
 }
-const IconComponent = ({ children, size, hover }: { children: React.ReactNode, size: "mini" | "small" | "medium", hover: boolean }) => {
-    return <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
-        {children}
-    </div>
-}
+
 export const WhatsappIconComponent = ({ fill, size, hover, link }: IconProps) => {
     const WppIcon = <svg
         width={"2rem"}
@@ -42,9 +38,9 @@ export const WhatsappIconComponent = ({ fill, size, hover, link }: IconProps) =>
         )
     }
     return (
-        <IconComponent size={size} hover={hover}>
+        <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
             {WppIcon}
-        </IconComponent>
+        </div>
     )
 }
 
@@ -81,9 +77,9 @@ export const InstagramIconComponent = ({ fill, size, hover, link }: IconProps) =
         )
     }
     return (
-        <IconComponent size={size} hover={hover}>
+        <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
             {IgIcon}
-        </IconComponent>
+        </div>
     )
 }
 
@@ -109,15 +105,15 @@ export const EmailIconComponent = ({ fill, size, hover, link }: IconProps) => {
         )
     }
     return (
-        <IconComponent size={size} hover={hover}>
+        <div className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
             {EmailIcon}
-        </IconComponent>
+        </div>
     )
 }
 
-export const BurgerMenuIconComponent = ({ fill, size, hover }: IconProps) => {
+export const BurgerMenuIconComponent = ({ fill, size, hover, isButton }: IconProps) => {
     return (
-        <IconComponent size={size} hover={hover}>
+        <div onClick={isButton} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
             <svg
                 width={"2rem"}
                 height={"2rem"}
@@ -131,13 +127,13 @@ export const BurgerMenuIconComponent = ({ fill, size, hover }: IconProps) => {
                     className={styles['icon-svg']}
                 />
             </svg>
-        </IconComponent>
+        </div>
     )
 }
 
-export const CloseIconComponent = ({ fill, size, hover }: IconProps) => {
+export const CloseIconComponent = ({ fill, size, hover, isButton }: IconProps) => {
     return (
-        <IconComponent size={size} hover={hover}>
+        <div onClick={isButton} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
             <svg
                 width={"2rem"}
                 height={"2rem"}
@@ -150,6 +146,6 @@ export const CloseIconComponent = ({ fill, size, hover }: IconProps) => {
                     className={styles['icon-svg']}
                 />
             </svg>
-        </IconComponent>
+        </div>
     )
 }

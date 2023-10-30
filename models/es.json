@@ -1,6 +1,16 @@
 {
     "navbar": {
-        "title": "StrongWood"
+        "title": "StrongWood",
+        "navigation": [
+            {
+                "title": "Proyectos",
+                "url": "/projects"
+            },
+            {
+                "title": "Contacto",
+                "url": "/contact"
+            }
+        ]
     },
     "projectsPage": {
         "title": "Proyectos",

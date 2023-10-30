@@ -1,9 +1,8 @@
 import Link from "next/link"
-import { BurgerMenuIconComponent } from "../IconComponent/IconComponent"
 import styles from "./NavbarComponent.module.scss"
 import data from "@/models/es.json"
-
-type NavInterface = "primary" | "secondary"
+import { NavInterface } from "@/types"
+import { BurgerMenuComponent } from "./BurgerMenuComponent/BurgerMenuComponent"
 
 export default function NavbarComponent({ navType }: { navType: NavInterface }) {
     return (
@@ -13,9 +12,7 @@ export default function NavbarComponent({ navType }: { navType: NavInterface }) 
                 <Link href={"/"} className={`${styles["navbar-title"]} ${styles[`${navType}`]}`}>
                     {data.navbar.title}
                 </Link>
-                {navType === "secondary" ?
-                    <BurgerMenuIconComponent fill="#4F4F4F" size="medium" hover={true} />
-                    : <BurgerMenuIconComponent fill="white" size="medium" hover={false} />}
+                <BurgerMenuComponent isPrimary={navType === "secondary" ? true : false} />
             </div>
         </section>
     )
