@@ -26,7 +26,7 @@ export function BurgerMenuComponent({ isPrimary }: { isPrimary: boolean }) {
                     )
             }
             {isOpen &&
-                <div className={`${styles["container-section-burger-menu"]}`}>
+                <div className={`${styles["container-section-burger-menu"]} ${isPrimary && styles["secondary"]}`}>
                     <nav className={`${styles["container-navigation"]} ${isPrimary && styles["secondary"]}`}>
                         {data.navbar.navigation.map((item: { title: string, url: string }, index: number) => {
                             return <Link href={item.url} key={index} className={`${styles["title-nav"]} ${isPrimary && styles["secondary"]}`}>{item.title}</Link>

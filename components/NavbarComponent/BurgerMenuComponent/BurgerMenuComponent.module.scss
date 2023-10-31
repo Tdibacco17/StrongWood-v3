@@ -1,6 +1,6 @@
 .container-section-burger-menu {
     position: absolute;
-    top: 4.75rem;
+    top: 4rem;
     left: 0;
     width: 100vw;
     user-select: none;
@@ -11,7 +11,11 @@
     align-items: center;
 
     @media (max-width:768px) {
-        top: 4rem;
+        top: 3rem;
+    }
+
+    &.secondary {
+        background: var(--primary-white)
     }
 
     .container-navigation {
@@ -20,8 +24,12 @@
         align-items: center;
         gap: 1rem;
         width: 100vw;
-        padding: 0 2rem;
-        padding-right: 2.5rem;
+        padding: 0.75rem 2.5rem;
+
+        @media (max-width:768px) {
+            padding: 1rem 0.5rem;
+            width: 94vw;
+        }
 
         .title-nav {
             color: var(--primary-white);
@@ -46,15 +54,14 @@
             }
         }
 
-        @media (max-width:768px) {
-            padding: 0 0.5rem;
-            width: 94vw;
-        }
-
         &.secondary {
-            padding: 0 0.5rem;
+            padding: 0.75rem 0.5rem;
             color: var(--primary-gray);
             width: var(--max-width);
+
+            @media (max-width:768px) {
+                padding: 1rem 0.5rem;
+            }
         }
     }
 }
