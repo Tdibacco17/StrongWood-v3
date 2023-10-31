@@ -7,6 +7,7 @@ import Link from "next/link"
 import PortraitImgComponent from "../PortraitImgComponent/PortraitImgComponent"
 import RectangleImgComponent from "../RectangleImgComponent/RectangleImgComponent"
 import { ProjectsDataContextInterface, SelectedFilterInterface } from "@/types/ProjectsTypes"
+import TechnicalInfoComponent from "../TechnicalInfoComponent/TechnicalInfoComponent"
 
 export default function ProjectDetailComponent({ projectSlug }: { projectSlug: SelectedFilterInterface }) {
     const { projectData } = useContext(
@@ -19,6 +20,7 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                 !projectData ?
                     <>
                         <ImgPlaceholderComponent sectionImg="portrait" />
+                        <ImgPlaceholderComponent sectionImg="twoSmall" isReverse={true}/>
                         <ImgPlaceholderComponent sectionImg="twoSmall" />
                         <ImgPlaceholderComponent sectionImg="rectangle" />
                     </>
@@ -33,10 +35,19 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                             />
                         }
                         {
-                            projectData.details.twoSmallImg &&
+                            projectData.details.twoSmallImg && projectData.details.technicalInfo &&
+                            <TwoSmallImgComponent
+                                isReverse={true}
+                                imagesData={projectData.details.twoSmallImg}
+                                technicalInfo={projectData.details.technicalInfo}
+                            />
+                        }
+                        {
+                            projectData.details.twoSmallImg && 
                             <TwoSmallImgComponent
                                 isReverse={false}
-                                imagesData={projectData.details.twoSmallImg} />
+                                imagesData={projectData.details.twoSmallImg}
+                            />
                         }
                         {
                             projectData.details.rectangleImg &&

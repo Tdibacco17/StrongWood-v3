@@ -41,7 +41,20 @@ export const projectsData: ProjectDataInterface = {
                     imgAlt: "Home Image",
                     objPosition: "50% 50%"
                 }
-            ]
+            ],
+            verticalImg: {
+                imgSrc: "/assets/img/homePage/Strong-23.webp",
+                imgAlt: "Home Image",
+                objPosition: "50% 50%"
+            },
+            technicalInfo: {
+                title: "Buscamos que el habitar sea una cálida experiencia.",
+                description: [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
+                    "Phasellus ut tortor vel libero viverra suscipit."
+                ]
+            }
         },
         year: "",
         location: "",
@@ -81,6 +94,24 @@ export const projectsData: ProjectDataInterface = {
                 imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-16.webp",
                 imgAlt: "Serie Nova",
                 objPosition: "40% 60%"
+            },
+            verticalImg: {
+                imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-11.webp",
+                imgAlt: "Serie Nova",
+                objPosition: "50% 0%"
+            },
+            technicalInfo: {
+                title: "Casa San Blas",
+                description: [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
+                    " Phasellus ut tortor vel libero viverra suscipit."
+                ],
+                footer: {
+                    materials: ["Melamina, ", " Hierro"],
+                    propousal: ["Refacción cocina"],
+                    year: ["2022"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
             }
         },
         categories: ["all", "kitchen"],

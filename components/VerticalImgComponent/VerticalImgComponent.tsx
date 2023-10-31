@@ -4,7 +4,7 @@ import { ImgDataInterface } from "@/types"
 
 export default function VerticalImgComponent({ imageData }: { imageData: ImgDataInterface }) {
     return (
-        <div className={`${styles["container-outer-verticalImg"]}`}>
+        <div className={`${styles["container-outer-verticalImg"]} `}>
             <Image
                 src={imageData.imgSrc}
                 alt={imageData.imgAlt}

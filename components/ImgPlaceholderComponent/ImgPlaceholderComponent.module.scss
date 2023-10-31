@@ -2,18 +2,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--bg-overlay);
     color: var(--primary-gray);
     font-size: var(--font-14);
 
     &.portrait {
         width: 100vw;
         height: 100vh;
+        background: var(--bg-overlay);
+
     }
 
     &.rectangle {
         width: var(--max-width);
         height: 30rem;
+        background: var(--bg-overlay);
 
         @media (max-width:1400px) {
             height: 27.5rem;
@@ -76,6 +78,10 @@
             align-items: center;
             justify-content: space-between;
             gap: 8rem;
+        }
+
+        &.isReverse {
+            flex-direction: row-reverse;
         }
 
         .first-column {

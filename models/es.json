@@ -49,6 +49,27 @@
             }
         }
     },
+    "projectDetail": {
+        "titleDescription": "DESCRIPCIÓN",
+        "footer": [
+            "Materiales",
+            "Propuesta",
+            "Año",
+            "Localización"
+        ]
+    },
+    "homePage": {
+        "redirects": {
+            "projects": {
+                "title": "Ver proyectos",
+                "url": "/projects"
+            },
+            "contact": {
+                "title": "Contactanos",
+                "url": "/contact"
+            }
+        }
+    },
     "contactPage": {
         "title": "Hablemos sobre tu proyecto:",
         "subtitle": "Dejanos tu consulta a cotizar",
