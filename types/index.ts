@@ -18,7 +18,9 @@ export interface IconProps {
     size: "mini" | "small" | "medium",
     hover: boolean,
     link?: string,
-    isButton?: () => void
+    isButton?: () => void,
+    isDesktop?: boolean,
+    isMobile?: boolean
 }
 
 export type NavInterface = "primary" | "secondary"

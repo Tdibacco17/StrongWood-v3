@@ -2,20 +2,28 @@ import { IconProps } from '@/types'
 import styles from './IconComponent.module.scss'
 import Link from 'next/link'
 
-const LinkComponent = ({ children, link, size, hover }: { children: React.ReactNode, link: string, size: "mini" | "small" | "medium", hover: boolean }) => {
+const LinkComponent = ({
+    children, link, size, hover, isDesktop, isMobile
+}: {
+    children: React.ReactNode, link: string, size: "mini" | "small" | "medium", hover: boolean, isDesktop?: boolean, isMobile?: boolean
+}) => {
     return (
         <Link
             rel="noopener noreferrer"
             target="_blank"
             aria-label={`Ir a la página de Whatsapp`}
             href={link}
-            className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+            className={`${styles['container-icon-svg']} 
+            ${styles[size]} 
+            ${hover && styles["hover"]} 
+            ${isDesktop ? styles["isDesktop"] : ""}
+            ${isMobile ? styles["isMobile"] : ""}`}>
             {children}
         </Link>
     )
 }
 
-export const WhatsappIconComponent = ({ fill, size, hover, link }: IconProps) => {
+export const WhatsappIconComponent = ({ fill, size, hover, link, isDesktop, isMobile }: IconProps) => {
     const WppIcon = <svg
         width={"2rem"}
         height={"2rem"}
@@ -32,7 +40,7 @@ export const WhatsappIconComponent = ({ fill, size, hover, link }: IconProps) =>
 
     if (link && link.length > 0) {
         return (
-            <LinkComponent link={link} size={size} hover={hover}>
+            <LinkComponent isMobile={isMobile} isDesktop={isDesktop} link={link} size={size} hover={hover}>
                 {WppIcon}
             </LinkComponent>
         )

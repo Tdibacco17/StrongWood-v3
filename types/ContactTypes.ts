@@ -21,10 +21,3 @@ export interface FieldProps {
         placeholder: string,
     }
 }
-
-export interface ContactItemDetaisInterface {
-    title: string,
-    address: string,
-    href: string,
-    icon?: boolean
-}

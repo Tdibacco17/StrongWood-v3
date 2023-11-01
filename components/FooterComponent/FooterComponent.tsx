@@ -10,7 +10,8 @@ export default function FooterComponent() {
                 <div className={styles["primary-footer"]}>
                     <div className={styles["container-networks-icon"]}>
                         <InstagramIconComponent fill="#4F4F4F" size="small" hover={true} link="https://www.instagram.com/strongwood_ar" />
-                        <WhatsappIconComponent fill="#4F4F4F" size="small" hover={true} link="https://web.whatsapp.com/send?phone=5491171196506" />
+                        <WhatsappIconComponent isDesktop={true} fill="#4F4F4F" size="small" hover={true} link="https://web.whatsapp.com/send?phone=5491171196506" />
+                        <WhatsappIconComponent isMobile={true} fill="#4F4F4F" size="small" hover={true} link="https://wa.me/5491171196506" />
                         <EmailIconComponent fill="#4F4F4F" size="small" hover={true} link="mailto:strongwoodventas@gmail.com" />
                     </div>
                     <BtnTopComponent title={data.footer.scrollTo} />

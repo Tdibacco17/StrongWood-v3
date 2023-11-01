@@ -51,11 +51,11 @@
     },
     "projectDetail": {
         "titleDescription": "DESCRIPCIÓN",
-        "footerTitles":{
-            "materials" :"Materiales",
-            "propousal" :"Propuesta",
-            "year" :"Año",
-            "location" :"Localización"
+        "footerTitles": {
+            "materials": "Materiales",
+            "propousal": "Propuesta",
+            "year": "Año",
+            "location": "Localización"
         }
     },
     "homePage": {
@@ -79,10 +79,15 @@
                 "address": "strongwoodventas@gmail.com",
                 "href": "mailto:strongwoodventas@gmail.com"
             },
-            "whatsapp": {
+            "whatsappDesktop": {
                 "title": "WhatsApp",
                 "address": "+54 911 7119 6506",
                 "href": "https://web.whatsapp.com/send?phone=5491171196506"
+            },
+            "whatsappMobile": {
+                "title": "WhatsApp",
+                "address": "+54 911 7119 6506",
+                "href": "https://wa.me/5491171196506"
             },
             "instagram": {
                 "title": "Instagram",
