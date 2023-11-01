@@ -151,6 +151,20 @@ export const projectsData: ProjectDataInterface = {
                 imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-146.webp",
                 imgAlt: "Serie New York",
                 objPosition: "30% 40%",
+            },
+            technicalInfo: {
+                title: "Serie New York",
+                description: [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
+                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                ],
+                footer: {
+                    materials: ["Melamina, ", " Hierro"],
+                    propousal: ["Refacción cocina"],
+                    year: ["2022"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
             }
         },
         categories: ["all", "kitchen"],

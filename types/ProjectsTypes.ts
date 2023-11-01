@@ -44,6 +44,7 @@ export interface ProjectSelectorInterface {
 };
 
 export interface TechnicalInfoInterface {
+    image?: ImgDataInterface,
     title: string,
     description?: string[],
     footer?: {

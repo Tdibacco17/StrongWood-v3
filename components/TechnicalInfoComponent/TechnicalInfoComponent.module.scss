@@ -7,7 +7,6 @@
     width: 100%;
 
     @media (max-width:768px) {
-        width: 94vw;
         height: 26rem;
     }
 
@@ -30,7 +29,7 @@
         }
 
         @media (max-width:768px) {
-            gap: 3rem;
+            gap: 2rem;
         }
 
         .header-title {
@@ -41,7 +40,7 @@
                 font-size: var(--font-30);
             }
 
-            @media (max-width:300px) {
+            @media (max-width:442px) {
                 font-size: var(--font-24);
             }
         }
@@ -110,7 +109,7 @@
     .container-footer-home {
         padding-top: 2rem;
         width: 100%;
-        border-top: 1px solid var(--secondary-gray);
+        border-top: 1px solid var(--primary-gray);
 
         .link {
             color: var(--primary-gray);

@@ -5,7 +5,6 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
   --font-regular: 300;
   --font-bold: 400;
-  --font-50: 3.125rem;
   --font-44: 2.8rem;
   --font-30: 1.875rem;
   --font-24: 1.5rem;
@@ -14,14 +13,10 @@
   --font-14: 0.875rem;
   --font-12: 0.75rem;
   --primary-white: #f7f4ed;
-  --secondary-white: #f4f4f4;
-  --tertiary-white: #eee;
   --primary-gray: #4F4F4F;
-  --secondary-gray: #7b7b7b;
   --primary-black: #000000;
   --transition: 100ms ease-in-out;
   --bg-overlay: rgba(0, 0, 0, 0.4);
-  --bg-overlay-nav: rgba(0, 0, 0, 0.3)
 }
 
 @media (max-width:1400px) {

@@ -19,7 +19,7 @@ export default function TwoSmallImgComponent({
                 imagesData.map((imageData: ImgDataInterface, index: number) => {
                     return (
                         <div key={index} className={`${styles["container-column"]} ${index === 1 && styles["second"]}`}>
-                            <div className={`${index !== 1 && technicalInfo ? styles["isInfo"] : styles["container-outer-image"]} 
+                            <div className={`${index !== 1 && technicalInfo ? styles["container-outer-info"] : styles["container-outer-image"]} 
                                 ${index === 1 && styles["second"]}`}>
                                 {technicalInfo && index !== 1 ?
                                     <TechnicalInfoComponent technicalInfo={technicalInfo} />
