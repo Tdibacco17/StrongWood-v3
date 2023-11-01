@@ -4,5 +4,5 @@ import { filterProjectsData } from "@/utils/filterProjectsData";
 
 export default function KitchensPage() {
     const parsedObject: ProjectDataInterface = filterProjectsData("kitchen");
-    return <ProjectsComponent projectsData={parsedObject} />
+    return <ProjectsComponent projectsData={parsedObject} projectSlug="kitchen"/>
 }

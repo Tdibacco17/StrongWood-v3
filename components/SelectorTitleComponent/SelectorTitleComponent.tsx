@@ -1,9 +1,9 @@
 import styles from "./SelectorTitleComponent.module.scss"
 import data from "@/models/es.json"
-import { ProjectSelectorInterface } from "@/types/ProjectsTypes";
+import { ProjectSelectorInterface, SelectedFilterInterface } from "@/types/ProjectsTypes";
 import Link from "next/link";
 
-export default function SelectorTitleComponent() {
+export default function SelectorTitleComponent({ projectSlug }: { projectSlug: SelectedFilterInterface }) {
     return (
         <div className={styles['container-section-selector-titles']}>
             <p className={styles['header-title']}>{data.projectsPage.title}</p>
@@ -15,7 +15,8 @@ export default function SelectorTitleComponent() {
                                 aria-label={`Ir a proyecto ${filterData.selectorTitle}`}
                                 href={filterData.selectorFilter === "all" ? `/projects` : `/projects/${filterData.selectorFilter}`}
                                 key={filterData.selectorFilter}
-                                className={styles['title-item']}>
+                                className={`${styles['title-item']}
+                                ${projectSlug === filterData.selectorFilter && styles["active-item"]}`}>
                                 {filterData.selectorTitle}
                             </Link>
                         )

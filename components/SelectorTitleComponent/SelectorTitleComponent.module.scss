@@ -37,6 +37,11 @@
                 border-bottom: 1px solid var(--primary-black);
                 transition: var(--transition);
             }
+
+            &.active-item {
+                color: var(--primary-black);
+                border-bottom: 1px solid var(--primary-black);
+            }
         }
     }
 }

@@ -1,19 +1,29 @@
-import { ProjectDataInterface, ProjectInterface } from "@/types/ProjectsTypes";
+import { ProjectDataInterface, ProjectInterface, SelectedFilterInterface } from "@/types/ProjectsTypes";
 import ProjectsCardComponent from "../ProjectsCardComponent/ProjectsCardComponent"
 import styles from "./ProjectsComponent.module.scss"
+import SelectorTitleComponent from "../SelectorTitleComponent/SelectorTitleComponent";
 
-export default function ProjectsComponent({ projectsData }: { projectsData: ProjectDataInterface }) {
+export default function ProjectsComponent({
+    projectsData,
+    projectSlug
+}: {
+    projectsData: ProjectDataInterface,
+    projectSlug: SelectedFilterInterface
+}) {
 
     return (
-        <div className={styles["container-projects-cards"]}>
-            {
-                projectsData && Object.values(projectsData).map((projectData: ProjectInterface) => {
-                    return <ProjectsCardComponent
-                        key={projectData.projectSlug}
-                        projectData={projectData}
-                    />
-                })
-            }
-        </div>
+        <>
+            <SelectorTitleComponent projectSlug={projectSlug}/>
+            <div className={styles["container-projects-cards"]}>
+                {
+                    projectsData && Object.values(projectsData).map((projectData: ProjectInterface) => {
+                        return <ProjectsCardComponent
+                            key={projectData.projectSlug}
+                            projectData={projectData}
+                        />
+                    })
+                }
+            </div>
+        </>
     )
 }
