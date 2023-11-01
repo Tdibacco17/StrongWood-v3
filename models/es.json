@@ -82,12 +82,14 @@
             "whatsappDesktop": {
                 "title": "WhatsApp",
                 "address": "+54 911 7119 6506",
-                "href": "https://web.whatsapp.com/send?phone=5491171196506"
+                "href": "https://web.whatsapp.com/send?phone=5491171196506",
+                "classType": "isDesktop"
             },
             "whatsappMobile": {
                 "title": "WhatsApp",
                 "address": "+54 911 7119 6506",
-                "href": "https://wa.me/5491171196506"
+                "href": "https://wa.me/5491171196506",
+                "classType": "isMobile"
             },
             "instagram": {
                 "title": "Instagram",
