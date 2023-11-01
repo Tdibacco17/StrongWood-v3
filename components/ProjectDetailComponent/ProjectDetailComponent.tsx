@@ -37,7 +37,6 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                             projectData.details.twoSmallImg && projectData.details.technicalInfo &&
                             <TwoSmallImgComponent
                                 isReverse={true}
-                                imagesData={projectData.details.twoSmallImg}
                                 technicalInfo={projectData.details.technicalInfo}
                             />
                         }

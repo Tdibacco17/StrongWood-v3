@@ -5,6 +5,7 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    height: 10rem;
 
     .wrapper-footer {
         min-width: var(--max-width);
@@ -18,20 +19,23 @@
         .primary-footer {
             display: flex;
             justify-content: space-between;
+            align-items: flex-end;
             width: 100%;
             padding: 2.25rem 0;
+
+            .title-contact {
+                font-size: var(--font-14);
+                padding-bottom: 0.5rem;
+            }
 
             .container-networks-icon {
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
                 gap: 1rem;
-
-                @media (max-width:768px) {
-                    justify-content: center;
-                }
             }
         }
+
 
         .secondary-footer {
             display: flex;

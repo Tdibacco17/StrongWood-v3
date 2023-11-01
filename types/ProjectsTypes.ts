@@ -19,8 +19,7 @@ export interface ProjectInterface {
         rectangleImg?: ImgDataInterface;
         twoSmallImg?: ImgDataInterface[];
         secondTwoSmallImg?: ImgDataInterface[];
-        // secondTwoSmallImg?: ImgDataInterface[];
-        verticalImg?: ImgDataInterface;
+        // verticalImg?: ImgDataInterface;
         technicalInfo?: TechnicalInfoInterface;
     };
     categories: SelectedFilterInterface[];
@@ -44,9 +43,9 @@ export interface ProjectSelectorInterface {
 };
 
 export interface TechnicalInfoInterface {
-    image?: ImgDataInterface,
+    image: ImgDataInterface,
     title: string,
-    description?: string[],
+    description: string[],
     footer?: {
         year: string[],
         location: string[],

@@ -6,6 +6,7 @@
     height: 30rem;
     user-select: none;
     overflow: hidden;
+    background: var(--bg-overlay);
 
     * {
         pointer-events: none;

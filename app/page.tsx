@@ -16,7 +16,6 @@ export default function HomePage() {
       {homeData.details.twoSmallImg &&
         <TwoSmallImgComponent
           isReverse={true}
-          imagesData={homeData.details.twoSmallImg}
           technicalInfo={homeData.details.technicalInfo}
         />}
       {homeData.details.rectangleImg &&
