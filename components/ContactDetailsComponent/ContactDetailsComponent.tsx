@@ -11,7 +11,7 @@ export default function ContactDetailsComponent() {
                 <p className={styles["header-title"]}>{data.contactPage.title}</p>
                 {
                     Object.values(data.contactPage.contactDetails).map((item: ContactInterface, index: number) => {
-                        return <Link rel="noopener noreferrer" target="_blank"
+                        return <Link key={index} rel="noopener noreferrer" target="_blank"
                             href={item.href}
                             className={`${styles["link-item"]}
                             ${item.classType ? styles[item.classType] : ""}`}>
