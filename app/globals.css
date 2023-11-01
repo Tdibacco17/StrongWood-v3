@@ -67,7 +67,7 @@ body {
   font-size: var(--calc-rem);
   font-family: var(--font-mono);
   font-weight: var(--font-regular);
-  padding-bottom: 10rem;
+  padding-bottom: 12rem;
 }
 
 a {

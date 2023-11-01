@@ -4,7 +4,6 @@
     align-items: center;
     gap: 12rem;
     width: 100vw;
-    padding-bottom: 2rem;
 
     @media (max-width:1200px) {
         gap: 8rem;
@@ -13,17 +12,17 @@
     @media (max-width:768px) {
         gap: 3.75rem;
     }
-    
+
     .container-title-back {
         width: var(--max-width);
+        padding-bottom: 1.25rem;
+        text-align: left;
 
         .title-back {
-            cursor: pointer;
             color: var(--primary-gray);
             height: 1rem;
             transition: var(--transition);
             font-size: var(--font-14);
-            text-align: left;
 
             &:hover {
                 color: var(--primary-black);

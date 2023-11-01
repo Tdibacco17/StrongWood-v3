@@ -5,7 +5,7 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    height: 10rem;
+    height: 12rem;
 
     .wrapper-footer {
         min-width: var(--max-width);
@@ -21,7 +21,7 @@
             justify-content: space-between;
             align-items: flex-end;
             width: 100%;
-            padding: 2.25rem 0;
+            padding: 1.25rem 0;
 
             .title-contact {
                 font-size: var(--font-14);
@@ -33,6 +33,21 @@
                 align-items: center;
                 justify-content: flex-start;
                 gap: 1rem;
+                padding-bottom: 2.5rem;
+            }
+
+            .title-back {
+                color: var(--primary-gray);
+                height: 1rem;
+                transition: var(--transition);
+                font-size: var(--font-14);
+                text-align: left;
+    
+                &:hover {
+                    color: var(--primary-black);
+                    border-bottom: 1px solid var(--primary-black);
+                    transition: var(--transition);
+                }
             }
         }
 

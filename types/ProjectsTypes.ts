@@ -21,6 +21,7 @@ export interface ProjectInterface {
         secondTwoSmallImg?: ImgDataInterface[];
         // verticalImg?: ImgDataInterface;
         technicalInfo?: TechnicalInfoInterface;
+        secondTechnicalInfo?: TechnicalInfoInterface;
     };
     categories: SelectedFilterInterface[];
     urlSlug: SelectedFilterInterface
@@ -51,6 +52,10 @@ export interface TechnicalInfoInterface {
         location: string[],
         propousal: string[],
         materials: string[]
+    },
+    homeFooterData?: {
+        proyects?: { title: string, url: string },
+        contact?: { title: string, url: string }
     }
 };
 

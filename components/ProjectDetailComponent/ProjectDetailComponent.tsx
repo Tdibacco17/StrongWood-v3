@@ -34,7 +34,7 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                             />
                         }
                         {
-                            projectData.details.twoSmallImg && projectData.details.technicalInfo &&
+                            projectData.details.technicalInfo &&
                             <TwoSmallImgComponent
                                 isReverse={true}
                                 technicalInfo={projectData.details.technicalInfo}
@@ -59,7 +59,7 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                 <Link
                     href={`/projects/${projectSlug}`}
                     aria-label="Ir atras"
-                    className={styles["title-back"]}>Ir atras</Link>
+                    className={styles["title-back"]}>Volver atras</Link>
             </div>
         </div>
     )

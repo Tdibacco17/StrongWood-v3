@@ -17,6 +17,10 @@ export default function FooterComponent() {
                             <WhatsappIconComponent isMobile={true} fill="#4F4F4F" size="small" hover={true} link="https://wa.me/5491171196506" />
                             <EmailIconComponent fill="#4F4F4F" size="small" hover={true} link="mailto:strongwoodventas@gmail.com" />
                         </div>
+                        <Link
+                            href={`/contact`}
+                            aria-label="Ir a la página de contacto"
+                            className={styles["title-back"]}>Contactanos</Link>
                     </div>
                     <BtnTopComponent title={data.footer.scrollTo} />
                 </div>

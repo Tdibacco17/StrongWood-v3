@@ -53,7 +53,32 @@ export const projectsData: ProjectDataInterface = {
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                     "In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     "Phasellus ut tortor vel libero viverra suscipit."
-                ]
+                ],
+                homeFooterData: {
+                    proyects: {
+                        title: "Ver proyectos",
+                        url: "/projects"
+                    }
+                }
+            },
+            secondTechnicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/homePage/Strong-58.webp",
+                    imgAlt: "Home Image",
+                    objPosition: "50% 50%"
+                },
+                title: "Tenés un proyecto? Podemos darle vida juntos!",
+                description: [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
+                    "Phasellus ut tortor vel libero viverra suscipit."
+                ],
+                homeFooterData: {
+                    contact: {
+                        title: "Contactanos",
+                        url: "/contact"
+                    }
+                }
             }
         },
         year: "",

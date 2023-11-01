@@ -20,9 +20,13 @@ export default function HomePage() {
         />}
       {homeData.details.rectangleImg &&
         <RectangleImgComponent imageData={homeData.details.rectangleImg} />}
-      {homeData.details.secondTwoSmallImg &&
+      {homeData.details.secondTechnicalInfo &&
         <TwoSmallImgComponent
           isReverse={false}
+          technicalInfo={homeData.details.secondTechnicalInfo} />}
+      {homeData.details.secondTwoSmallImg &&
+        <TwoSmallImgComponent
+          isReverse={true}
           imagesData={homeData.details.secondTwoSmallImg} />}
       <FooterComponent />
     </section>
