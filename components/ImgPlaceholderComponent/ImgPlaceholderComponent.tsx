@@ -3,19 +3,21 @@ import styles from "./ImgPlaceholderComponent.module.scss"
 
 export default function ImgPlaceholderComponent({
     sectionImg,
-    isReverse
+    isReverse,
+    isTechnicalInfo
 }: {
     sectionImg: ImgPlacheholderInterface,
-    isReverse?: boolean
+    isReverse?: boolean,
+    isTechnicalInfo?: boolean
 }) {
     if (sectionImg === "twoSmall") {
         return (
-            <div className={`${styles["container-placeholder"]} ${styles["container-twoSmall-placeholder"]} ${isReverse && styles["isReverse"]}`}>
-                <div className={styles["first-column"]}>
-                    <small className={styles["twoSmall-first"]}>Cargando...</small>
+            <div className={`${styles["container-placeholder"]} ${styles["container-twoSmall-placeholder"]} ${isTechnicalInfo && styles["isInfo"]} ${isReverse && styles["isReverse"]}`}>
+                <div className={`${styles["first-column"]} ${isTechnicalInfo && styles["container-isInfo"]}`}>
+                    <small className={`${isTechnicalInfo && styles["isInfo"]}`}>Cargando...</small>
                 </div>
                 <div className={styles["second-column"]}>
-                    <small className={styles["twoSmall-second"]}>Cargando...</small>
+                    <small>Cargando...</small>
                 </div>
             </div>
         )

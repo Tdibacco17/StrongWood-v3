@@ -104,7 +104,8 @@ export const projectsData: ProjectDataInterface = {
                 title: "Casa San Blas",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit."
+                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],

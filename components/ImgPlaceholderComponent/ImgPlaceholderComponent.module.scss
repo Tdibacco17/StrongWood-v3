@@ -82,34 +82,54 @@
 
         &.isReverse {
             flex-direction: row-reverse;
+
+            @media (max-width:768px) {
+                flex-direction: column;
+            }
+        }
+
+        &.isInfo {
+            align-items: flex-start;
         }
 
         .first-column {
-            height: 100%;
             display: flex;
             align-items: center;
+            justify-content: center;
+            background: var(--bg-overlay);
+            width: var(--twoImages-width);
+            height: var(--first-image-height);
 
-            .twoSmall-first {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background: var(--bg-overlay);
-                width: var(--twoImages-width);
-                height: var(--first-image-height);
+            &.container-isInfo {
+                align-items: flex-start;
+                height: 100%;
+
+                @media (max-width:768px) {
+                    width: 94vw;
+                    height: 26rem;
+                }
+
+                @media (max-width:350px) {
+                    height: 30rem;
+                }
+
+                .isInfo {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
             }
         }
 
         .second-column {
-            align-items: flex-end;
-
-            .twoSmall-second {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background: var(--bg-overlay);
-                width: var(--twoImages-width);
-                height: var(--second-image-height);
-            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--bg-overlay);
+            width: var(--twoImages-width);
+            height: var(--second-image-height);
         }
     }
 }

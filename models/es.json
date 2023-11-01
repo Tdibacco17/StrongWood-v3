@@ -51,12 +51,12 @@
     },
     "projectDetail": {
         "titleDescription": "DESCRIPCIÓN",
-        "footer": [
-            "Materiales",
-            "Propuesta",
-            "Año",
-            "Localización"
-        ]
+        "footerTitles":{
+            "materials" :"Materiales",
+            "propousal" :"Propuesta",
+            "year" :"Año",
+            "location" :"Localización"
+        }
     },
     "homePage": {
         "redirects": {

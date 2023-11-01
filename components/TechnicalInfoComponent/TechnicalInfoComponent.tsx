@@ -28,25 +28,22 @@ export default function TechnicalInfoComponent({
                     {/* SACAR ESTA VALIDACION CUANDO COMPLETE EL RESTO DE PROJECTDATA */}
                     {technicalInfo.footer ?
                         <div className={styles["container-footer-info"]}>
-                            <div className={styles["footer-column"]}>
-                                {
-                                    data.projectDetail.footer.map((item: string, index: number) => {
-                                        return <p key={index}>{item}</p>
-                                    })
-                                }
-                            </div>
-                            <div className={styles["footer-column"]}>
-                                <p>{technicalInfo.footer.materials}</p>
-                                <p>{technicalInfo.footer.propousal}</p>
-                                <p>{technicalInfo.footer.year}</p>
-                                <p>{technicalInfo.footer.location}</p>
-                            </div>
+                            <p className={styles["row-wrapper"]}>
+                                <span className={styles["item-left"]}>{data.projectDetail.footerTitles.materials}</span><span>{technicalInfo.footer.materials}</span>
+                            </p>
+                            <p className={styles["row-wrapper"]}>
+                                <span className={styles["item-left"]}>{data.projectDetail.footerTitles.propousal}</span><span>{technicalInfo.footer.propousal}</span>
+                            </p>
+                            <p className={styles["row-wrapper"]}>
+                                <span className={styles["item-left"]}>{data.projectDetail.footerTitles.year}</span><span>{technicalInfo.footer.year}</span>
+                            </p>
+                            <p className={styles["row-wrapper"]}>
+                                <span className={styles["item-left"]}>{data.projectDetail.footerTitles.location}</span><span>{technicalInfo.footer.location}</span>
+                            </p>
                         </div>
                         : <div className={styles["container-footer-home"]}>
-                            <p className={styles["header-title"]}>{ }</p>
-                            <div>
-                            </div>
                             <Link
+                                className={styles["link"]}
                                 href={data.homePage.redirects.projects.url}>
                                 {data.homePage.redirects.projects.title}
                             </Link>

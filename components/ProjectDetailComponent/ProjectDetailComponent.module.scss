@@ -5,6 +5,14 @@
     gap: 12rem;
     width: 100vw;
     padding-bottom: 2rem;
+
+    @media (max-width:1200px) {
+        gap: 8rem;
+    }
+
+    @media (max-width:768px) {
+        gap: 4rem;
+    }
     
     .container-title-back {
         width: var(--max-width);
@@ -23,9 +31,5 @@
                 transition: var(--transition);
             }
         }
-    }
-
-    @media (max-width:1200px) {
-        gap: 8rem;
     }
 }

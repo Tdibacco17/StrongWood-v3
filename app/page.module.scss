@@ -4,9 +4,15 @@
     align-items: center;
     gap: 12rem;
     width: 100vw;
-    padding-bottom: 2rem;
-    
+    padding-bottom: 12rem;
+
     @media (max-width:1200px) {
         gap: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    @media (max-width:768px) {
+        gap: 4rem;
+        padding-bottom: 4rem;
     }
 }
