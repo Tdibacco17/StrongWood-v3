@@ -50,9 +50,8 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Buscamos que el habitar sea una cálida experiencia.",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
-                    "In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    "Phasellus ut tortor vel libero viverra suscipit."
+                    "Somos Strong Wood, una empresa familiar apasionada por el diseño y la fabricación de muebles excepcionales. Desde hace generaciones, hemos entregado a nuestros clientes la calidad y el cuidado en cada pieza que creamos.",
+                    "Los muebles no solo deben ser funcionales, sino también una expresión de la belleza y la personalidad de quienes los poseen.",
                 ],
                 homeFooterData: {
                     proyects: {
@@ -69,9 +68,9 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Tenés un proyecto? Podemos darle vida juntos!",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
-                    "In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    "Phasellus ut tortor vel libero viverra suscipit."
+                    "Nos especializamos en diseñar y fabricar muebles a medida para todo tipo de proyectos, ya sea para hogares, oficinas o locales comerciales.",
+                    "Desde la conceptualización hasta la instalación final, nos encargamos de cada paso del proceso.",
+                    "Nuestro compromiso con la calidad se refleja en cada mueble que creamos, utilizando maderas selectas y técnicas artesanales."
                 ],
                 homeFooterData: {
                     contact: {

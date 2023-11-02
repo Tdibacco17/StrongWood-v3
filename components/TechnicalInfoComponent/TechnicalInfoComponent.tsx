@@ -17,7 +17,9 @@ export default function TechnicalInfoComponent({
                     {technicalInfo.footer && <p>{data.projectDetail.titleDescription}</p>}
                     <div>
                         {technicalInfo.description.map((item: string, index: number) => {
-                            return <p key={index} className={styles["description"]}>{item}</p>
+                            return <p key={index} className={`${styles["description"]}`}>
+                                {item}
+                            </p>
                         })}
                     </div>
                 </div>
