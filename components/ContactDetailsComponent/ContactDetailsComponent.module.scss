@@ -14,7 +14,6 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        word-break: break-all;
         gap: 3.5rem;
         width: var(--max-width);
 
@@ -25,14 +24,14 @@
         }
 
         .header-title {
-            font-size: var(--font-30);
+            font-size: var(--font-32);
 
             @media (max-height:575px) {
-                font-size: var(--font-24);
+                font-size: var(--font-26);
             }
 
             @media (max-width:768px) {
-                font-size: var(--font-24);
+                font-size: var(--font-26);
             }
         }
 
@@ -58,14 +57,15 @@
             }
 
             .title {
-                font-size: var(--font-14);
+                font-size: var(--font-16);
+                word-break: break-all;
 
                 @media (max-height:575px) {
                     font-size: var(--font-12);
                 }
 
                 @media (max-width:768px) {
-                    font-size: var(--font-12);
+                    font-size: var(--font-14);
                 }
             }
 
@@ -79,14 +79,15 @@
                     cursor: pointer;
                     height: 1.3rem;
                     transition: var(--transition);
-                    font-size: var(--font-18);
+                    font-size: var(--font-24);
+                    word-break: break-all;
 
                     @media (max-height:575px) {
                         font-size: var(--font-16);
                     }
 
                     @media (max-width:768px) {
-                        font-size: var(--font-16);
+                        font-size: var(--font-18);
                     }
                 }
             }

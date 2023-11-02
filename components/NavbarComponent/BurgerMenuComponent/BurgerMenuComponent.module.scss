@@ -34,9 +34,13 @@
         .title-nav {
             color: var(--primary-white);
             font-weight: var(--font-regular);
-            font-size: var(--font-14);
+            font-size: var(--font-16);
             height: 1.15rem;
             transition: var(--transition);
+
+            @media (max-width:442px) {
+                font-size: var(--font-14);
+            }
 
             &:hover {
                 border-bottom: 1px solid var(--primary-white);

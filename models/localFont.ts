@@ -13,7 +13,7 @@ export const myFont = localFont({
         },
         {
             path: '../public/assets/fonts/Acumin-Pro-Normal-Bold.otf',
-            weight: '400',
+            weight: '500',
             style: 'normal'
         },
         {

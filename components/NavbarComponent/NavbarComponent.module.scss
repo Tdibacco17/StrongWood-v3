@@ -50,16 +50,20 @@
         .navbar-title {
             font-weight: var(--font-regular);
             color: var(--primary-white);
-            font-size: var(--font-30);
+            font-size: var(--font-32);
             user-select: none;
 
+            @media (max-width:1200px) {
+                font-size: var(--font-30);
+            }
+
             @media (max-width:768px) {
-                font-size: var(--font-24);
+                font-size: var(--font-26);
             }
 
             &.secondary {
                 font-weight: var(--font-regular);
-                font-size: var(--font-18);
+                font-size: var(--font-26);
                 color: var(--primary-gray);
             }
         }

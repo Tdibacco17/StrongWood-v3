@@ -3,11 +3,7 @@
     min-width: var(--max-width);
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-
-    @media (max-width:519px) {
-        gap: 1rem;
-    }
+    gap: 1rem;
 
     .header-title {
         text-transform: uppercase;
@@ -30,7 +26,7 @@
             color: var(--primary-gray);
             height: 1rem;
             transition: var(--transition);
-            font-size: var(--font-14);
+            font-size: var(--font-16);
 
             &:hover {
                 color: var(--primary-black);

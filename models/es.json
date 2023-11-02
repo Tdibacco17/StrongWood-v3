@@ -59,7 +59,7 @@
         }
     },
     "contactPage": {
-        "title": "Hablemos sobre tu proyecto:",
+        "title": ["Hablemos sobre ", "tu proyecto:"],
         "subtitle": "Dejanos tu consulta a cotizar",
         "contactDetails": {
             "email": {
