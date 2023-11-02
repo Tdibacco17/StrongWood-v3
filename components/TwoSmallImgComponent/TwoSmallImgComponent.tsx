@@ -33,7 +33,7 @@ export default function TwoSmallImgComponent({
                                     fill
                                     style={{ objectPosition: technicalInfo.image.objPosition }}
                                     className={`${styles["container-inner-image"]}`}
-                                    sizes="(max-width: 768px) 94vw, 100vw"
+                                    sizes="(max-width: 768px) 92vw, 100vw"
                                 />
                                 <small className="spinner">Cargando...</small>
                             </div>
@@ -52,7 +52,7 @@ export default function TwoSmallImgComponent({
                                                 fill
                                                 style={{ objectPosition: imageData.objPosition }}
                                                 className={`${styles["container-inner-image"]}`}
-                                                sizes="(max-width: 992px) 20rem, (max-width: 768px) 94vw, 100vw"
+                                                sizes="(max-width: 992px) 20rem, (max-width: 768px) 92vw, 100vw"
                                             />
                                             <small className="spinner">Cargando...</small>
                                         </div>

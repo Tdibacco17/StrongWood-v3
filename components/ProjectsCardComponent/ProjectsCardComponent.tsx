@@ -16,7 +16,7 @@ export default function ProjectsCardComponent({ projectData, index }: { projectD
                     fill
                     className={`${styles["container-inner-image"]}`}
                     style={{ objectPosition: projectData.image.objPosition }}
-                    sizes="(max-width: 768px) 94vw, 100vw"
+                    sizes="(max-width: 768px) 92vw, 100vw"
                     priority={index < 7 ? true : false}
                 />
                 <small className="spinner">Cargando...</small>
