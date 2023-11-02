@@ -35,6 +35,12 @@
         }
     }
 
+    &.isColumnReverse {
+        @media (max-width:768px) {
+            flex-direction: column-reverse;
+        }
+    }
+
     .container-column {
         --twoImages-width: 36.5rem;
         --first-image-height: 27.5rem;
@@ -90,7 +96,7 @@
             background: var(--bg-overlay);
             display: flex;
             justify-content: center;
-            align-items: center; 
+            align-items: center;
 
             * {
                 pointer-events: none;

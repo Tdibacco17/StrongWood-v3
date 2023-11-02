@@ -7,14 +7,16 @@ import { TechnicalInfoInterface } from "@/types/ProjectsTypes"
 export default function TwoSmallImgComponent({
     imagesData,
     isReverse,
+    isColumnReverse,
     technicalInfo
 }: {
     imagesData?: ImgDataInterface[]
     isReverse: boolean,
+    isColumnReverse?: boolean
     technicalInfo?: TechnicalInfoInterface
 }) {
     return (
-        <div className={`${styles["container-section-twoImages"]} ${isReverse && styles["reverse"]}`}>
+        <div className={`${styles["container-section-twoImages"]} ${isReverse && styles["reverse"]} ${isColumnReverse && styles["isColumnReverse"]}`}>
             {
                 technicalInfo ?
                     <>

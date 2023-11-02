@@ -23,6 +23,7 @@ export default function HomePage() {
       {homeData.details.secondTechnicalInfo &&
         <TwoSmallImgComponent
           isReverse={false}
+          isColumnReverse={true}
           technicalInfo={homeData.details.secondTechnicalInfo} />}
       {homeData.details.secondTwoSmallImg &&
         <TwoSmallImgComponent
