@@ -29,7 +29,6 @@ export default function TwoSmallImgComponent({
                                     src={technicalInfo.image.imgSrc}
                                     alt={technicalInfo.image.imgAlt}
                                     fill
-                                    priority
                                     style={{ objectPosition: technicalInfo.image.objPosition }}
                                     className={`${styles["container-inner-image"]}`}
                                     sizes="(max-width: 768px) 94vw, 100vw"
@@ -48,7 +47,6 @@ export default function TwoSmallImgComponent({
                                                 src={imageData.imgSrc}
                                                 alt={imageData.imgAlt}
                                                 fill
-                                                priority
                                                 style={{ objectPosition: imageData.objPosition }}
                                                 className={`${styles["container-inner-image"]}`}
                                                 sizes="(max-width: 992px) 20rem, (max-width: 768px) 94vw, 100vw"

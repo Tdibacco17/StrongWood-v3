@@ -3,7 +3,7 @@ import styles from "./ProjectsCardComponent.module.scss"
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProjectsCardComponent({ projectData }: { projectData: ProjectInterface }) {
+export default function ProjectsCardComponent({ projectData, index }: { projectData: ProjectInterface, index: number }) {
     return (
         <Link
             // aria-label={`Ir a la página de proyecto ${projectData.title}`}
@@ -17,6 +17,7 @@ export default function ProjectsCardComponent({ projectData }: { projectData: Pr
                     className={`${styles["container-inner-image"]}`}
                     style={{ objectPosition: projectData.image.objPosition }}
                     sizes="(max-width: 768px) 94vw, 100vw"
+                    priority={index < 7 ? true : false}
                 />
             </div>
             <div className={styles["container-description-card"]}>

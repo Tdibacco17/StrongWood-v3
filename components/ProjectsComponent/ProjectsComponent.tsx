@@ -13,13 +13,14 @@ export default function ProjectsComponent({
 
     return (
         <>
-            <SelectorTitleComponent projectSlug={projectSlug}/>
+            <SelectorTitleComponent projectSlug={projectSlug} />
             <div className={styles["container-projects-cards"]}>
                 {
-                    projectsData && Object.values(projectsData).map((projectData: ProjectInterface) => {
+                    projectsData && Object.values(projectsData).map((projectData: ProjectInterface, index: number) => {
                         return <ProjectsCardComponent
                             key={projectData.projectSlug}
                             projectData={projectData}
+                            index={index}
                         />
                     })
                 }

@@ -14,7 +14,6 @@ export default function RectangleImgComponent({
                 alt={imageData.imgAlt}
                 fill
                 className={styles["container-inner-image"]}
-                priority
                 style={{ objectPosition: imageData.objPosition }}
                 sizes="(max-width: 768px) 94vw, 100vw"
             />
