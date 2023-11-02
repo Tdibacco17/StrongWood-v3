@@ -25,6 +25,7 @@ export default function PortraitImgComponent({
                     style={{ objectPosition: imageData.objPosition }}
                     sizes="100vw"
                 />
+                <small className="spinner">Cargando...</small>
             </div>
             <div className={styles["container-overlay-image"]} />
             {projectData &&

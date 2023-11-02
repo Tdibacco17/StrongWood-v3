@@ -19,6 +19,7 @@ export default function ProjectsCardComponent({ projectData, index }: { projectD
                     sizes="(max-width: 768px) 94vw, 100vw"
                     priority={index < 7 ? true : false}
                 />
+                <small className="spinner">Cargando...</small>
             </div>
             <div className={styles["container-description-card"]}>
                 <p className={styles["title-description"]}>{projectData.title}</p>

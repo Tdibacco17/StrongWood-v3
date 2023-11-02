@@ -76,7 +76,11 @@ body {
   font-weight: var(--font-regular);
   padding-bottom: 14rem;
 }
-
+.spinner{
+  font-size: var(--font-12);
+  font-weight: var(--font-bold);
+  color: var(--primary-white);
+}
 body::-webkit-scrollbar {
   width: 0px;
 }

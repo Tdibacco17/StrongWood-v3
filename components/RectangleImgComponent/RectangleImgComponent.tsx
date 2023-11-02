@@ -17,6 +17,7 @@ export default function RectangleImgComponent({
                 style={{ objectPosition: imageData.objPosition }}
                 sizes="(max-width: 768px) 94vw, 100vw"
             />
+            <small className="spinner">Cargando...</small>
         </div>
     )
 }

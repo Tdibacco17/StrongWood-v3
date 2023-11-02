@@ -12,19 +12,19 @@ export default function ImgPlaceholderComponent({
 }) {
     if (sectionImg === "twoSmall") {
         return (
-            <div className={`${styles["container-placeholder"]} ${styles["container-twoSmall-placeholder"]} ${isTechnicalInfo && styles["isInfo"]} ${isReverse && styles["isReverse"]}`}>
-                <div className={`${styles["first-column"]} ${isTechnicalInfo && styles["container-isInfo"]}`}>
-                    <small className={`${isTechnicalInfo && styles["isInfo"]}`}>Cargando...</small>
+            <div className={`${styles["container-placeholder"]} ${styles["container-twoSmall-placeholder"]} ${isReverse && styles["isReverse"]}`}>
+                <div className={`${styles["first-column"]} ${isTechnicalInfo && styles["second-column"]}`}>
+                    <small className="spinner">Cargando...</small>
                 </div>
                 <div className={styles["second-column"]}>
-                    <small>Cargando...</small>
+                    <small className="spinner">Cargando...</small>
                 </div>
             </div>
         )
     }
     return (
         <div className={`${styles["container-placeholder"]} ${styles[sectionImg]}`}>
-            <small>Cargando...</small>
+            <small className="spinner">Cargando...</small>
         </div>
     )
 }

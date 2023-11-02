@@ -33,6 +33,7 @@ export default function TwoSmallImgComponent({
                                     className={`${styles["container-inner-image"]}`}
                                     sizes="(max-width: 768px) 94vw, 100vw"
                                 />
+                                <small className="spinner">Cargando...</small>
                             </div>
                         </div>
                     </>
@@ -51,6 +52,7 @@ export default function TwoSmallImgComponent({
                                                 className={`${styles["container-inner-image"]}`}
                                                 sizes="(max-width: 992px) 20rem, (max-width: 768px) 94vw, 100vw"
                                             />
+                                            <small className="spinner">Cargando...</small>
                                         </div>
                                     </div>
                                 )

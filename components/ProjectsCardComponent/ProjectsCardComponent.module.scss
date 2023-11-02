@@ -13,7 +13,10 @@
         user-select: none;
         overflow: hidden;
         background: var(--bg-overlay);
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
         @media (max-width:1400px) {
             height: 19.5rem;
             min-height: 19.5rem;
