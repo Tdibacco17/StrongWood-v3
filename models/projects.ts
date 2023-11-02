@@ -8,50 +8,38 @@ export const projectsData: ProjectDataInterface = {
         title: "",
         subtitle: "",
         image: {
-            "imgSrc": "/assets/img/homePage/banner/test.jpg",
+            "imgSrc": "/assets/img/homePage/logoStrong.webp",
             "imgAlt": "banner image",
-            "objPosition": "50% 50%"
+            "objPosition": "25% 50%"
         },
         details: {
-            twoSmallImg: [
-                {
-                    imgSrc: "/assets/img/homePage/Strong-96.webp",
-                    imgAlt: "Home Image",
-                    objPosition: "50% 50%"
-                },
-                {
-                    imgSrc: "/assets/img/homePage/Strong-23.webp",
-                    imgAlt: "Home Image",
-                    objPosition: "50% 50%"
-                }
-            ],
             rectangleImg: {
-                imgSrc: "/assets/img/homePage/logoStrong.webp",
+                imgSrc: "/assets/img/homePage/Strong-29.webp",
                 imgAlt: "Serie Nova",
-                objPosition: "50% 50%"
+                objPosition: "50% 0%"
             },
             secondTwoSmallImg: [
                 {
-                    imgSrc: "/assets/img/homePage/Strong-108.webp",
+                    imgSrc: "/assets/img/homePage/Strong-10.webp",
                     imgAlt: "Home Image",
                     objPosition: "50% 50%"
                 },
                 {
-                    imgSrc: "/assets/img/homePage/Strong-58.webp",
+                    imgSrc: "/assets/img/homePage/Strong-105.webp",
                     imgAlt: "Home Image",
                     objPosition: "50% 50%"
                 }
             ],
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/homePage/Strong-96.webp",
+                    imgSrc: "/assets/img/homePage/Strong-1.webp",
                     imgAlt: "Home Image",
-                    objPosition: "50% 50%"
+                    objPosition: "45% 50%"
                 },
                 title: "Buscamos que el habitar sea una cálida experiencia.",
                 description: [
-                    "Somos Strong Wood, una empresa familiar apasionada por el diseño y la fabricación de muebles excepcionales. Desde hace generaciones, hemos entregado a nuestros clientes la calidad y el cuidado en cada pieza que creamos.",
-                    "Los muebles no solo deben ser funcionales, sino también una expresión de la belleza y la personalidad de quienes los poseen.",
+                    "Somos una empresa familiar apasionada por el diseño y la fabricación de muebles excepcionales. Desde hace generaciones, hemos entregado a nuestros clientes la calidad y el cuidado en cada pieza que creamos.",
+                    "Creemos que los muebles no solo deben ser meramente funcionales, sino que tambien deben representar una expresión de la belleza y personalidad de quienes los aprecian.",
                 ],
                 homeFooterData: {
                     proyects: {
@@ -62,11 +50,11 @@ export const projectsData: ProjectDataInterface = {
             },
             secondTechnicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/homePage/Strong-58.webp",
+                    imgSrc: "/assets/img/homePage/Strong-23.webp",
                     imgAlt: "Home Image",
                     objPosition: "50% 50%"
                 },
-                title: "Tenés un proyecto? Podemos darle vida juntos!",
+                title: "Tenés un proyecto en mente? Vamos a darle vida juntos!",
                 description: [
                     "Nos especializamos en diseñar y fabricar muebles a medida para todo tipo de proyectos, ya sea para hogares, oficinas o locales comerciales.",
                     "Desde la conceptualización hasta la instalación final, nos encargamos de cada paso del proceso.",

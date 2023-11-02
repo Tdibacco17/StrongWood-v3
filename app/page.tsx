@@ -13,13 +13,13 @@ export default function HomePage() {
         imageData={homeData.image}
         projectData={undefined}
         isPrimaryNav={true} />
-      {homeData.details.twoSmallImg &&
+      {homeData.details.technicalInfo &&
         <TwoSmallImgComponent
           isReverse={true}
           technicalInfo={homeData.details.technicalInfo}
         />}
-      {homeData.details.rectangleImg &&
-        <RectangleImgComponent imageData={homeData.details.rectangleImg} />}
+      {/* {homeData.details.rectangleImg &&
+        <RectangleImgComponent imageData={homeData.details.rectangleImg} />} */}
       {homeData.details.secondTechnicalInfo &&
         <TwoSmallImgComponent
           isReverse={false}
