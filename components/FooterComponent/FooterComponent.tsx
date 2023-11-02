@@ -19,7 +19,7 @@ export default function FooterComponent() {
                         </div>
                         <Link
                             href={`/contact`}
-                            className={styles["title-got-to-contact"]}>Contactanos</Link>
+                            className={styles["title-back"]}>Contactanos</Link>
                     </div>
                     <BtnTopComponent title={data.footer.scrollTo} />
                 </div>

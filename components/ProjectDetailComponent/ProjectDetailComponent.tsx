@@ -58,7 +58,6 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
             <div className={styles["container-title-back"]}>
                 <Link
                     href={`/projects/${projectSlug}`}
-                    aria-label="Ir atras"
                     className={styles["title-back"]}>Volver atras</Link>
             </div>
         </div>
