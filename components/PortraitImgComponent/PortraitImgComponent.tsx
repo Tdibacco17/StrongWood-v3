@@ -23,7 +23,7 @@ export default function PortraitImgComponent({
                     className={styles["container-inner-image"]}
                     priority
                     style={{ objectPosition: imageData.objPosition }}
-                    sizes="(max-width: 768px) 94vw, (max-width: 992px) 50vw, 100vw"
+                    sizes="100vw"
                 />
             </div>
             <div className={styles["container-overlay-image"]} />

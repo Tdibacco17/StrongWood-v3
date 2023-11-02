@@ -20,8 +20,8 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                     <>
                         <ImgPlaceholderComponent sectionImg="portrait" />
                         <ImgPlaceholderComponent sectionImg="twoSmall" isReverse={true} isTechnicalInfo={true} />
-                        <ImgPlaceholderComponent sectionImg="twoSmall" />
                         <ImgPlaceholderComponent sectionImg="rectangle" />
+                        <ImgPlaceholderComponent sectionImg="twoSmall" />
                     </>
                     :
                     <>

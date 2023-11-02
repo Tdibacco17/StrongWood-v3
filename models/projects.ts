@@ -117,7 +117,7 @@ export const projectsData: ProjectDataInterface = {
             rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-16.webp",
                 imgAlt: "Serie Nova",
-                objPosition: "40% 60%"
+                objPosition: "50% 60%"
             },
             technicalInfo: {
                 image: {
