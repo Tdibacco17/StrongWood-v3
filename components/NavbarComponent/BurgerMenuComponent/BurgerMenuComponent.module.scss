@@ -59,12 +59,12 @@
         }
 
         &.secondary {
-            padding: 0.75rem 0.5rem;
+            padding: 0.75rem 0rem;
             color: var(--primary-gray);
             width: var(--max-width);
 
             @media (max-width:768px) {
-                padding: 1rem 0.5rem;
+                padding: 1rem 0rem;
             }
         }
     }

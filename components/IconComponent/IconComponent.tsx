@@ -121,7 +121,7 @@ export const EmailIconComponent = ({ fill, size, hover, link }: IconProps) => {
 
 export const BurgerMenuIconComponent = ({ fill, size, hover, isButton }: IconProps) => {
     return (
-        <div onClick={isButton} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+        <div onClick={isButton} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]} ${styles["menuBurger"]}`}>
             <svg
                 width={"2rem"}
                 height={"2rem"}
@@ -141,7 +141,7 @@ export const BurgerMenuIconComponent = ({ fill, size, hover, isButton }: IconPro
 
 export const CloseIconComponent = ({ fill, size, hover, isButton }: IconProps) => {
     return (
-        <div onClick={isButton} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]}`}>
+        <div onClick={isButton} className={`${styles['container-icon-svg']} ${styles[size]} ${hover && styles["hover"]} ${styles["menuBurger"]}`}>
             <svg
                 width={"2rem"}
                 height={"2rem"}
