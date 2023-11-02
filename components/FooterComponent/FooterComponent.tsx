@@ -19,8 +19,7 @@ export default function FooterComponent() {
                         </div>
                         <Link
                             href={`/contact`}
-                            aria-label="Ir a la página de contacto"
-                            className={styles["title-back"]}>Contactanos</Link>
+                            className={styles["title-got-to-contact"]}>Contactanos</Link>
                     </div>
                     <BtnTopComponent title={data.footer.scrollTo} />
                 </div>
