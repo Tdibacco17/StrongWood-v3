@@ -17,9 +17,11 @@ export interface ProjectInterface {
     details: {
         portraitImg?: ImgDataInterface;
         rectangleImg?: ImgDataInterface;
+        secondRectangleImg?: ImgDataInterface;
+        thirdRectangleImg?: ImgDataInterface;
         twoSmallImg?: ImgDataInterface[];
         secondTwoSmallImg?: ImgDataInterface[];
-        // verticalImg?: ImgDataInterface;
+        thirdTwoSmallImg?: ImgDataInterface[];
         technicalInfo?: TechnicalInfoInterface;
         secondTechnicalInfo?: TechnicalInfoInterface;
     };

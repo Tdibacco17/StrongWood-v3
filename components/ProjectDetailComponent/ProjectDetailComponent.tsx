@@ -53,6 +53,25 @@ export default function ProjectDetailComponent({ projectSlug }: { projectSlug: S
                                 imagesData={projectData.details.twoSmallImg}
                             />
                         }
+                        {
+                            projectData.details.secondRectangleImg &&
+                            <RectangleImgComponent
+                                imageData={projectData.details.secondRectangleImg}
+                            />
+                        }
+                        {
+                            projectData.details.thirdTwoSmallImg &&
+                            <TwoSmallImgComponent
+                                isReverse={true}
+                                imagesData={projectData.details.thirdTwoSmallImg}
+                            />
+                        }
+                        {
+                            projectData.details.thirdRectangleImg &&
+                            <RectangleImgComponent
+                                imageData={projectData.details.thirdRectangleImg}
+                            />
+                        }
                     </>
             }
             <div className={styles["container-title-back"]}>

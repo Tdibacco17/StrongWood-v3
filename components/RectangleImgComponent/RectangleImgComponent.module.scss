@@ -16,15 +16,15 @@
     }
 
     @media (max-width:1400px) {
-        height: 27.5rem;
-    }
-
-    @media (max-width:1200px) {
         height: 25rem;
     }
 
-    @media (max-width:992px) {
+    @media (max-width:1200px) {
         height: 22.5rem;
+    }
+
+    @media (max-width:992px) {
+        height: 20rem;
     }
 
     @media (max-width:768px) {
