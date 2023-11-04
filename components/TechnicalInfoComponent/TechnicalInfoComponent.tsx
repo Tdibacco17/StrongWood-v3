@@ -15,7 +15,7 @@ export default function TechnicalInfoComponent({
                 <p className={styles["header-title"]}>{technicalInfo.title}</p>
                 <div className={styles["description-info"]}>
                     {technicalInfo.footer && <p>{data.projectDetail.titleDescription}</p>}
-                    <div>
+                    <div className={styles["spacer"]}>
                         {technicalInfo.description.map((item: string, index: number) => {
                             return <p key={index} className={`${styles["description"]}`}>
                                 {item}

@@ -38,8 +38,9 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Buscamos que el habitar sea una cálida experiencia.",
                 description: [
-                    "Somos una empresa familiar apasionada por el diseño y la fabricación de muebles excepcionales. Desde hace generaciones, hemos entregado a nuestros clientes la calidad y el cuidado en cada pieza que creamos.",
-                    "Creemos que los muebles no solo deben ser meramente funcionales, sino que tambien deben representar una expresión de la belleza y personalidad de quienes los aprecian.",
+                    "Somos una empresa familiar apasionada por el diseño y la fabricación de muebles excepcionales.",
+                    "Nos especializamos en diseñar y fabricar cada producto a medida para todo tipo de proyectos, ya sea para hogares, obras, oficinas o locales comerciales.",
+                    "Nos encargamos de cada paso del proceso, desde la conceptualización hasta la instalación final."
                 ],
                 homeFooterData: {
                     proyects: {
@@ -56,8 +57,8 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Tenés un proyecto en mente? Vamos a darle vida juntos!",
                 description: [
-                    "Nos especializamos en diseñar y fabricar muebles a medida para todo tipo de proyectos, ya sea para hogares, oficinas o locales comerciales.",
-                    "Desde la conceptualización hasta la instalación final, nos encargamos de cada paso del proceso.",
+                    "Creemos que los muebles no solo deben ser meramente funcionales, sino que tambien deben representar una expresión de la belleza y personalidad de quienes los aprecian.",
+                    "Por lo que desde hace generacion, hemos entregado a nuestros clientes la calidad y el cuidado en cada pieza que creamos. "
                 ],
                 homeFooterData: {
                     contact: {
@@ -72,55 +73,55 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all"],
         urlSlug: "all"
     },
-    "casa-san-blas": {
-        projectSlug: "casa-san-blas",
-        title: "Casa San Blas",
-        subtitle: "Refacción cocina",
+    "cocina-nova": {
+        projectSlug: "cocina-nova",
+        title: "Refacción cocina",
+        subtitle: "Serie Nova",
         image: {
             imgSrc: "/assets/img/projectsPage/kitchen/nova/Strong-cocina-003.webp",
-            imgAlt: "Serie Nova",
+            imgAlt: "Cocina",
             objPosition: "0% 50%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/kitchen/nova/Strong-cocina-003.webp",
-                imgAlt: "Serie Nova",
+                imgAlt: "Cocina",
                 objPosition: "50% 50%"
             },
             twoSmallImg: [
                 {
                     imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-28.webp",
-                    imgAlt: "Serie Nova",
+                    imgAlt: "Cocina",
                     objPosition: "35% 0%"
                 },
                 {
                     imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-11.webp",
-                    imgAlt: "Serie Nova",
+                    imgAlt: "Cocina",
                     objPosition: "50% 0%"
                 }
             ],
             rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-08.webp",
-                imgAlt: "Serie Nova",
+                imgAlt: "Cocina",
                 objPosition: "50% 60%"
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/kitchen/nova/STRONG-27.webp",
-                    imgAlt: "Serie Nova",
+                    imgAlt: "Cocina",
                     objPosition: "50% 0%"
                 },
-                title: "Casa San Blas",
+                title: "Cocina - Serie Nova",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
+                    materials: ["Melamina"],
                     propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -130,53 +131,53 @@ export const projectsData: ProjectDataInterface = {
     },
     "cocina-new-york": {
         projectSlug: "cocina-new-york",
-        title: "Serie New York",
-        subtitle: "Amueblamiento hogar",
+        title: "Refacción cocina",
+        subtitle: "Serie New York",
         image: {
             imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-142.webp",
-            imgAlt: "Serie New York",
+            imgAlt: "Cocina",
             objPosition: "50% 25%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-142.webp",
-                imgAlt: "Serie New York",
+                imgAlt: "Cocina",
                 objPosition: "20% 40%"
             },
             twoSmallImg: [
                 {
                     imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-149.webp",
-                    imgAlt: "Serie New York",
+                    imgAlt: "Cocina",
                     objPosition: "55% 50%",
                 },
                 {
                     imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-140.webp",
-                    imgAlt: "Serie New York",
+                    imgAlt: "Cocina",
                     objPosition: "25% 35%",
                 }
             ],
             rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-146.webp",
-                imgAlt: "Serie New York",
+                imgAlt: "Cocina",
                 objPosition: "30% 40%",
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-156.webp",
-                    imgAlt: "Serie New York",
+                    imgAlt: "Cocina",
                     objPosition: "10% 50%",
                 },
-                title: "Serie New York",
+                title: "Cocina - Serie New York",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
+                    materials: ["Melamina"],
                     propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -186,53 +187,53 @@ export const projectsData: ProjectDataInterface = {
     },
     "cocina-premium": {
         projectSlug: "cocina-premium",
-        title: "Serie Premium",
-        subtitle: "Cocina",
+        title: "Refacción cocina",
+        subtitle: "Serie Premium",
         image: {
             imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-266.webp",
-            imgAlt: "Serie Premium",
+            imgAlt: "Cocina",
             objPosition: "50% 50%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-266.webp",
-                imgAlt: "Serie Premium",
+                imgAlt: "Cocina",
                 objPosition: "50% 55%"
             },
             twoSmallImg: [
                 {
                     imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-270.webp",
-                    imgAlt: "Serie Premium",
+                    imgAlt: "Cocina",
                     objPosition: "45% 0%",
                 },
                 {
                     imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-275.webp",
-                    imgAlt: "Serie Premium",
+                    imgAlt: "Cocina",
                     objPosition: "25% 35%",
                 }
             ],
             rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-284.webp",
-                imgAlt: "Serie Premium",
+                imgAlt: "Cocina",
                 objPosition: "60% 40%",
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-272.webp",
-                    imgAlt: "Serie Premium",
+                    imgAlt: "Cocina",
                     objPosition: "70% 0%",
                 },
-                title: "Serie Premium",
+                title: "Cocina - Serie Premium",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
+                    materials: ["Melamina"],
                     propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -242,53 +243,53 @@ export const projectsData: ProjectDataInterface = {
     },
     "cocina-nordica": {
         projectSlug: "cocina-nordica",
-        title: "Serie Nordica",
-        subtitle: "Cocina",
+        title: "Refacción cocina",
+        subtitle: "Serie Nordica",
         image: {
             imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-208.webp",
-            imgAlt: "Serie Nordica",
+            imgAlt: "Cocina",
             objPosition: "50% 55%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-208.webp",
-                imgAlt: "Serie Nordica",
+                imgAlt: "Cocina",
                 objPosition: "50% 80%"
             },
             twoSmallImg: [
                 {
                     imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-215.webp",
-                    imgAlt: "Serie Nordica",
+                    imgAlt: "Cocina",
                     objPosition: "85% 0%"
                 },
                 {
                     imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-234.webp",
-                    imgAlt: "Serie Nordica",
+                    imgAlt: "Cocina",
                     objPosition: "60% 0%"
                 }
             ],
             rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-239.webp",
-                imgAlt: "Serie Nordica",
+                imgAlt: "Cocina",
                 objPosition: "50% 55%"
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/kitchen/nordica/Strong-225.webp",
-                    imgAlt: "Serie Nordica",
+                    imgAlt: "Cocina",
                     objPosition: "40% 0%"
                 },
-                title: "Serie Nordica",
+                title: "Cocina - Serie Nordica",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
+                    materials: ["Melamina"],
                     propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -296,55 +297,55 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
     },
-    "vajillero-london": {
-        projectSlug: "vajillero-london",
+    "vajillero-new-york": {
+        projectSlug: "vajillero-new-york",
         title: "Vajillero",
-        subtitle: "Serie London",
+        subtitle: "Serie New York",
         image: {
-            imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-136.webp",
+            imgSrc: "/assets/img/projectsPage/others/vajilleroNewYork/Strong-136.webp",
             imgAlt: "Vajillero",
             objPosition: "50% 100%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-136.webp",
+                imgSrc: "/assets/img/projectsPage/others/vajilleroNewYork/Strong-136.webp",
                 imgAlt: "Vajillero",
                 objPosition: "50% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-132.webp",
+                    imgSrc: "/assets/img/projectsPage/others/vajilleroNewYork/Strong-132.webp",
                     imgAlt: "Vajillero",
                     objPosition: "85% 0%",
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-134.webp",
+                    imgSrc: "/assets/img/projectsPage/others/vajilleroNewYork/Strong-134.webp",
                     imgAlt: "Vajillero",
                     objPosition: "50% 50%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-139.webp",
+                imgSrc: "/assets/img/projectsPage/others/vajilleroNewYork/Strong-139.webp",
                 imgAlt: "Vajillero",
                 objPosition: "50% 35%",
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-133.webp",
+                    imgSrc: "/assets/img/projectsPage/others/vajilleroNewYork/Strong-133.webp",
                     imgAlt: "Vajillero",
                     objPosition: "70% 0%",
                 },
-                title: "Vajillero",
+                title: "Vajillero - Serie New York",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
+                    materials: ["Melamina"],
                     propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -361,7 +362,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Recibidor",
             objPosition: "80% 40%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
@@ -392,15 +393,15 @@ export const projectsData: ProjectDataInterface = {
                     imgAlt: "Recibidor",
                     objPosition: "80% 0%",
                 },
-                title: "Recibidor",
+                title: "Recibidor - Serie London",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    propousal: ["Refacción recibidor"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -417,7 +418,7 @@ export const projectsData: ProjectDataInterface = {
             imgAlt: "Rack TV",
             objPosition: "30% 80%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
@@ -448,15 +449,15 @@ export const projectsData: ProjectDataInterface = {
                     imgAlt: "Rack TV",
                     objPosition: "10% 50%",
                 },
-                title: "Rack TV",
+                title: "Rack TV - Serie London",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    propousal: ["Refacción rack TV"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -466,75 +467,75 @@ export const projectsData: ProjectDataInterface = {
     },
     "farina-e-pane": {
         projectSlug: "farina-e-pane",
-        title: "Equipamiento",
-        subtitle: "Farina & Pane",
+        title: "Equipamiento local",
+        subtitle: "Farina e Pane",
         image: {
             imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-162.webp",
-            imgAlt: "Estanteria",
+            imgAlt: "Farina e Pane",
             objPosition: "0% 50%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-162.webp",
-                imgAlt: "Estanteria",
+                imgAlt: "Farina e Pane",
                 objPosition: "25% 100%"
             },
             twoSmallImg: [
                 {
                     imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-170.webp",
-                    imgAlt: "Mostrador",
+                    imgAlt: "Farina e Pane",
                     objPosition: "30% 0%"
                 },
                 {
                     imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-177.webp",
-                    imgAlt: "Mostrador",
+                    imgAlt: "Farina e Pane",
                     objPosition: "85% 50%",
                 }
             ],
             thirdTwoSmallImg: [
                 {
                     imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-178.webp",
-                    imgAlt: "Alacena colgante",
+                    imgAlt: "Farina e Pane",
                     objPosition: "50% 50%"
                 },
                 {
                     imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-187.webp",
-                    imgAlt: "Alacena colgante",
+                    imgAlt: "Farina e Pane",
                     objPosition: "50% 0%"
                 }
             ],
             rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-167.webp",
-                imgAlt: "Estanteria",
+                imgAlt: "Farina e Pane",
                 objPosition: "50% 60%",
             },
             secondRectangleImg: {
                 imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-182.webp",
-                imgAlt: "Estanteria",
+                imgAlt: "Farina e Pane",
                 objPosition: "0% 100%",
             },
             thirdRectangleImg: {
                 imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-183.webp",
-                imgAlt: "Isla",
+                imgAlt: "Farina e Pane",
                 objPosition: "0% 15%"
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-165.webp",
-                    imgAlt: "Estanteria",
+                    imgAlt: "Farina e Pane",
                     objPosition: "15% 0%"
                 },
-                title: "Estanteria",
+                title: "Equipamiento Farina e Pane",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Madera"],
+                    propousal: ["Equipamiento local"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -542,43 +543,43 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "local"],
         urlSlug: "local"
     },
-    "gorila-recepcion": {
-        projectSlug: "gorila-recepcion",
+    "gorila-fitness-recepcion": {
+        projectSlug: "gorila-fitness-recepcion",
         title: "Recepción",
         subtitle: "Gorilla Fitness",
         image: {
             imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila1.webp",
-            imgAlt: "Recepción",
+            imgAlt: "Gorilla Fitness",
             objPosition: "50% 80%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila1.webp",
-                imgAlt: "Recepción",
+                imgAlt: "Gorilla Fitness",
                 objPosition: "50% 60%"
             },
             rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila3.webp",
-                imgAlt: "Recepción",
+                imgAlt: "Gorilla Fitness",
                 objPosition: "50% 55%"
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila2.webp",
-                    imgAlt: "Recepción",
+                    imgAlt: "Gorilla Fitness",
                     objPosition: "50% 25%"
                 },
-                title: "Recepción",
+                title: "Recepción Gorilla Fitness",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Recibidor local"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -588,41 +589,41 @@ export const projectsData: ProjectDataInterface = {
     },
     "timo-online": {
         projectSlug: "timo-online",
-        title: "Equipamiento",
+        title: "Equipamiento oficina",
         subtitle: "Timo Online",
         image: {
             imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
-            imgAlt: "Cajonera & escritorio",
+            imgAlt: "Timo Online",
             objPosition: "50% 80%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
-                imgAlt: "Cajonera & escritorio",
+                imgAlt: "Timo Online",
                 objPosition: "60% 80%"
             },
             rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo1.webp",
-                imgAlt: "Cajonera & escritorio",
+                imgAlt: "Timo Online",
                 objPosition: "50% 45%"
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo4.webp",
-                    imgAlt: "Cajonera & escritorio",
+                    imgAlt: "Timo Online",
                     objPosition: "50% 25%"
                 },
-                title: "Cajonera & escritorio",
+                title: "Equipamiento Timo Online",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Equipamiento oficina"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -632,48 +633,48 @@ export const projectsData: ProjectDataInterface = {
     },
     "vanitory-nordico": {
         projectSlug: "vanitory-nordico",
-        title: "Serie Nordico",
-        subtitle: "Vanitory",
+        title: "Vanitory",
+        subtitle: "Serie Nordico",
         image: {
             imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-241.webp",
-            imgAlt: "Serie Nordico",
+            imgAlt: "Vanitory",
             objPosition: "50% 50%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-241.webp",
-                imgAlt: "Serie Nordico",
+                imgAlt: "Vanitory",
                 objPosition: "50% 60%"
             },
             twoSmallImg: [
                 {
                     imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-115.webp",
-                    imgAlt: "Serie Nordico",
+                    imgAlt: "Vanitory",
                     objPosition: "70% 0%"
                 },
                 {
                     imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-242.webp",
-                    imgAlt: "Serie Nordico",
+                    imgAlt: "Vanitory",
                     objPosition: "80% 100%"
                 }
             ],
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-117.webp",
-                    imgAlt: "Serie Nordico",
+                    imgAlt: "Vanitory",
                     objPosition: "50% 0%"
                 },
-                title: "Serie Nordico",
+                title: "Vanitory - Serie Nordico",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Melamina"],
+                    propousal: ["Refacción vanitory"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -683,46 +684,46 @@ export const projectsData: ProjectDataInterface = {
     },
     "vanitory-new-york": {
         projectSlug: "vanitory-new-york",
-        title: "Serie New York",
-        subtitle: "Vanitory",
+        title: "Vanitory",
+        subtitle: "Serie New York",
         image: {
             imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-300.webp",
-            imgAlt: "Serie New York",
+            imgAlt: "Vanitory",
             objPosition: "45% 50%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-300.webp",
-                imgAlt: "Serie New York",
+                imgAlt: "Vanitory",
                 objPosition: "45% 0%"
             },
             rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-298.webp",
-                imgAlt: "Serie New York",
+                imgAlt: "Vanitory",
                 objPosition: "50% 50%"
             },
             secondRectangleImg: {
                 imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-299.webp",
-                imgAlt: "Serie New York",
+                imgAlt: "Vanitory",
                 objPosition: "50% 50%"
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/bathroom/newYork/Strong-302.webp",
-                    imgAlt: "Serie New York",
+                    imgAlt: "Vanitory",
                     objPosition: "20% 0%"
                 },
-                title: "Serie New York",
+                title: "Vanitory - Serie New York",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Melamina"],
+                    propousal: ["Refacción vanitory"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -732,42 +733,42 @@ export const projectsData: ProjectDataInterface = {
     },
     "vanitory-escandinavo": {
         projectSlug: "vanitory-escandinavo",
-        title: "Serie Escandinavo",
-        subtitle: "Vanitory",
+        title: "Vanitory",
+        subtitle: "Serie Escandinavo",
         image: {
             imgSrc: "/assets/img/projectsPage/bathroom/escandinavo/Strong-127.webp",
-            imgAlt: "Serie Escandinavo",
+            imgAlt: "Vanitory",
             objPosition: "50% 15%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/bathroom/escandinavo/Strong-127.webp",
-                imgAlt: "Serie Escandinavo",
+                imgAlt: "Vanitory",
                 objPosition: "50% 35%"
             },
             rectangleImg:
             {
                 imgSrc: "/assets/img/projectsPage/bathroom/escandinavo/Strong-125.webp",
-                imgAlt: "Serie Escandinavo",
+                imgAlt: "Vanitory",
                 objPosition: "50% 55%"
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/bathroom/escandinavo/Strong-129.webp",
-                    imgAlt: "Serie Escandinavo",
+                    imgAlt: "Vanitory",
                     objPosition: "50% 0%"
                 },
-                title: "Serie Escandinavo",
+                title: "Vanitory - Serie Escandinavo",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Melamina"],
+                    propousal: ["Refacción vanitory"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -777,48 +778,48 @@ export const projectsData: ProjectDataInterface = {
     },
     "vestidor-deluxe": {
         projectSlug: "vestidor-deluxe",
-        title: "Serie Deluxe",
-        subtitle: "Vestidor",
+        title: "Vestidor",
+        subtitle: "Serie Deluxe",
         image: {
             imgSrc: "/assets/img/projectsPage/closet/deluxe/Strong_7184.webp",
-            imgAlt: "Serie Deluxe",
+            imgAlt: "Vestidor",
             objPosition: "50% 90%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/closet/deluxe/Strong_7184.webp",
-                imgAlt: "Serie Deluxe",
+                imgAlt: "Vestidor",
                 objPosition: "50% 100%"
             },
             twoSmallImg: [
                 {
                     imgSrc: "/assets/img/projectsPage/closet/deluxe/Strong_7181.webp",
-                    imgAlt: "Serie Deluxe",
+                    imgAlt: "Vestidor",
                     objPosition: "40% 100%"
                 },
                 {
                     imgSrc: "/assets/img/projectsPage/closet/deluxe/Strong_7185.webp",
-                    imgAlt: "Serie Deluxe",
+                    imgAlt: "Vestidor",
                     objPosition: "50% 95%"
                 }
             ],
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/closet/deluxe/Strong_7186.webp",
-                    imgAlt: "Serie Deluxe",
+                    imgAlt: "Vestidor",
                     objPosition: "40% 90%"
                 },
-                title: "Serie Deluxe",
+                title: "Vestidor - Serie Deluxe",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Melamina"],
+                    propousal: ["Refacción vestidor"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -828,48 +829,48 @@ export const projectsData: ProjectDataInterface = {
     },
     "vestidor-nordico": {
         projectSlug: "vestidor-nordico",
-        title: "Serie Nordico",
-        subtitle: "Vestidor",
+        title: "Vestidor",
+        subtitle: "Serie Nordico",
         image: {
             imgSrc: "/assets/img/projectsPage/closet/nordico/Strong-291.webp",
-            imgAlt: "Serie Nordico",
+            imgAlt: "Vestidor",
             objPosition: "0% 50%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/closet/nordico/Strong-291.webp",
-                imgAlt: "Serie Nordico",
+                imgAlt: "Vestidor",
                 objPosition: "40% 50%"
             },
             twoSmallImg: [
                 {
                     imgSrc: "/assets/img/projectsPage/closet/nordico/Strong-295.webp",
-                    imgAlt: "Serie Nordico",
+                    imgAlt: "Vestidor",
                     objPosition: "80% 0%"
                 },
                 {
                     imgSrc: "/assets/img/projectsPage/closet/nordico/Strong-293.webp",
-                    imgAlt: "Serie Nordico",
+                    imgAlt: "Vestidor",
                     objPosition: "100% 100%"
                 }
             ],
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/closet/nordico/Strong-296.webp",
-                    imgAlt: "Serie Nordico",
+                    imgAlt: "Vestidor",
                     objPosition: "50% 0%"
                 },
-                title: "Serie Nordico",
+                title: "Vestidor - Serie Nordico",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Melamina"],
+                    propousal: ["Refacción vestidor"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -879,36 +880,36 @@ export const projectsData: ProjectDataInterface = {
     },
     "placar-urbanwood": {
         projectSlug: "placar-urbanwood",
-        title: "Serie Urbanwood",
-        subtitle: "Placar",
+        title: "Placar",
+        subtitle: "Serie Urbanwood",
         image: {
             imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-153.webp",
-            imgAlt: "Serie Urbanwood",
+            imgAlt: "Placar",
             objPosition: "0% 40%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-153.webp",
-                imgAlt: "Serie Urbanwood",
+                imgAlt: "Placar",
                 objPosition: "50% 90%"
             },
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-152.webp",
-                    imgAlt: "Serie Urbanwood",
+                    imgAlt: "Placar",
                     objPosition: "30% 50%"
                 },
-                title: "Serie Urbanwood",
+                title: "Placar - Serie Urbanwood",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Melamina"],
+                    propousal: ["Refacción placar"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
@@ -916,43 +917,43 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "closet"],
         urlSlug: "closet"
     },
-    "escritorio": {
-        projectSlug: "escritorio",
+    "escritorio-nova": {
+        projectSlug: "escritorio-nova",
         title: "Escritorio",
-        subtitle: "Escritorio",
+        subtitle: "Serie Nova",
         image: {
-            imgSrc: "/assets/img/projectsPage/others/escritorio/Strong-120.webp",
+            imgSrc: "/assets/img/projectsPage/others/escritorioNova/Strong-120.webp",
             imgAlt: "Escritorio",
             objPosition: "15% 100%"
         },
-        year: "2022",
+        year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/others/escritorio/Strong-120.webp",
+                imgSrc: "/assets/img/projectsPage/others/escritorioNova/Strong-120.webp",
                 imgAlt: "Escritorio",
                 objPosition: "15% 100%"
             },
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/others/escritorio/Strong-118.webp",
+                imgSrc: "/assets/img/projectsPage/others/escritorioNova/Strong-118.webp",
                 imgAlt: "Escritorio",
                 objPosition: "15% 100%"
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/others/escritorio/Strong-123.webp",
+                    imgSrc: "/assets/img/projectsPage/others/escritorioNova/Strong-123.webp",
                     imgAlt: "Escritorio",
                     objPosition: "50% 0%"
                 },
-                title: "Escritorio",
+                title: "Escritorio - Serie Nova",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
-                    year: ["2022"],
+                    materials: ["Melamina"],
+                    propousal: ["Refacción escritorio"],
+                    year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
             }
