@@ -543,8 +543,8 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "local"],
         urlSlug: "local"
     },
-    "gorila-fitness-recepcion": {
-        projectSlug: "gorila-fitness-recepcion",
+    "gorila-fitness": {
+        projectSlug: "gorila-fitness",
         title: "Recepción",
         subtitle: "Gorilla Fitness",
         image: {
