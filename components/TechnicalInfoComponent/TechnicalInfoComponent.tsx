@@ -38,10 +38,11 @@ export default function TechnicalInfoComponent({
                         <span className={styles["item-left"]}>{year}</span>
                         <span>{technicalInfo.footer.year}</span>
                     </p>
-                    <p className={styles["row-wrapper"]}>
-                        <span className={styles["item-left"]}>{location}</span>
-                        <span>{technicalInfo.footer.location}</span>
-                    </p>
+                    {technicalInfo.footer.location &&
+                        <p className={styles["row-wrapper"]}>
+                            <span className={styles["item-left"]}>{location}</span>
+                            <span>{technicalInfo.footer.location}</span>
+                        </p>}
                 </div>
                 : <div className={styles["container-footer-home"]}>
                     {

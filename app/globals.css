@@ -41,7 +41,7 @@
 
 @media (max-width:768px) {
   :root {
-    --max-width: 94vw;
+    --max-width: 90vw;
   }
 }
 

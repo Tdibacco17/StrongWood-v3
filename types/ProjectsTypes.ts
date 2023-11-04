@@ -33,9 +33,8 @@ export type SelectedFilterInterface =
     | "kitchen"
     | "bathroom"
     | "closet"
-    | "bedroom"
     | "local"
-    | "diningroom"
+    | "others"
     | "products";
 
 export type ImgPlacheholderInterface = "portrait" | "rectangle" | "twoSmall"
@@ -50,10 +49,10 @@ export interface TechnicalInfoInterface {
     title: string,
     description: string[],
     footer?: {
-        year: string[],
-        location: string[],
+        materials: string[],
         propousal: string[],
-        materials: string[]
+        year: string[],
+        location?: string[]
     },
     homeFooterData?: {
         proyects?: { title: string, url: string },

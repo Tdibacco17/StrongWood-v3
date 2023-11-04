@@ -1,6 +1,6 @@
 import { ProjectDataInterface } from "@/types/ProjectsTypes"
 
-export const projectsCategories: string[] = ["all", "kitchen", "bathroom", "closet", "local", "bedroom", "diningroom", "products"]
+export const projectsCategories: string[] = ["all", "kitchen", "bathroom", "closet", "local", "others", "products"]
 
 export const projectsData: ProjectDataInterface = {
     homeData: {
@@ -58,7 +58,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Nos especializamos en diseñar y fabricar muebles a medida para todo tipo de proyectos, ya sea para hogares, oficinas o locales comerciales.",
                     "Desde la conceptualización hasta la instalación final, nos encargamos de cada paso del proceso.",
-                    "Nuestro compromiso con la calidad se refleja en cada mueble que creamos, utilizando maderas selectas y técnicas artesanales."
                 ],
                 homeFooterData: {
                     contact: {
@@ -117,7 +116,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -174,7 +172,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -231,7 +228,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -288,7 +284,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -306,7 +301,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Vajillero",
         subtitle: "Serie London",
         image: {
-            imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-136.webp",
+            imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-136.webp",
             imgAlt: "Vajillero",
             objPosition: "50% 100%"
         },
@@ -314,30 +309,30 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-136.webp",
+                imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-136.webp",
                 imgAlt: "Vajillero",
                 objPosition: "50% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-132.webp",
+                    imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-132.webp",
                     imgAlt: "Vajillero",
                     objPosition: "85% 0%",
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-134.webp",
+                    imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-134.webp",
                     imgAlt: "Vajillero",
                     objPosition: "50% 50%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-139.webp",
+                imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-139.webp",
                 imgAlt: "Vajillero",
                 objPosition: "50% 35%",
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/diningroom/vajilleroLondon/Strong-133.webp",
+                    imgSrc: "/assets/img/projectsPage/others/vajilleroLondon/Strong-133.webp",
                     imgAlt: "Vajillero",
                     objPosition: "70% 0%",
                 },
@@ -345,7 +340,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -355,15 +349,15 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "diningroom"],
-        urlSlug: "diningroom"
+        categories: ["all", "others"],
+        urlSlug: "others"
     },
     "recibidor-london": {
         projectSlug: "recibidor-london",
         title: "Recibidor",
         subtitle: "Serie London",
         image: {
-            imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-247.webp",
+            imgSrc: "/assets/img/projectsPage/others/recibidorLondon/Strong-247.webp",
             imgAlt: "Recibidor",
             objPosition: "80% 40%"
         },
@@ -371,30 +365,30 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-247.webp",
+                imgSrc: "/assets/img/projectsPage/others/recibidorLondon/Strong-247.webp",
                 imgAlt: "Recibidor",
                 objPosition: "55% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-245.webp",
+                    imgSrc: "/assets/img/projectsPage/others/recibidorLondon/Strong-245.webp",
                     imgAlt: "Recibidor",
                     objPosition: "10% 0%",
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-246.webp",
+                    imgSrc: "/assets/img/projectsPage/others/recibidorLondon/Strong-246.webp",
                     imgAlt: "Recibidor",
                     objPosition: "45% 50%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-250.webp",
+                imgSrc: "/assets/img/projectsPage/others/recibidorLondon/Strong-250.webp",
                 imgAlt: "Recibidor",
                 objPosition: "0% 50%",
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/diningroom/recibidorLondon/Strong-252.webp",
+                    imgSrc: "/assets/img/projectsPage/others/recibidorLondon/Strong-252.webp",
                     imgAlt: "Recibidor",
                     objPosition: "80% 0%",
                 },
@@ -402,7 +396,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -412,15 +405,15 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "diningroom"],
-        urlSlug: "diningroom"
+        categories: ["all", "others"],
+        urlSlug: "others"
     },
     "rack-tv-london": {
         projectSlug: "rack-tv-london",
         title: "Rack TV",
         subtitle: "Serie London",
         image: {
-            imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-265.webp",
+            imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-265.webp",
             imgAlt: "Rack TV",
             objPosition: "30% 80%"
         },
@@ -428,30 +421,30 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-265.webp",
+                imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-265.webp",
                 imgAlt: "Rack TV",
                 objPosition: "30% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-257.webp",
+                    imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-257.webp",
                     imgAlt: "Rack TV",
                     objPosition: "50% 50%",
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/IMG_2774.webp",
+                    imgSrc: "/assets/img/projectsPage/others/rackTvLondon/IMG_2774.webp",
                     imgAlt: "Rack TV",
                     objPosition: "0% 50%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-255.webp",
+                imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-255.webp",
                 imgAlt: "Rack TV",
                 objPosition: "30% 100%",
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/diningroom/rackTvLondon/Strong-259.webp",
+                    imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-259.webp",
                     imgAlt: "Rack TV",
                     objPosition: "10% 50%",
                 },
@@ -459,7 +452,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -469,8 +461,8 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "diningroom"],
-        urlSlug: "diningroom"
+        categories: ["all", "others"],
+        urlSlug: "others"
     },
     "farina-e-pane": {
         projectSlug: "farina-e-pane",
@@ -538,7 +530,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -583,7 +574,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -628,7 +618,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -680,7 +669,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -730,7 +718,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -776,7 +763,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -828,7 +814,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -880,7 +865,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -920,7 +904,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -938,7 +921,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Escritorio",
         subtitle: "Escritorio",
         image: {
-            imgSrc: "/assets/img/projectsPage/bedroom/escritorio/Strong-120.webp",
+            imgSrc: "/assets/img/projectsPage/others/escritorio/Strong-120.webp",
             imgAlt: "Escritorio",
             objPosition: "15% 100%"
         },
@@ -946,18 +929,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/bedroom/escritorio/Strong-120.webp",
+                imgSrc: "/assets/img/projectsPage/others/escritorio/Strong-120.webp",
                 imgAlt: "Escritorio",
                 objPosition: "15% 100%"
             },
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/bedroom/escritorio/Strong-118.webp",
+                imgSrc: "/assets/img/projectsPage/others/escritorio/Strong-118.webp",
                 imgAlt: "Escritorio",
                 objPosition: "15% 100%"
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/bedroom/escritorio/Strong-123.webp",
+                    imgSrc: "/assets/img/projectsPage/others/escritorio/Strong-123.webp",
                     imgAlt: "Escritorio",
                     objPosition: "50% 0%"
                 },
@@ -965,7 +948,6 @@ export const projectsData: ProjectDataInterface = {
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
                 ],
                 footer: {
                     materials: ["Melamina, ", " Hierro"],
@@ -975,20 +957,20 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "bedroom"],
-        urlSlug: "bedroom"
+        categories: ["all", "others"],
+        urlSlug: "others"
     },
     "estanteria-avila": {
         projectSlug: "estanteria-avila",
         title: "Estanteria Avila",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/estanteriaAvila/Strong_Wood_IG-80.webp",
             imgAlt: "Estanteria Avila",
             objPosition: "0% 65%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/estanteriaAvila/Strong_Wood_IG-80.webp",
@@ -1020,15 +1002,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Estanteria Avila",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1038,14 +1019,14 @@ export const projectsData: ProjectDataInterface = {
     "maceta-avinon": {
         projectSlug: "maceta-avinon",
         title: "Maceta Aviñon",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/macetaAvinon/Strong_Wood_IG-47.webp",
             imgAlt: "Maceta Aviñon",
             objPosition: "30% 100%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/macetaAvinon/Strong_Wood_IG-47.webp",
@@ -1065,15 +1046,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Maceta Aviñon",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1083,14 +1063,14 @@ export const projectsData: ProjectDataInterface = {
     "porta-vinos": {
         projectSlug: "porta-vinos",
         title: "Porta Vinos",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/portaVinos/Strong_Wood_IG-2.webp",
             imgAlt: "Porta Vinos",
             objPosition: "50% 100%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/portaVinos/Strong_Wood_IG-2.webp",
@@ -1122,15 +1102,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Porta Vinos",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1140,14 +1119,14 @@ export const projectsData: ProjectDataInterface = {
     "estanteria-bath": {
         projectSlug: "estanteria-bath",
         title: "Estanteria Bath",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/estanteriaBath/Strong_Wood_IG-73.webp",
             imgAlt: "Estanteria Bath",
             objPosition: "70% 40%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/estanteriaBath/Strong_Wood_IG-73.webp",
@@ -1174,15 +1153,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Estanteria Bath",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1192,14 +1170,14 @@ export const projectsData: ProjectDataInterface = {
     "mesa-cracovia": {
         projectSlug: "mesa-cracovia",
         title: "Mesa Cracovia",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/mesaCracovia/Strong_Wood_IG-102.webp",
             imgAlt: "Mesa Cracovia",
             objPosition: "50% 50%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/mesaCracovia/Strong_Wood_IG-102.webp",
@@ -1219,15 +1197,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Mesa Cracovia",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1237,14 +1214,14 @@ export const projectsData: ProjectDataInterface = {
     "mesa-ratona-edimburgo": {
         projectSlug: "mesa-ratona-edimburgo",
         title: "Mesa ratona Edimburgo",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/mesaRatonaEdimburgo/Strong-Wood-Set-17.webp",
             imgAlt: "Mesa ratona Edimburgo",
             objPosition: "50% 50%",
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/mesaRatonaEdimburgo/Strong-Wood-Set-17.webp",
@@ -1264,15 +1241,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Mesa ratona Edimburgo",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1282,14 +1258,14 @@ export const projectsData: ProjectDataInterface = {
     "maceta-sintra": {
         projectSlug: "maceta-sintra",
         title: "Maceta Sintra",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/macetaSintra/Strong_Wood_IG-43.webp",
             imgAlt: "Maceta Sintra",
             objPosition: "0% 65%",
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/macetaSintra/Strong_Wood_IG-43.webp",
@@ -1309,15 +1285,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Maceta Sintra",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1327,14 +1302,14 @@ export const projectsData: ProjectDataInterface = {
     "estanteria-siena": {
         projectSlug: "estanteria-siena",
         title: "Estanteria Siena",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/estanteriaSiena/Strong_Wood_IG-97.webp",
             imgAlt: "Estanteria Siena",
             objPosition: "50% 50%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/estanteriaSiena/Strong_Wood_IG-97.webp",
@@ -1354,15 +1329,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Estanteria Siena",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1372,14 +1346,14 @@ export const projectsData: ProjectDataInterface = {
     "llavero-corfu": {
         projectSlug: "llavero-corfu",
         title: "Llavero Corfu",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/llaveroCorfu/Strong_Wood_IG-20.webp",
             imgAlt: "Llavero Corfu",
             objPosition: "15% 70%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/llaveroCorfu/Strong_Wood_IG-20.webp",
@@ -1399,15 +1373,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Llavero Corfu",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1417,14 +1390,14 @@ export const projectsData: ProjectDataInterface = {
     "leniero": {
         projectSlug: "leniero",
         title: "Leñero",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/leniero/Strong_Wood_IG-49.webp",
             imgAlt: "Leñero",
             objPosition: "0% 85%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/leniero/Strong_Wood_IG-49.webp",
@@ -1439,15 +1412,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Leñero",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1457,14 +1429,14 @@ export const projectsData: ProjectDataInterface = {
     "rack-tv-cordoba": {
         projectSlug: "rack-tv-cordoba",
         title: "Rack TV Cordoba",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/rackTvCordoba/Strong_Wood_IG-66.webp",
             imgAlt: "Rack TV Cordoba",
             objPosition: "10% 100%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/rackTvCordoba/Strong_Wood_IG-66.webp",
@@ -1484,15 +1456,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Rack TV Cordoba",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1502,14 +1473,14 @@ export const projectsData: ProjectDataInterface = {
     "toallero-matera": {
         projectSlug: "toallero-matera",
         title: "Toallero Matera",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/toalleroMatera/Strong_Wood_IG-39.webp",
             imgAlt: "Toallero Matera",
             objPosition: "50% 80%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/toalleroMatera/Strong_Wood_IG-39.webp",
@@ -1529,15 +1500,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Toallero Matera",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1547,14 +1517,14 @@ export const projectsData: ProjectDataInterface = {
     "toallero-cuenca": {
         projectSlug: "toallero-cuenca",
         title: "Toallero Cuenca",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/toalleroCuenca/Strong_Wood_IG-12.webp",
             imgAlt: "Toallero Cuenca",
             objPosition: "0% 0%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/toalleroCuenca/Strong_Wood_IG-12.webp",
@@ -1581,15 +1551,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Toallero Cuenca",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1599,14 +1568,14 @@ export const projectsData: ProjectDataInterface = {
     "bodega-segovia": {
         projectSlug: "bodega-segovia",
         title: "Bodega Segovia",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/bodegaSegovia/Strong_Wood_IG-57.webp",
             imgAlt: "Bodega Segovia",
             objPosition: "0% 70%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/bodegaSegovia/Strong_Wood_IG-57.webp",
@@ -1633,15 +1602,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Bodega Segovia",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Ruedas"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1651,21 +1619,21 @@ export const projectsData: ProjectDataInterface = {
     "mesa-de-luz-roma": {
         projectSlug: "mesa-de-luz-roma",
         title: "Mesa de luz Roma",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/mesaDeLuzRoma/Strong_Wood_IG-30.webp",
             imgAlt: "Mesa de luz Roma",
             objPosition: "30% 0%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/mesaDeLuzRoma/Strong_Wood_IG-30.webp",
                 imgAlt: "Mesa de luz Roma",
                 objPosition: "30% 20%"
             },
-            rectangleImg:{
+            rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/products/mesaDeLuzRoma/Strong_Wood_IG-32.webp",
                 imgAlt: "Mesa de luz Roma",
                 objPosition: "50% 35%",
@@ -1679,15 +1647,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Mesa de luz Roma",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1697,14 +1664,14 @@ export const projectsData: ProjectDataInterface = {
     "escritorio-brujas": {
         projectSlug: "escritorio-brujas",
         title: "Escritorio Brujas",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/escritorioBrujas/Strong_Wood_IG-90.webp",
             imgAlt: "Escritorio Brujas",
             objPosition: "50% 20%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/escritorioBrujas/Strong_Wood_IG-90.webp",
@@ -1731,15 +1698,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Escritorio Brujas",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1749,24 +1715,24 @@ export const projectsData: ProjectDataInterface = {
     "perchero-oporto": {
         projectSlug: "perchero-oporto",
         title: "Perchero Oporto",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/percheroOporto/Strong_Wood_IG-26.webp",
             imgAlt: "Perchero Oporto",
             objPosition: "60% 50%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/percheroOporto/Strong_Wood_IG-26.webp",
                 imgAlt: "Perchero Oporto",
                 objPosition: "45% 25%"
             },
-            rectangleImg:{
+            rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/products/percheroOporto/Strong_Wood_IG-24.webp",
-                    imgAlt: "Perchero Oporto",
-                    objPosition: "55% 70%"
+                imgAlt: "Perchero Oporto",
+                objPosition: "55% 70%"
             },
             technicalInfo: {
                 image: {
@@ -1776,15 +1742,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Perchero Oporto",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1794,14 +1759,14 @@ export const projectsData: ProjectDataInterface = {
     "recibidor-salamanca": {
         projectSlug: "recibidor-salamanca",
         title: "Recibidor Salamanca",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/recibidorSalamanca/Strong_Wood_IG-52.webp",
             imgAlt: "Recibidor Salamanca",
             objPosition: "40% 50%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/recibidorSalamanca/Strong_Wood_IG-52.webp",
@@ -1828,15 +1793,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Recibidor Salamanca",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1846,14 +1810,14 @@ export const projectsData: ProjectDataInterface = {
     "tabla-asado": {
         projectSlug: "tabla-asado",
         title: "Tabla Asado",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/tablaAsado/Strongwood_Tabla_parri-4.webp",
             imgAlt: "Tabla Asado",
             objPosition: "80% 50%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/tablaAsado/Strongwood_Tabla_parri-4.webp",
@@ -1873,15 +1837,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Tabla Asado",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", "Laca"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
@@ -1891,21 +1854,21 @@ export const projectsData: ProjectDataInterface = {
     "soporte-auricular": {
         projectSlug: "soporte-auricular",
         title: "Soporte Auricular",
-        subtitle: "Productos",
+        subtitle: "Mueble industrial",
         image: {
             imgSrc: "/assets/img/projectsPage/products/soporteAuricular/Strong_Wood_IG-93.webp",
             imgAlt: "Soporte Auricular",
             objPosition: "90% 0%"
         },
         year: "2022",
-        location: "Buenos Aires, Argentina",
+        location: "Mueble industrial",
         details: {
             portraitImg: {
                 imgSrc: "/assets/img/projectsPage/products/soporteAuricular/Strong_Wood_IG-93.webp",
                 imgAlt: "Soporte Auricular",
                 objPosition: "80% 0%"
             },
-            rectangleImg:{
+            rectangleImg: {
                 imgSrc: "/assets/img/projectsPage/products/soporteAuricular/soporteAuricular1.webp",
                 imgAlt: "Soporte Auricular",
                 objPosition: "60% 90%"
@@ -1918,15 +1881,14 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Soporte Auricular",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
+                    propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    location: ["Buenos Aires, ", " Argentina"],
+                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
