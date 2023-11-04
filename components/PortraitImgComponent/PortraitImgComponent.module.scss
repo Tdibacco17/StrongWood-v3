@@ -36,13 +36,18 @@
     .container-overlay-titles {
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100vw;
         width: 100vw;
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: flex-end;
         color: var(--primary-white);
+
+        &.action-titles {
+            left: 0;
+            transition: left 0.65s ease-in-out;
+        }
 
         .wrapper-overlay {
             width: var(--max-width);

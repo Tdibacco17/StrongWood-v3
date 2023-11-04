@@ -5,6 +5,11 @@
     gap: 12rem;
     width: 100vw;
 
+    &.scrollBlock {
+        max-height: 100vh;
+        margin-bottom: -14rem;
+    }
+
     @media (max-width:1200px) {
         gap: 8rem;
     }

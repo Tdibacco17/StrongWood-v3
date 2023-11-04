@@ -3,7 +3,6 @@ import styles from "./page.module.scss"
 import PortraitImgComponent from "@/components/PortraitImgComponent/PortraitImgComponent"
 import { projectsData } from "@/models/projects"
 import TwoSmallImgComponent from "@/components/TwoSmallImgComponent/TwoSmallImgComponent";
-import RectangleImgComponent from "@/components/RectangleImgComponent/RectangleImgComponent";
 
 export default function HomePage() {
   const { homeData } = projectsData;

@@ -1,0 +1,79 @@
+.container-section-telon {
+    background: var(--primary-black);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    color: var(--primary-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -14rem;
+
+    &.telon-active {
+        top: -100vh;
+        transition: top 0.65s ease-in-out;
+    }
+
+    &.disable-telon {
+        display: none;
+    }
+
+    .container-rectangle-action {
+        position: relative;
+        padding: 0.5rem 0;
+        overflow: hidden;
+        width: 18rem;
+        height: 5.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width:992px) {
+            width: 16rem;
+        }
+
+        @media (max-width:442px) {
+            height: 4.75rem;
+            width: 13rem;
+        }
+
+        .title-telon {
+            font-weight: var(--font-bold);
+            font-size: var(--font-44);
+            text-align: center;
+
+            @media (max-width:992px) {
+                font-size: var(--font-40);
+            }
+
+            @media (max-width:442px) {
+                font-size: var(--font-30);
+            }
+        }
+
+        .rectangle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: var(--primary-white);
+
+            &.rectangle-active {
+                left: 18rem;
+                transition: left 0.65s ease-in-out;
+
+                @media (max-width:992px) {
+                    left: 16rem;
+                }
+
+                @media (max-width:442px) {
+                    left: 13rem;
+                }
+            }
+        }
+    }
+}

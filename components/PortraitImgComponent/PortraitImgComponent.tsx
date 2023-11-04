@@ -7,11 +7,13 @@ import NavbarComponent from '../NavbarComponent/NavbarComponent'
 export default function PortraitImgComponent({
     imageData,
     projectData,
-    isPrimaryNav
+    isPrimaryNav,
+    telonActive
 }: {
     imageData: ImgDataInterface,
     projectData: ProjectInterface | undefined,
-    isPrimaryNav: boolean
+    isPrimaryNav: boolean,
+    telonActive?: boolean
 }) {
     return (
         <div className={styles["container-section-portraitImg"]}>
@@ -29,7 +31,7 @@ export default function PortraitImgComponent({
             </div>
             <div className={styles["container-overlay-image"]} />
             {projectData &&
-                <div className={`${styles["container-overlay-titles"]}`}>
+                <div className={`${styles["container-overlay-titles"]} ${telonActive && styles["action-titles"]}`}>
                     <div className={styles["wrapper-overlay"]}>
                         <div className={styles["container-titles"]}>
                             <p className={styles["title-title"]}>{projectData?.title}</p>
@@ -40,7 +42,8 @@ export default function PortraitImgComponent({
                             <p className={styles["title-mobile"]}>{projectData?.year} {projectData?.location}</p>
                         </div>
                     </div>
-                </div>}
+                </div>
+            }
             {isPrimaryNav && <NavbarComponent navType='primary' />}
         </div>
     )
