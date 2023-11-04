@@ -587,6 +587,50 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "local"],
         urlSlug: "local"
     },
+    "noviembre-cafe": {
+        projectSlug: "noviembre-cafe",
+        title: "Equipamiento local",
+        subtitle: "Noviembre cafe",
+        image: {
+            imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7048.webp",
+            imgAlt: "Noviembre cafe",
+            objPosition: "50% 63%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7048.webp",
+                imgAlt: "Noviembre cafe",
+                objPosition: "0% 60%"
+            },
+            rectangleImg: {
+                imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7049.webp",
+                imgAlt: "Noviembre cafe",
+                objPosition: "50% 20%"
+            },
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7051.webp",
+                    imgAlt: "Noviembre cafe",
+                    objPosition: "50% 50%"
+                },
+                title: "Recepción Gorilla Fitness",
+                description: [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
+                    " Phasellus ut tortor vel libero viverra suscipit.",
+                ],
+                footer: {
+                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    propousal: ["Recibidor local"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "local"],
+        urlSlug: "local"
+    },
     "timo-online": {
         projectSlug: "timo-online",
         title: "Equipamiento oficina",
@@ -776,6 +820,69 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "bathroom"],
         urlSlug: "bathroom"
     },
+    "vestidor-premium": {
+        projectSlug: "vestidor-premium",
+        title: "Vestidor",
+        subtitle: "Serie Premium",
+        image: {
+            imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7902.webp",
+            imgAlt: "Vestidor",
+            objPosition: "50% 55%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7902.webp",
+                imgAlt: "Vestidor",
+                objPosition: "85% 60%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7350.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "60% 100%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7352.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "50% 100%"
+                }
+            ],
+            thirdTwoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7358.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "50% 100%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7906.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "50% 100%"
+                }
+            ],
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7911.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "100% 100%"
+                },
+                title: "Vestidor - Serie Premium",
+                description: [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
+                    " Phasellus ut tortor vel libero viverra suscipit.",
+                ],
+                footer: {
+                    materials: ["Melamina"],
+                    propousal: ["Refacción vestidor"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "closet"],
+        urlSlug: "closet"
+    },
     "vestidor-deluxe": {
         projectSlug: "vestidor-deluxe",
         title: "Vestidor",
@@ -946,6 +1053,57 @@ export const projectsData: ProjectDataInterface = {
                     objPosition: "50% 0%"
                 },
                 title: "Escritorio - Serie Nova",
+                description: [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
+                    " Phasellus ut tortor vel libero viverra suscipit.",
+                ],
+                footer: {
+                    materials: ["Melamina"],
+                    propousal: ["Refacción escritorio"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "others"],
+        urlSlug: "others"
+    },
+    "cama-matrimonial-nova": {
+        projectSlug: "cama-matrimonial-nova",
+        title: "Cama matrimonial",
+        subtitle: "Serie Nova",
+        image: {
+            imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6090.webp",
+            imgAlt: "Cama matrimonial",
+            objPosition: "50% 50%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6090.webp",
+                imgAlt: "Cama matrimonial",
+                objPosition: "50% 50%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6100.webp",
+                    imgAlt: "Cama matrimonial",
+                    objPosition: "90% 50%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6099.webp",
+                    imgAlt: "Cama matrimonial",
+                    objPosition: "50% 50%"
+                }
+            ],
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6092.webp",
+                    imgAlt: "Cama matrimonial",
+                    objPosition: "50% 0%"
+                },
+                title: "Cama matrimonial - Serie Nova",
                 description: [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
                     " Phasellus ut tortor vel libero viverra suscipit.",

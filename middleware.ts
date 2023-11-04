@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const kitchenSlugs = ["cocina-nova", "cocina-new-york", "cocina-premium", "cocina-nordica"]
-const otherSlugs = ["vajillero-new-york", "recibidor-london", "rack-tv-london", "escritorio-nova"]
+const otherSlugs = ["vajillero-new-york", "recibidor-london", "rack-tv-london", "escritorio-nova", "cama-matrimonial-nova"]
 const bathroomSlugs = ["vanitory-nordico", "vanitory-new-york", "vanitory-escandinavo"]
-const closetSlugs = ["vestidor-deluxe", "vestidor-nordico", "placar-urbanwood"]
-const localSlugs = ["farina-e-pane", "gorila-fitness", "timo-online"]
+const closetSlugs = ["vestidor-deluxe", "vestidor-nordico", "placar-urbanwood", "vestidor-premium"]
+const localSlugs = ["farina-e-pane", "gorila-fitness", "timo-online", "noviembre-cafe"]
 const productSlugs = ["estanteria-avila", "maceta-avinon", "porta-vinos", "estanteria-bath", "mesa-cracovia",
     "mesa-ratona-edimburgo", "maceta-sintra", "estanteria-siena", "llavero-corfu", "leniero", "rack-tv-cordoba",
     "toallero-matera", "toallero-cuenca", "bodega-segovia", "mesa-de-luz-roma", "escritorio-brujas", "perchero-oporto",
