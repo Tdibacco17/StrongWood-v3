@@ -35,6 +35,7 @@ export default function ProjectDetailComponent({
                             projectData={projectData}
                             isPrimaryNav={false}
                             telonActive={telonActive}
+                            projectSlug={projectSlug}
                         />
                     }
                     {

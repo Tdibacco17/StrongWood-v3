@@ -115,11 +115,10 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Cocina - Serie Nova",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Refacción de una cocina en forma de L de un departamento antiguo, con barra desayunadora revestida en a listonado de eucalipto laqueado.",
                 ],
                 footer: {
-                    materials: ["Melamina"],
+                    materials: ["MDF - ", "DEFONDANDO - ", "LAQUEADO blanco"],
                     propousal: ["Refacción cocina"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
@@ -131,7 +130,7 @@ export const projectsData: ProjectDataInterface = {
     },
     "cocina-new-york": {
         projectSlug: "cocina-new-york",
-        title: "Refacción cocina",
+        title: "Cocina",
         subtitle: "Serie New York",
         image: {
             imgSrc: "/assets/img/projectsPage/kitchen/newYork/Strong-142.webp",
@@ -171,12 +170,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Cocina - Serie New York",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Refaccíon de una cocina simple en forma lineal con detalles actuales con una impronta relajada y sobria.",
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Melamina gratito y scotch - ", "Simil madera"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -187,7 +185,7 @@ export const projectsData: ProjectDataInterface = {
     },
     "cocina-premium": {
         projectSlug: "cocina-premium",
-        title: "Refacción cocina",
+        title: "Cocina",
         subtitle: "Serie Premium",
         image: {
             imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-266.webp",
@@ -227,12 +225,12 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Cocina - Serie Premium",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Obra de vivienda nueva en melamina color laqueada en forma de U con isla.",
+                    "Se incorporaron accesorios de tendencias actuales que aportan diseño en el espacio."
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Melamina gris grafito laqueada semi mate - ", "Accesorios de cocina - ", "Herrajes premium"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -283,12 +281,74 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Cocina - Serie Nordica",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Refacción de departamento diseñada por el Arq.Helou.",
+                    "Inspirada en tonalidades de la naturaleza, transmitiendo una sensación serena y simple en los espacios."
                 ],
                 footer: {
-                    materials: ["Melamina"],
+                    materials: ["Melamina blanca - ", "Alistonado de eucaliptus laqueado",],
                     propousal: ["Refacción cocina"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
+    },
+    "cocina-vison": {
+        projectSlug: "cocina-vison",
+        title: "Cocina",
+        subtitle: "Serie Vison",
+        image: {
+            imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8090.webp",
+            imgAlt: "Cocina",
+            objPosition: "70% 50%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8090.webp",
+                imgAlt: "Cocina",
+                objPosition: "70% 100%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8102.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "0% 50%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8103.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "100% 100%"
+                }
+            ],
+            thirdTwoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8094.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "0% 50%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8086.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "100% 100%"
+                }
+            ],
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8099.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "100% 50%"
+                },
+                title: "Cocina - Serie Vison",
+                description: [
+                    "Una gama sorprendente que aporta nuevas posibilidades y opciones de diseño.",
+                ],
+                footer: {
+                    materials: ["Melamina sahara - ", "Melamina laca - ", "Luces led - ", "Accesorios"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -339,12 +399,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Vajillero - Serie New York",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Vajillero de color potenciando su atractivo y personalidad en el ambiente."
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción cocina"],
+                    materials: ["Melamina colo laqueada - ", "Luces Led - ", "Accesorios de armado - ", "Herrajes premium"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -395,12 +454,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Recibidor - Serie London",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Recibidor insparado en la naturaleza como en las tendencias evolucionistas, modernizando y expandiendo las gamas disponibles."
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción recibidor"],
+                    materials: ["Melamina color - ", "Melamina simil madera"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -451,12 +509,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Rack TV - Serie London",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Rack de lineas simples y clasicas que suavizan el espacio."
                 ],
                 footer: {
-                    materials: ["Melamina, ", " Hierro"],
-                    propousal: ["Refacción rack TV"],
+                    materials: ["Melamina laca - ", "Melamina scotch"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -529,11 +586,10 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Equipamiento Farina e Pane",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Equipamiento completo de pasteleria gastronomica artesanal."
                 ],
                 footer: {
-                    materials: ["Madera"],
+                    materials: ["Melamina simil madera - ", "Melamina laca - ", "Caño de hierro"],
                     propousal: ["Equipamiento local"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
@@ -573,11 +629,10 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Recepción Gorilla Fitness",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Recibidor para gimnasio buscando acompañar el diseño del lugar."
                 ],
                 footer: {
-                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    materials: ["Petiriby - ", "Madera maciza laqueada - ", "Hierro estructural"],
                     propousal: ["Recibidor local"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
@@ -612,17 +667,16 @@ export const projectsData: ProjectDataInterface = {
             technicalInfo: {
                 image: {
                     imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7051.webp",
-                    imgAlt: "Noviembre cafe",
+                    imgAlt: "Noviembre Cafe",
                     objPosition: "50% 50%"
                 },
-                title: "Recepción Gorilla Fitness",
+                title: "Recepción Noviembre cafe",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Equipamiento completo de cafeteria."
                 ],
                 footer: {
-                    materials: ["Madera, ", " Hierro, ", "Laca"],
-                    propousal: ["Recibidor local"],
+                    materials: ["Melamina color - ", "Madera de paraiso laqueada"],
+                    propousal: ["Equipamiento local"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -661,11 +715,10 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Equipamiento Timo Online",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Equipamiento completo de oficina."
                 ],
                 footer: {
-                    materials: ["Madera, ", " Hierro, ", "Laca"],
+                    materials: ["Melamina hickory natural - ", "Caño estructural - ", "Puerta de vidrio - "],
                     propousal: ["Equipamiento oficina"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
@@ -712,12 +765,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Vanitory - Serie Nordico",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "La madera es la materia prima que caracteriza el mobiliario desde siempre, por su textura, perfume y calidez."
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción vanitory"],
+                    materials: ["Alistonado de eucaliptus laqueado semi mate"],
+                    propousal: ["Remodelación toilette"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -761,12 +813,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Vanitory - Serie New York",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Vanitory diseño industrial simple de lineas limpias."
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción vanitory"],
+                    materials: ["Madera de eucaliptus teñida"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -806,11 +857,10 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Vanitory - Serie Escandinavo",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Diseño elegante que aporta fusionalidad y comodidad en el ambiente."
                 ],
                 footer: {
-                    materials: ["Melamina"],
+                    materials: ["Madera de paraiso laqueada"],
                     propousal: ["Refacción vanitory"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
@@ -869,12 +919,12 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Vestidor - Serie Premium",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Vestidor con un toque de sofisticación inspirado en juegos de saturación y oxidos que amalgaman el espacio.",
+                    "El detalle de las luces LED con sensor de movimiento en la apertura de las puertas."
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción vestidor"],
+                    materials: ["Puertas de vidrio - ", "Luces Led con sensor de mov. - ", "Melamina moscu y grafito"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -920,11 +970,10 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Vestidor - Serie Deluxe",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Refacción de vestidor buscando alivianar los espacios."
                 ],
                 footer: {
-                    materials: ["Melamina"],
+                    materials: ["Puertas de vidrio - ", "Melamina scotch - "],
                     propousal: ["Refacción vestidor"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
@@ -971,12 +1020,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Vestidor - Serie Nordico",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Vestidor en paralelo diseñado por el estudio Cciaro - Helou."
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción vestidor"],
+                    materials: ["Puertas de vidrio - ", "Luces Led - ", "Herrajes premium - ", "Melamina moscu y grafito"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -1010,12 +1058,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Placar - Serie Urbanwood",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Vestidor en paralelo para departarmento nuevo teniendo en cuenta la pureza en el trazo y la simplicidad en el material."
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción placar"],
+                    materials: ["Melamina blanca con tiradores de aluminio"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -1054,12 +1101,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Escritorio - Serie Nova",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Diseño con lineas simples dando un espacio liviano y relajado."
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción escritorio"],
+                    materials: ["Melamina laca"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -1105,12 +1151,11 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Cama matrimonial - Serie Nova",
                 description: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat nunc sed erat laoreet, nec gravida odio dictum. In bibendum ex ac odio sagittis, non euismod lectus fringilla.",
-                    " Phasellus ut tortor vel libero viverra suscipit.",
+                    "Cama matrimonial con baulera y 3 cajonera amplias con correderas reforzadas."
                 ],
                 footer: {
-                    materials: ["Melamina"],
-                    propousal: ["Refacción escritorio"],
+                    materials: ["Melamina ceniza - ", "MDF laqueado blanco"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }

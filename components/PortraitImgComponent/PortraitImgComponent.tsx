@@ -1,19 +1,22 @@
 import Image from 'next/image'
 import styles from "./PortraitImgComponent.module.scss"
-import { ProjectInterface } from '@/types/ProjectsTypes'
+import { ProjectInterface, SelectedFilterInterface } from '@/types/ProjectsTypes'
 import { ImgDataInterface } from '@/types'
 import NavbarComponent from '../NavbarComponent/NavbarComponent'
+import Link from 'next/link'
 
 export default function PortraitImgComponent({
     imageData,
     projectData,
     isPrimaryNav,
-    telonActive
+    telonActive,
+    projectSlug
 }: {
     imageData: ImgDataInterface,
     projectData: ProjectInterface | undefined,
     isPrimaryNav: boolean,
-    telonActive?: boolean
+    telonActive?: boolean,
+    projectSlug?: SelectedFilterInterface
 }) {
     return (
         <div className={styles["container-section-portraitImg"]}>
@@ -41,6 +44,14 @@ export default function PortraitImgComponent({
                             </div>
                             <p className={styles["title-mobile"]}>{projectData?.year} {projectData?.location}</p>
                         </div>
+                    </div>
+                </div>
+            }
+            {projectData &&
+                <div className={styles["overlay-title-back"]}>
+                    <div className={styles["title-back"]}>
+                        <Link href={`/projects/${projectSlug}`}
+                            className={styles["title"]}>Volver atras</Link>
                     </div>
                 </div>
             }

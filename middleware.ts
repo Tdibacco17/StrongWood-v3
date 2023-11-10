@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const kitchenSlugs = ["cocina-nova", "cocina-new-york", "cocina-premium", "cocina-nordica"]
+const kitchenSlugs = ["cocina-nova", "cocina-new-york", "cocina-premium", "cocina-nordica", "cocina-vison"]
 const otherSlugs = ["vajillero-new-york", "recibidor-london", "rack-tv-london", "escritorio-nova", "cama-matrimonial-nova"]
 const bathroomSlugs = ["vanitory-nordico", "vanitory-new-york", "vanitory-escandinavo"]
 const closetSlugs = ["vestidor-deluxe", "vestidor-nordico", "placar-urbanwood", "vestidor-premium"]
