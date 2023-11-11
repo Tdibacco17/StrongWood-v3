@@ -7,6 +7,7 @@ import PortraitImgComponent from "../PortraitImgComponent/PortraitImgComponent"
 import RectangleImgComponent from "../RectangleImgComponent/RectangleImgComponent"
 import { ProjectsDataContextInterface, SelectedFilterInterface } from "@/types/ProjectsTypes"
 import TelonComponent from "../TelonComponent/TelonComponent"
+import BtnTopComponent from "../FooterComponent/BtnScrollComponent/BtnScrollComponent"
 
 export default function ProjectDetailComponent({
     projectSlug,
@@ -33,7 +34,6 @@ export default function ProjectDetailComponent({
                         <PortraitImgComponent
                             imageData={projectData.details.portraitImg}
                             projectData={projectData}
-                            isPrimaryNav={false}
                             telonActive={telonActive}
                             projectSlug={projectSlug}
                         />
@@ -83,6 +83,7 @@ export default function ProjectDetailComponent({
                 <Link
                     href={`/projects/${projectSlug}`}
                     className={styles["title-back"]}>Volver atras</Link>
+                <BtnTopComponent title={"Ir arriba"} />
             </div>
         </div>
     )

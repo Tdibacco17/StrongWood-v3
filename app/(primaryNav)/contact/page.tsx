@@ -9,8 +9,8 @@ export default function ContactPage() {
             <PortraitImgComponent
                 imageData={data.contactPage.image}
                 projectData={undefined}
-                isPrimaryNav={true} />
-                <ContactDetailsComponent />
+            />
+            <ContactDetailsComponent />
         </section>
     )
 }

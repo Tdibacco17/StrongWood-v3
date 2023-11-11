@@ -6,7 +6,6 @@ import Link from "next/link";
 export default function ProjectsCardComponent({ projectData, index }: { projectData: ProjectInterface, index: number }) {
     return (
         <Link
-            // aria-label={`Ir a la página de proyecto ${projectData.title}`}
             href={`/${projectData.urlSlug}/${projectData.projectSlug}`}
             className={`${styles["container-project-card"]}`}>
             <div className={`${styles["container-outer-image"]}`}>

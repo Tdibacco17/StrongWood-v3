@@ -2,7 +2,6 @@ import { myFont } from '@/models/localFont'
 import './globals.css'
 import type { Metadata } from 'next'
 import Head from 'next/head'
-import FooterComponent from '@/components/FooterComponent/FooterComponent'
 
 export const metadata: Metadata = {
   applicationName: 'StrongWood®',
@@ -16,16 +15,6 @@ export const metadata: Metadata = {
     url: 'https://www.linkedin.com/in/tomas-di-bacco/'
   },
   manifest: '/manifest.json',
-  // openGraph: {
-  //   images: {
-  //     url: 'https://strongwood-v3.vercel.app/opengraph.png',
-  //     secureUrl: 'https://strongwood-v3.vercel.app/opengraph.png',
-  //   },
-  //   title: 'StrongWood®',
-  //   siteName: 'StrongWood®',
-  //   description: 'El balance perfecto entre hierro y madera.',
-  //   url: 'https://strongwood-v3.vercel.app/',
-  // }
 }
 
 export default function RootLayout({

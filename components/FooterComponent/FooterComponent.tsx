@@ -1,7 +1,6 @@
 import styles from "./FooterComponent.module.scss"
 import data from "@/models/es.json"
 import { EmailIconComponent, InstagramIconComponent, WhatsappIconComponent } from "../IconComponent/IconComponent"
-import BtnTopComponent from "./BtnScrollComponent/BtnScrollComponent"
 import Link from "next/link"
 
 export default function FooterComponent() {
@@ -17,11 +16,10 @@ export default function FooterComponent() {
                             <WhatsappIconComponent isMobile={true} fill="#4F4F4F" size="small" hover={true} link="https://wa.me/5491171196506" />
                             <EmailIconComponent fill="#4F4F4F" size="small" hover={true} link="mailto:strongwoodventas@gmail.com" />
                         </div>
-                        <Link
-                            href={`/contact`}
-                            className={styles["title-back"]}>Contactanos</Link>
                     </div>
-                    <BtnTopComponent title={data.footer.scrollTo} />
+                    <Link
+                        href={`/contact`}
+                        className={styles["title-back"]}>Contactanos</Link>
                 </div>
                 <div className={styles["secondary-footer"]}>
                     <small className={styles["text-company"]}>{data.footer.company}</small>

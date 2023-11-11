@@ -4,15 +4,19 @@
     align-items: center;
     gap: 12rem;
     width: 100vw;
-    padding-bottom: 12rem;
 
     @media (max-width:1200px) {
         gap: 8rem;
-        padding-bottom: 8rem;
     }
 
     @media (max-width:768px) {
         gap: 3.75rem;
-        padding-bottom: 3.75rem;
+    }
+
+    .container-btn-top {
+        width: var(--max-width);
+        padding-bottom: 1.25rem;
+        display: flex;
+        justify-content: flex-end;
     }
 }

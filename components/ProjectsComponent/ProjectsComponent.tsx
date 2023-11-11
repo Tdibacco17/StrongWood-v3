@@ -2,6 +2,7 @@ import { ProjectDataInterface, ProjectInterface, SelectedFilterInterface } from 
 import ProjectsCardComponent from "../ProjectsCardComponent/ProjectsCardComponent"
 import styles from "./ProjectsComponent.module.scss"
 import SelectorTitleComponent from "../SelectorTitleComponent/SelectorTitleComponent";
+import BtnTopComponent from "../FooterComponent/BtnScrollComponent/BtnScrollComponent";
 
 export default function ProjectsComponent({
     projectsData,
@@ -24,6 +25,9 @@ export default function ProjectsComponent({
                         />
                     })
                 }
+            </div>
+            <div className={styles["container-btn-top"]}>
+                <BtnTopComponent title={"Ir arriba"} />
             </div>
         </>
     )

@@ -5,7 +5,7 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    height: 14rem;
+    height: 10.5rem;
 
     .wrapper-footer {
         min-width: var(--max-width);
@@ -22,7 +22,7 @@
             justify-content: space-between;
             align-items: flex-end;
             width: 100%;
-            padding: 1.25rem 0;
+            padding: 1.5rem 0;
 
             .title-contact {
                 font-size: var(--font-16);
@@ -38,7 +38,6 @@
                 align-items: center;
                 justify-content: flex-start;
                 gap: 1rem;
-                padding-bottom: 2.5rem;
             }
 
             .title-back {

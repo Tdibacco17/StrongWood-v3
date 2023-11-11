@@ -11,3 +11,10 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.container-btn-top {
+    width: var(--max-width);
+    padding-bottom: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+}

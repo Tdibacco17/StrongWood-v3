@@ -73,6 +73,68 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all"],
         urlSlug: "all"
     },
+    "cocina-vison": {
+        projectSlug: "cocina-vison",
+        title: "Refacción cocina",
+        subtitle: "Serie Vison",
+        image: {
+            imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8090.webp",
+            imgAlt: "Cocina",
+            objPosition: "70% 50%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8090.webp",
+                imgAlt: "Cocina",
+                objPosition: "50% 100%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8102.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "0% 50%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8103.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "100% 100%"
+                }
+            ],
+            thirdTwoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8094.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "0% 50%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8086.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "100% 100%"
+                }
+            ],
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8099.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "100% 50%"
+                },
+                title: "Cocina - Serie Vison",
+                description: [
+                    "Una gama sorprendente que aporta nuevas posibilidades y opciones de diseño.",
+                ],
+                footer: {
+                    materials: ["Melamina sahara - ", "Melamina laca - ", "Luces led - ", "Accesorios"],
+                    propousal: ["Refacción cocina"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
+    },
     "cocina-nova": {
         projectSlug: "cocina-nova",
         title: "Refacción cocina",
@@ -185,7 +247,7 @@ export const projectsData: ProjectDataInterface = {
     },
     "cocina-premium": {
         projectSlug: "cocina-premium",
-        title: "Cocina",
+        title: "Refacción cocina",
         subtitle: "Serie Premium",
         image: {
             imgSrc: "/assets/img/projectsPage/kitchen/premium/Strong-266.webp",
@@ -230,7 +292,7 @@ export const projectsData: ProjectDataInterface = {
                 ],
                 footer: {
                     materials: ["Melamina gris grafito laqueada semi mate - ", "Accesorios de cocina - ", "Herrajes premium"],
-                    propousal: ["Obra nueva"],
+                    propousal: ["Refacción cocina"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
@@ -295,68 +357,6 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
     },
-    "cocina-vison": {
-        projectSlug: "cocina-vison",
-        title: "Cocina",
-        subtitle: "Serie Vison",
-        image: {
-            imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8090.webp",
-            imgAlt: "Cocina",
-            objPosition: "70% 50%"
-        },
-        year: "2023",
-        location: "Buenos Aires, Argentina",
-        details: {
-            portraitImg: {
-                imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8090.webp",
-                imgAlt: "Cocina",
-                objPosition: "70% 100%"
-            },
-            twoSmallImg: [
-                {
-                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8102.webp",
-                    imgAlt: "Cocina",
-                    objPosition: "0% 50%"
-                },
-                {
-                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8103.webp",
-                    imgAlt: "Cocina",
-                    objPosition: "100% 100%"
-                }
-            ],
-            thirdTwoSmallImg: [
-                {
-                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8094.webp",
-                    imgAlt: "Cocina",
-                    objPosition: "0% 50%"
-                },
-                {
-                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8086.webp",
-                    imgAlt: "Cocina",
-                    objPosition: "100% 100%"
-                }
-            ],
-            technicalInfo: {
-                image: {
-                    imgSrc: "/assets/img/projectsPage/kitchen/vison/IMG_8099.webp",
-                    imgAlt: "Cocina",
-                    objPosition: "100% 50%"
-                },
-                title: "Cocina - Serie Vison",
-                description: [
-                    "Una gama sorprendente que aporta nuevas posibilidades y opciones de diseño.",
-                ],
-                footer: {
-                    materials: ["Melamina sahara - ", "Melamina laca - ", "Luces led - ", "Accesorios"],
-                    propousal: ["Obra nueva"],
-                    year: ["2023"],
-                    location: ["Buenos Aires, ", " Argentina"],
-                }
-            }
-        },
-        categories: ["all", "kitchen"],
-        urlSlug: "kitchen"
-    },
     "vajillero-new-york": {
         projectSlug: "vajillero-new-york",
         title: "Vajillero",
@@ -411,6 +411,126 @@ export const projectsData: ProjectDataInterface = {
         },
         categories: ["all", "others"],
         urlSlug: "others"
+    },
+    "farina-e-pane": {
+        projectSlug: "farina-e-pane",
+        title: "Equipamiento local",
+        subtitle: "Farina e Pane",
+        image: {
+            imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-162.webp",
+            imgAlt: "Farina e Pane",
+            objPosition: "0% 50%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-162.webp",
+                imgAlt: "Farina e Pane",
+                objPosition: "25% 100%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-170.webp",
+                    imgAlt: "Farina e Pane",
+                    objPosition: "30% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-177.webp",
+                    imgAlt: "Farina e Pane",
+                    objPosition: "85% 50%",
+                }
+            ],
+            thirdTwoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-178.webp",
+                    imgAlt: "Farina e Pane",
+                    objPosition: "50% 50%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-187.webp",
+                    imgAlt: "Farina e Pane",
+                    objPosition: "50% 0%"
+                }
+            ],
+            rectangleImg: {
+                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-167.webp",
+                imgAlt: "Farina e Pane",
+                objPosition: "50% 60%",
+            },
+            secondRectangleImg: {
+                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-182.webp",
+                imgAlt: "Farina e Pane",
+                objPosition: "0% 100%",
+            },
+            thirdRectangleImg: {
+                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-183.webp",
+                imgAlt: "Farina e Pane",
+                objPosition: "0% 15%"
+            },
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-165.webp",
+                    imgAlt: "Farina e Pane",
+                    objPosition: "15% 0%"
+                },
+                title: "Equipamiento Farina e Pane",
+                description: [
+                    "Equipamiento completo de pasteleria gastronomica artesanal."
+                ],
+                footer: {
+                    materials: ["Melamina simil madera - ", "Melamina laca - ", "Caño de hierro"],
+                    propousal: ["Equipamiento local"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "local"],
+        urlSlug: "local"
+    },
+    "timo-online": {
+        projectSlug: "timo-online",
+        title: "Equipamiento oficina",
+        subtitle: "Timo Online",
+        image: {
+            imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
+            imgAlt: "Timo Online",
+            objPosition: "50% 80%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
+                imgAlt: "Timo Online",
+                objPosition: "60% 80%"
+            },
+            rectangleImg: {
+                imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo1.webp",
+                imgAlt: "Timo Online",
+                objPosition: "50% 45%"
+            },
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo4.webp",
+                    imgAlt: "Timo Online",
+                    objPosition: "50% 25%"
+                },
+                title: "Equipamiento Timo Online",
+                description: [
+                    "Equipamiento completo de oficina."
+                ],
+                footer: {
+                    materials: ["Melamina hickory natural - ", "Caño estructural - ", "Puerta de vidrio - "],
+                    propousal: ["Equipamiento oficina"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "local"],
+        urlSlug: "local"
     },
     "recibidor-london": {
         projectSlug: "recibidor-london",
@@ -522,74 +642,90 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "others"],
         urlSlug: "others"
     },
-    "farina-e-pane": {
-        projectSlug: "farina-e-pane",
-        title: "Equipamiento local",
-        subtitle: "Farina e Pane",
+    "vanitory-nordico": {
+        projectSlug: "vanitory-nordico",
+        title: "Vanitory",
+        subtitle: "Serie Nordico",
         image: {
-            imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-162.webp",
-            imgAlt: "Farina e Pane",
-            objPosition: "0% 50%"
+            imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-241.webp",
+            imgAlt: "Vanitory",
+            objPosition: "50% 50%"
         },
         year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-162.webp",
-                imgAlt: "Farina e Pane",
-                objPosition: "25% 100%"
+                imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-241.webp",
+                imgAlt: "Vanitory",
+                objPosition: "50% 60%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-170.webp",
-                    imgAlt: "Farina e Pane",
-                    objPosition: "30% 0%"
+                    imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-115.webp",
+                    imgAlt: "Vanitory",
+                    objPosition: "70% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-177.webp",
-                    imgAlt: "Farina e Pane",
-                    objPosition: "85% 50%",
+                    imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-242.webp",
+                    imgAlt: "Vanitory",
+                    objPosition: "80% 100%"
                 }
             ],
-            thirdTwoSmallImg: [
-                {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-178.webp",
-                    imgAlt: "Farina e Pane",
-                    objPosition: "50% 50%"
-                },
-                {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-187.webp",
-                    imgAlt: "Farina e Pane",
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-117.webp",
+                    imgAlt: "Vanitory",
                     objPosition: "50% 0%"
+                },
+                title: "Vanitory - Serie Nordico",
+                description: [
+                    "La madera es la materia prima que caracteriza el mobiliario desde siempre, por su textura, perfume y calidez."
+                ],
+                footer: {
+                    materials: ["Alistonado de eucaliptus laqueado semi mate"],
+                    propousal: ["Remodelación toilette"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
                 }
-            ],
+            }
+        },
+        categories: ["all", "bathroom"],
+        urlSlug: "bathroom"
+    },
+    "noviembre-cafe": {
+        projectSlug: "noviembre-cafe",
+        title: "Equipamiento local",
+        subtitle: "Noviembre cafe",
+        image: {
+            imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7048.webp",
+            imgAlt: "Noviembre cafe",
+            objPosition: "50% 63%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7048.webp",
+                imgAlt: "Noviembre cafe",
+                objPosition: "0% 60%"
+            },
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-167.webp",
-                imgAlt: "Farina e Pane",
-                objPosition: "50% 60%",
-            },
-            secondRectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-182.webp",
-                imgAlt: "Farina e Pane",
-                objPosition: "0% 100%",
-            },
-            thirdRectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-183.webp",
-                imgAlt: "Farina e Pane",
-                objPosition: "0% 15%"
+                imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7049.webp",
+                imgAlt: "Noviembre cafe",
+                objPosition: "50% 20%"
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-165.webp",
-                    imgAlt: "Farina e Pane",
-                    objPosition: "15% 0%"
+                    imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7051.webp",
+                    imgAlt: "Noviembre Cafe",
+                    objPosition: "50% 50%"
                 },
-                title: "Equipamiento Farina e Pane",
+                title: "Recepción Noviembre cafe",
                 description: [
-                    "Equipamiento completo de pasteleria gastronomica artesanal."
+                    "Equipamiento completo de cafeteria."
                 ],
                 footer: {
-                    materials: ["Melamina simil madera - ", "Melamina laca - ", "Caño de hierro"],
+                    materials: ["Melamina color - ", "Madera de paraiso laqueada"],
                     propousal: ["Equipamiento local"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
@@ -641,142 +777,6 @@ export const projectsData: ProjectDataInterface = {
         },
         categories: ["all", "local"],
         urlSlug: "local"
-    },
-    "noviembre-cafe": {
-        projectSlug: "noviembre-cafe",
-        title: "Equipamiento local",
-        subtitle: "Noviembre cafe",
-        image: {
-            imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7048.webp",
-            imgAlt: "Noviembre cafe",
-            objPosition: "50% 63%"
-        },
-        year: "2023",
-        location: "Buenos Aires, Argentina",
-        details: {
-            portraitImg: {
-                imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7048.webp",
-                imgAlt: "Noviembre cafe",
-                objPosition: "0% 60%"
-            },
-            rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7049.webp",
-                imgAlt: "Noviembre cafe",
-                objPosition: "50% 20%"
-            },
-            technicalInfo: {
-                image: {
-                    imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7051.webp",
-                    imgAlt: "Noviembre Cafe",
-                    objPosition: "50% 50%"
-                },
-                title: "Recepción Noviembre cafe",
-                description: [
-                    "Equipamiento completo de cafeteria."
-                ],
-                footer: {
-                    materials: ["Melamina color - ", "Madera de paraiso laqueada"],
-                    propousal: ["Equipamiento local"],
-                    year: ["2023"],
-                    location: ["Buenos Aires, ", " Argentina"],
-                }
-            }
-        },
-        categories: ["all", "local"],
-        urlSlug: "local"
-    },
-    "timo-online": {
-        projectSlug: "timo-online",
-        title: "Equipamiento oficina",
-        subtitle: "Timo Online",
-        image: {
-            imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
-            imgAlt: "Timo Online",
-            objPosition: "50% 80%"
-        },
-        year: "2023",
-        location: "Buenos Aires, Argentina",
-        details: {
-            portraitImg: {
-                imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
-                imgAlt: "Timo Online",
-                objPosition: "60% 80%"
-            },
-            rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo1.webp",
-                imgAlt: "Timo Online",
-                objPosition: "50% 45%"
-            },
-            technicalInfo: {
-                image: {
-                    imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo4.webp",
-                    imgAlt: "Timo Online",
-                    objPosition: "50% 25%"
-                },
-                title: "Equipamiento Timo Online",
-                description: [
-                    "Equipamiento completo de oficina."
-                ],
-                footer: {
-                    materials: ["Melamina hickory natural - ", "Caño estructural - ", "Puerta de vidrio - "],
-                    propousal: ["Equipamiento oficina"],
-                    year: ["2023"],
-                    location: ["Buenos Aires, ", " Argentina"],
-                }
-            }
-        },
-        categories: ["all", "local"],
-        urlSlug: "local"
-    },
-    "vanitory-nordico": {
-        projectSlug: "vanitory-nordico",
-        title: "Vanitory",
-        subtitle: "Serie Nordico",
-        image: {
-            imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-241.webp",
-            imgAlt: "Vanitory",
-            objPosition: "50% 50%"
-        },
-        year: "2023",
-        location: "Buenos Aires, Argentina",
-        details: {
-            portraitImg: {
-                imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-241.webp",
-                imgAlt: "Vanitory",
-                objPosition: "50% 60%"
-            },
-            twoSmallImg: [
-                {
-                    imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-115.webp",
-                    imgAlt: "Vanitory",
-                    objPosition: "70% 0%"
-                },
-                {
-                    imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-242.webp",
-                    imgAlt: "Vanitory",
-                    objPosition: "80% 100%"
-                }
-            ],
-            technicalInfo: {
-                image: {
-                    imgSrc: "/assets/img/projectsPage/bathroom/nordico/Strong-117.webp",
-                    imgAlt: "Vanitory",
-                    objPosition: "50% 0%"
-                },
-                title: "Vanitory - Serie Nordico",
-                description: [
-                    "La madera es la materia prima que caracteriza el mobiliario desde siempre, por su textura, perfume y calidez."
-                ],
-                footer: {
-                    materials: ["Alistonado de eucaliptus laqueado semi mate"],
-                    propousal: ["Remodelación toilette"],
-                    year: ["2023"],
-                    location: ["Buenos Aires, ", " Argentina"],
-                }
-            }
-        },
-        categories: ["all", "bathroom"],
-        urlSlug: "bathroom"
     },
     "vanitory-new-york": {
         projectSlug: "vanitory-new-york",
@@ -869,69 +869,6 @@ export const projectsData: ProjectDataInterface = {
         },
         categories: ["all", "bathroom"],
         urlSlug: "bathroom"
-    },
-    "vestidor-premium": {
-        projectSlug: "vestidor-premium",
-        title: "Vestidor",
-        subtitle: "Serie Premium",
-        image: {
-            imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7902.webp",
-            imgAlt: "Vestidor",
-            objPosition: "50% 55%"
-        },
-        year: "2023",
-        location: "Buenos Aires, Argentina",
-        details: {
-            portraitImg: {
-                imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7902.webp",
-                imgAlt: "Vestidor",
-                objPosition: "85% 60%"
-            },
-            twoSmallImg: [
-                {
-                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7350.webp",
-                    imgAlt: "Vestidor",
-                    objPosition: "60% 100%"
-                },
-                {
-                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7352.webp",
-                    imgAlt: "Vestidor",
-                    objPosition: "50% 100%"
-                }
-            ],
-            thirdTwoSmallImg: [
-                {
-                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7358.webp",
-                    imgAlt: "Vestidor",
-                    objPosition: "50% 100%"
-                },
-                {
-                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7906.webp",
-                    imgAlt: "Vestidor",
-                    objPosition: "50% 100%"
-                }
-            ],
-            technicalInfo: {
-                image: {
-                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7911.webp",
-                    imgAlt: "Vestidor",
-                    objPosition: "100% 100%"
-                },
-                title: "Vestidor - Serie Premium",
-                description: [
-                    "Vestidor con un toque de sofisticación inspirado en juegos de saturación y oxidos que amalgaman el espacio.",
-                    "El detalle de las luces LED con sensor de movimiento en la apertura de las puertas."
-                ],
-                footer: {
-                    materials: ["Puertas de vidrio - ", "Luces Led con sensor de mov. - ", "Melamina moscu y grafito"],
-                    propousal: ["Obra nueva"],
-                    year: ["2023"],
-                    location: ["Buenos Aires, ", " Argentina"],
-                }
-            }
-        },
-        categories: ["all", "closet"],
-        urlSlug: "closet"
     },
     "vestidor-deluxe": {
         projectSlug: "vestidor-deluxe",
@@ -1033,35 +970,60 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "closet"],
         urlSlug: "closet"
     },
-    "placar-urbanwood": {
-        projectSlug: "placar-urbanwood",
-        title: "Placar",
-        subtitle: "Serie Urbanwood",
+    "vestidor-premium": {
+        projectSlug: "vestidor-premium",
+        title: "Vestidor",
+        subtitle: "Serie Premium",
         image: {
-            imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-153.webp",
-            imgAlt: "Placar",
-            objPosition: "0% 40%"
+            imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7902.webp",
+            imgAlt: "Vestidor",
+            objPosition: "50% 55%"
         },
         year: "2023",
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-153.webp",
-                imgAlt: "Placar",
-                objPosition: "50% 90%"
+                imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7902.webp",
+                imgAlt: "Vestidor",
+                objPosition: "85% 60%"
             },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7350.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "60% 100%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7352.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "50% 100%"
+                }
+            ],
+            thirdTwoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7358.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "50% 100%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7906.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "50% 100%"
+                }
+            ],
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-152.webp",
-                    imgAlt: "Placar",
-                    objPosition: "30% 50%"
+                    imgSrc: "/assets/img/projectsPage/closet/premium/IMG_7911.webp",
+                    imgAlt: "Vestidor",
+                    objPosition: "100% 100%"
                 },
-                title: "Placar - Serie Urbanwood",
+                title: "Vestidor - Serie Premium",
                 description: [
-                    "Vestidor en paralelo para departarmento nuevo teniendo en cuenta la pureza en el trazo y la simplicidad en el material."
+                    "Vestidor con un toque de sofisticación inspirado en juegos de saturación y oxidos que amalgaman el espacio.",
+                    "El detalle de las luces LED con sensor de movimiento en la apertura de las puertas."
                 ],
                 footer: {
-                    materials: ["Melamina blanca con tiradores de aluminio"],
+                    materials: ["Puertas de vidrio - ", "Luces Led con sensor de mov. - ", "Melamina moscu y grafito"],
                     propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
@@ -1164,6 +1126,44 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "others"],
         urlSlug: "others"
     },
+    "placar-urbanwood": {
+        projectSlug: "placar-urbanwood",
+        title: "Placar",
+        subtitle: "Serie Urbanwood",
+        image: {
+            imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-153.webp",
+            imgAlt: "Placar",
+            objPosition: "0% 40%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-153.webp",
+                imgAlt: "Placar",
+                objPosition: "50% 90%"
+            },
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/closet/urbanwood/Strong-152.webp",
+                    imgAlt: "Placar",
+                    objPosition: "30% 50%"
+                },
+                title: "Placar - Serie Urbanwood",
+                description: [
+                    "Vestidor en paralelo para departarmento nuevo teniendo en cuenta la pureza en el trazo y la simplicidad en el material."
+                ],
+                footer: {
+                    materials: ["Melamina blanca con tiradores de aluminio"],
+                    propousal: ["Obra nueva"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "closet"],
+        urlSlug: "closet"
+    },
     "estanteria-avila": {
         projectSlug: "estanteria-avila",
         title: "Estanteria Avila",
@@ -1213,11 +1213,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "maceta-avinon": {
@@ -1257,11 +1256,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "porta-vinos": {
@@ -1313,11 +1311,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "estanteria-bath": {
@@ -1364,11 +1361,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "mesa-cracovia": {
@@ -1408,11 +1404,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "mesa-ratona-edimburgo": {
@@ -1452,11 +1447,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "maceta-sintra": {
@@ -1496,11 +1490,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "estanteria-siena": {
@@ -1540,11 +1533,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "llavero-corfu": {
@@ -1584,11 +1576,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "leniero": {
@@ -1623,11 +1614,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "rack-tv-cordoba": {
@@ -1667,11 +1657,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "toallero-matera": {
@@ -1711,11 +1700,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "toallero-cuenca": {
@@ -1762,11 +1750,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "bodega-segovia": {
@@ -1813,11 +1800,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Ruedas"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "mesa-de-luz-roma": {
@@ -1858,11 +1844,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "escritorio-brujas": {
@@ -1909,11 +1894,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "perchero-oporto": {
@@ -1953,11 +1937,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "recibidor-salamanca": {
@@ -2004,11 +1987,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "tabla-asado": {
@@ -2048,11 +2030,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", "Laca"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
     "soporte-auricular": {
@@ -2092,11 +2073,10 @@ export const projectsData: ProjectDataInterface = {
                     materials: ["Madera, ", " Hierro, ", "Laca, ", "Goma protectora"],
                     propousal: ["Mueble industrial"],
                     year: ["2022"],
-                    // location: ["Buenos Aires, ", " Argentina"],
                 }
             }
         },
-        categories: ["all", "products"],
+        categories: ["products"],
         urlSlug: "products"
     },
 }

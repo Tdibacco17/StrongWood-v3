@@ -2,19 +2,16 @@ import Image from 'next/image'
 import styles from "./PortraitImgComponent.module.scss"
 import { ProjectInterface, SelectedFilterInterface } from '@/types/ProjectsTypes'
 import { ImgDataInterface } from '@/types'
-import NavbarComponent from '../NavbarComponent/NavbarComponent'
 import Link from 'next/link'
 
 export default function PortraitImgComponent({
     imageData,
     projectData,
-    isPrimaryNav,
     telonActive,
     projectSlug
 }: {
     imageData: ImgDataInterface,
     projectData: ProjectInterface | undefined,
-    isPrimaryNav: boolean,
     telonActive?: boolean,
     projectSlug?: SelectedFilterInterface
 }) {
@@ -55,7 +52,6 @@ export default function PortraitImgComponent({
                     </div>
                 </div>
             }
-            {isPrimaryNav && <NavbarComponent navType='primary' />}
         </div>
     )
 }

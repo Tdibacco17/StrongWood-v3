@@ -19,7 +19,9 @@
   --primary-gray: #4F4F4F;
   --primary-black: #000000;
   --transition: 100ms ease-in-out;
+  --transition-nav: 0.3s ease-in-out;
   --bg-overlay: rgba(0, 0, 0, 0.4);
+  --shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width:1400px) {
@@ -75,13 +77,15 @@ body {
   font-size: var(--calc-rem);
   font-family: var(--font-mono);
   font-weight: var(--font-regular);
-  padding-bottom: 14rem;
+  padding-bottom: 10.5rem;
 }
-.spinner{
+
+.spinner {
   font-size: var(--font-12);
   font-weight: var(--font-bold);
   color: var(--primary-white);
 }
+
 body::-webkit-scrollbar {
   width: 0px;
 }

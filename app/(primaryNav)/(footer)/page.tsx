@@ -3,6 +3,7 @@ import styles from "./page.module.scss"
 import PortraitImgComponent from "@/components/PortraitImgComponent/PortraitImgComponent"
 import { projectsData } from "@/models/projects"
 import TwoSmallImgComponent from "@/components/TwoSmallImgComponent/TwoSmallImgComponent";
+import BtnTopComponent from "@/components/FooterComponent/BtnScrollComponent/BtnScrollComponent";
 
 export default function HomePage() {
   const { homeData } = projectsData;
@@ -11,14 +12,12 @@ export default function HomePage() {
       <PortraitImgComponent
         imageData={homeData.image}
         projectData={undefined}
-        isPrimaryNav={true} />
+      />
       {homeData.details.technicalInfo &&
         <TwoSmallImgComponent
           isReverse={true}
           technicalInfo={homeData.details.technicalInfo}
         />}
-      {/* {homeData.details.rectangleImg &&
-        <RectangleImgComponent imageData={homeData.details.rectangleImg} />} */}
       {homeData.details.secondTechnicalInfo &&
         <TwoSmallImgComponent
           isReverse={false}
@@ -28,6 +27,9 @@ export default function HomePage() {
         <TwoSmallImgComponent
           isReverse={true}
           imagesData={homeData.details.secondTwoSmallImg} />}
+      <div className={styles["container-btn-top"]}>
+        <BtnTopComponent title={"Ir arriba"} />
+      </div>
       <FooterComponent />
     </section>
   )

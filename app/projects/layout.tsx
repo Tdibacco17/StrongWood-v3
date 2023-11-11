@@ -1,6 +1,6 @@
 import styles from "./page.module.scss"
 import FooterComponent from "@/components/FooterComponent/FooterComponent"
-import NavbarComponent from "@/components/NavbarComponent/NavbarComponent"
+import NavbarContainer from "@/containers/NavbarContainer/NavbarContainer"
 
 export default function ProjectsLayout({
     children,
@@ -9,7 +9,7 @@ export default function ProjectsLayout({
 }) {
     return (
         <>
-            <NavbarComponent navType="secondary" />
+            <NavbarContainer navType="secondary" />
             <section className={styles['container-section-projects']}>
                 {children}
             </section>

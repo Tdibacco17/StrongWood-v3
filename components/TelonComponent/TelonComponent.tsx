@@ -2,11 +2,9 @@ import { useEffect, useState } from "react"
 import styles from "./TelonComponent.module.scss"
 
 export default function TelonComponent({
-    telonTitle,
     telonActive,
     rectangleActive,
 }: {
-    telonTitle?: string,
     telonActive?: boolean,
     rectangleActive?: boolean,
 }) {
