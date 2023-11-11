@@ -57,7 +57,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Tenés un proyecto en mente? Vamos a darle vida juntos!",
                 description: [
-                    "Creemos que los muebles no solo deben ser meramente funcionales, sino que tambien deben representar una expresión de la belleza y personalidad de quienes los aprecian.",
+                    "Creemos que los muebles no solo deben ser meramente funcionales, sino que también deben representar una expresión de la belleza y personalidad de quienes los aprecian.",
                     "Por lo que desde hace generacion, hemos entregado a nuestros clientes la calidad y el cuidado en cada pieza que creamos. "
                 ],
                 homeFooterData: {
@@ -574,7 +574,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Recibidor - Serie London",
                 description: [
-                    "Recibidor insparado en la naturaleza como en las tendencias evolucionistas, modernizando y expandiendo las gamas disponibles."
+                    "Recibidor inspirado en la naturaleza como en las tendencias evolucionistas, modernizando y expandiendo las gamas disponibles."
                 ],
                 footer: {
                     materials: ["Melamina color - ", "Melamina simil madera"],
