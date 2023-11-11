@@ -82,7 +82,7 @@ export default function ProjectDetailComponent({
             <div className={styles["container-title-back"]}>
                 <Link
                     href={`/projects/${projectSlug}`}
-                    className={styles["title-back"]}>Volver atras</Link>
+                    className={styles["title-back"]}>Volver atrás</Link>
                 <BtnTopComponent title={"Ir arriba"} />
             </div>
         </div>

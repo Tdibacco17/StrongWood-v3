@@ -48,7 +48,7 @@ export default function PortraitImgComponent({
                 <div className={styles["overlay-title-back"]}>
                     <div className={styles["title-back"]}>
                         <Link href={`/projects/${projectSlug}`}
-                            className={styles["title"]}>Volver atras</Link>
+                            className={styles["title"]}>Volver atrás</Link>
                     </div>
                 </div>
             }

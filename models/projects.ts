@@ -232,7 +232,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Cocina - Serie New York",
                 description: [
-                    "Refaccíon de una cocina simple en forma lineal con detalles actuales con una impronta relajada y sobria.",
+                    "Refacción de una cocina simple en forma lineal con detalles actuales con una impronta relajada y sobria.",
                 ],
                 footer: {
                     materials: ["Melamina gratito y scotch - ", "Simil madera"],
@@ -1206,7 +1206,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Estanteria Avila",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1249,7 +1249,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Maceta Aviñon",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1304,7 +1304,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Porta Vinos",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1354,7 +1354,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Estanteria Bath",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1397,7 +1397,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Mesa Cracovia",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1440,7 +1440,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Mesa ratona Edimburgo",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1483,7 +1483,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Maceta Sintra",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1526,7 +1526,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Estanteria Siena",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1569,7 +1569,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Llavero Corfu",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1607,7 +1607,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Leñero",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1650,7 +1650,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Rack TV Cordoba",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1693,7 +1693,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Toallero Matera",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1743,7 +1743,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Toallero Cuenca",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1793,7 +1793,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Bodega Segovia",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1837,7 +1837,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Mesa de luz Roma",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1887,7 +1887,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Escritorio Brujas",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1930,7 +1930,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Perchero Oporto",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -1980,7 +1980,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Recibidor Salamanca",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -2023,7 +2023,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Tabla Asado",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
@@ -2066,7 +2066,7 @@ export const projectsData: ProjectDataInterface = {
                 },
                 title: "Soporte Auricular",
                 description: [
-                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresíon unica de rudeza y elegancia.",
+                    "Lanzamiento de colección de muebles industriales, que fusiona hierro y madera para lucir una expresión unica de rudeza y elegancia.",
                     "Cada pieza busca crear espacios auténticos y acogedores.",
                 ],
                 footer: {
