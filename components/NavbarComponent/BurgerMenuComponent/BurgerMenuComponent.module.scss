@@ -25,6 +25,7 @@
         height: 6rem;
 
         @media (max-width:768px) {
+            height: 5.5rem;
             width: 90vw;
         }
 
@@ -44,6 +45,7 @@
             font-size: var(--font-16);
             height: 1.15rem;
             transition: var(--transition);
+            user-select: auto;
 
             @media (max-width:442px) {
                 font-size: var(--font-14);
