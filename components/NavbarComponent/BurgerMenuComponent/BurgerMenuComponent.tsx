@@ -5,11 +5,13 @@ import Link from "next/link"
 export function BurgerMenuComponent({
     isSecondary,
     isOpen,
-    isAtTop
+    isAtTop,
+    handleIsOpen
 }: {
     isSecondary: boolean,
     isOpen: boolean,
-    isAtTop: boolean
+    isAtTop: boolean,
+    handleIsOpen: () => void
 }) {
     return (
         <>
@@ -23,6 +25,7 @@ export function BurgerMenuComponent({
                 `}>
                     {data.navbar.navigation.map((item: { title: string, url: string }, index: number) => {
                         return <Link href={item.url} key={index}
+                            onClick={handleIsOpen}
                             className={`
                             ${styles["title-nav"]} 
                             ${isSecondary && styles["secondary"]} 

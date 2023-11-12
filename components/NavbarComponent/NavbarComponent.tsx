@@ -52,6 +52,7 @@ export default function NavbarComponent({
                 isSecondary={navType === "secondary" ? true : false}
                 isOpen={isOpen}
                 isAtTop={isAtTop}
+                handleIsOpen={handleIsOpen}
             />
         </section>
     )
