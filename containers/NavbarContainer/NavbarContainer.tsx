@@ -11,8 +11,12 @@ export default function NavbarContainer({
 }) {
     const { isAtTop } = useScrollPosition();
     const [isOpen, setIsOpen] = useState<boolean>(false)
-    const handleIsOpen = () => {
-        setIsOpen(!isOpen)
+    const handleIsOpen = (isCLose?: boolean) => {
+        if (isCLose) {
+            setIsOpen(false)
+        } else {
+            setIsOpen(!isOpen)
+        }
     }
 
     return <NavbarComponent
