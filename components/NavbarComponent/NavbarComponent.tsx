@@ -27,7 +27,9 @@ export default function NavbarComponent({
             <div className={`${styles["wrapper-navbar"]} ${styles[`${navType}`]}`}>
                 {navType === "secondary" && <div className={styles["fill-space"]} />}
 
-                <Link href={"/"} className={`
+                <Link 
+                onClick={handleIsOpen}
+                href={"/"} className={`
                 ${styles["navbar-title"]} 
                 ${styles[`${navType}`]}
                 ${!isAtTop && styles['change-color']}
