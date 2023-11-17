@@ -81,14 +81,13 @@ body {
   font-weight: var(--font-regular);
   padding-bottom: 10.5rem;
   min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 @media (max-width:768px) {
 
   body {
     min-height: 100svh;
-    min-height: -webkit-fill-available;
-    /* min-height: calc(100 * --vh); */
   }
 }
 

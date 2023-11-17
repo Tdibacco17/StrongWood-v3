@@ -16,7 +16,6 @@
         height: var(--height-portrait-img);
         max-height: var(--height-portrait-img);
         min-height: var(--height-portrait-img);
-        min-height: -webkit-fill-available;
         user-select: none;
         overflow: hidden;
         display: flex;
@@ -40,7 +39,6 @@
         height: var(--height-portrait-img);
         max-height: var(--height-portrait-img);
         min-height: var(--height-portrait-img);
-        min-height: -webkit-fill-available;
         background: var(--bg-overlay);
     }
 
@@ -52,7 +50,6 @@
         height: var(--height-portrait-img);
         max-height: var(--height-portrait-img);
         min-height: var(--height-portrait-img);
-        min-height: -webkit-fill-available;
         display: flex;
         justify-content: center;
         align-items: flex-end;
