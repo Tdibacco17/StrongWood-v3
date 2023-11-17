@@ -1,12 +1,8 @@
 .container-section-portraitImg {
-    --height-portrait-img: 100vh;
+    --height-portrait-img: 100svh;
     position: relative;
     top: 0;
     left: 0;
-
-    @media (max-width:768px) {
-        --height-portrait-img: 100svh;
-    }
 
     .container-outer-image {
         position: relative;
@@ -14,7 +10,6 @@
         left: 0;
         width: 100vw;
         height: var(--height-portrait-img);
-        min-height: var(--height-portrait-img);
         user-select: none;
         overflow: hidden;
         display: flex;
@@ -36,7 +31,6 @@
         left: 0;
         width: 100vw;
         height: var(--height-portrait-img);
-        min-height: var(--height-portrait-img);
         background: var(--bg-overlay);
     }
 
@@ -46,7 +40,6 @@
         left: -100vw;
         width: 100vw;
         height: var(--height-portrait-img);
-        min-height: var(--height-portrait-img);
         display: flex;
         justify-content: center;
         align-items: flex-end;
