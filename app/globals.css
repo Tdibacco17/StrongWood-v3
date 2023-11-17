@@ -78,14 +78,8 @@ body {
   width: 100vw;
   min-width: 100vw;
   min-height: 100vh;
+  min-height: stretch;
   min-height: -webkit-fill-available;
-}
-
-@media (max-width:768px) {
-
-  body {
-    min-height: 100svh;
-  }
 }
 
 .spinner {
