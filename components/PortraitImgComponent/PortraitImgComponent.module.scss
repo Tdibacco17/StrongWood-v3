@@ -14,7 +14,6 @@
         left: 0;
         width: 100vw;
         height: var(--height-portrait-img);
-        max-height: var(--height-portrait-img);
         min-height: var(--height-portrait-img);
         user-select: none;
         overflow: hidden;
@@ -37,7 +36,6 @@
         left: 0;
         width: 100vw;
         height: var(--height-portrait-img);
-        max-height: var(--height-portrait-img);
         min-height: var(--height-portrait-img);
         background: var(--bg-overlay);
     }
@@ -48,7 +46,6 @@
         left: -100vw;
         width: 100vw;
         height: var(--height-portrait-img);
-        max-height: var(--height-portrait-img);
         min-height: var(--height-portrait-img);
         display: flex;
         justify-content: center;
