@@ -86,9 +86,8 @@ body {
 @media (max-width:768px) {
 
   body {
-    /* min-height: 100svh; */
+    min-height: 100svh;
     min-height: -webkit-fill-available;
-    min-height: calc(100vh - constant(safe-area-inset-bottom));
     /* min-height: calc(100 * --vh); */
   }
 }

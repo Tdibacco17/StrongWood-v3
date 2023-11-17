@@ -5,8 +5,7 @@
     left: 0;
 
     @media (max-width:768px) {
-        // --height-portrait-img: 100svh;
-        --height-portrait-img: calc(100vh - constant(safe-area-inset-bottom));
+        --height-portrait-img: 100svh;
     }
 
     .container-outer-image {
