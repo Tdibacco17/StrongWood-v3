@@ -65,11 +65,17 @@ body {
   width: 100vw;
   min-width: 100vw;
   min-height: 100vh;
-  min-height: 100lvh;
-  min-height: -webkit-fill-available;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scrollbar-width: none;
+}
+
+@media (max-width:768px) {
+
+  html,
+  body {
+    min-height: 100svh;
+  }
 }
 
 body {
