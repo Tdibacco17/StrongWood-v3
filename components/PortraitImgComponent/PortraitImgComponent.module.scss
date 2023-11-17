@@ -1,4 +1,5 @@
 .container-section-portraitImg {
+    --height-portrait-img: 100vh;
     position: relative;
     top: 0;
     left: 0;
@@ -8,7 +9,9 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: var(--height-portrait-img);
+        max-height: var(--height-portrait-img);
+        min-height: var(--height-portrait-img);
         user-select: none;
         overflow: hidden;
         display: flex;
@@ -29,7 +32,9 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: var(--height-portrait-img);
+        max-height: var(--height-portrait-img);
+        min-height: var(--height-portrait-img);
         background: var(--bg-overlay);
     }
 
@@ -38,7 +43,9 @@
         top: 0;
         left: -100vw;
         width: 100vw;
-        height: 100vh;
+        height: var(--height-portrait-img);
+        max-height: var(--height-portrait-img);
+        min-height: var(--height-portrait-img);
         display: flex;
         justify-content: center;
         align-items: flex-end;
