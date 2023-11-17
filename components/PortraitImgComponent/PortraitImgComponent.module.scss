@@ -14,6 +14,8 @@
         left: 0;
         width: 100vw;
         height: var(--height-portrait-img);
+        max-height: stretch;
+        max-height: -webkit-fill-available;
         user-select: none;
         overflow: hidden;
         display: flex;
@@ -35,6 +37,8 @@
         left: 0;
         width: 100vw;
         height: var(--height-portrait-img);
+        max-height: stretch;
+        max-height: -webkit-fill-available;
         background: var(--bg-overlay);
     }
 
@@ -44,6 +48,8 @@
         left: -100vw;
         width: 100vw;
         height: var(--height-portrait-img);
+        max-height: stretch;
+        max-height: -webkit-fill-available;
         display: flex;
         justify-content: center;
         align-items: flex-end;
