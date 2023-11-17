@@ -8,15 +8,17 @@ export default function PortraitImgComponent({
     imageData,
     projectData,
     telonActive,
-    projectSlug
+    projectSlug,
+    isContactPage
 }: {
     imageData: ImgDataInterface,
     projectData: ProjectInterface | undefined,
     telonActive?: boolean,
-    projectSlug?: SelectedFilterInterface
+    projectSlug?: SelectedFilterInterface,
+    isContactPage?:boolean
 }) {
     return (
-        <div className={styles["container-section-portraitImg"]}>
+        <div className={`${styles["container-section-portraitImg"]} ${isContactPage && styles["isContactPage"]}`}>
             <div className={`${styles["container-outer-image"]}`}>
                 <Image
                     src={imageData.imgSrc}

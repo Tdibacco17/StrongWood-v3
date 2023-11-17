@@ -4,6 +4,10 @@
     top: 0;
     left: 0;
 
+    &.isContactPage {
+        --height-portrait-img: 100vh;
+    }
+
     .container-outer-image {
         position: relative;
         top: 0;
