@@ -301,6 +301,56 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "kitchen"],
         urlSlug: "kitchen"
     },
+    "cocina-escandinavo": {
+        projectSlug: "cocina-escandinavo",
+        title: "Cocina",
+        subtitle: "Serie Nordica",
+        image: {
+            imgSrc: "/assets/img/projectsPage/kitchen/escandinavo/IMG_7685.webp",
+            imgAlt: "Cocina",
+            objPosition: "50% 55%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/kitchen/escandinavo/IMG_7685.webp",
+                imgAlt: "Cocina",
+                objPosition: "85% 60%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/escandinavo/IMG_9303.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "50% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/kitchen/escandinavo/IMG_9287.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "60% 50%"
+                }
+            ],
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/kitchen/escandinavo/IMG_9289.webp",
+                    imgAlt: "Cocina",
+                    objPosition: "40% 0%"
+                },
+                title: "Cocina - Serie Escandinavo",
+                description: [
+                    "Elegancia y simpleza en el diseño y materiales.",
+                ],
+                footer: {
+                    materials: ["Perfect Sense blanco brillante - ", "Accesorios",],
+                    propousal: ["Obra nueva"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "kitchen"],
+        urlSlug: "kitchen"
+    },
     "cocina-nordica": {
         projectSlug: "cocina-nordica",
         title: "Refacción cocina",
@@ -684,6 +734,50 @@ export const projectsData: ProjectDataInterface = {
                 footer: {
                     materials: ["Alistonado de eucaliptus laqueado semi mate"],
                     propousal: ["Remodelación toilette"],
+                    year: ["2023"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "bathroom"],
+        urlSlug: "bathroom"
+    },
+    "vanitory-premium": {
+        projectSlug: "vanitory-premium",
+        title: "Vanitory",
+        subtitle: "Serie Premium",
+        image: {
+            imgSrc: "/assets/img/projectsPage/bathroom/premium/IMG_7755.webp",
+            imgAlt: "Vanitory",
+            objPosition: "50% 50%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/bathroom/premium/IMG_7755.webp",
+                imgAlt: "Vanitory",
+                objPosition: "50% 60%"
+            },
+            rectangleImg: {
+                imgSrc: "/assets/img/projectsPage/bathroom/premium/IMG_7753.webp",
+                imgAlt: "Noviembre cafe",
+                objPosition: "50% 50%"
+            },
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/bathroom/premium/IMG_7751.webp",
+                    imgAlt: "Vanitory",
+                    objPosition: "50% 0%"
+                },
+                title: "Vanitory - Serie Premium",
+                description: [
+                    "La madera es la materia prima que caracteriza el mobiliario desde siempre, por su textura, perfume y calidez.",
+                    "Diseño por la Arq. Magui Pueyo."
+                ],
+                footer: {
+                    materials: ["guatambú laqueado"],
+                    propousal: ["Obra nueva"],
                     year: ["2023"],
                     location: ["Buenos Aires, ", " Argentina"],
                 }
