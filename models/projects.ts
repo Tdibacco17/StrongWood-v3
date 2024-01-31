@@ -692,6 +692,56 @@ export const projectsData: ProjectDataInterface = {
         categories: ["all", "others"],
         urlSlug: "others"
     },
+    "bodega-napoleon": {
+        projectSlug: "bodega-napoleon",
+        title: "Bodega",
+        subtitle: "Serie Napoleon",
+        image: {
+            imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8511.webp",
+            imgAlt: "Bodega",
+            objPosition: "50% 50%"
+        },
+        year: "2023",
+        location: "Buenos Aires, Argentina",
+        details: {
+            portraitImg: {
+                imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8511.webp",
+                imgAlt: "Bodega",
+                objPosition: "50% 60%"
+            },
+            twoSmallImg: [
+                {
+                    imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8517.webp",
+                    imgAlt: "Bodega",
+                    objPosition: "70% 0%"
+                },
+                {
+                    imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8507.webp",
+                    imgAlt: "Bodega",
+                    objPosition: "80% 100%"
+                }
+            ],
+            technicalInfo: {
+                image: {
+                    imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8508.webp",
+                    imgAlt: "Bodega",
+                    objPosition: "50% 0%"
+                },
+                title: "Bodega - Serie Napoleon",
+                description: [
+                    "Bodega diseñada para resaltar la elegancia de los vinos, creando una experiencia visual cautivadora y atrayente."
+                ],
+                footer: {
+                    materials: ["Puertas de vidrio - ", "melamina - ", "luces led"],
+                    propousal: ["Obra nueva"],
+                    year: ["2024"],
+                    location: ["Buenos Aires, ", " Argentina"],
+                }
+            }
+        },
+        categories: ["all", "others"],
+        urlSlug: "others"
+    },
     "vanitory-nordico": {
         projectSlug: "vanitory-nordico",
         title: "Vanitory",
